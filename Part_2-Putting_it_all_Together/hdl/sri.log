@@ -1,0 +1,31 @@
+Command: vcs -sverilog dut.v top.sv ../src/wb_master_if.sv ../src/wb_slave_if.sv \
++lint=PCWM -l sri.log
+                         Chronologic VCS (TM)
+            Version F-2011.12 -- Wed Jan  4 14:34:18 2012
+               Copyright (c) 1991-2011 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file 'dut.v'
+Parsing design file 'top.sv'
+Parsing design file '../src/wb_master_if.sv'
+Parsing design file '../src/wb_slave_if.sv'
+Top Level Modules:
+       top
+No TimeScale specified
+Starting vcs inline pass...
+2 modules and 0 UDP read.
+recompiling module top
+Both modules done.
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv -melf_i386 -m32    -Wl,-whole-archive    -Wl,-no-whole-archive  _vcsobj_1_1.o \
+5NrI_d.o 5NrIB_d.o SIM_l.o     rmapats_mop.o rmapats.o      /global/apps5/vcs_2011.12/linux/lib/libvirsim.so \
+/global/apps5/vcs_2011.12/linux/lib/librterrorinf.so /global/apps5/vcs_2011.12/linux/lib/libsnpsmalloc.so \
+/global/apps5/vcs_2011.12/linux/lib/libvcsnew.so /global/apps5/vcs_2011.12/linux/lib/libuclinative.so \
+/global/apps5/vcs_2011.12/linux/lib/vcs_save_restore_new.o /global/apps5/vcs_2011.12/linux/lib/ctype-stubs_32.a \
+-ldl  -lc -lm -lpthread -ldl 
+../simv up to date
+CPU time: .165 seconds to compile + .090 seconds to elab + .213 seconds to link

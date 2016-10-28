@@ -1,0 +1,40 @@
+Command: ./simv_compare -l simv_compare.log
+Chronologic VCS simulator copyright 1991-2016
+Contains Synopsys proprietary information.
+Compiler version L-2016.06-SP1-1; Runtime version L-2016.06-SP1-1;  Oct 26 23:51 2016
+UVM_INFO /global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_root.svh(402) @ 0: reporter [UVM/RELNOTES] 
+----------------------------------------------------------------
+UVM-1.2.Synopsys
+(C) 2007-2014 Mentor Graphics Corporation
+(C) 2007-2014 Cadence Design Systems, Inc.
+(C) 2006-2014 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+(C) 2013-2014 NVIDIA Corporation
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_DO_NOT_NEED_CONSTRUCTOR undefined.
+  See http://www.eda.org/svdb/view.php?id=3770 for more details.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+----------------------------------------
+Name         Type      Size  Value      
+----------------------------------------
+child_inst1  class_A   -     @335       
+  cl_int     integral  32    'h0        
+  cl_string  string    11    child_inst1
+----------------------------------------
+----------------------------------------
+Name         Type      Size  Value      
+----------------------------------------
+child_inst2  class_A   -     @336       
+  cl_int     integral  32    'h0        
+  cl_string  string    11    child_inst1
+----------------------------------------
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 0
+CPU Time:      0.360 seconds;       Data structure size:   0.1Mb
+Wed Oct 26 23:51:31 2016
