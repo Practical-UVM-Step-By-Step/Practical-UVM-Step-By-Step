@@ -1,0 +1,80 @@
+class uvm_reg_single_all_access_seq_resdb extends uvm_reg_sequence #(uvm_sequence #(uvm_reg_item));
+
+   // Variable: rg
+   // The register to be tested
+   uvm_reg rg;
+   ral_block_simple_ral_env regmodel;
+string regname_string;
+
+
+   uvm_status_e status;
+   uvm_reg_data_t  read_val, write_val, set_val, mirror_val, get_val, peek_val, poke_val;
+   uvm_reg_data_t  peek_bkup_1, read_bkup1;
+
+   `uvm_object_utils(uvm_reg_single_all_access_seq_resdb)
+
+   function new(string name="uvm_reg_single_access_seq");
+     super.new(name);
+   endfunction
+
+	task body() ;
+ 	string s1;
+
+	 uvm_resource_db#(string)::read_by_name("reg_seq","regname_string",regname_string,this);
+
+	$display("name of path %s : %s",this.get_full_name(), regname_string);
+
+
+	rg = regmodel.get_reg_by_name(regname_string);
+       write_val = 32'hdeadbeef;
+       set_val = 32'hbeefdead;
+       poke_val = 32'haaaabbbb;
+	
+
+ 	if(rg == null) `uvm_fatal(get_full_name(),{regname_string ," register not found"})
+
+	`uvm_info(get_full_name(),$psprintf("BEFORE Read Value : %08h\nWrite Value %08h \nSet Value: %08h\n MirrorValue:%08h\n GetValue : %08h\n", 
+			read_val, write_val, set_val, mirror_val, get_val, peek_val, poke_val),UVM_LOW);
+
+	  rg.peek(.status(status), .value(peek_val), .parent(this));
+	`peek_poke(peek,peek_value)
+
+	  rg.poke(.status(status), .value(poke_val), .parent(this));
+	`peek_poke(poke,poke_value)
+
+
+	  rg.peek(.status(status), .value(peek_val),  .parent(this));
+	`peek_poke(peek,peek_value)
+
+	  rg.read(.status(status), .value(read_val), .path(UVM_FRONTDOOR),  .parent(this));
+	`read_write(read,read_val,UVM_FRONTDOOR) 
+
+
+	  rg.peek(.status(status), .value(peek_val),   .parent(this));
+	`peek_poke(peek,peek_value)
+
+
+	  rg.write(.status(status), .value(write_val), .path(UVM_FRONTDOOR),  .parent(this));
+	`read_write(write,write_val,UVM_FRONTDOOR) 
+
+	  rg.peek(.status(status), .value(peek_val),   .parent(this));
+	`peek_poke(peek,peek_value)
+
+	  rg.read(.status(status), .value(read_val), .path(UVM_BACKDOOR),  .parent(this));
+	`read_write(read,read_val,UVM_BACKDOOR) 
+
+	  rg.write(.status(status), .value(write_val), .path(UVM_BACKDOOR),  .parent(this));
+	`read_write(write,write_val,UVM_BACKDOOR) 
+
+	  rg.read(.status(status), .value(read_val), .path(UVM_BACKDOOR),  .parent(this));
+	`read_write(read,read_val,UVM_BACKDOOR) 
+
+	  rg.peek(.status(status), .value(peek_val),   .parent(this));
+	`peek_poke(peek,peek_value)
+
+	 mirror_val =   rg.get_mirrored_value("r_WC_field");
+	`uvm_info(get_full_name(),$psprintf("AFTER Read Value : %08h\nWrite Value %08h \nSet Value: %08h\n MirrorValue:%08h\n GetValue : %08h\n", 
+			read_val, write_val, set_val, mirror_val, get_val, peek_val, poke_val),UVM_LOW);
+	
+	endtask
+endclass

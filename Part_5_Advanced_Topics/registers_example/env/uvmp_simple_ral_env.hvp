@@ -1,0 +1,448 @@
+plan reg_simple_ral_env_CHIP_ID;
+    attribute string path = "";
+
+    feature REVISION_ID_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_simple_ral_env_CHIP_ID::cg_bits.${path}.REVISION_ID";
+        endmeasure
+    endfeature
+    feature CHIP_ID_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_simple_ral_env_CHIP_ID::cg_bits.${path}.CHIP_ID";
+        endmeasure
+    endfeature
+    feature PRODUCT_ID_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_simple_ral_env_CHIP_ID::cg_bits.${path}.PRODUCT_ID";
+        endmeasure
+    endfeature
+endplan
+
+
+plan reg_simple_ral_env_r_RO_register;
+    attribute string path = "";
+
+    feature r_RO_field_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_simple_ral_env_r_RO_register::cg_bits.${path}.r_RO_field";
+        endmeasure
+    endfeature
+endplan
+
+
+plan reg_simple_ral_env_r_RW_register;
+    attribute string path = "";
+
+    feature r_RW_field_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_simple_ral_env_r_RW_register::cg_bits.${path}.r_RW_field";
+        endmeasure
+    endfeature
+endplan
+
+
+plan reg_simple_ral_env_r_RC_register;
+    attribute string path = "";
+
+    feature r_RC_field_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_simple_ral_env_r_RC_register::cg_bits.${path}.r_RC_field";
+        endmeasure
+    endfeature
+endplan
+
+
+plan reg_simple_ral_env_r_RS_register;
+    attribute string path = "";
+
+    feature r_RS_field_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_simple_ral_env_r_RS_register::cg_bits.${path}.r_RS_field";
+        endmeasure
+    endfeature
+endplan
+
+
+plan reg_simple_ral_env_r_WRC_register;
+    attribute string path = "";
+
+    feature r_WRC_field_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_simple_ral_env_r_WRC_register::cg_bits.${path}.r_WRC_field";
+        endmeasure
+    endfeature
+endplan
+
+
+plan reg_simple_ral_env_r_WRS_register;
+    attribute string path = "";
+
+    feature r_WRS_field_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_simple_ral_env_r_WRS_register::cg_bits.${path}.r_WRS_field";
+        endmeasure
+    endfeature
+endplan
+
+
+plan reg_simple_ral_env_r_WC_register;
+    attribute string path = "";
+
+    feature r_WC_field_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_simple_ral_env_r_WC_register::cg_bits.${path}.r_WC_field";
+        endmeasure
+    endfeature
+endplan
+
+
+plan reg_simple_ral_env_r_WS_register;
+    attribute string path = "";
+
+    feature r_WS_field_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_simple_ral_env_r_WS_register::cg_bits.${path}.r_WS_field";
+        endmeasure
+    endfeature
+endplan
+
+
+plan reg_simple_ral_env_r_WSRC_register;
+    attribute string path = "";
+
+    feature r_WSRC_field_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_simple_ral_env_r_WSRC_register::cg_bits.${path}.r_WSRC_field";
+        endmeasure
+    endfeature
+endplan
+
+
+plan reg_simple_ral_env_r_WCRS_register;
+    attribute string path = "";
+
+    feature r_WCRS_field_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_simple_ral_env_r_WCRS_register::cg_bits.${path}.r_WCRS_field";
+        endmeasure
+    endfeature
+endplan
+
+
+plan reg_simple_ral_env_r_W1C_register;
+    attribute string path = "";
+
+    feature r_W1C_field_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_simple_ral_env_r_W1C_register::cg_bits.${path}.r_W1C_field";
+        endmeasure
+    endfeature
+endplan
+
+
+plan reg_simple_ral_env_r_W1S_register;
+    attribute string path = "";
+
+    feature r_W1S_field_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_simple_ral_env_r_W1S_register::cg_bits.${path}.r_W1S_field";
+        endmeasure
+    endfeature
+endplan
+
+
+plan reg_simple_ral_env_r_W1T_register;
+    attribute string path = "";
+
+    feature r_W1T_field_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_simple_ral_env_r_W1T_register::cg_bits.${path}.r_W1T_field";
+        endmeasure
+    endfeature
+endplan
+
+
+plan reg_simple_ral_env_r_W0C_register;
+    attribute string path = "";
+
+    feature r_W0C_field_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_simple_ral_env_r_W0C_register::cg_bits.${path}.r_W0C_field";
+        endmeasure
+    endfeature
+endplan
+
+
+plan reg_simple_ral_env_r_W0S_register;
+    attribute string path = "";
+
+    feature r_W0S_field_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_simple_ral_env_r_W0S_register::cg_bits.${path}.r_W0S_field";
+        endmeasure
+    endfeature
+endplan
+
+
+plan reg_simple_ral_env_r_W0T_register;
+    attribute string path = "";
+
+    feature r_W0T_field_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_simple_ral_env_r_W0T_register::cg_bits.${path}.r_W0T_field";
+        endmeasure
+    endfeature
+endplan
+
+
+plan reg_simple_ral_env_r_W1SRC_register;
+    attribute string path = "";
+
+    feature r_W1SRC_field_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_simple_ral_env_r_W1SRC_register::cg_bits.${path}.r_W1SRC_field";
+        endmeasure
+    endfeature
+endplan
+
+
+plan reg_simple_ral_env_r_W1CRS_register;
+    attribute string path = "";
+
+    feature r_W1CRS_field_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_simple_ral_env_r_W1CRS_register::cg_bits.${path}.r_W1CRS_field";
+        endmeasure
+    endfeature
+endplan
+
+
+plan reg_simple_ral_env_r_W0SRC_register;
+    attribute string path = "";
+
+    feature r_W0SRC_field_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_simple_ral_env_r_W0SRC_register::cg_bits.${path}.r_W0SRC_field";
+        endmeasure
+    endfeature
+endplan
+
+
+plan reg_simple_ral_env_r_W0CRS_register;
+    attribute string path = "";
+
+    feature r_W0CRS_field_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_simple_ral_env_r_W0CRS_register::cg_bits.${path}.r_W0CRS_field";
+        endmeasure
+    endfeature
+endplan
+
+
+plan reg_simple_ral_env_r_WO_register;
+    attribute string path = "";
+
+    feature r_WO_field_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_simple_ral_env_r_WO_register::cg_bits.${path}.r_WO_field";
+        endmeasure
+    endfeature
+endplan
+
+
+plan reg_simple_ral_env_r_WOC_register;
+    attribute string path = "";
+
+    feature r_WOC_field_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_simple_ral_env_r_WOC_register::cg_bits.${path}.r_WOC_field";
+        endmeasure
+    endfeature
+endplan
+
+
+plan reg_simple_ral_env_r_WOS_register;
+    attribute string path = "";
+
+    feature r_WOS_field_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_simple_ral_env_r_WOS_register::cg_bits.${path}.r_WOS_field";
+        endmeasure
+    endfeature
+endplan
+
+
+plan reg_simple_ral_env_r_W1_register;
+    attribute string path = "";
+
+    feature r_W1_field_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_simple_ral_env_r_W1_register::cg_bits.${path}.r_W1_field";
+        endmeasure
+    endfeature
+endplan
+
+
+plan reg_simple_ral_env_r_WO1_register;
+    attribute string path = "";
+
+    feature r_WO1_field_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_simple_ral_env_r_WO1_register::cg_bits.${path}.r_WO1_field";
+        endmeasure
+    endfeature
+endplan
+
+
+plan reg_simple_ral_env_r_aliased_1;
+    attribute string path = "";
+
+    feature r_aliased_1_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_simple_ral_env_r_aliased_1::cg_bits.${path}.r_aliased_1";
+        endmeasure
+    endfeature
+endplan
+
+
+plan reg_simple_ral_env_r_aliased_2;
+    attribute string path = "";
+
+    feature r_aliased_2_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_simple_ral_env_r_aliased_2::cg_bits.${path}.r_aliased_2";
+        endmeasure
+    endfeature
+endplan
+
+
+plan reg_simple_ral_env_master_index;
+    attribute string path = "";
+
+    feature master_index_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_simple_ral_env_master_index::cg_bits.${path}.master_index";
+        endmeasure
+    endfeature
+endplan
+
+
+plan reg_simple_ral_env_master_data;
+    attribute string path = "";
+
+    feature field_data_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_simple_ral_env_master_data::cg_bits.${path}.field_data";
+        endmeasure
+    endfeature
+endplan
+
+
+plan block_simple_ral_env;
+    attribute string path = "";
+
+    feature reg_CHIP_ID;
+        subplan reg_simple_ral_env_CHIP_ID #(path="CHIP_ID");
+    endfeature
+    feature reg_r_RO_register;
+        subplan reg_simple_ral_env_r_RO_register #(path="r_RO_register");
+    endfeature
+    feature reg_r_RW_register;
+        subplan reg_simple_ral_env_r_RW_register #(path="r_RW_register");
+    endfeature
+    feature reg_r_RC_register;
+        subplan reg_simple_ral_env_r_RC_register #(path="r_RC_register");
+    endfeature
+    feature reg_r_RS_register;
+        subplan reg_simple_ral_env_r_RS_register #(path="r_RS_register");
+    endfeature
+    feature reg_r_WRC_register;
+        subplan reg_simple_ral_env_r_WRC_register #(path="r_WRC_register");
+    endfeature
+    feature reg_r_WRS_register;
+        subplan reg_simple_ral_env_r_WRS_register #(path="r_WRS_register");
+    endfeature
+    feature reg_r_WC_register;
+        subplan reg_simple_ral_env_r_WC_register #(path="r_WC_register");
+    endfeature
+    feature reg_r_WS_register;
+        subplan reg_simple_ral_env_r_WS_register #(path="r_WS_register");
+    endfeature
+    feature reg_r_WSRC_register;
+        subplan reg_simple_ral_env_r_WSRC_register #(path="r_WSRC_register");
+    endfeature
+    feature reg_r_WCRS_register;
+        subplan reg_simple_ral_env_r_WCRS_register #(path="r_WCRS_register");
+    endfeature
+    feature reg_r_W1C_register;
+        subplan reg_simple_ral_env_r_W1C_register #(path="r_W1C_register");
+    endfeature
+    feature reg_r_W1S_register;
+        subplan reg_simple_ral_env_r_W1S_register #(path="r_W1S_register");
+    endfeature
+    feature reg_r_W1T_register;
+        subplan reg_simple_ral_env_r_W1T_register #(path="r_W1T_register");
+    endfeature
+    feature reg_r_W0C_register;
+        subplan reg_simple_ral_env_r_W0C_register #(path="r_W0C_register");
+    endfeature
+    feature reg_r_W0S_register;
+        subplan reg_simple_ral_env_r_W0S_register #(path="r_W0S_register");
+    endfeature
+    feature reg_r_W0T_register;
+        subplan reg_simple_ral_env_r_W0T_register #(path="r_W0T_register");
+    endfeature
+    feature reg_r_W1SRC_register;
+        subplan reg_simple_ral_env_r_W1SRC_register #(path="r_W1SRC_register");
+    endfeature
+    feature reg_r_W1CRS_register;
+        subplan reg_simple_ral_env_r_W1CRS_register #(path="r_W1CRS_register");
+    endfeature
+    feature reg_r_W0SRC_register;
+        subplan reg_simple_ral_env_r_W0SRC_register #(path="r_W0SRC_register");
+    endfeature
+    feature reg_r_W0CRS_register;
+        subplan reg_simple_ral_env_r_W0CRS_register #(path="r_W0CRS_register");
+    endfeature
+    feature reg_r_WO_register;
+        subplan reg_simple_ral_env_r_WO_register #(path="r_WO_register");
+    endfeature
+    feature reg_r_WOC_register;
+        subplan reg_simple_ral_env_r_WOC_register #(path="r_WOC_register");
+    endfeature
+    feature reg_r_WOS_register;
+        subplan reg_simple_ral_env_r_WOS_register #(path="r_WOS_register");
+    endfeature
+    feature reg_r_W1_register;
+        subplan reg_simple_ral_env_r_W1_register #(path="r_W1_register");
+    endfeature
+    feature reg_r_WO1_register;
+        subplan reg_simple_ral_env_r_WO1_register #(path="r_WO1_register");
+    endfeature
+    feature reg_r_aliased_1;
+        subplan reg_simple_ral_env_r_aliased_1 #(path="r_aliased_1");
+    endfeature
+    feature reg_r_aliased_2;
+        subplan reg_simple_ral_env_r_aliased_2 #(path="r_aliased_2");
+    endfeature
+    feature reg_master_index;
+        subplan reg_simple_ral_env_master_index #(path="master_index");
+    endfeature
+    feature reg_master_data;
+        subplan reg_simple_ral_env_master_data #(path="master_data");
+    endfeature
+
+    feature address_map;
+        measure Group fcov;
+            source = "group instance:**::ral_block_simple_ral_env::cg_addr";
+        endmeasure
+    endfeature
+
+    feature field_values;
+        measure Group fcov;
+            source = "group instance:**::cg_vals";
+        endmeasure
+    endfeature
+endplan
+
+

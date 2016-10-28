@@ -1,0 +1,120 @@
+Command: ./simv +UVM_NO_RELNOTES -l run.log +define+UVM_DIRECTC_OPTS
+Chronologic VCS simulator copyright 1991-2016
+Contains Synopsys proprietary information.
+Compiler version L-2016.06-SP1-1; Runtime version L-2016.06-SP1-1;  Oct 25 21:11 2016
+----------------------------------------------------------------
+UVM-1.1d.Synopsys
+(C) 2007-2013 Mentor Graphics Corporation
+(C) 2007-2013 Cadence Design Systems, Inc.
+(C) 2006-2013 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+----------------------------------------------------------------
+UVM_INFO @ 0: reporter [RNTST] Running test ...
+value of V in B.u1.v is          10
+value of V in D.u1.v is           0
+value of S in B.u1.s is          32
+value of S in D.u1.s is           0
+value of v in inst00.u1.v is           7
+value of v in inst01.u1.v is           7
+value of v in inst02.u1.v is           7
+value of v in inst03.u1.v is           7
+value of v in inst04.u1.v is           7
+value of v in tom05.u1.v is           7
+value of v in tom06.u1.v is           7
+value of v in tom07.u1.v is           7
+value of v in tom08.u1.v is           7
+value of v in tom09.u1.v is           7
+value of v in tomm10.u1.v is           7
+value of v in tomm11.u1.v is           7
+value of v in tommm12.u1.v is          52
+value of v in tommm13.u1.v is          52
+value of v in tommmm14.u1.v is          52
+value of v in tomm15.u1.v is           7
+value of v in tommommomm16.u1.v is           7
+value of v in tommommommomm17.u1.v is           7
+value of v in TOMMMM18.u1.v is           7
+value of v in TOMMMM19.u1.v is           7
+value of v in tom20.u1.v is           7
+value of v in tom21.u1.v is           7
+value of v in tom22.u1.v is           7
+value of v in tom23.u1.v is           7
+value of v in tom24.u1.v is           7
+value of s in inst00.u1.s is           0
+value of s in inst01.u1.s is           0
+value of s in inst02.u1.s is           0
+value of s in inst03.u1.s is           0
+value of s in inst04.u1.s is           0
+value of s in tom05.u1.s is           0
+value of s in tom06.u1.s is           0
+value of s in tom07.u1.s is           0
+value of s in tom08.u1.s is           0
+value of s in tom09.u1.s is           0
+value of s in tomm10.u1.s is           0
+value of s in tomm11.u1.s is           0
+value of s in tommm12.u1.s is           0
+value of s in tommm13.u1.s is           0
+value of s in tommmm14.u1.s is           0
+value of s in tomm15.u1.s is           0
+value of s in tommommomm16.u1.s is          62
+value of s in tommommommomm17.u1.s is          62
+value of s in TOMMMM18.u1.s is           0
+value of s in TOMMMM19.u1.s is           0
+value of s in tom20.u1.s is           0
+value of s in tom21.u1.s is           0
+value of s in tom22.u1.s is           0
+value of s in tom23.u1.s is           0
+value of s in tom24.u1.s is           0
+value of s in a.u1.s is           0
+value of s in aa.u1.s is           0
+value of s in aaa.u1.s is           0
+value of s in aaaaa.u1.s is           0
+value of s in b.u1.s is           0
+value of s in ab.u1.s is           0
+value of s in aaaaab.u1.s is          11
+value of s in abc.u1.s is           0
+value of s in abbc.u1.s is           0
+value of s in abbbc.u1.s is           0
+value of s in aaaaabbbb.u1.s is           0
+value of s in aaabbbccc.u1.s is           0
+value of s in abd.u1.s is           0
+value of s in abcdef.u1.s is           0
+value of s in abcdefabc.u1.s is           0
+value of s in cab.u1.s is           0
+value of s in caab.u1.s is          11
+value of s in cb.u1.s is           0
+value of s in def.u1.s is           0
+value of v in a.u1.v is           7
+value of v in aa.u1.v is           7
+value of v in aaa.u1.v is           7
+value of v in aaaaa.u1.v is           7
+value of v in b.u1.v is           7
+value of v in ab.u1.v is           7
+value of v in aaaaab.u1.v is          15
+value of v in abc.u1.v is           7
+value of v in abbc.u1.v is           7
+value of v in abbbc.u1.v is           7
+value of v in aaaaabbbb.u1.v is           7
+value of v in aaabbbccc.u1.v is           7
+value of v in abd.u1.v is           7
+value of v in abcdef.u1.v is           7
+value of v in abcdefabc.u1.v is           7
+value of v in cab.u1.v is           7
+value of v in caab.u1.v is          15
+value of v in cb.u1.v is           7
+value of v in def.u1.v is           7
+
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :    1
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[RNTST]     1
+$finish called from file "/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/base/uvm_root.svh", line 439.
+$finish at simulation time                   10
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 10
+CPU Time:      0.500 seconds;       Data structure size:   0.2Mb
+Tue Oct 25 21:11:22 2016

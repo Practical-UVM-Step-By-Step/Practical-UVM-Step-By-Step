@@ -1,0 +1,33 @@
+# Default implementation of register, memory, field and block 
+   register CHIP_ID @'h0000 {
+##    register CHIP_DATA @'h0004 {
+##    register CHIP_DATA2 @'h0008 {
+	register r_RO_register (r_RO_register) @'h000c {
+	register r_RW_register (r_RW_register) @'h0010 {
+	register r_RC_register @'h0014 {
+	register r_RS_register @'h0018 {
+	register r_WRC_register @'h001c {
+	register r_WRS_register @'h0020 {
+	register r_WC_register @'h0024 {
+	register r_WS_register @'h0028 {
+	register r_WSRC_register @'h002c {
+	register r_WCRS_register @'h0030 {
+	register r_W1C_register @'h0034 {
+	register r_W1S_register @'h0038 {
+	register r_W1T_register @'h003c {
+	register r_W0C_register @'h0040 {
+	register r_W0S_register @'h0044 {
+	register r_W0T_register @'h0048 {
+	register r_W1SRC_register @'h004c {
+	register r_W1CRS_register @'h0050 {
+	register r_W0SRC_register @'h0054 {
+	register r_W0CRS_register @'h0058 {
+	register r_WO_register @'h005c {
+	register r_WOC_register @'h0060 {
+	register r_WOS_register @'h0064 {
+	register r_W1_register @'h0068 {
+	register r_WO1_register @'h006c {
+	register r_aliased_1 @'h0070 {
+	register r_aliased_2 @'h0074 {
+	register master_index @'h0078 {
+	register master_data @'h007c {

@@ -1,0 +1,1 @@
+./simv -l simv.log -lca +ntb_random_seed=1 +UVM_TESTNAME=wb_env_test  +UVM_TR_RECORD +UVM_LOG_RECORD   -gui

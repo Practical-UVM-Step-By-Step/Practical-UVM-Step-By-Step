@@ -1,0 +1,755 @@
+Command: ./simv -l vcs2.log
+Chronologic VCS simulator copyright 1991-2014
+Contains Synopsys proprietary information.
+Compiler version I-2014.03; Runtime version I-2014.03;  Oct 24 19:19 2014
+
+
+
+**********************************************
+* WISHBONE DMA/BRIDGE Simulation started ... *
+**********************************************
+
+
+
+INFO: WISHBONE MASTER MODEL INSTANTIATED (test.m0)
+
+
+INFO: WISHBONE MASTER MODEL INSTANTIATED (test.m1)
+
+
+INFO: WISHBONE MEMORY MODEL INSTANTIATED (test.s0)
+      Memory Size 14 address lines 16384 words
+
+
+INFO: WISHBONE MEMORY MODEL INSTANTIATED (test.s1)
+      Memory Size 14 address lines 16384 words
+
+ ......................................................
+ :                                                    :
+ :    Long Regression Run ...                         :
+ :....................................................:
+
+
+*****************************************************
+*** Running Path Through 1->0 Read Test ....      ***
+*****************************************************
+
+INFO: PT10 RD4, delay 0
+INFO: PT10 RD4, delay 1
+INFO: PT10 RD4, delay 2
+INFO: PT10 RD4, delay 3
+INFO: PT10 RD4, delay 4
+INFO: PT10 RD4, delay 5
+INFO: PT10 RD4, delay 6
+INFO: PT10 RD4, delay 7
+INFO: PT10 RD4, delay 8
+INFO: PT10 RD4, delay 9
+INFO: PT10 RD4, delay 10
+INFO: PT10 RD4, delay 11
+INFO: PT10 RD4, delay 12
+INFO: PT10 RD4, delay 13
+INFO: PT10 RD4, delay 14
+INFO: PT10 RD4, delay 15
+
+INFO: PT10 RD1
+
+
+     +--------------------+
+     |  Total ERRORS: 0   |
+     +--------------------+
+*****************************************************
+*** Test DONE ...                                 ***
+*****************************************************
+
+
+
+*****************************************************
+*** Running Path Through 0->1 Write Test ....     ***
+*****************************************************
+
+INFO: PT01 WR4, delay 0
+INFO: PT01 WR4, delay 1
+INFO: PT01 WR4, delay 2
+INFO: PT01 WR4, delay 3
+INFO: PT01 WR4, delay 4
+INFO: PT01 WR4, delay 5
+INFO: PT01 WR4, delay 6
+INFO: PT01 WR4, delay 7
+INFO: PT01 WR4, delay 8
+INFO: PT01 WR4, delay 9
+INFO: PT01 WR4, delay 10
+INFO: PT01 WR4, delay 11
+INFO: PT01 WR4, delay 12
+INFO: PT01 WR4, delay 13
+INFO: PT01 WR4, delay 14
+INFO: PT01 WR4, delay 15
+
+INFO: PT01 WR1
+
+
+     +--------------------+
+     |  Total ERRORS: 0   |
+     +--------------------+
+*****************************************************
+*** Test DONE ...                                 ***
+*****************************************************
+
+
+
+*****************************************************
+*** Running Path Through 0->1 Read Test ....      ***
+*****************************************************
+
+INFO: PT01 RD4, delay 0
+INFO: PT01 RD4, delay 1
+INFO: PT01 RD4, delay 2
+INFO: PT01 RD4, delay 3
+INFO: PT01 RD4, delay 4
+INFO: PT01 RD4, delay 5
+INFO: PT01 RD4, delay 6
+INFO: PT01 RD4, delay 7
+INFO: PT01 RD4, delay 8
+INFO: PT01 RD4, delay 9
+INFO: PT01 RD4, delay 10
+INFO: PT01 RD4, delay 11
+INFO: PT01 RD4, delay 12
+INFO: PT01 RD4, delay 13
+INFO: PT01 RD4, delay 14
+INFO: PT01 RD4, delay 15
+
+INFO: PT01 RD1
+
+
+     +--------------------+
+     |  Total ERRORS: 0   |
+     +--------------------+
+*****************************************************
+*** Test DONE ...                                 ***
+*****************************************************
+
+
+
+*****************************************************
+*** Running Path Through 1->0 Write Test ....     ***
+*****************************************************
+
+INFO: PT10 WR4, delay 0
+INFO: PT10 WR4, delay 1
+INFO: PT10 WR4, delay 2
+INFO: PT10 WR4, delay 3
+INFO: PT10 WR4, delay 4
+INFO: PT10 WR4, delay 5
+INFO: PT10 WR4, delay 6
+INFO: PT10 WR4, delay 7
+INFO: PT10 WR4, delay 8
+INFO: PT10 WR4, delay 9
+INFO: PT10 WR4, delay 10
+INFO: PT10 WR4, delay 11
+INFO: PT10 WR4, delay 12
+INFO: PT10 WR4, delay 13
+INFO: PT10 WR4, delay 14
+INFO: PT10 WR4, delay 15
+
+INFO: PT10 WR1
+
+
+     +--------------------+
+     |  Total ERRORS: 0   |
+     +--------------------+
+*****************************************************
+*** Test DONE ...                                 ***
+*****************************************************
+
+
+
+
+*****************************************************
+*** SW DMA No Buffer (tx & chunk size test) ...   ***
+*****************************************************
+
+Mode: 0->0, tot_size: 1
+ERROR: ACK count Mismatch: Expected: 2, Got: 4 (298073600)
+ERROR: ACK count Mismatch: Expected: 2, Got: 6 (298108600)
+ERROR: ACK count Mismatch: Expected: 2, Got: 8 (298143600)
+ERROR: ACK count Mismatch: Expected: 2, Got: 10 (298178600)
+ERROR: ACK count Mismatch: Expected: 2, Got: 12 (298213600)
+ERROR: ACK count Mismatch: Expected: 2, Got: 14 (298248600)
+ERROR: ACK count Mismatch: Expected: 2, Got: 16 (298283600)
+ERROR: ACK count Mismatch: Expected: 2, Got: 18 (298318600)
+ERROR: ACK count Mismatch: Expected: 2, Got: 20 (298353600)
+ERROR: ACK count Mismatch: Expected: 2, Got: 22 (298388600)
+ERROR: ACK count Mismatch: Expected: 2, Got: 24 (298423600)
+ERROR: ACK count Mismatch: Expected: 2, Got: 26 (298458600)
+ERROR: ACK count Mismatch: Expected: 2, Got: 28 (298493600)
+ERROR: ACK count Mismatch: Expected: 2, Got: 30 (298528600)
+ERROR: ACK count Mismatch: Expected: 2, Got: 32 (298563600)
+ERROR: ACK count Mismatch: Expected: 2, Got: 34 (298598600)
+ERROR: ACK count Mismatch: Expected: 2, Got: 36 (298633600)
+ERROR: ACK count Mismatch: Expected: 2, Got: 38 (298668600)
+Mode: 0->0, tot_size: 2
+ERROR: ACK count Mismatch: Expected: 4, Got: 42 (298705600)
+ERROR: ACK count Mismatch: Expected: 4, Got: 46 (298746600)
+ERROR: ACK count Mismatch: Expected: 4, Got: 50 (298783600)
+ERROR: ACK count Mismatch: Expected: 4, Got: 54 (298820600)
+ERROR: ACK count Mismatch: Expected: 4, Got: 58 (298857600)
+ERROR: ACK count Mismatch: Expected: 4, Got: 62 (298894600)
+ERROR: ACK count Mismatch: Expected: 4, Got: 66 (298931600)
+ERROR: ACK count Mismatch: Expected: 4, Got: 70 (298968600)
+ERROR: ACK count Mismatch: Expected: 4, Got: 74 (299005600)
+ERROR: ACK count Mismatch: Expected: 4, Got: 78 (299042600)
+ERROR: ACK count Mismatch: Expected: 4, Got: 82 (299079600)
+ERROR: ACK count Mismatch: Expected: 4, Got: 86 (299116600)
+ERROR: ACK count Mismatch: Expected: 4, Got: 90 (299153600)
+ERROR: ACK count Mismatch: Expected: 4, Got: 94 (299190600)
+ERROR: ACK count Mismatch: Expected: 4, Got: 98 (299227600)
+ERROR: ACK count Mismatch: Expected: 4, Got: 102 (299264600)
+ERROR: ACK count Mismatch: Expected: 4, Got: 106 (299301600)
+ERROR: ACK count Mismatch: Expected: 4, Got: 110 (299338600)
+ERROR: ACK count Mismatch: Expected: 4, Got: 114 (299375600)
+Mode: 0->0, tot_size: 3
+ERROR: ACK count Mismatch: Expected: 6, Got: 120 (299414600)
+ERROR: ACK count Mismatch: Expected: 6, Got: 126 (299461600)
+ERROR: ACK count Mismatch: Expected: 6, Got: 132 (299504600)
+ERROR: ACK count Mismatch: Expected: 6, Got: 138 (299543600)
+ERROR: ACK count Mismatch: Expected: 6, Got: 144 (299582600)
+ERROR: ACK count Mismatch: Expected: 6, Got: 150 (299621600)
+ERROR: ACK count Mismatch: Expected: 6, Got: 156 (299660600)
+ERROR: ACK count Mismatch: Expected: 6, Got: 162 (299699600)
+ERROR: ACK count Mismatch: Expected: 6, Got: 168 (299738600)
+ERROR: ACK count Mismatch: Expected: 6, Got: 174 (299777600)
+ERROR: ACK count Mismatch: Expected: 6, Got: 180 (299816600)
+ERROR: ACK count Mismatch: Expected: 6, Got: 186 (299855600)
+ERROR: ACK count Mismatch: Expected: 6, Got: 192 (299894600)
+ERROR: ACK count Mismatch: Expected: 6, Got: 198 (299933600)
+ERROR: ACK count Mismatch: Expected: 6, Got: 204 (299972600)
+ERROR: ACK count Mismatch: Expected: 6, Got: 210 (300011600)
+ERROR: ACK count Mismatch: Expected: 6, Got: 216 (300050600)
+ERROR: ACK count Mismatch: Expected: 6, Got: 222 (300089600)
+ERROR: ACK count Mismatch: Expected: 6, Got: 228 (300128600)
+Mode: 0->0, tot_size: 4
+ERROR: ACK count Mismatch: Expected: 8, Got: 236 (300169600)
+ERROR: ACK count Mismatch: Expected: 8, Got: 244 (300222600)
+ERROR: ACK count Mismatch: Expected: 8, Got: 252 (300267600)
+ERROR: ACK count Mismatch: Expected: 8, Got: 260 (300312600)
+ERROR: ACK count Mismatch: Expected: 8, Got: 268 (300353600)
+ERROR: ACK count Mismatch: Expected: 8, Got: 276 (300394600)
+ERROR: ACK count Mismatch: Expected: 8, Got: 284 (300435600)
+ERROR: ACK count Mismatch: Expected: 8, Got: 292 (300476600)
+ERROR: ACK count Mismatch: Expected: 8, Got: 300 (300517600)
+ERROR: ACK count Mismatch: Expected: 8, Got: 308 (300558600)
+ERROR: ACK count Mismatch: Expected: 8, Got: 316 (300599600)
+ERROR: ACK count Mismatch: Expected: 8, Got: 324 (300640600)
+ERROR: ACK count Mismatch: Expected: 8, Got: 332 (300681600)
+ERROR: ACK count Mismatch: Expected: 8, Got: 340 (300722600)
+ERROR: ACK count Mismatch: Expected: 8, Got: 348 (300763600)
+ERROR: ACK count Mismatch: Expected: 8, Got: 356 (300804600)
+ERROR: ACK count Mismatch: Expected: 8, Got: 364 (300845600)
+ERROR: ACK count Mismatch: Expected: 8, Got: 372 (300886600)
+ERROR: ACK count Mismatch: Expected: 8, Got: 380 (300927600)
+Mode: 0->0, tot_size: 5
+ERROR: ACK count Mismatch: Expected: 10, Got: 390 (300970600)
+ERROR: ACK count Mismatch: Expected: 10, Got: 400 (301029600)
+ERROR: ACK count Mismatch: Expected: 10, Got: 410 (301080600)
+ERROR: ACK count Mismatch: Expected: 10, Got: 420 (301127600)
+ERROR: ACK count Mismatch: Expected: 10, Got: 430 (301174600)
+ERROR: ACK count Mismatch: Expected: 10, Got: 440 (301217600)
+ERROR: ACK count Mismatch: Expected: 10, Got: 450 (301260600)
+ERROR: ACK count Mismatch: Expected: 10, Got: 460 (301303600)
+ERROR: ACK count Mismatch: Expected: 10, Got: 470 (301346600)
+ERROR: ACK count Mismatch: Expected: 10, Got: 480 (301389600)
+ERROR: ACK count Mismatch: Expected: 10, Got: 490 (301432600)
+ERROR: ACK count Mismatch: Expected: 10, Got: 500 (301475600)
+ERROR: ACK count Mismatch: Expected: 10, Got: 510 (301518600)
+ERROR: ACK count Mismatch: Expected: 10, Got: 520 (301561600)
+ERROR: ACK count Mismatch: Expected: 10, Got: 530 (301604600)
+ERROR: ACK count Mismatch: Expected: 10, Got: 540 (301647600)
+ERROR: ACK count Mismatch: Expected: 10, Got: 550 (301690600)
+ERROR: ACK count Mismatch: Expected: 10, Got: 560 (301733600)
+ERROR: ACK count Mismatch: Expected: 10, Got: 570 (301776600)
+Mode: 0->0, tot_size: 6
+ERROR: ACK count Mismatch: Expected: 12, Got: 582 (301821600)
+ERROR: ACK count Mismatch: Expected: 12, Got: 594 (301886600)
+ERROR: ACK count Mismatch: Expected: 12, Got: 606 (301939600)
+ERROR: ACK count Mismatch: Expected: 12, Got: 618 (301988600)
+ERROR: ACK count Mismatch: Expected: 12, Got: 630 (302037600)
+ERROR: ACK count Mismatch: Expected: 12, Got: 642 (302086600)
+ERROR: ACK count Mismatch: Expected: 12, Got: 654 (302131600)
+ERROR: ACK count Mismatch: Expected: 12, Got: 666 (302176600)
+ERROR: ACK count Mismatch: Expected: 12, Got: 678 (302221600)
+ERROR: ACK count Mismatch: Expected: 12, Got: 690 (302266600)
+ERROR: ACK count Mismatch: Expected: 12, Got: 702 (302311600)
+ERROR: ACK count Mismatch: Expected: 12, Got: 714 (302356600)
+ERROR: ACK count Mismatch: Expected: 12, Got: 726 (302401600)
+ERROR: ACK count Mismatch: Expected: 12, Got: 738 (302446600)
+ERROR: ACK count Mismatch: Expected: 12, Got: 750 (302491600)
+ERROR: ACK count Mismatch: Expected: 12, Got: 762 (302536600)
+ERROR: ACK count Mismatch: Expected: 12, Got: 774 (302581600)
+ERROR: ACK count Mismatch: Expected: 12, Got: 786 (302626600)
+ERROR: ACK count Mismatch: Expected: 12, Got: 798 (302671600)
+Mode: 0->0, tot_size: 7
+ERROR: ACK count Mismatch: Expected: 14, Got: 812 (302718600)
+ERROR: ACK count Mismatch: Expected: 14, Got: 826 (302789600)
+ERROR: ACK count Mismatch: Expected: 14, Got: 840 (302848600)
+ERROR: ACK count Mismatch: Expected: 14, Got: 854 (302903600)
+ERROR: ACK count Mismatch: Expected: 14, Got: 868 (302954600)
+ERROR: ACK count Mismatch: Expected: 14, Got: 882 (303005600)
+ERROR: ACK count Mismatch: Expected: 14, Got: 896 (303056600)
+ERROR: ACK count Mismatch: Expected: 14, Got: 910 (303103600)
+ERROR: ACK count Mismatch: Expected: 14, Got: 924 (303150600)
+ERROR: ACK count Mismatch: Expected: 14, Got: 938 (303197600)
+ERROR: ACK count Mismatch: Expected: 14, Got: 952 (303244600)
+ERROR: ACK count Mismatch: Expected: 14, Got: 966 (303291600)
+ERROR: ACK count Mismatch: Expected: 14, Got: 980 (303338600)
+ERROR: ACK count Mismatch: Expected: 14, Got: 994 (303385600)
+ERROR: ACK count Mismatch: Expected: 14, Got: 1008 (303432600)
+ERROR: ACK count Mismatch: Expected: 14, Got: 1022 (303479600)
+ERROR: ACK count Mismatch: Expected: 14, Got: 1036 (303526600)
+ERROR: ACK count Mismatch: Expected: 14, Got: 1050 (303573600)
+ERROR: ACK count Mismatch: Expected: 14, Got: 1064 (303620600)
+Mode: 0->0, tot_size: 8
+ERROR: ACK count Mismatch: Expected: 16, Got: 1080 (303669600)
+ERROR: ACK count Mismatch: Expected: 16, Got: 1096 (303746600)
+ERROR: ACK count Mismatch: Expected: 16, Got: 1112 (303807600)
+ERROR: ACK count Mismatch: Expected: 16, Got: 1128 (303864600)
+ERROR: ACK count Mismatch: Expected: 16, Got: 1144 (303917600)
+ERROR: ACK count Mismatch: Expected: 16, Got: 1160 (303970600)
+ERROR: ACK count Mismatch: Expected: 16, Got: 1176 (304023600)
+ERROR: ACK count Mismatch: Expected: 16, Got: 1192 (304076600)
+ERROR: ACK count Mismatch: Expected: 16, Got: 1208 (304125600)
+ERROR: ACK count Mismatch: Expected: 16, Got: 1224 (304174600)
+ERROR: ACK count Mismatch: Expected: 16, Got: 1240 (304223600)
+ERROR: ACK count Mismatch: Expected: 16, Got: 1256 (304272600)
+ERROR: ACK count Mismatch: Expected: 16, Got: 1272 (304321600)
+ERROR: ACK count Mismatch: Expected: 16, Got: 1288 (304370600)
+ERROR: ACK count Mismatch: Expected: 16, Got: 1304 (304419600)
+ERROR: ACK count Mismatch: Expected: 16, Got: 1320 (304468600)
+ERROR: ACK count Mismatch: Expected: 16, Got: 1336 (304517600)
+ERROR: ACK count Mismatch: Expected: 16, Got: 1352 (304566600)
+ERROR: ACK count Mismatch: Expected: 16, Got: 1368 (304615600)
+Mode: 0->0, tot_size: 9
+ERROR: ACK count Mismatch: Expected: 18, Got: 1386 (304666600)
+ERROR: ACK count Mismatch: Expected: 18, Got: 1404 (304749600)
+ERROR: ACK count Mismatch: Expected: 18, Got: 1422 (304816600)
+ERROR: ACK count Mismatch: Expected: 18, Got: 1440 (304875600)
+ERROR: ACK count Mismatch: Expected: 18, Got: 1458 (304934600)
+ERROR: ACK count Mismatch: Expected: 18, Got: 1476 (304989600)
+ERROR: ACK count Mismatch: Expected: 18, Got: 1494 (305044600)
+ERROR: ACK count Mismatch: Expected: 18, Got: 1512 (305099600)
+ERROR: ACK count Mismatch: Expected: 18, Got: 1530 (305154600)
+ERROR: ACK count Mismatch: Expected: 18, Got: 1548 (305205600)
+ERROR: ACK count Mismatch: Expected: 18, Got: 1566 (305256600)
+ERROR: ACK count Mismatch: Expected: 18, Got: 1584 (305307600)
+ERROR: ACK count Mismatch: Expected: 18, Got: 1602 (305358600)
+ERROR: ACK count Mismatch: Expected: 18, Got: 1620 (305409600)
+ERROR: ACK count Mismatch: Expected: 18, Got: 1638 (305460600)
+ERROR: ACK count Mismatch: Expected: 18, Got: 1656 (305511600)
+ERROR: ACK count Mismatch: Expected: 18, Got: 1674 (305562600)
+ERROR: ACK count Mismatch: Expected: 18, Got: 1692 (305613600)
+ERROR: ACK count Mismatch: Expected: 18, Got: 1710 (305664600)
+Mode: 0->0, tot_size: 10
+ERROR: ACK count Mismatch: Expected: 20, Got: 1730 (305717600)
+ERROR: ACK count Mismatch: Expected: 20, Got: 1750 (305806600)
+ERROR: ACK count Mismatch: Expected: 20, Got: 1770 (305875600)
+ERROR: ACK count Mismatch: Expected: 20, Got: 1790 (305940600)
+ERROR: ACK count Mismatch: Expected: 20, Got: 1810 (306001600)
+ERROR: ACK count Mismatch: Expected: 20, Got: 1830 (306058600)
+ERROR: ACK count Mismatch: Expected: 20, Got: 1850 (306115600)
+ERROR: ACK count Mismatch: Expected: 20, Got: 1870 (306172600)
+ERROR: ACK count Mismatch: Expected: 20, Got: 1890 (306229600)
+ERROR: ACK count Mismatch: Expected: 20, Got: 1910 (306286600)
+ERROR: ACK count Mismatch: Expected: 20, Got: 1930 (306339600)
+ERROR: ACK count Mismatch: Expected: 20, Got: 1950 (306392600)
+ERROR: ACK count Mismatch: Expected: 20, Got: 1970 (306445600)
+ERROR: ACK count Mismatch: Expected: 20, Got: 1990 (306498600)
+ERROR: ACK count Mismatch: Expected: 20, Got: 2010 (306551600)
+ERROR: ACK count Mismatch: Expected: 20, Got: 2030 (306604600)
+ERROR: ACK count Mismatch: Expected: 20, Got: 2050 (306657600)
+ERROR: ACK count Mismatch: Expected: 20, Got: 2070 (306710600)
+ERROR: ACK count Mismatch: Expected: 20, Got: 2090 (306763600)
+Mode: 0->0, tot_size: 11
+ERROR: ACK count Mismatch: Expected: 22, Got: 2112 (306818600)
+ERROR: ACK count Mismatch: Expected: 22, Got: 2134 (306913600)
+ERROR: ACK count Mismatch: Expected: 22, Got: 2156 (306988600)
+ERROR: ACK count Mismatch: Expected: 22, Got: 2178 (307055600)
+ERROR: ACK count Mismatch: Expected: 22, Got: 2200 (307118600)
+ERROR: ACK count Mismatch: Expected: 22, Got: 2222 (307181600)
+ERROR: ACK count Mismatch: Expected: 22, Got: 2244 (307240600)
+ERROR: ACK count Mismatch: Expected: 22, Got: 2266 (307299600)
+ERROR: ACK count Mismatch: Expected: 22, Got: 2288 (307358600)
+ERROR: ACK count Mismatch: Expected: 22, Got: 2310 (307417600)
+ERROR: ACK count Mismatch: Expected: 22, Got: 2332 (307476600)
+ERROR: ACK count Mismatch: Expected: 22, Got: 2354 (307531600)
+ERROR: ACK count Mismatch: Expected: 22, Got: 2376 (307586600)
+ERROR: ACK count Mismatch: Expected: 22, Got: 2398 (307641600)
+ERROR: ACK count Mismatch: Expected: 22, Got: 2420 (307696600)
+ERROR: ACK count Mismatch: Expected: 22, Got: 2442 (307751600)
+ERROR: ACK count Mismatch: Expected: 22, Got: 2464 (307806600)
+ERROR: ACK count Mismatch: Expected: 22, Got: 2486 (307861600)
+ERROR: ACK count Mismatch: Expected: 22, Got: 2508 (307916600)
+Mode: 0->0, tot_size: 12
+ERROR: ACK count Mismatch: Expected: 24, Got: 2532 (307973600)
+ERROR: ACK count Mismatch: Expected: 24, Got: 2556 (308074600)
+ERROR: ACK count Mismatch: Expected: 24, Got: 2580 (308151600)
+ERROR: ACK count Mismatch: Expected: 24, Got: 2604 (308220600)
+ERROR: ACK count Mismatch: Expected: 24, Got: 2628 (308285600)
+ERROR: ACK count Mismatch: Expected: 24, Got: 2652 (308350600)
+ERROR: ACK count Mismatch: Expected: 24, Got: 2676 (308411600)
+ERROR: ACK count Mismatch: Expected: 24, Got: 2700 (308472600)
+ERROR: ACK count Mismatch: Expected: 24, Got: 2724 (308533600)
+ERROR: ACK count Mismatch: Expected: 24, Got: 2748 (308594600)
+ERROR: ACK count Mismatch: Expected: 24, Got: 2772 (308655600)
+ERROR: ACK count Mismatch: Expected: 24, Got: 2796 (308716600)
+ERROR: ACK count Mismatch: Expected: 24, Got: 2820 (308773600)
+ERROR: ACK count Mismatch: Expected: 24, Got: 2844 (308830600)
+ERROR: ACK count Mismatch: Expected: 24, Got: 2868 (308887600)
+ERROR: ACK count Mismatch: Expected: 24, Got: 2892 (308944600)
+ERROR: ACK count Mismatch: Expected: 24, Got: 2916 (309001600)
+ERROR: ACK count Mismatch: Expected: 24, Got: 2940 (309058600)
+ERROR: ACK count Mismatch: Expected: 24, Got: 2964 (309115600)
+Mode: 0->0, tot_size: 13
+ERROR: ACK count Mismatch: Expected: 26, Got: 2990 (309174600)
+ERROR: ACK count Mismatch: Expected: 26, Got: 3016 (309281600)
+ERROR: ACK count Mismatch: Expected: 26, Got: 3042 (309364600)
+ERROR: ACK count Mismatch: Expected: 26, Got: 3068 (309439600)
+ERROR: ACK count Mismatch: Expected: 26, Got: 3094 (309510600)
+ERROR: ACK count Mismatch: Expected: 26, Got: 3120 (309577600)
+ERROR: ACK count Mismatch: Expected: 26, Got: 3146 (309644600)
+ERROR: ACK count Mismatch: Expected: 26, Got: 3172 (309707600)
+ERROR: ACK count Mismatch: Expected: 26, Got: 3198 (309770600)
+ERROR: ACK count Mismatch: Expected: 26, Got: 3224 (309833600)
+ERROR: ACK count Mismatch: Expected: 26, Got: 3250 (309896600)
+ERROR: ACK count Mismatch: Expected: 26, Got: 3276 (309959600)
+ERROR: ACK count Mismatch: Expected: 26, Got: 3302 (310022600)
+ERROR: ACK count Mismatch: Expected: 26, Got: 3328 (310081600)
+ERROR: ACK count Mismatch: Expected: 26, Got: 3354 (310140600)
+ERROR: ACK count Mismatch: Expected: 26, Got: 3380 (310199600)
+ERROR: ACK count Mismatch: Expected: 26, Got: 3406 (310258600)
+ERROR: ACK count Mismatch: Expected: 26, Got: 3432 (310317600)
+ERROR: ACK count Mismatch: Expected: 26, Got: 3458 (310376600)
+Mode: 0->0, tot_size: 14
+ERROR: ACK count Mismatch: Expected: 28, Got: 3486 (310437600)
+ERROR: ACK count Mismatch: Expected: 28, Got: 3514 (310550600)
+ERROR: ACK count Mismatch: Expected: 28, Got: 3542 (310635600)
+ERROR: ACK count Mismatch: Expected: 28, Got: 3570 (310712600)
+ERROR: ACK count Mismatch: Expected: 28, Got: 3598 (310785600)
+ERROR: ACK count Mismatch: Expected: 28, Got: 3626 (310854600)
+ERROR: ACK count Mismatch: Expected: 28, Got: 3654 (310923600)
+ERROR: ACK count Mismatch: Expected: 28, Got: 3682 (310988600)
+ERROR: ACK count Mismatch: Expected: 28, Got: 3710 (311053600)
+ERROR: ACK count Mismatch: Expected: 28, Got: 3738 (311118600)
+ERROR: ACK count Mismatch: Expected: 28, Got: 3766 (311183600)
+ERROR: ACK count Mismatch: Expected: 28, Got: 3794 (311248600)
+ERROR: ACK count Mismatch: Expected: 28, Got: 3822 (311313600)
+ERROR: ACK count Mismatch: Expected: 28, Got: 3850 (311378600)
+ERROR: ACK count Mismatch: Expected: 28, Got: 3878 (311439600)
+ERROR: ACK count Mismatch: Expected: 28, Got: 3906 (311500600)
+ERROR: ACK count Mismatch: Expected: 28, Got: 3934 (311561600)
+ERROR: ACK count Mismatch: Expected: 28, Got: 3962 (311622600)
+ERROR: ACK count Mismatch: Expected: 28, Got: 3990 (311683600)
+Mode: 0->0, tot_size: 15
+ERROR: ACK count Mismatch: Expected: 30, Got: 4020 (311746600)
+ERROR: ACK count Mismatch: Expected: 30, Got: 4050 (311865600)
+ERROR: ACK count Mismatch: Expected: 30, Got: 4080 (311956600)
+ERROR: ACK count Mismatch: Expected: 30, Got: 4110 (312035600)
+ERROR: ACK count Mismatch: Expected: 30, Got: 4140 (312110600)
+ERROR: ACK count Mismatch: Expected: 30, Got: 4170 (312181600)
+ERROR: ACK count Mismatch: Expected: 30, Got: 4200 (312252600)
+ERROR: ACK count Mismatch: Expected: 30, Got: 4230 (312323600)
+ERROR: ACK count Mismatch: Expected: 30, Got: 4260 (312390600)
+ERROR: ACK count Mismatch: Expected: 30, Got: 4290 (312457600)
+ERROR: ACK count Mismatch: Expected: 30, Got: 4320 (312524600)
+ERROR: ACK count Mismatch: Expected: 30, Got: 4350 (312591600)
+ERROR: ACK count Mismatch: Expected: 30, Got: 4380 (312658600)
+ERROR: ACK count Mismatch: Expected: 30, Got: 4410 (312725600)
+ERROR: ACK count Mismatch: Expected: 30, Got: 4440 (312792600)
+ERROR: ACK count Mismatch: Expected: 30, Got: 4470 (312855600)
+ERROR: ACK count Mismatch: Expected: 30, Got: 4500 (312918600)
+ERROR: ACK count Mismatch: Expected: 30, Got: 4530 (312981600)
+ERROR: ACK count Mismatch: Expected: 30, Got: 4560 (313044600)
+Mode: 0->0, tot_size: 16
+ERROR: ACK count Mismatch: Expected: 32, Got: 4592 (313109600)
+ERROR: ACK count Mismatch: Expected: 32, Got: 4624 (313234600)
+ERROR: ACK count Mismatch: Expected: 32, Got: 4656 (313327600)
+ERROR: ACK count Mismatch: Expected: 32, Got: 4688 (313412600)
+ERROR: ACK count Mismatch: Expected: 32, Got: 4720 (313489600)
+ERROR: ACK count Mismatch: Expected: 32, Got: 4752 (313566600)
+ERROR: ACK count Mismatch: Expected: 32, Got: 4784 (313639600)
+ERROR: ACK count Mismatch: Expected: 32, Got: 4816 (313712600)
+ERROR: ACK count Mismatch: Expected: 32, Got: 4848 (313781600)
+ERROR: ACK count Mismatch: Expected: 32, Got: 4880 (313850600)
+ERROR: ACK count Mismatch: Expected: 32, Got: 4912 (313919600)
+ERROR: ACK count Mismatch: Expected: 32, Got: 4944 (313988600)
+ERROR: ACK count Mismatch: Expected: 32, Got: 4976 (314057600)
+ERROR: ACK count Mismatch: Expected: 32, Got: 5008 (314126600)
+ERROR: ACK count Mismatch: Expected: 32, Got: 5040 (314195600)
+ERROR: ACK count Mismatch: Expected: 32, Got: 5072 (314264600)
+ERROR: ACK count Mismatch: Expected: 32, Got: 5104 (314329600)
+ERROR: ACK count Mismatch: Expected: 32, Got: 5136 (314394600)
+ERROR: ACK count Mismatch: Expected: 32, Got: 5168 (314459600)
+Mode: 0->0, tot_size: 17
+ERROR: ACK count Mismatch: Expected: 34, Got: 5202 (314526600)
+ERROR: ACK count Mismatch: Expected: 34, Got: 5236 (314657600)
+ERROR: ACK count Mismatch: Expected: 34, Got: 5270 (314756600)
+ERROR: ACK count Mismatch: Expected: 34, Got: 5304 (314843600)
+ERROR: ACK count Mismatch: Expected: 34, Got: 5338 (314926600)
+ERROR: ACK count Mismatch: Expected: 34, Got: 5372 (315005600)
+ERROR: ACK count Mismatch: Expected: 34, Got: 5406 (315080600)
+ERROR: ACK count Mismatch: Expected: 34, Got: 5440 (315155600)
+ERROR: ACK count Mismatch: Expected: 34, Got: 5474 (315230600)
+ERROR: ACK count Mismatch: Expected: 34, Got: 5508 (315301600)
+ERROR: ACK count Mismatch: Expected: 34, Got: 5542 (315372600)
+ERROR: ACK count Mismatch: Expected: 34, Got: 5576 (315443600)
+ERROR: ACK count Mismatch: Expected: 34, Got: 5610 (315514600)
+ERROR: ACK count Mismatch: Expected: 34, Got: 5644 (315585600)
+ERROR: ACK count Mismatch: Expected: 34, Got: 5678 (315656600)
+ERROR: ACK count Mismatch: Expected: 34, Got: 5712 (315727600)
+ERROR: ACK count Mismatch: Expected: 34, Got: 5746 (315798600)
+ERROR: ACK count Mismatch: Expected: 34, Got: 5780 (315865600)
+ERROR: ACK count Mismatch: Expected: 34, Got: 5814 (315932600)
+Mode: 0->0, tot_size: 18
+ERROR: ACK count Mismatch: Expected: 36, Got: 5850 (316001600)
+ERROR: ACK count Mismatch: Expected: 36, Got: 5886 (316138600)
+ERROR: ACK count Mismatch: Expected: 36, Got: 5922 (316239600)
+ERROR: ACK count Mismatch: Expected: 36, Got: 5958 (316328600)
+ERROR: ACK count Mismatch: Expected: 36, Got: 5994 (316413600)
+ERROR: ACK count Mismatch: Expected: 36, Got: 6030 (316494600)
+ERROR: ACK count Mismatch: Expected: 36, Got: 6066 (316571600)
+ERROR: ACK count Mismatch: Expected: 36, Got: 6102 (316648600)
+ERROR: ACK count Mismatch: Expected: 36, Got: 6138 (316725600)
+ERROR: ACK count Mismatch: Expected: 36, Got: 6174 (316798600)
+ERROR: ACK count Mismatch: Expected: 36, Got: 6210 (316871600)
+ERROR: ACK count Mismatch: Expected: 36, Got: 6246 (316944600)
+ERROR: ACK count Mismatch: Expected: 36, Got: 6282 (317017600)
+ERROR: ACK count Mismatch: Expected: 36, Got: 6318 (317090600)
+ERROR: ACK count Mismatch: Expected: 36, Got: 6354 (317163600)
+ERROR: ACK count Mismatch: Expected: 36, Got: 6390 (317236600)
+ERROR: ACK count Mismatch: Expected: 36, Got: 6426 (317309600)
+ERROR: ACK count Mismatch: Expected: 36, Got: 6462 (317378600)
+ERROR: ACK count Mismatch: Expected: 36, Got: 6498 (317447600)
+Mode: 0->0, tot_size: 19
+ERROR: ACK count Mismatch: Expected: 38, Got: 6536 (317518600)
+ERROR: ACK count Mismatch: Expected: 38, Got: 6574 (317661600)
+ERROR: ACK count Mismatch: Expected: 38, Got: 6612 (317768600)
+ERROR: ACK count Mismatch: Expected: 38, Got: 6650 (317863600)
+ERROR: ACK count Mismatch: Expected: 38, Got: 6688 (317950600)
+ERROR: ACK count Mismatch: Expected: 38, Got: 6726 (318033600)
+ERROR: ACK count Mismatch: Expected: 38, Got: 6764 (318116600)
+ERROR: ACK count Mismatch: Expected: 38, Got: 6802 (318195600)
+ERROR: ACK count Mismatch: Expected: 38, Got: 6840 (318274600)
+ERROR: ACK count Mismatch: Expected: 38, Got: 6878 (318353600)
+ERROR: ACK count Mismatch: Expected: 38, Got: 6916 (318428600)
+ERROR: ACK count Mismatch: Expected: 38, Got: 6954 (318503600)
+ERROR: ACK count Mismatch: Expected: 38, Got: 6992 (318578600)
+ERROR: ACK count Mismatch: Expected: 38, Got: 7030 (318653600)
+ERROR: ACK count Mismatch: Expected: 38, Got: 7068 (318728600)
+ERROR: ACK count Mismatch: Expected: 38, Got: 7106 (318803600)
+ERROR: ACK count Mismatch: Expected: 38, Got: 7144 (318878600)
+ERROR: ACK count Mismatch: Expected: 38, Got: 7182 (318949600)
+ERROR: ACK count Mismatch: Expected: 38, Got: 7220 (319020600)
+Mode: 0->0, tot_size: 20
+ERROR: ACK count Mismatch: Expected: 40, Got: 7260 (319093600)
+ERROR: ACK count Mismatch: Expected: 40, Got: 7300 (319242600)
+ERROR: ACK count Mismatch: Expected: 40, Got: 7340 (319351600)
+ERROR: ACK count Mismatch: Expected: 40, Got: 7380 (319448600)
+ERROR: ACK count Mismatch: Expected: 40, Got: 7420 (319537600)
+ERROR: ACK count Mismatch: Expected: 40, Got: 7460 (319622600)
+ERROR: ACK count Mismatch: Expected: 40, Got: 7500 (319707600)
+ERROR: ACK count Mismatch: Expected: 40, Got: 7540 (319788600)
+ERROR: ACK count Mismatch: Expected: 40, Got: 7580 (319869600)
+ERROR: ACK count Mismatch: Expected: 40, Got: 7620 (319950600)
+ERROR: ACK count Mismatch: Expected: 40, Got: 7660 (320027600)
+ERROR: ACK count Mismatch: Expected: 40, Got: 7700 (320104600)
+ERROR: ACK count Mismatch: Expected: 40, Got: 7740 (320181600)
+ERROR: ACK count Mismatch: Expected: 40, Got: 7780 (320258600)
+ERROR: ACK count Mismatch: Expected: 40, Got: 7820 (320335600)
+ERROR: ACK count Mismatch: Expected: 40, Got: 7860 (320412600)
+ERROR: ACK count Mismatch: Expected: 40, Got: 7900 (320489600)
+ERROR: ACK count Mismatch: Expected: 40, Got: 7940 (320562600)
+ERROR: ACK count Mismatch: Expected: 40, Got: 7980 (320635600)
+Mode: 0->0, tot_size: 21
+ERROR: ACK count Mismatch: Expected: 42, Got: 8022 (320710600)
+ERROR: ACK count Mismatch: Expected: 42, Got: 8064 (320865600)
+ERROR: ACK count Mismatch: Expected: 42, Got: 8106 (320980600)
+ERROR: ACK count Mismatch: Expected: 42, Got: 8148 (321079600)
+ERROR: ACK count Mismatch: Expected: 42, Got: 8190 (321174600)
+ERROR: ACK count Mismatch: Expected: 42, Got: 8232 (321265600)
+ERROR: ACK count Mismatch: Expected: 42, Got: 8274 (321352600)
+ERROR: ACK count Mismatch: Expected: 42, Got: 8316 (321435600)
+ERROR: ACK count Mismatch: Expected: 42, Got: 8358 (321518600)
+ERROR: ACK count Mismatch: Expected: 42, Got: 8400 (321601600)
+ERROR: ACK count Mismatch: Expected: 42, Got: 8442 (321684600)
+ERROR: ACK count Mismatch: Expected: 42, Got: 8484 (321763600)
+ERROR: ACK count Mismatch: Expected: 42, Got: 8526 (321842600)
+ERROR: ACK count Mismatch: Expected: 42, Got: 8568 (321921600)
+ERROR: ACK count Mismatch: Expected: 42, Got: 8610 (322000600)
+ERROR: ACK count Mismatch: Expected: 42, Got: 8652 (322079600)
+ERROR: ACK count Mismatch: Expected: 42, Got: 8694 (322158600)
+ERROR: ACK count Mismatch: Expected: 42, Got: 8736 (322233600)
+ERROR: ACK count Mismatch: Expected: 42, Got: 8778 (322308600)
+Mode: 0->0, tot_size: 22
+ERROR: ACK count Mismatch: Expected: 44, Got: 8822 (322385600)
+ERROR: ACK count Mismatch: Expected: 44, Got: 8866 (322546600)
+ERROR: ACK count Mismatch: Expected: 44, Got: 8910 (322663600)
+ERROR: ACK count Mismatch: Expected: 44, Got: 8954 (322768600)
+ERROR: ACK count Mismatch: Expected: 44, Got: 8998 (322865600)
+ERROR: ACK count Mismatch: Expected: 44, Got: 9042 (322958600)
+ERROR: ACK count Mismatch: Expected: 44, Got: 9086 (323047600)
+ERROR: ACK count Mismatch: Expected: 44, Got: 9130 (323136600)
+ERROR: ACK count Mismatch: Expected: 44, Got: 9174 (323221600)
+ERROR: ACK count Mismatch: Expected: 44, Got: 9218 (323306600)
+ERROR: ACK count Mismatch: Expected: 44, Got: 9262 (323391600)
+ERROR: ACK count Mismatch: Expected: 44, Got: 9306 (323472600)
+ERROR: ACK count Mismatch: Expected: 44, Got: 9350 (323553600)
+ERROR: ACK count Mismatch: Expected: 44, Got: 9394 (323634600)
+ERROR: ACK count Mismatch: Expected: 44, Got: 9438 (323715600)
+ERROR: ACK count Mismatch: Expected: 44, Got: 9482 (323796600)
+ERROR: ACK count Mismatch: Expected: 44, Got: 9526 (323877600)
+ERROR: ACK count Mismatch: Expected: 44, Got: 9570 (323954600)
+ERROR: ACK count Mismatch: Expected: 44, Got: 9614 (324031600)
+Mode: 0->0, tot_size: 23
+ERROR: ACK count Mismatch: Expected: 46, Got: 9660 (324110600)
+ERROR: ACK count Mismatch: Expected: 46, Got: 9706 (324277600)
+ERROR: ACK count Mismatch: Expected: 46, Got: 9752 (324400600)
+ERROR: ACK count Mismatch: Expected: 46, Got: 9798 (324507600)
+ERROR: ACK count Mismatch: Expected: 46, Got: 9844 (324606600)
+ERROR: ACK count Mismatch: Expected: 46, Got: 9890 (324701600)
+ERROR: ACK count Mismatch: Expected: 46, Got: 9936 (324792600)
+ERROR: ACK count Mismatch: Expected: 46, Got: 9982 (324883600)
+ERROR: ACK count Mismatch: Expected: 46, Got: 10028 (324970600)
+ERROR: ACK count Mismatch: Expected: 46, Got: 10074 (325057600)
+ERROR: ACK count Mismatch: Expected: 46, Got: 10120 (325144600)
+ERROR: ACK count Mismatch: Expected: 46, Got: 10166 (325231600)
+ERROR: ACK count Mismatch: Expected: 46, Got: 10212 (325314600)
+ERROR: ACK count Mismatch: Expected: 46, Got: 10258 (325397600)
+ERROR: ACK count Mismatch: Expected: 46, Got: 10304 (325480600)
+ERROR: ACK count Mismatch: Expected: 46, Got: 10350 (325563600)
+ERROR: ACK count Mismatch: Expected: 46, Got: 10396 (325646600)
+ERROR: ACK count Mismatch: Expected: 46, Got: 10442 (325725600)
+ERROR: ACK count Mismatch: Expected: 46, Got: 10488 (325804600)
+Mode: 0->0, tot_size: 24
+ERROR: ACK count Mismatch: Expected: 48, Got: 10536 (325885600)
+ERROR: ACK count Mismatch: Expected: 48, Got: 10584 (326058600)
+ERROR: ACK count Mismatch: Expected: 48, Got: 10632 (326183600)
+ERROR: ACK count Mismatch: Expected: 48, Got: 10680 (326292600)
+ERROR: ACK count Mismatch: Expected: 48, Got: 10728 (326393600)
+ERROR: ACK count Mismatch: Expected: 48, Got: 10776 (326490600)
+ERROR: ACK count Mismatch: Expected: 48, Got: 10824 (326583600)
+ERROR: ACK count Mismatch: Expected: 48, Got: 10872 (326676600)
+ERROR: ACK count Mismatch: Expected: 48, Got: 10920 (326765600)
+ERROR: ACK count Mismatch: Expected: 48, Got: 10968 (326854600)
+ERROR: ACK count Mismatch: Expected: 48, Got: 11016 (326943600)
+ERROR: ACK count Mismatch: Expected: 48, Got: 11064 (327032600)
+ERROR: ACK count Mismatch: Expected: 48, Got: 11112 (327117600)
+ERROR: ACK count Mismatch: Expected: 48, Got: 11160 (327202600)
+ERROR: ACK count Mismatch: Expected: 48, Got: 11208 (327287600)
+ERROR: ACK count Mismatch: Expected: 48, Got: 11256 (327372600)
+ERROR: ACK count Mismatch: Expected: 48, Got: 11304 (327457600)
+ERROR: ACK count Mismatch: Expected: 48, Got: 11352 (327538600)
+ERROR: ACK count Mismatch: Expected: 48, Got: 11400 (327619600)
+Mode: 0->0, tot_size: 25
+ERROR: ACK count Mismatch: Expected: 50, Got: 11450 (327702600)
+ERROR: ACK count Mismatch: Expected: 50, Got: 11500 (327881600)
+ERROR: ACK count Mismatch: Expected: 50, Got: 11550 (328012600)
+ERROR: ACK count Mismatch: Expected: 50, Got: 11600 (328127600)
+ERROR: ACK count Mismatch: Expected: 50, Got: 11650 (328234600)
+ERROR: ACK count Mismatch: Expected: 50, Got: 11700 (328333600)
+ERROR: ACK count Mismatch: Expected: 50, Got: 11750 (328432600)
+ERROR: ACK count Mismatch: Expected: 50, Got: 11800 (328527600)
+ERROR: ACK count Mismatch: Expected: 50, Got: 11850 (328622600)
+ERROR: ACK count Mismatch: Expected: 50, Got: 11900 (328713600)
+ERROR: ACK count Mismatch: Expected: 50, Got: 11950 (328804600)
+ERROR: ACK count Mismatch: Expected: 50, Got: 12000 (328895600)
+ERROR: ACK count Mismatch: Expected: 50, Got: 12050 (328986600)
+ERROR: ACK count Mismatch: Expected: 50, Got: 12100 (329073600)
+ERROR: ACK count Mismatch: Expected: 50, Got: 12150 (329160600)
+ERROR: ACK count Mismatch: Expected: 50, Got: 12200 (329247600)
+ERROR: ACK count Mismatch: Expected: 50, Got: 12250 (329334600)
+ERROR: ACK count Mismatch: Expected: 50, Got: 12300 (329417600)
+ERROR: ACK count Mismatch: Expected: 50, Got: 12350 (329500600)
+Mode: 0->0, tot_size: 26
+ERROR: ACK count Mismatch: Expected: 52, Got: 12402 (329585600)
+ERROR: ACK count Mismatch: Expected: 52, Got: 12454 (329770600)
+ERROR: ACK count Mismatch: Expected: 52, Got: 12506 (329903600)
+ERROR: ACK count Mismatch: Expected: 52, Got: 12558 (330020600)
+ERROR: ACK count Mismatch: Expected: 52, Got: 12610 (330129600)
+ERROR: ACK count Mismatch: Expected: 52, Got: 12662 (330234600)
+ERROR: ACK count Mismatch: Expected: 52, Got: 12714 (330335600)
+ERROR: ACK count Mismatch: Expected: 52, Got: 12766 (330432600)
+ERROR: ACK count Mismatch: Expected: 52, Got: 12818 (330529600)
+ERROR: ACK count Mismatch: Expected: 52, Got: 12870 (330622600)
+ERROR: ACK count Mismatch: Expected: 52, Got: 12922 (330715600)
+ERROR: ACK count Mismatch: Expected: 52, Got: 12974 (330808600)
+ERROR: ACK count Mismatch: Expected: 52, Got: 13026 (330901600)
+ERROR: ACK count Mismatch: Expected: 52, Got: 13078 (330990600)
+ERROR: ACK count Mismatch: Expected: 52, Got: 13130 (331079600)
+ERROR: ACK count Mismatch: Expected: 52, Got: 13182 (331168600)
+ERROR: ACK count Mismatch: Expected: 52, Got: 13234 (331257600)
+ERROR: ACK count Mismatch: Expected: 52, Got: 13286 (331342600)
+ERROR: ACK count Mismatch: Expected: 52, Got: 13338 (331427600)
+Mode: 0->0, tot_size: 27
+ERROR: ACK count Mismatch: Expected: 54, Got: 13392 (331514600)
+ERROR: ACK count Mismatch: Expected: 54, Got: 13446 (331705600)
+ERROR: ACK count Mismatch: Expected: 54, Got: 13500 (331844600)
+ERROR: ACK count Mismatch: Expected: 54, Got: 13554 (331963600)
+ERROR: ACK count Mismatch: Expected: 54, Got: 13608 (332074600)
+ERROR: ACK count Mismatch: Expected: 54, Got: 13662 (332181600)
+ERROR: ACK count Mismatch: Expected: 54, Got: 13716 (332284600)
+ERROR: ACK count Mismatch: Expected: 54, Got: 13770 (332383600)
+ERROR: ACK count Mismatch: Expected: 54, Got: 13824 (332482600)
+ERROR: ACK count Mismatch: Expected: 54, Got: 13878 (332577600)
+ERROR: ACK count Mismatch: Expected: 54, Got: 13932 (332672600)
+ERROR: ACK count Mismatch: Expected: 54, Got: 13986 (332767600)
+ERROR: ACK count Mismatch: Expected: 54, Got: 14040 (332862600)
+ERROR: ACK count Mismatch: Expected: 54, Got: 14094 (332957600)
+ERROR: ACK count Mismatch: Expected: 54, Got: 14148 (333048600)
+ERROR: ACK count Mismatch: Expected: 54, Got: 14202 (333139600)
+ERROR: ACK count Mismatch: Expected: 54, Got: 14256 (333230600)
+ERROR: ACK count Mismatch: Expected: 54, Got: 14310 (333317600)
+ERROR: ACK count Mismatch: Expected: 54, Got: 14364 (333404600)
+Mode: 0->0, tot_size: 28
+ERROR: ACK count Mismatch: Expected: 56, Got: 14420 (333493600)
+ERROR: ACK count Mismatch: Expected: 56, Got: 14476 (333690600)
+ERROR: ACK count Mismatch: Expected: 56, Got: 14532 (333831600)
+ERROR: ACK count Mismatch: Expected: 56, Got: 14588 (333956600)
+ERROR: ACK count Mismatch: Expected: 56, Got: 14644 (334069600)
+ERROR: ACK count Mismatch: Expected: 56, Got: 14700 (334178600)
+ERROR: ACK count Mismatch: Expected: 56, Got: 14756 (334283600)
+ERROR: ACK count Mismatch: Expected: 56, Got: 14812 (334384600)
+ERROR: ACK count Mismatch: Expected: 56, Got: 14868 (334485600)
+ERROR: ACK count Mismatch: Expected: 56, Got: 14924 (334586600)
+ERROR: ACK count Mismatch: Expected: 56, Got: 14980 (334683600)
+ERROR: ACK count Mismatch: Expected: 56, Got: 15036 (334780600)
+ERROR: ACK count Mismatch: Expected: 56, Got: 15092 (334877600)
+ERROR: ACK count Mismatch: Expected: 56, Got: 15148 (334974600)
+ERROR: ACK count Mismatch: Expected: 56, Got: 15204 (335067600)
+ERROR: ACK count Mismatch: Expected: 56, Got: 15260 (335160600)
+ERROR: ACK count Mismatch: Expected: 56, Got: 15316 (335253600)
+ERROR: ACK count Mismatch: Expected: 56, Got: 15372 (335342600)
+ERROR: ACK count Mismatch: Expected: 56, Got: 15428 (335431600)
+Mode: 0->0, tot_size: 29
+ERROR: ACK count Mismatch: Expected: 58, Got: 15486 (335522600)
+ERROR: ACK count Mismatch: Expected: 58, Got: 15544 (335725600)
+ERROR: ACK count Mismatch: Expected: 58, Got: 15602 (335872600)
+ERROR: ACK count Mismatch: Expected: 58, Got: 15660 (335999600)
+ERROR: ACK count Mismatch: Expected: 58, Got: 15718 (336118600)
+ERROR: ACK count Mismatch: Expected: 58, Got: 15776 (336229600)
+ERROR: ACK count Mismatch: Expected: 58, Got: 15834 (336336600)
+ERROR: ACK count Mismatch: Expected: 58, Got: 15892 (336443600)
+ERROR: ACK count Mismatch: Expected: 58, Got: 15950 (336546600)
+ERROR: ACK count Mismatch: Expected: 58, Got: 16008 (336649600)
+ERROR: ACK count Mismatch: Expected: 58, Got: 16066 (336748600)
+ERROR: ACK count Mismatch: Expected: 58, Got: 16124 (336847600)
+ERROR: ACK count Mismatch: Expected: 58, Got: 16182 (336946600)
+ERROR: ACK count Mismatch: Expected: 58, Got: 16240 (337045600)
+ERROR: ACK count Mismatch: Expected: 58, Got: 16298 (337144600)
+ERROR: ACK count Mismatch: Expected: 58, Got: 16356 (337239600)
+ERROR: ACK count Mismatch: Expected: 58, Got: 16414 (337334600)
+ERROR: ACK count Mismatch: Expected: 58, Got: 16472 (337425600)
+ERROR: ACK count Mismatch: Expected: 58, Got: 16530 (337516600)
+Mode: 0->0, tot_size: 30
+ERROR: ACK count Mismatch: Expected: 60, Got: 16590 (337609600)
+ERROR: ACK count Mismatch: Expected: 60, Got: 16650 (337818600)
+ERROR: ACK count Mismatch: Expected: 60, Got: 16710 (337967600)
+ERROR: ACK count Mismatch: Expected: 60, Got: 16770 (338096600)
+ERROR: ACK count Mismatch: Expected: 60, Got: 16830 (338217600)
+ERROR: ACK count Mismatch: Expected: 60, Got: 16890 (338330600)

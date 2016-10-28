@@ -1,0 +1,274 @@
+#0 in simple_ral_env_tb_mod at ../tests/simple_ral_env_tb_mod.sv:25
+@ 0: [CFGDB/SET] Configuration '.mst_if' (type virtual interface wb_master_if#(5,3)) set by  = (virtual interface wb_master_if#(5,3)) '{clk:'hx, rst:'h0, DAT_I:'hxxxxxxxx, DAT_O:'hxxxxxxxx, RST_I:'hx, TGD_I:'hzzzz, TGD_O:'hxxxx, ACK_I:'hx, ADR_O:'hxxxxxxxx, CYC_O:'hx, ERR_I:'hx, LOCK_O:'hx, RTY_I:'hx, SEL_O:'hx, STB_O:'hx, TGA_O:'hxxxx, TGC_O:'hxxxx, WE_O:'hx}
+#0 in \uvm_component::new  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_component.svh:1875
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.recording_detail' (type logic signed[4095:0]) read by uvm_test_top = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_component.svh:1876
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.recording_detail' (type int) read by uvm_test_top = null (failed lookup)
+#0 in \uvm_root::run_test  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_root.svh:513
+@ 0: [PH/TRC/STRT] Phase 'common' (id=202) Starting phase
+#0 in \uvm_root::run_test  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_root.svh:513
+@ 0: [PH/TRC/DONE] Phase 'common' (id=202) Completed phase
+#0 in \uvm_root::run_test  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_root.svh:513
+@ 0: [PH/TRC/SCHEDULED] Phase 'common.build' (id=205) Scheduled from phase common
+#0 in \uvm_root::run_test  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_root.svh:513
+@ 0: [PH/TRC/STRT] Phase 'common.build' (id=205) Starting phase
+#0 in \uvm_component::new  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_component.svh:1875
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_component.svh:1876
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.recording_detail' (type int) read by uvm_test_top.env = null (failed lookup)
+#0 in \simple_ral_env_test::build_phase  at ../tests/simple_ral_env_test.sv:25
+@ 0: [CFGDB/SET] Configuration 'uvm_test_top.env.master_agent.mstr_agent_cfg' (type class simple_ral_env_tb_mod.wb_config) set by  = (class simple_ral_env_tb_mod.wb_config) '{use_uvm_seeding:'h1, m_leaf_name:"WB_MASTERConf", m_inst_id:391, m_inst_count:396, __m_uvm_status_container:{ ref to class uvm_status_container}, uvm_global_copy_map:'{}, enable_coverage:'h0, port_size:DWORD, granularity:BYTE, cycles:CLASSIC, max_n_wss:2, master_id:x, slave_id:x, min_addr:'h0, max_addr:'hffffffe, type_name:"wb_config"}
+#0 in \simple_ral_env_test::build_phase  at ../tests/simple_ral_env_test.sv:26
+@ 0: [FACTORY/SET_TYPE_OVERRIDE_BY_TYPE] wb_master_seqr => wb_ral_sequencer
+#0 in \uvm_component::new  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_component.svh:1875
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.master_agent.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.master_agent = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_component.svh:1876
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.master_agent.recording_detail' (type int) read by uvm_test_top.env.master_agent = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_component.svh:1875
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.wishbone_reg_predictor.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.wishbone_reg_predictor = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_component.svh:1876
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.wishbone_reg_predictor.recording_detail' (type int) read by uvm_test_top.env.wishbone_reg_predictor = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_component.svh:1875
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.wishbone_reg_predictor.bus_in.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.wishbone_reg_predictor.bus_in = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_component.svh:1876
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.wishbone_reg_predictor.bus_in.recording_detail' (type int) read by uvm_test_top.env.wishbone_reg_predictor.bus_in = null (failed lookup)
+#0 in \uvm_port_base#(uvm_pkg::uvm_tlm_if_base#(simple_ral_env_tb_mod.wb_transaction,simple_ral_env_tb_mod.wb_transaction))::new  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_port_base.svh:244
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.wishbone_reg_predictor.bus_in.check_connection_relationships' (type logic signed[4095:0]) read by uvm_test_top.env.wishbone_reg_predictor.bus_in = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_component.svh:1875
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.wishbone_reg_predictor.reg_ap.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.wishbone_reg_predictor.reg_ap = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_component.svh:1876
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.wishbone_reg_predictor.reg_ap.recording_detail' (type int) read by uvm_test_top.env.wishbone_reg_predictor.reg_ap = null (failed lookup)
+#0 in \uvm_port_base#(uvm_pkg::uvm_tlm_if_base#(uvm_pkg::uvm_reg_item,uvm_pkg::uvm_reg_item))::new  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_port_base.svh:244
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.wishbone_reg_predictor.reg_ap.check_connection_relationships' (type logic signed[4095:0]) read by uvm_test_top.env.wishbone_reg_predictor.reg_ap = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_component.svh:1875
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.master_agent.mast_mon.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.master_agent.mast_mon = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_component.svh:1876
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.master_agent.mast_mon.recording_detail' (type int) read by uvm_test_top.env.master_agent.mast_mon = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_component.svh:1875
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.master_agent.mast_mon.mon_analysis_port.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.master_agent.mast_mon.mon_analysis_port = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_component.svh:1876
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.master_agent.mast_mon.mon_analysis_port.recording_detail' (type int) read by uvm_test_top.env.master_agent.mast_mon.mon_analysis_port = null (failed lookup)
+#0 in \uvm_port_base#(uvm_pkg::uvm_tlm_if_base#(simple_ral_env_tb_mod.wb_transaction,simple_ral_env_tb_mod.wb_transaction))::new  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_port_base.svh:244
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.master_agent.mast_mon.mon_analysis_port.check_connection_relationships' (type logic signed[4095:0]) read by uvm_test_top.env.master_agent.mast_mon.mon_analysis_port = null (failed lookup)
+#0 in \wb_master_agent::build_phase  at ../src/wb_master_agent.sv:34
+@ 0: [FACTORY/CREATE_COMPONENT_BY_TYPE] wb_master_seqr => wb_ral_sequencer @ uvm_test_top.env.master_agent.mast_sqr
+#0 in \uvm_component::new  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_component.svh:1875
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.master_agent.mast_sqr.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.master_agent.mast_sqr = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_component.svh:1876
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.master_agent.mast_sqr.recording_detail' (type int) read by uvm_test_top.env.master_agent.mast_sqr = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_component.svh:1875
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.master_agent.mast_sqr.rsp_export.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.master_agent.mast_sqr.rsp_export = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_component.svh:1876
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.master_agent.mast_sqr.rsp_export.recording_detail' (type int) read by uvm_test_top.env.master_agent.mast_sqr.rsp_export = null (failed lookup)
+#0 in \uvm_port_base#(uvm_pkg::uvm_tlm_if_base#(simple_ral_env_tb_mod.wb_transaction,simple_ral_env_tb_mod.wb_transaction))::new  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_port_base.svh:244
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.master_agent.mast_sqr.rsp_export.check_connection_relationships' (type logic signed[4095:0]) read by uvm_test_top.env.master_agent.mast_sqr.rsp_export = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_component.svh:1875
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.master_agent.mast_sqr.sqr_rsp_analysis_fifo.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.master_agent.mast_sqr.sqr_rsp_analysis_fifo = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_component.svh:1876
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.master_agent.mast_sqr.sqr_rsp_analysis_fifo.recording_detail' (type int) read by uvm_test_top.env.master_agent.mast_sqr.sqr_rsp_analysis_fifo = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_component.svh:1875
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.master_agent.mast_sqr.sqr_rsp_analysis_fifo.put_export.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.master_agent.mast_sqr.sqr_rsp_analysis_fifo.put_export = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_component.svh:1876
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.master_agent.mast_sqr.sqr_rsp_analysis_fifo.put_export.recording_detail' (type int) read by uvm_test_top.env.master_agent.mast_sqr.sqr_rsp_analysis_fifo.put_export = null (failed lookup)
+#0 in \uvm_port_base#(uvm_pkg::uvm_tlm_if_base#(simple_ral_env_tb_mod.wb_transaction,simple_ral_env_tb_mod.wb_transaction))::new  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_port_base.svh:244
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.master_agent.mast_sqr.sqr_rsp_analysis_fifo.put_export.check_connection_relationships' (type logic signed[4095:0]) read by uvm_test_top.env.master_agent.mast_sqr.sqr_rsp_analysis_fifo.put_export = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_component.svh:1875
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.master_agent.mast_sqr.sqr_rsp_analysis_fifo.get_peek_export.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.master_agent.mast_sqr.sqr_rsp_analysis_fifo.get_peek_export = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_component.svh:1876
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.master_agent.mast_sqr.sqr_rsp_analysis_fifo.get_peek_export.recording_detail' (type int) read by uvm_test_top.env.master_agent.mast_sqr.sqr_rsp_analysis_fifo.get_peek_export = null (failed lookup)
+#0 in \uvm_port_base#(uvm_pkg::uvm_tlm_if_base#(simple_ral_env_tb_mod.wb_transaction,simple_ral_env_tb_mod.wb_transaction))::new  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_port_base.svh:244
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.master_agent.mast_sqr.sqr_rsp_analysis_fifo.get_peek_export.check_connection_relationships' (type logic signed[4095:0]) read by uvm_test_top.env.master_agent.mast_sqr.sqr_rsp_analysis_fifo.get_peek_export = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_component.svh:1875
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.master_agent.mast_sqr.sqr_rsp_analysis_fifo.put_ap.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.master_agent.mast_sqr.sqr_rsp_analysis_fifo.put_ap = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_component.svh:1876
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.master_agent.mast_sqr.sqr_rsp_analysis_fifo.put_ap.recording_detail' (type int) read by uvm_test_top.env.master_agent.mast_sqr.sqr_rsp_analysis_fifo.put_ap = null (failed lookup)
+#0 in \uvm_port_base#(uvm_pkg::uvm_tlm_if_base#(simple_ral_env_tb_mod.wb_transaction,simple_ral_env_tb_mod.wb_transaction))::new  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_port_base.svh:244
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.master_agent.mast_sqr.sqr_rsp_analysis_fifo.put_ap.check_connection_relationships' (type logic signed[4095:0]) read by uvm_test_top.env.master_agent.mast_sqr.sqr_rsp_analysis_fifo.put_ap = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_component.svh:1875
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.master_agent.mast_sqr.sqr_rsp_analysis_fifo.get_ap.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.master_agent.mast_sqr.sqr_rsp_analysis_fifo.get_ap = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_component.svh:1876
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.master_agent.mast_sqr.sqr_rsp_analysis_fifo.get_ap.recording_detail' (type int) read by uvm_test_top.env.master_agent.mast_sqr.sqr_rsp_analysis_fifo.get_ap = null (failed lookup)
+#0 in \uvm_port_base#(uvm_pkg::uvm_tlm_if_base#(simple_ral_env_tb_mod.wb_transaction,simple_ral_env_tb_mod.wb_transaction))::new  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_port_base.svh:244
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.master_agent.mast_sqr.sqr_rsp_analysis_fifo.get_ap.check_connection_relationships' (type logic signed[4095:0]) read by uvm_test_top.env.master_agent.mast_sqr.sqr_rsp_analysis_fifo.get_ap = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_component.svh:1875
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.master_agent.mast_sqr.sqr_rsp_analysis_fifo.analysis_export.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.master_agent.mast_sqr.sqr_rsp_analysis_fifo.analysis_export = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_component.svh:1876
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.master_agent.mast_sqr.sqr_rsp_analysis_fifo.analysis_export.recording_detail' (type int) read by uvm_test_top.env.master_agent.mast_sqr.sqr_rsp_analysis_fifo.analysis_export = null (failed lookup)
+#0 in \uvm_port_base#(uvm_pkg::uvm_tlm_if_base#(simple_ral_env_tb_mod.wb_transaction,simple_ral_env_tb_mod.wb_transaction))::new  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_port_base.svh:244
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.master_agent.mast_sqr.sqr_rsp_analysis_fifo.analysis_export.check_connection_relationships' (type logic signed[4095:0]) read by uvm_test_top.env.master_agent.mast_sqr.sqr_rsp_analysis_fifo.analysis_export = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_component.svh:1875
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.master_agent.mast_sqr.req_fifo.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.master_agent.mast_sqr.req_fifo = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_component.svh:1876
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.master_agent.mast_sqr.req_fifo.recording_detail' (type int) read by uvm_test_top.env.master_agent.mast_sqr.req_fifo = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_component.svh:1875
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.master_agent.mast_sqr.req_fifo.put_export.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.master_agent.mast_sqr.req_fifo.put_export = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_component.svh:1876
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.master_agent.mast_sqr.req_fifo.put_export.recording_detail' (type int) read by uvm_test_top.env.master_agent.mast_sqr.req_fifo.put_export = null (failed lookup)
+#0 in \uvm_port_base#(uvm_pkg::uvm_tlm_if_base#(simple_ral_env_tb_mod.wb_transaction,simple_ral_env_tb_mod.wb_transaction))::new  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_port_base.svh:244
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.master_agent.mast_sqr.req_fifo.put_export.check_connection_relationships' (type logic signed[4095:0]) read by uvm_test_top.env.master_agent.mast_sqr.req_fifo.put_export = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_component.svh:1875
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.master_agent.mast_sqr.req_fifo.get_peek_export.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.master_agent.mast_sqr.req_fifo.get_peek_export = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_component.svh:1876
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.master_agent.mast_sqr.req_fifo.get_peek_export.recording_detail' (type int) read by uvm_test_top.env.master_agent.mast_sqr.req_fifo.get_peek_export = null (failed lookup)
+#0 in \uvm_port_base#(uvm_pkg::uvm_tlm_if_base#(simple_ral_env_tb_mod.wb_transaction,simple_ral_env_tb_mod.wb_transaction))::new  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_port_base.svh:244
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.master_agent.mast_sqr.req_fifo.get_peek_export.check_connection_relationships' (type logic signed[4095:0]) read by uvm_test_top.env.master_agent.mast_sqr.req_fifo.get_peek_export = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_component.svh:1875
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.master_agent.mast_sqr.req_fifo.put_ap.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.master_agent.mast_sqr.req_fifo.put_ap = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_component.svh:1876
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.master_agent.mast_sqr.req_fifo.put_ap.recording_detail' (type int) read by uvm_test_top.env.master_agent.mast_sqr.req_fifo.put_ap = null (failed lookup)
+#0 in \uvm_port_base#(uvm_pkg::uvm_tlm_if_base#(simple_ral_env_tb_mod.wb_transaction,simple_ral_env_tb_mod.wb_transaction))::new  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_port_base.svh:244
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.master_agent.mast_sqr.req_fifo.put_ap.check_connection_relationships' (type logic signed[4095:0]) read by uvm_test_top.env.master_agent.mast_sqr.req_fifo.put_ap = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_component.svh:1875
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.master_agent.mast_sqr.req_fifo.get_ap.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.master_agent.mast_sqr.req_fifo.get_ap = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_component.svh:1876
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.master_agent.mast_sqr.req_fifo.get_ap.recording_detail' (type int) read by uvm_test_top.env.master_agent.mast_sqr.req_fifo.get_ap = null (failed lookup)
+#0 in \uvm_port_base#(uvm_pkg::uvm_tlm_if_base#(simple_ral_env_tb_mod.wb_transaction,simple_ral_env_tb_mod.wb_transaction))::new  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_port_base.svh:244
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.master_agent.mast_sqr.req_fifo.get_ap.check_connection_relationships' (type logic signed[4095:0]) read by uvm_test_top.env.master_agent.mast_sqr.req_fifo.get_ap = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_component.svh:1875
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.master_agent.mast_sqr.seq_item_export.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.master_agent.mast_sqr.seq_item_export = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_component.svh:1876
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.master_agent.mast_sqr.seq_item_export.recording_detail' (type int) read by uvm_test_top.env.master_agent.mast_sqr.seq_item_export = null (failed lookup)
+#0 in \uvm_port_base#(uvm_pkg::uvm_sqr_if_base#(simple_ral_env_tb_mod.wb_transaction,simple_ral_env_tb_mod.wb_transaction))::new  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_port_base.svh:244
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.master_agent.mast_sqr.seq_item_export.check_connection_relationships' (type logic signed[4095:0]) read by uvm_test_top.env.master_agent.mast_sqr.seq_item_export = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_component.svh:1875
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.master_agent.mast_drv.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.master_agent.mast_drv = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_component.svh:1876
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.master_agent.mast_drv.recording_detail' (type int) read by uvm_test_top.env.master_agent.mast_drv = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_component.svh:1875
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.master_agent.mast_drv.seq_item_port.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.master_agent.mast_drv.seq_item_port = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_component.svh:1876
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.master_agent.mast_drv.seq_item_port.recording_detail' (type int) read by uvm_test_top.env.master_agent.mast_drv.seq_item_port = null (failed lookup)
+#0 in \uvm_port_base#(uvm_pkg::uvm_sqr_if_base#(simple_ral_env_tb_mod.wb_transaction,simple_ral_env_tb_mod.wb_transaction))::new  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_port_base.svh:244
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.master_agent.mast_drv.seq_item_port.check_connection_relationships' (type logic signed[4095:0]) read by uvm_test_top.env.master_agent.mast_drv.seq_item_port = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_component.svh:1875
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.master_agent.mast_drv.rsp_port.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.master_agent.mast_drv.rsp_port = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_component.svh:1876
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.master_agent.mast_drv.rsp_port.recording_detail' (type int) read by uvm_test_top.env.master_agent.mast_drv.rsp_port = null (failed lookup)
+#0 in \uvm_port_base#(uvm_pkg::uvm_tlm_if_base#(simple_ral_env_tb_mod.wb_transaction,simple_ral_env_tb_mod.wb_transaction))::new  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_port_base.svh:244
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.master_agent.mast_drv.rsp_port.check_connection_relationships' (type logic signed[4095:0]) read by uvm_test_top.env.master_agent.mast_drv.rsp_port = null (failed lookup)
+#0 in \wb_master_agent::build_phase  at ../src/wb_master_agent.sv:38
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.master_agent.mst_if' (type virtual interface wb_master_if#(5,3)) read by  = (virtual interface wb_master_if#(5,3)) '{clk:'h0, rst:'h0, DAT_I:'hxxxxxxxx, DAT_O:'hzzzzzzzz, RST_I:'h0, TGD_I:'hzzzz, TGD_O:'hzzzz, ACK_I:'hx, ADR_O:'hxxxxxxxx, CYC_O:'hx, ERR_I:'hx, LOCK_O:'hx, RTY_I:'hx, SEL_O:'hx, STB_O:'hx, TGA_O:'hxxxx, TGC_O:'hxxxx, WE_O:'hx}
+#0 in \wb_master_agent::build_phase  at ../src/wb_master_agent.sv:41
+@ 0: [CFGDB/SET] Configuration 'uvm_test_top.env.master_agent.mast_drv.mst_if' (type virtual interface wb_master_if#(5,3)) set by uvm_test_top.env.master_agent = (virtual interface wb_master_if#(5,3)) '{clk:'h0, rst:'h0, DAT_I:'hxxxxxxxx, DAT_O:'hzzzzzzzz, RST_I:'h0, TGD_I:'hzzzz, TGD_O:'hzzzz, ACK_I:'hx, ADR_O:'hxxxxxxxx, CYC_O:'hx, ERR_I:'hx, LOCK_O:'hx, RTY_I:'hx, SEL_O:'hx, STB_O:'hx, TGA_O:'hxxxx, TGC_O:'hxxxx, WE_O:'hx}
+#0 in \wb_master_agent::build_phase  at ../src/wb_master_agent.sv:42
+@ 0: [CFGDB/SET] Configuration 'uvm_test_top.env.master_agent.mast_mon.mon_if' (type virtual interface wb_master_if#(5,3)) set by uvm_test_top.env.master_agent = (virtual interface wb_master_if#(5,3)) '{clk:'h0, rst:'h0, DAT_I:'hxxxxxxxx, DAT_O:'hzzzzzzzz, RST_I:'h0, TGD_I:'hzzzz, TGD_O:'hzzzz, ACK_I:'hx, ADR_O:'hxxxxxxxx, CYC_O:'hx, ERR_I:'hx, LOCK_O:'hx, RTY_I:'hx, SEL_O:'hx, STB_O:'hx, TGA_O:'hxxxx, TGC_O:'hxxxx, WE_O:'hx}
+#0 in \wb_master_agent::build_phase  at ../src/wb_master_agent.sv:50
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.master_agent.mstr_agent_cfg' (type class simple_ral_env_tb_mod.wb_config) read by  = (class simple_ral_env_tb_mod.wb_config) '{use_uvm_seeding:'h1, m_leaf_name:"WB_MASTERConf", m_inst_id:391, m_inst_count:939, __m_uvm_status_container:{ ref to class uvm_status_container}, uvm_global_copy_map:'{}, enable_coverage:'h0, port_size:DWORD, granularity:BYTE, cycles:CLASSIC, max_n_wss:2, master_id:x, slave_id:x, min_addr:'h0, max_addr:'hffffffe, type_name:"wb_config"}
+#0 in \uvm_root::run_test  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_root.svh:513
+@ 0: [PH/TRC/DONE] Phase 'common.build' (id=205) Completed phase
+#0 in \uvm_root::run_test  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_root.svh:513
+@ 0: [PH/TRC/SCHEDULED] Phase 'common.connect' (id=208) Scheduled from phase common.build
+#0 in \uvm_root::run_test  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_root.svh:513
+@ 0: [PH/TRC/STRT] Phase 'common.connect' (id=208) Starting phase
+#0 in \wb_master::connect_phase  at ../src/wb_master.sv:61
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.master_agent.mast_drv.mst_if' (type virtual interface wb_master_if#(5,3)) read by uvm_test_top.env.master_agent.mast_drv = (virtual interface wb_master_if#(5,3)) '{clk:'h0, rst:'h0, DAT_I:'hxxxxxxxx, DAT_O:'hzzzzzzzz, RST_I:'h0, TGD_I:'hzzzz, TGD_O:'hzzzz, ACK_I:'hx, ADR_O:'hxxxxxxxx, CYC_O:'hx, ERR_I:'hx, LOCK_O:'hx, RTY_I:'hx, SEL_O:'hx, STB_O:'hx, TGA_O:'hxxxx, TGC_O:'hxxxx, WE_O:'hx}
+#0 in \wb_master_mon::connect_phase  at ../src/wb_master_mon.sv:80
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.master_agent.mast_mon.mon_if' (type virtual interface wb_master_if#(5,3)) read by uvm_test_top.env.master_agent.mast_mon = (virtual interface wb_master_if#(5,3)) '{clk:'h0, rst:'h0, DAT_I:'hxxxxxxxx, DAT_O:'hzzzzzzzz, RST_I:'h0, TGD_I:'hzzzz, TGD_O:'hzzzz, ACK_I:'hx, ADR_O:'hxxxxxxxx, CYC_O:'hx, ERR_I:'hx, LOCK_O:'hx, RTY_I:'hx, SEL_O:'hx, STB_O:'hx, TGA_O:'hxxxx, TGC_O:'hxxxx, WE_O:'hx}
+#0 in \uvm_root::run_test  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_root.svh:513
+@ 0: [PH/TRC/DONE] Phase 'common.connect' (id=208) Completed phase
+#0 in \uvm_root::run_test  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_root.svh:513
+@ 0: [PH/TRC/SCHEDULED] Phase 'common.end_of_elaboration' (id=211) Scheduled from phase common.connect
+#0 in \uvm_root::run_test  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_root.svh:513
+@ 0: [PH/TRC/STRT] Phase 'common.end_of_elaboration' (id=211) Starting phase
+#0 in \uvm_root::run_test  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_root.svh:513
+@ 0: [PH/TRC/DONE] Phase 'common.end_of_elaboration' (id=211) Completed phase
+#0 in \uvm_root::run_test  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_root.svh:513
+@ 0: [PH/TRC/SCHEDULED] Phase 'common.start_of_simulation' (id=214) Scheduled from phase common.end_of_elaboration
+#0 in \uvm_root::run_test  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_root.svh:513
+@ 0: [PH/TRC/STRT] Phase 'common.start_of_simulation' (id=214) Starting phase
+#0 in \uvm_root::run_test  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_root.svh:513
+@ 0: [PH/TRC/DONE] Phase 'common.start_of_simulation' (id=214) Completed phase
+#0 in \uvm_root::run_test  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_root.svh:513
+@ 0: [PH/TRC/SCHEDULED] Phase 'common.run' (id=217) Scheduled from phase common.start_of_simulation
+#0 in \uvm_root::run_test  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_root.svh:513
+@ 0: [PH/TRC/SCHEDULED] Phase 'uvm' (id=237) Scheduled from phase common.start_of_simulation
+#0 in \uvm_root::run_test  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_root.svh:513
+@ 0: [PH/TRC/STRT] Phase 'common.run' (id=217) Starting phase
+#0 in \uvm_root::run_test  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_root.svh:513
+@ 0: [PH/TRC/STRT] Phase 'uvm' (id=237) Starting phase
+#0 in \uvm_root::run_test  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_root.svh:513
+@ 0: [PH/TRC/DONE] Phase 'uvm' (id=237) Completed phase
+#0 in \uvm_root::run_test  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_root.svh:513
+@ 0: [PH/TRC/SCHEDULED] Phase 'uvm.uvm_sched' (id=239) Scheduled from phase uvm
+#0 in \uvm_root::run_test  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_root.svh:513
+@ 0: [PH/TRC/STRT] Phase 'uvm.uvm_sched' (id=239) Starting phase
+#0 in \uvm_root::run_test  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_root.svh:513
+@ 0: [PH/TRC/DONE] Phase 'uvm.uvm_sched' (id=239) Completed phase
+#0 in \uvm_root::run_test  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_root.svh:513
+@ 0: [PH/TRC/SCHEDULED] Phase 'uvm.uvm_sched.pre_reset' (id=242) Scheduled from phase uvm.uvm_sched
+#0 in \uvm_root::run_test  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_root.svh:513
+@ 0: [PH/TRC/STRT] Phase 'uvm.uvm_sched.pre_reset' (id=242) Starting phase
+#0 in \uvm_root::run_test  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_root.svh:513
+@ 0: [PH/TRC/SKIP] Phase 'uvm.uvm_sched.pre_reset' (id=242) No objections raised, skipping phase
+#0 in \uvm_root::run_test  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_root.svh:513
+@ 0: [PH/TRC/SKIP] Phase 'common.run' (id=217) No objections raised, skipping phase
+#0 in \uvm_root::run_test  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_root.svh:513
+@ 0: [PH/TRC/DONE] Phase 'uvm.uvm_sched.pre_reset' (id=242) Completed phase
+#0 in \uvm_root::run_test  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_root.svh:513
+@ 0: [PH/TRC/SCHEDULED] Phase 'uvm.uvm_sched.reset' (id=251) Scheduled from phase uvm.uvm_sched.pre_reset
+#0 in \uvm_root::run_test  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_root.svh:513
+@ 0: [PH/TRC/STRT] Phase 'uvm.uvm_sched.reset' (id=251) Starting phase
+#0 in \wb_master::reset_phase  at ../src/wb_master.sv:75
+@ 0: [OBJTN_TRC] uvm.uvm_sched.reset Object uvm_test_top.env.master_agent.mast_drv raised 1 objection(s): count=1  total=1
+#0 in \wb_master::reset_phase  at ../src/wb_master.sv:93
+@ 405000: [OBJTN_TRC] uvm.uvm_sched.reset Object uvm_test_top.env.master_agent.mast_drv dropped 1 objection(s): count=0  total=0
+#0 in \uvm_root::run_test  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_root.svh:431
+@ 405000: [OBJTN_TRC] uvm.uvm_sched.reset Object uvm_test_top.env.master_agent.mast_drv all_dropped 1 objection(s): count=0  total=0
+#0 in \uvm_root::run_test  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_root.svh:513
+@ 405000: [PH/TRC/DONE] Phase 'uvm.uvm_sched.reset' (id=251) Completed phase
+#0 in \uvm_root::run_test  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_root.svh:513
+@ 405000: [PH/TRC/SCHEDULED] Phase 'uvm.uvm_sched.post_reset' (id=260) Scheduled from phase uvm.uvm_sched.reset
+#0 in \uvm_root::run_test  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_root.svh:513
+@ 405000: [PH/TRC/STRT] Phase 'uvm.uvm_sched.post_reset' (id=260) Starting phase
+#0 in \uvm_root::run_test  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_root.svh:513
+@ 405000: [PH/TRC/SKIP] Phase 'uvm.uvm_sched.post_reset' (id=260) No objections raised, skipping phase
+#0 in \uvm_root::run_test  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_root.svh:513
+@ 405000: [PH/TRC/DONE] Phase 'uvm.uvm_sched.post_reset' (id=260) Completed phase
+#0 in \uvm_root::run_test  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_root.svh:513
+@ 405000: [PH/TRC/SCHEDULED] Phase 'uvm.uvm_sched.pre_configure' (id=269) Scheduled from phase uvm.uvm_sched.post_reset
+#0 in \uvm_root::run_test  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_root.svh:513
+@ 405000: [PH/TRC/STRT] Phase 'uvm.uvm_sched.pre_configure' (id=269) Starting phase
+#0 in \uvm_root::run_test  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_root.svh:513
+@ 405000: [PH/TRC/SKIP] Phase 'uvm.uvm_sched.pre_configure' (id=269) No objections raised, skipping phase
+#0 in \uvm_root::run_test  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_root.svh:513
+@ 405000: [PH/TRC/DONE] Phase 'uvm.uvm_sched.pre_configure' (id=269) Completed phase
+#0 in \uvm_root::run_test  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_root.svh:513
+@ 405000: [PH/TRC/SCHEDULED] Phase 'uvm.uvm_sched.configure' (id=278) Scheduled from phase uvm.uvm_sched.pre_configure
+#0 in \uvm_root::run_test  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_root.svh:513
+@ 405000: [PH/TRC/STRT] Phase 'uvm.uvm_sched.configure' (id=278) Starting phase
+#0 in \uvm_root::run_test  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_root.svh:513
+@ 405000: [PH/TRC/SKIP] Phase 'uvm.uvm_sched.configure' (id=278) No objections raised, skipping phase
+#0 in \uvm_root::run_test  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_root.svh:513
+@ 405000: [PH/TRC/DONE] Phase 'uvm.uvm_sched.configure' (id=278) Completed phase
+#0 in \uvm_root::run_test  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_root.svh:513
+@ 405000: [PH/TRC/SCHEDULED] Phase 'uvm.uvm_sched.post_configure' (id=287) Scheduled from phase uvm.uvm_sched.configure
+#0 in \uvm_root::run_test  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_root.svh:513
+@ 405000: [PH/TRC/STRT] Phase 'uvm.uvm_sched.post_configure' (id=287) Starting phase
+#0 in \uvm_root::run_test  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_root.svh:513
+@ 405000: [PH/TRC/SKIP] Phase 'uvm.uvm_sched.post_configure' (id=287) No objections raised, skipping phase
+#0 in \uvm_root::run_test  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_root.svh:513
+@ 405000: [PH/TRC/DONE] Phase 'uvm.uvm_sched.post_configure' (id=287) Completed phase
+#0 in \uvm_root::run_test  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_root.svh:513
+@ 405000: [PH/TRC/SCHEDULED] Phase 'uvm.uvm_sched.pre_main' (id=296) Scheduled from phase uvm.uvm_sched.post_configure
+#0 in \uvm_root::run_test  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_root.svh:513
+@ 405000: [PH/TRC/STRT] Phase 'uvm.uvm_sched.pre_main' (id=296) Starting phase
+#0 in \uvm_root::run_test  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_root.svh:513
+@ 405000: [PH/TRC/SKIP] Phase 'uvm.uvm_sched.pre_main' (id=296) No objections raised, skipping phase
+#0 in \uvm_root::run_test  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_root.svh:513
+@ 405000: [PH/TRC/DONE] Phase 'uvm.uvm_sched.pre_main' (id=296) Completed phase
+#0 in \uvm_root::run_test  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_root.svh:513
+@ 405000: [PH/TRC/SCHEDULED] Phase 'uvm.uvm_sched.main' (id=305) Scheduled from phase uvm.uvm_sched.pre_main
+#0 in \uvm_root::run_test  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_root.svh:513
+@ 405000: [PH/TRC/STRT] Phase 'uvm.uvm_sched.main' (id=305) Starting phase
+#0 in \wb_master_mon::main_phase  at ../src/wb_master_mon.sv:102
+@ 405000: [OBJTN_TRC] uvm.uvm_sched.main Object uvm_test_top.env.master_agent.mast_mon raised 1 objection(s): count=1  total=1
+#0 in \wb_master_mon::main_phase  at ../src/wb_master_mon.sv:106
+@ 405000: [OBJTN_TRC] uvm.uvm_sched.main Object uvm_test_top.env.master_agent.mast_mon dropped 1 objection(s): count=0  total=0
+#0 in \simple_reg_access_test_resdb::main_phase  at ../tests/simple_reg_access_test_resdb.sv:24
+@ 405000: [OBJTN_TRC] uvm.uvm_sched.main Object uvm_test_top raised 1 objection(s): count=1  total=2
+#0 in \simple_reg_access_test_resdb::main_phase  at ../tests/simple_reg_access_test_resdb.sv:26
+@ 405000: [RSRCDB/SET] Resource 'reg_seq.regname_string' (type string) set by uvm_test_top = "r_WC_register"
+#0 in \uvm_root::run_test  at /global/apps/vcsmx_2015.09-SP2-1/etc/uvm-1.2/base/uvm_root.svh:431
+@ 405000: [OBJTN_TRC] uvm.uvm_sched.main Object uvm_test_top.env.master_agent.mast_mon all_dropped 1 objection(s): count=0  total=0
+#0 in \uvm_reg_single_all_access_seq_resdb::body  at ../src/wb_master_agent_sequence_library.sv:148
+@ 405000: [RSRCDB/RDBYNAM] Resource 'reg_seq.regname_string' (type string) read by m_reg_access_seq = "r_WC_register"

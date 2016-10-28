@@ -1,0 +1,22 @@
+Dashboard
+
+Date: Tue Oct 25 22:44:07 2016
+
+User: srivats
+
+Version: L-2016.06-SP1-1
+Command line: urg -dir simv.vdb -report cov -format text 
+
+Number of tests: 1
+
+-------------------------------------------------------------------------------
+Total Coverage Summary 
+SCORE  GROUP  
+ 32.63  32.63 
+
+
+-------------------------------------------------------------------------------
+Total Groups Coverage Summary 
+SCORE  INST SCORE WEIGHT 
+ 32.63  25.48     1      
+

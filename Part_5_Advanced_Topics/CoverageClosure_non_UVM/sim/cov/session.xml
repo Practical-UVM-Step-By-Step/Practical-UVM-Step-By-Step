@@ -1,0 +1,64 @@
+<session version="1.1" release="L-2016.06-SP1-1" timestp="2016-10-26 05:44:05 GMT">
+  <hvp>
+    <datadef>
+      <metdef name="Group" type="percent" aggregator="average" builtin="1" />
+    </datadef>
+  </hvp>
+  <old_coverage>
+  <scope type="top" name="top">
+    <metric name="Group" value="32.6339%" />
+  </scope>
+  <scope type="instance" name="top">
+  </scope>
+  <scope type="group" name="top">
+    <scope type="group" name="test::ral_reg_CH0_CSR::cg_bits">
+      <metric name="Group" value="24.4048%" />
+    </scope>
+    <scope type="group" name="test::ral_reg_CHN_CSR::cg_bits">
+      <metric name="Group" value="24.4048%" />
+    </scope>
+    <scope type="group" name="test::ral_reg_CSR::cg_bits">
+      <metric name="Group" value="25%" />
+    </scope>
+    <scope type="group" name="test::ral_reg_INT_MASKA::cg_bits">
+      <metric name="Group" value="25%" />
+    </scope>
+    <scope type="group" name="test::ral_reg_INT_MASKB::cg_bits">
+      <metric name="Group" value="25%" />
+    </scope>
+    <scope type="group" name="test::ral_reg_INT_SRCA::cg_bits">
+      <metric name="Group" value="25%" />
+    </scope>
+    <scope type="group" name="test::ral_reg_INT_SRCB::cg_bits">
+      <metric name="Group" value="25%" />
+    </scope>
+    <scope type="group" name="test::ral_reg_CHN_SZ::cg_bits">
+      <metric name="Group" value="25%" />
+    </scope>
+    <scope type="group" name="test::ral_reg_CHN_A0::cg_bits">
+      <metric name="Group" value="25%" />
+    </scope>
+    <scope type="group" name="test::ral_reg_CHN_AM0::cg_bits">
+      <metric name="Group" value="25%" />
+    </scope>
+    <scope type="group" name="test::ral_reg_CHN_A1::cg_bits">
+      <metric name="Group" value="25%" />
+    </scope>
+    <scope type="group" name="test::ral_reg_CHN_AM1::cg_bits">
+      <metric name="Group" value="25%" />
+    </scope>
+    <scope type="group" name="test::ral_reg_CHN_DESC::cg_bits">
+      <metric name="Group" value="25%" />
+    </scope>
+    <scope type="group" name="test::ral_reg_CHN_SWPTR::cg_bits">
+      <metric name="Group" value="25%" />
+    </scope>
+    <scope type="group" name="test::wb_dma_env_cov::cg_trans">
+      <metric name="Group" value="73.3333%" />
+    </scope>
+    <scope type="group" name="test::ral_block_wb_dma::cg_addr">
+      <metric name="Group" value="100%" />
+    </scope>
+  </scope>
+  </old_coverage>
+</session>

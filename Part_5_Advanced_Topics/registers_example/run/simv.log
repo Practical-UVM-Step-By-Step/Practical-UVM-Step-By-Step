@@ -1,0 +1,421 @@
+Command: ./simv -l simv.log -ucli -do dump.do +ntb_random_seed=1 +UVM_TESTNAME=simple_reg_access_test_resdb
+Chronologic VCS simulator copyright 1991-2016
+Contains Synopsys proprietary information.
+Compiler version L-2016.06; Runtime version L-2016.06;  Aug 23 10:54 2016
+UVM_INFO /global/apps/vcs_2016.06/etc/uvm-1.2/base/uvm_root.svh(402) @ 0: reporter [UVM/RELNOTES] 
+----------------------------------------------------------------
+UVM-1.2.Synopsys
+(C) 2007-2014 Mentor Graphics Corporation
+(C) 2007-2014 Cadence Design Systems, Inc.
+(C) 2006-2014 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+(C) 2013-2014 NVIDIA Corporation
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_DO_NOT_NEED_CONSTRUCTOR undefined.
+  See http://www.eda.org/svdb/view.php?id=3770 for more details.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+ucli% dump -add / -depth 0
+VCD+ Writer L-2016.06 Copyright (c) 1991-2016 by Synopsys Inc.
+1
+ucli% run
+UVM_INFO @ 0: reporter [RNTST] Running test simple_reg_access_test_resdb...
+UVM_WARNING /global/apps/vcs_2016.06/etc/uvm-1.2/reg/uvm_reg_map.svh(1458) @ 0: reporter [RegModel] map 'uvm_reg_map' does not seem to be initialized correctly, check that the top register model is locked()
+UVM_WARNING /global/apps/vcs_2016.06/etc/uvm-1.2/reg/uvm_reg_map.svh(1458) @ 0: reporter [RegModel] map 'uvm_reg_map' does not seem to be initialized correctly, check that the top register model is locked()
+UVM_WARNING /global/apps/vcs_2016.06/etc/uvm-1.2/reg/uvm_reg_map.svh(1458) @ 0: reporter [RegModel] map 'uvm_reg_map' does not seem to be initialized correctly, check that the top register model is locked()
+UVM_WARNING /global/apps/vcs_2016.06/etc/uvm-1.2/reg/uvm_reg_map.svh(1458) @ 0: reporter [RegModel] map 'uvm_reg_map' does not seem to be initialized correctly, check that the top register model is locked()
+UVM_WARNING /global/apps/vcs_2016.06/etc/uvm-1.2/reg/uvm_reg_map.svh(1458) @ 0: reporter [RegModel] map 'uvm_reg_map' does not seem to be initialized correctly, check that the top register model is locked()
+UVM_WARNING /global/apps/vcs_2016.06/etc/uvm-1.2/reg/uvm_reg_map.svh(1458) @ 0: reporter [RegModel] map 'uvm_reg_map' does not seem to be initialized correctly, check that the top register model is locked()
+UVM_WARNING /global/apps/vcs_2016.06/etc/uvm-1.2/reg/uvm_reg_map.svh(1458) @ 0: reporter [RegModel] map 'uvm_reg_map' does not seem to be initialized correctly, check that the top register model is locked()
+UVM_WARNING /global/apps/vcs_2016.06/etc/uvm-1.2/reg/uvm_reg_map.svh(1458) @ 0: reporter [RegModel] map 'uvm_reg_map' does not seem to be initialized correctly, check that the top register model is locked()
+UVM_WARNING /global/apps/vcs_2016.06/etc/uvm-1.2/reg/uvm_reg_map.svh(1458) @ 0: reporter [RegModel] map 'uvm_reg_map' does not seem to be initialized correctly, check that the top register model is locked()
+UVM_WARNING /global/apps/vcs_2016.06/etc/uvm-1.2/reg/uvm_reg_map.svh(1458) @ 0: reporter [RegModel] map 'uvm_reg_map' does not seem to be initialized correctly, check that the top register model is locked()
+UVM_WARNING /global/apps/vcs_2016.06/etc/uvm-1.2/reg/uvm_reg_map.svh(1458) @ 0: reporter [RegModel] map 'uvm_reg_map' does not seem to be initialized correctly, check that the top register model is locked()
+UVM_WARNING /global/apps/vcs_2016.06/etc/uvm-1.2/reg/uvm_reg_map.svh(1458) @ 0: reporter [RegModel] map 'uvm_reg_map' does not seem to be initialized correctly, check that the top register model is locked()
+UVM_WARNING /global/apps/vcs_2016.06/etc/uvm-1.2/reg/uvm_reg_map.svh(1458) @ 0: reporter [RegModel] map 'uvm_reg_map' does not seem to be initialized correctly, check that the top register model is locked()
+UVM_WARNING /global/apps/vcs_2016.06/etc/uvm-1.2/reg/uvm_reg_map.svh(1458) @ 0: reporter [RegModel] map 'uvm_reg_map' does not seem to be initialized correctly, check that the top register model is locked()
+UVM_WARNING /global/apps/vcs_2016.06/etc/uvm-1.2/reg/uvm_reg_map.svh(1458) @ 0: reporter [RegModel] map 'uvm_reg_map' does not seem to be initialized correctly, check that the top register model is locked()
+UVM_WARNING /global/apps/vcs_2016.06/etc/uvm-1.2/reg/uvm_reg_map.svh(1458) @ 0: reporter [RegModel] map 'uvm_reg_map' does not seem to be initialized correctly, check that the top register model is locked()
+UVM_WARNING /global/apps/vcs_2016.06/etc/uvm-1.2/reg/uvm_reg_map.svh(1458) @ 0: reporter [RegModel] map 'uvm_reg_map' does not seem to be initialized correctly, check that the top register model is locked()
+UVM_WARNING /global/apps/vcs_2016.06/etc/uvm-1.2/reg/uvm_reg_map.svh(1458) @ 0: reporter [RegModel] map 'uvm_reg_map' does not seem to be initialized correctly, check that the top register model is locked()
+UVM_WARNING /global/apps/vcs_2016.06/etc/uvm-1.2/reg/uvm_reg_map.svh(1458) @ 0: reporter [RegModel] map 'uvm_reg_map' does not seem to be initialized correctly, check that the top register model is locked()
+UVM_WARNING /global/apps/vcs_2016.06/etc/uvm-1.2/reg/uvm_reg_map.svh(1458) @ 0: reporter [RegModel] map 'uvm_reg_map' does not seem to be initialized correctly, check that the top register model is locked()
+UVM_WARNING /global/apps/vcs_2016.06/etc/uvm-1.2/reg/uvm_reg_map.svh(1458) @ 0: reporter [RegModel] map 'uvm_reg_map' does not seem to be initialized correctly, check that the top register model is locked()
+UVM_WARNING /global/apps/vcs_2016.06/etc/uvm-1.2/reg/uvm_reg_map.svh(1458) @ 0: reporter [RegModel] map 'uvm_reg_map' does not seem to be initialized correctly, check that the top register model is locked()
+UVM_WARNING /global/apps/vcs_2016.06/etc/uvm-1.2/reg/uvm_reg_map.svh(1458) @ 0: reporter [RegModel] map 'uvm_reg_map' does not seem to be initialized correctly, check that the top register model is locked()
+UVM_WARNING /global/apps/vcs_2016.06/etc/uvm-1.2/reg/uvm_reg_map.svh(1458) @ 0: reporter [RegModel] map 'uvm_reg_map' does not seem to be initialized correctly, check that the top register model is locked()
+UVM_WARNING /global/apps/vcs_2016.06/etc/uvm-1.2/reg/uvm_reg_map.svh(1458) @ 0: reporter [RegModel] map 'uvm_reg_map' does not seem to be initialized correctly, check that the top register model is locked()
+UVM_WARNING /global/apps/vcs_2016.06/etc/uvm-1.2/reg/uvm_reg_map.svh(1458) @ 0: reporter [RegModel] map 'uvm_reg_map' does not seem to be initialized correctly, check that the top register model is locked()
+UVM_WARNING /global/apps/vcs_2016.06/etc/uvm-1.2/reg/uvm_reg_map.svh(1458) @ 0: reporter [RegModel] map 'uvm_reg_map' does not seem to be initialized correctly, check that the top register model is locked()
+UVM_WARNING /global/apps/vcs_2016.06/etc/uvm-1.2/reg/uvm_reg_map.svh(1458) @ 0: reporter [RegModel] map 'uvm_reg_map' does not seem to be initialized correctly, check that the top register model is locked()
+UVM_WARNING /global/apps/vcs_2016.06/etc/uvm-1.2/reg/uvm_reg_map.svh(1458) @ 0: reporter [RegModel] map 'uvm_reg_map' does not seem to be initialized correctly, check that the top register model is locked()
+UVM_WARNING /global/apps/vcs_2016.06/etc/uvm-1.2/reg/uvm_reg_map.svh(1458) @ 0: reporter [RegModel] map 'uvm_reg_map' does not seem to be initialized correctly, check that the top register model is locked()
+UVM_WARNING /global/apps/vcs_2016.06/etc/uvm-1.2/reg/uvm_reg_map.svh(1458) @ 0: reporter [RegModel] map 'uvm_reg_map' does not seem to be initialized correctly, check that the top register model is locked()
+UVM_WARNING /global/apps/vcs_2016.06/etc/uvm-1.2/reg/uvm_reg_map.svh(1458) @ 0: reporter [RegModel] map 'uvm_reg_map' does not seem to be initialized correctly, check that the top register model is locked()
+UVM_WARNING /global/apps/vcs_2016.06/etc/uvm-1.2/reg/uvm_reg_map.svh(1458) @ 0: reporter [RegModel] map 'uvm_reg_map' does not seem to be initialized correctly, check that the top register model is locked()
+UVM_WARNING /global/apps/vcs_2016.06/etc/uvm-1.2/reg/uvm_reg_map.svh(1458) @ 0: reporter [RegModel] map 'uvm_reg_map' does not seem to be initialized correctly, check that the top register model is locked()
+UVM_WARNING /global/apps/vcs_2016.06/etc/uvm-1.2/reg/uvm_reg_map.svh(1458) @ 0: reporter [RegModel] map 'uvm_reg_map' does not seem to be initialized correctly, check that the top register model is locked()
+UVM_WARNING /global/apps/vcs_2016.06/etc/uvm-1.2/reg/uvm_reg_map.svh(1458) @ 0: reporter [RegModel] map 'uvm_reg_map' does not seem to be initialized correctly, check that the top register model is locked()
+UVM_WARNING /global/apps/vcs_2016.06/etc/uvm-1.2/reg/uvm_reg_map.svh(1458) @ 0: reporter [RegModel] map 'uvm_reg_map' does not seem to be initialized correctly, check that the top register model is locked()
+UVM_WARNING /global/apps/vcs_2016.06/etc/uvm-1.2/reg/uvm_reg_map.svh(1458) @ 0: reporter [RegModel] map 'uvm_reg_map' does not seem to be initialized correctly, check that the top register model is locked()
+UVM_WARNING /global/apps/vcs_2016.06/etc/uvm-1.2/reg/uvm_reg_map.svh(1458) @ 0: reporter [RegModel] map 'uvm_reg_map' does not seem to be initialized correctly, check that the top register model is locked()
+UVM_WARNING /global/apps/vcs_2016.06/etc/uvm-1.2/reg/uvm_reg_map.svh(1458) @ 0: reporter [RegModel] map 'uvm_reg_map' does not seem to be initialized correctly, check that the top register model is locked()
+UVM_WARNING /global/apps/vcs_2016.06/etc/uvm-1.2/reg/uvm_reg_map.svh(1458) @ 0: reporter [RegModel] map 'uvm_reg_map' does not seem to be initialized correctly, check that the top register model is locked()
+UVM_WARNING /global/apps/vcs_2016.06/etc/uvm-1.2/reg/uvm_reg_map.svh(1458) @ 0: reporter [RegModel] map 'uvm_reg_map' does not seem to be initialized correctly, check that the top register model is locked()
+UVM_WARNING /global/apps/vcs_2016.06/etc/uvm-1.2/reg/uvm_reg_map.svh(1458) @ 0: reporter [RegModel] map 'uvm_reg_map' does not seem to be initialized correctly, check that the top register model is locked()
+UVM_WARNING /global/apps/vcs_2016.06/etc/uvm-1.2/reg/uvm_reg_map.svh(1458) @ 0: reporter [RegModel] map 'uvm_reg_map' does not seem to be initialized correctly, check that the top register model is locked()
+UVM_WARNING /global/apps/vcs_2016.06/etc/uvm-1.2/reg/uvm_reg_map.svh(1458) @ 0: reporter [RegModel] map 'uvm_reg_map' does not seem to be initialized correctly, check that the top register model is locked()
+UVM_WARNING /global/apps/vcs_2016.06/etc/uvm-1.2/reg/uvm_reg_map.svh(1458) @ 0: reporter [RegModel] map 'uvm_reg_map' does not seem to be initialized correctly, check that the top register model is locked()
+UVM_WARNING /global/apps/vcs_2016.06/etc/uvm-1.2/reg/uvm_reg_map.svh(1458) @ 0: reporter [RegModel] map 'uvm_reg_map' does not seem to be initialized correctly, check that the top register model is locked()
+UVM_WARNING /global/apps/vcs_2016.06/etc/uvm-1.2/reg/uvm_reg_map.svh(1458) @ 0: reporter [RegModel] map 'uvm_reg_map' does not seem to be initialized correctly, check that the top register model is locked()
+UVM_WARNING /global/apps/vcs_2016.06/etc/uvm-1.2/reg/uvm_reg_map.svh(1458) @ 0: reporter [RegModel] map 'uvm_reg_map' does not seem to be initialized correctly, check that the top register model is locked()
+UVM_WARNING /global/apps/vcs_2016.06/etc/uvm-1.2/reg/uvm_reg_map.svh(1458) @ 0: reporter [RegModel] map 'uvm_reg_map' does not seem to be initialized correctly, check that the top register model is locked()
+UVM_WARNING /global/apps/vcs_2016.06/etc/uvm-1.2/reg/uvm_reg_map.svh(1458) @ 0: reporter [RegModel] map 'uvm_reg_map' does not seem to be initialized correctly, check that the top register model is locked()
+UVM_WARNING /global/apps/vcs_2016.06/etc/uvm-1.2/reg/uvm_reg_map.svh(1458) @ 0: reporter [RegModel] map 'uvm_reg_map' does not seem to be initialized correctly, check that the top register model is locked()
+UVM_WARNING /global/apps/vcs_2016.06/etc/uvm-1.2/reg/uvm_reg_map.svh(1458) @ 0: reporter [RegModel] map 'uvm_reg_map' does not seem to be initialized correctly, check that the top register model is locked()
+UVM_WARNING /global/apps/vcs_2016.06/etc/uvm-1.2/reg/uvm_reg_map.svh(1458) @ 0: reporter [RegModel] map 'uvm_reg_map' does not seem to be initialized correctly, check that the top register model is locked()
+UVM_WARNING /global/apps/vcs_2016.06/etc/uvm-1.2/reg/uvm_reg_map.svh(1458) @ 0: reporter [RegModel] map 'uvm_reg_map' does not seem to be initialized correctly, check that the top register model is locked()
+UVM_WARNING /global/apps/vcs_2016.06/etc/uvm-1.2/reg/uvm_reg_map.svh(1458) @ 0: reporter [RegModel] map 'uvm_reg_map' does not seem to be initialized correctly, check that the top register model is locked()
+UVM_WARNING /global/apps/vcs_2016.06/etc/uvm-1.2/reg/uvm_reg_map.svh(1458) @ 0: reporter [RegModel] map 'uvm_reg_map' does not seem to be initialized correctly, check that the top register model is locked()
+UVM_WARNING /global/apps/vcs_2016.06/etc/uvm-1.2/reg/uvm_reg_map.svh(1458) @ 0: reporter [RegModel] map 'uvm_reg_map' does not seem to be initialized correctly, check that the top register model is locked()
+UVM_WARNING /global/apps/vcs_2016.06/etc/uvm-1.2/reg/uvm_reg_map.svh(1458) @ 0: reporter [RegModel] map 'uvm_reg_map' does not seem to be initialized correctly, check that the top register model is locked()
+UVM_WARNING /global/apps/vcs_2016.06/etc/uvm-1.2/reg/uvm_reg_map.svh(1458) @ 0: reporter [RegModel] map 'uvm_reg_map' does not seem to be initialized correctly, check that the top register model is locked()
+UVM_WARNING /global/apps/vcs_2016.06/etc/uvm-1.2/reg/uvm_reg_map.svh(1458) @ 0: reporter [RegModel] map 'uvm_reg_map' does not seem to be initialized correctly, check that the top register model is locked()
+UVM_WARNING /global/apps/vcs_2016.06/etc/uvm-1.2/reg/uvm_reg_map.svh(1458) @ 0: reporter [RegModel] map 'uvm_reg_map' does not seem to be initialized correctly, check that the top register model is locked()
+-----------------------------------------------------------------------------------------------------------
+Name                  Type                                     Size  Value                                 
+-----------------------------------------------------------------------------------------------------------
+regmodel              ral_block_simple_ral_env                 -     @407                                  
+  CHIP_ID             ral_reg_simple_ral_env_CHIP_ID           -     @411                                  
+    REVISION_ID       uvm_reg_field                            ...    RO CHIP_ID[37:0]=38'h0000000000      
+    CHIP_ID           uvm_reg_field                            ...    RO CHIP_ID[45:38]=8'h00              
+    PRODUCT_ID        uvm_reg_field                            ...    RO CHIP_ID[55:46]=10'h000            
+  r_RO_register       ral_reg_simple_ral_env_r_RO_register     -     @418                                  
+    r_RO_field        uvm_reg_field                            ...    RO r_RO_register[14:0]=15'h0000      
+  r_RW_register       ral_reg_simple_ral_env_r_RW_register     -     @423                                  
+    r_RW_field        uvm_reg_field                            ...    RW r_RW_register[14:0]=15'h0000      
+  r_RC_register       ral_reg_simple_ral_env_r_RC_register     -     @428                                  
+    r_RC_field        uvm_reg_field                            ...    RC r_RC_register[14:0]=15'h0000      
+  r_RS_register       ral_reg_simple_ral_env_r_RS_register     -     @433                                  
+    r_RS_field        uvm_reg_field                            ...    RS r_RS_register[14:0]=15'h0000      
+  r_WRC_register      ral_reg_simple_ral_env_r_WRC_register    -     @438                                  
+    r_WRC_field       uvm_reg_field                            ...    WRC r_WRC_register[14:0]=15'h0000    
+  r_WRS_register      ral_reg_simple_ral_env_r_WRS_register    -     @443                                  
+    r_WRS_field       uvm_reg_field                            ...    WRS r_WRS_register[14:0]=15'h0000    
+  r_WC_register       ral_reg_simple_ral_env_r_WC_register     -     @448                                  
+    r_WC_field        uvm_reg_field                            ...    WC r_WC_register[14:0]=15'h0000      
+  r_WS_register       ral_reg_simple_ral_env_r_WS_register     -     @453                                  
+    r_WS_field        uvm_reg_field                            ...    WS r_WS_register[14:0]=15'h0000      
+  r_WSRC_register     ral_reg_simple_ral_env_r_WSRC_register   -     @458                                  
+    r_WSRC_field      uvm_reg_field                            ...    WSRC r_WSRC_register[14:0]=15'h0000  
+  r_WCRS_register     ral_reg_simple_ral_env_r_WCRS_register   -     @463                                  
+    r_WCRS_field      uvm_reg_field                            ...    WCRS r_WCRS_register[14:0]=15'h0000  
+  r_W1C_register      ral_reg_simple_ral_env_r_W1C_register    -     @468                                  
+    r_W1C_field       uvm_reg_field                            ...    W1C r_W1C_register[14:0]=15'h0000    
+  r_W1S_register      ral_reg_simple_ral_env_r_W1S_register    -     @473                                  
+    r_W1S_field       uvm_reg_field                            ...    W1S r_W1S_register[14:0]=15'h0000    
+  r_W1T_register      ral_reg_simple_ral_env_r_W1T_register    -     @478                                  
+    r_W1T_field       uvm_reg_field                            ...    W1T r_W1T_register[14:0]=15'h0000    
+  r_W0C_register      ral_reg_simple_ral_env_r_W0C_register    -     @483                                  
+    r_W0C_field       uvm_reg_field                            ...    W0C r_W0C_register[14:0]=15'h0000    
+  r_W0S_register      ral_reg_simple_ral_env_r_W0S_register    -     @488                                  
+    r_W0S_field       uvm_reg_field                            ...    W0S r_W0S_register[14:0]=15'h0000    
+  r_W0T_register      ral_reg_simple_ral_env_r_W0T_register    -     @493                                  
+    r_W0T_field       uvm_reg_field                            ...    W0T r_W0T_register[14:0]=15'h0000    
+  r_W1SRC_register    ral_reg_simple_ral_env_r_W1SRC_register  -     @498                                  
+    r_W1SRC_field     uvm_reg_field                            ...    W1SRC r_W1SRC_register[14:0]=15'h0000
+  r_W1CRS_register    ral_reg_simple_ral_env_r_W1CRS_register  -     @503                                  
+    r_W1CRS_field     uvm_reg_field                            ...    W1CRS r_W1CRS_register[14:0]=15'h0000
+  r_W0SRC_register    ral_reg_simple_ral_env_r_W0SRC_register  -     @508                                  
+    r_W0SRC_field     uvm_reg_field                            ...    W0SRC r_W0SRC_register[14:0]=15'h0000
+  r_W0CRS_register    ral_reg_simple_ral_env_r_W0CRS_register  -     @513                                  
+    r_W0CRS_field     uvm_reg_field                            ...    W0CRS r_W0CRS_register[14:0]=15'h0000
+  r_WO_register       ral_reg_simple_ral_env_r_WO_register     -     @518                                  
+    r_WO_field        uvm_reg_field                            ...    WO r_WO_register[14:0]=15'h0000      
+  r_WOC_register      ral_reg_simple_ral_env_r_WOC_register    -     @523                                  
+    r_WOC_field       uvm_reg_field                            ...    W0C r_WOC_register[14:0]=15'h0000    
+  r_WOS_register      ral_reg_simple_ral_env_r_WOS_register    -     @528                                  
+    r_WOS_field       uvm_reg_field                            ...    W0S r_WOS_register[14:0]=15'h0000    
+  r_W1_register       ral_reg_simple_ral_env_r_W1_register     -     @533                                  
+    r_W1_field        uvm_reg_field                            ...    W1 r_W1_register[14:0]=15'h0000      
+  r_WO1_register      ral_reg_simple_ral_env_r_WO1_register    -     @538                                  
+    r_WO1_field       uvm_reg_field                            ...    WO1 r_WO1_register[14:0]=15'h0000    
+  r_aliased_1         ral_reg_simple_ral_env_r_aliased_1       -     @543                                  
+    r_aliased_1       uvm_reg_field                            ...    RW r_aliased_1[14:0]=15'h0000        
+  r_aliased_2         ral_reg_simple_ral_env_r_aliased_2       -     @547                                  
+    r_aliased_2       uvm_reg_field                            ...    RO r_aliased_2[14:0]=15'h0000        
+  master_index        ral_reg_simple_ral_env_master_index      -     @551                                  
+    master_index      uvm_reg_field                            ...    RW master_index[14:0]=15'h0000       
+  master_data         ral_reg_simple_ral_env_master_data       -     @555                                  
+    field_data        uvm_reg_field                            ...    RW master_data[31:0]=32'h00000000    
+  uvm_reg_map         uvm_reg_map                              -     @409                                  
+    endian                                                     ...   UVM_LITTLE_ENDIAN                     
+    CHIP_ID           ral_reg_simple_ral_env_CHIP_ID           ...   @411 +'h0                             
+    r_RO_register     ral_reg_simple_ral_env_r_RO_register     ...   @418 +'h0                             
+    r_RW_register     ral_reg_simple_ral_env_r_RW_register     ...   @423 +'h0                             
+    r_RC_register     ral_reg_simple_ral_env_r_RC_register     ...   @428 +'h0                             
+    r_RS_register     ral_reg_simple_ral_env_r_RS_register     ...   @433 +'h0                             
+    r_WRC_register    ral_reg_simple_ral_env_r_WRC_register    ...   @438 +'h0                             
+    r_WRS_register    ral_reg_simple_ral_env_r_WRS_register    ...   @443 +'h0                             
+    r_WC_register     ral_reg_simple_ral_env_r_WC_register     ...   @448 +'h0                             
+    r_WS_register     ral_reg_simple_ral_env_r_WS_register     ...   @453 +'h0                             
+    r_WSRC_register   ral_reg_simple_ral_env_r_WSRC_register   ...   @458 +'h0                             
+    r_WCRS_register   ral_reg_simple_ral_env_r_WCRS_register   ...   @463 +'h0                             
+    r_W1C_register    ral_reg_simple_ral_env_r_W1C_register    ...   @468 +'h0                             
+    r_W1S_register    ral_reg_simple_ral_env_r_W1S_register    ...   @473 +'h0                             
+    r_W1T_register    ral_reg_simple_ral_env_r_W1T_register    ...   @478 +'h0                             
+    r_W0C_register    ral_reg_simple_ral_env_r_W0C_register    ...   @483 +'h0                             
+    r_W0S_register    ral_reg_simple_ral_env_r_W0S_register    ...   @488 +'h0                             
+    r_W0T_register    ral_reg_simple_ral_env_r_W0T_register    ...   @493 +'h0                             
+    r_W1SRC_register  ral_reg_simple_ral_env_r_W1SRC_register  ...   @498 +'h0                             
+    r_W1CRS_register  ral_reg_simple_ral_env_r_W1CRS_register  ...   @503 +'h0                             
+    r_W0SRC_register  ral_reg_simple_ral_env_r_W0SRC_register  ...   @508 +'h0                             
+    r_W0CRS_register  ral_reg_simple_ral_env_r_W0CRS_register  ...   @513 +'h0                             
+    r_WO_register     ral_reg_simple_ral_env_r_WO_register     ...   @518 +'h0                             
+    r_WOC_register    ral_reg_simple_ral_env_r_WOC_register    ...   @523 +'h0                             
+    r_WOS_register    ral_reg_simple_ral_env_r_WOS_register    ...   @528 +'h0                             
+    r_W1_register     ral_reg_simple_ral_env_r_W1_register     ...   @533 +'h0                             
+    r_WO1_register    ral_reg_simple_ral_env_r_WO1_register    ...   @538 +'h0                             
+    r_aliased_1       ral_reg_simple_ral_env_r_aliased_1       ...   @543 +'h0                             
+    r_aliased_2       ral_reg_simple_ral_env_r_aliased_2       ...   @547 +'h0                             
+    master_index      ral_reg_simple_ral_env_master_index      ...   @551 +'h0                             
+    master_data       ral_reg_simple_ral_env_master_data       ...   @555 +'h0                             
+-----------------------------------------------------------------------------------------------------------
+UVM_INFO /global/apps/vcs_2016.06/etc/uvm-1.2/base/uvm_root.svh(589) @ 0: reporter [UVMTOP] UVM testbench topology:
+--------------------------------------------------------------------------------
+Name                        Type                                 Size  Value    
+--------------------------------------------------------------------------------
+uvm_test_top                simple_reg_access_test_resdb         -     @369     
+  env                       simple_ral_env                       -     @382     
+    master_agent            wb_master_agent                      -     @396     
+      mast_drv              wb_master                            -     @904     
+        rsp_port            uvm_analysis_port                    -     @923     
+        seq_item_port       uvm_seq_item_pull_port               -     @913     
+      mast_mon              wb_master_mon                        -     @748     
+        mon_analysis_port   uvm_analysis_port                    -     @757     
+      mast_sqr              wb_ral_sequencer                     -     @767     
+        rsp_export          uvm_analysis_export                  -     @776     
+        seq_item_export     uvm_seq_item_pull_imp                -     @894     
+        my_seq_lenght       integral                             32    'h0      
+        arbitration_queue   array                                0     -        
+        lock_queue          array                                0     -        
+        num_last_reqs       integral                             32    'd1      
+        num_last_rsps       integral                             32    'd1      
+      mast_sqr              wb_ral_sequencer                     -     @767     
+        rsp_export          uvm_analysis_export                  -     @776     
+        seq_item_export     uvm_seq_item_pull_imp                -     @894     
+        my_seq_lenght       integral                             32    'h0      
+        arbitration_queue   array                                0     -        
+        lock_queue          array                                0     -        
+        num_last_reqs       integral                             32    'd1      
+        num_last_rsps       integral                             32    'd1      
+      mast_drv              wb_master                            -     @904     
+        rsp_port            uvm_analysis_port                    -     @923     
+        seq_item_port       uvm_seq_item_pull_port               -     @913     
+      mast_mon              wb_master_mon                        -     @748     
+        mon_analysis_port   uvm_analysis_port                    -     @757     
+      mstr_agent_cfg        wb_config                            -     @391     
+        port_size           sizes_e                              32    DWORD    
+        granularity         sizes_e                              32    BYTE     
+        cycles              cycle_types_e                        32    CLASSIC  
+        max_n_wss           integral                             32    'h2      
+        min_addr            integral                             32    'h0      
+        max_addr            integral                             32    'hffffffe
+    wishbone_reg_predictor  uvm_reg_predictor #(wb_transaction)  -     @711     
+      bus_in                uvm_analysis_imp                     -     @725     
+      reg_ap                uvm_analysis_port                    -     @735     
+--------------------------------------------------------------------------------
+
+UVM_INFO ../src/wb_master.sv(92) @ 405000: uvm_test_top.env.master_agent.mast_drv [uvm_test_top.env.master_agent.mast_drv] dropping reset objection
+--------------------------------------------------------------------------------------------------------------
+Name                     Type                                     Size  Value                                 
+--------------------------------------------------------------------------------------------------------------
+regmodel                 ral_block_simple_ral_env                 -     @407                                  
+  CHIP_ID                ral_reg_simple_ral_env_CHIP_ID           -     @411                                  
+    REVISION_ID          uvm_reg_field                            ...    RO CHIP_ID[37:0]=38'h0000000000      
+    CHIP_ID              uvm_reg_field                            ...    RO CHIP_ID[45:38]=8'h00              
+    PRODUCT_ID           uvm_reg_field                            ...    RO CHIP_ID[55:46]=10'h000            
+  r_RO_register          ral_reg_simple_ral_env_r_RO_register     -     @418                                  
+    r_RO_field           uvm_reg_field                            ...    RO r_RO_register[14:0]=15'h0000      
+  r_RW_register          ral_reg_simple_ral_env_r_RW_register     -     @423                                  
+    r_RW_field           uvm_reg_field                            ...    RW r_RW_register[14:0]=15'h0000      
+  r_RC_register          ral_reg_simple_ral_env_r_RC_register     -     @428                                  
+    r_RC_field           uvm_reg_field                            ...    RC r_RC_register[14:0]=15'h0000      
+  r_RS_register          ral_reg_simple_ral_env_r_RS_register     -     @433                                  
+    r_RS_field           uvm_reg_field                            ...    RS r_RS_register[14:0]=15'h0000      
+  r_WRC_register         ral_reg_simple_ral_env_r_WRC_register    -     @438                                  
+    r_WRC_field          uvm_reg_field                            ...    WRC r_WRC_register[14:0]=15'h0000    
+  r_WRS_register         ral_reg_simple_ral_env_r_WRS_register    -     @443                                  
+    r_WRS_field          uvm_reg_field                            ...    WRS r_WRS_register[14:0]=15'h0000    
+  r_WC_register          ral_reg_simple_ral_env_r_WC_register     -     @448                                  
+    r_WC_field           uvm_reg_field                            ...    WC r_WC_register[14:0]=15'h0000      
+  r_WS_register          ral_reg_simple_ral_env_r_WS_register     -     @453                                  
+    r_WS_field           uvm_reg_field                            ...    WS r_WS_register[14:0]=15'h0000      
+  r_WSRC_register        ral_reg_simple_ral_env_r_WSRC_register   -     @458                                  
+    r_WSRC_field         uvm_reg_field                            ...    WSRC r_WSRC_register[14:0]=15'h0000  
+  r_WCRS_register        ral_reg_simple_ral_env_r_WCRS_register   -     @463                                  
+    r_WCRS_field         uvm_reg_field                            ...    WCRS r_WCRS_register[14:0]=15'h0000  
+  r_W1C_register         ral_reg_simple_ral_env_r_W1C_register    -     @468                                  
+    r_W1C_field          uvm_reg_field                            ...    W1C r_W1C_register[14:0]=15'h0000    
+  r_W1S_register         ral_reg_simple_ral_env_r_W1S_register    -     @473                                  
+    r_W1S_field          uvm_reg_field                            ...    W1S r_W1S_register[14:0]=15'h0000    
+  r_W1T_register         ral_reg_simple_ral_env_r_W1T_register    -     @478                                  
+    r_W1T_field          uvm_reg_field                            ...    W1T r_W1T_register[14:0]=15'h0000    
+  r_W0C_register         ral_reg_simple_ral_env_r_W0C_register    -     @483                                  
+    r_W0C_field          uvm_reg_field                            ...    W0C r_W0C_register[14:0]=15'h0000    
+  r_W0S_register         ral_reg_simple_ral_env_r_W0S_register    -     @488                                  
+    r_W0S_field          uvm_reg_field                            ...    W0S r_W0S_register[14:0]=15'h0000    
+  r_W0T_register         ral_reg_simple_ral_env_r_W0T_register    -     @493                                  
+    r_W0T_field          uvm_reg_field                            ...    W0T r_W0T_register[14:0]=15'h0000    
+  r_W1SRC_register       ral_reg_simple_ral_env_r_W1SRC_register  -     @498                                  
+    r_W1SRC_field        uvm_reg_field                            ...    W1SRC r_W1SRC_register[14:0]=15'h0000
+  r_W1CRS_register       ral_reg_simple_ral_env_r_W1CRS_register  -     @503                                  
+    r_W1CRS_field        uvm_reg_field                            ...    W1CRS r_W1CRS_register[14:0]=15'h0000
+  r_W0SRC_register       ral_reg_simple_ral_env_r_W0SRC_register  -     @508                                  
+    r_W0SRC_field        uvm_reg_field                            ...    W0SRC r_W0SRC_register[14:0]=15'h0000
+  r_W0CRS_register       ral_reg_simple_ral_env_r_W0CRS_register  -     @513                                  
+    r_W0CRS_field        uvm_reg_field                            ...    W0CRS r_W0CRS_register[14:0]=15'h0000
+  r_WO_register          ral_reg_simple_ral_env_r_WO_register     -     @518                                  
+    r_WO_field           uvm_reg_field                            ...    WO r_WO_register[14:0]=15'h0000      
+  r_WOC_register         ral_reg_simple_ral_env_r_WOC_register    -     @523                                  
+    r_WOC_field          uvm_reg_field                            ...    W0C r_WOC_register[14:0]=15'h0000    
+  r_WOS_register         ral_reg_simple_ral_env_r_WOS_register    -     @528                                  
+    r_WOS_field          uvm_reg_field                            ...    W0S r_WOS_register[14:0]=15'h0000    
+  r_W1_register          ral_reg_simple_ral_env_r_W1_register     -     @533                                  
+    r_W1_field           uvm_reg_field                            ...    W1 r_W1_register[14:0]=15'h0000      
+  r_WO1_register         ral_reg_simple_ral_env_r_WO1_register    -     @538                                  
+    r_WO1_field          uvm_reg_field                            ...    WO1 r_WO1_register[14:0]=15'h0000    
+  r_aliased_1            ral_reg_simple_ral_env_r_aliased_1       -     @543                                  
+    r_aliased_1          uvm_reg_field                            ...    RW r_aliased_1[14:0]=15'h0000        
+  r_aliased_2            ral_reg_simple_ral_env_r_aliased_2       -     @547                                  
+    r_aliased_2          uvm_reg_field                            ...    RO r_aliased_2[14:0]=15'h0000        
+  master_index           ral_reg_simple_ral_env_master_index      -     @551                                  
+    master_index         uvm_reg_field                            ...    RW master_index[14:0]=15'h0000       
+  master_data            ral_reg_simple_ral_env_master_data       -     @555                                  
+    field_data           uvm_reg_field                            ...    RW master_data[31:0]=32'h00000000    
+  uvm_reg_map            uvm_reg_map                              -     @409                                  
+    endian                                                        ...   UVM_LITTLE_ENDIAN                     
+    effective sequencer  wb_ral_sequencer                         ...   uvm_test_top.env.master_agent.mast_sqr
+    CHIP_ID              ral_reg_simple_ral_env_CHIP_ID           ...   @411 +'h0                             
+    r_RO_register        ral_reg_simple_ral_env_r_RO_register     ...   @418 +'hc                             
+    r_RW_register        ral_reg_simple_ral_env_r_RW_register     ...   @423 +'h10                            
+    r_RC_register        ral_reg_simple_ral_env_r_RC_register     ...   @428 +'h14                            
+    r_RS_register        ral_reg_simple_ral_env_r_RS_register     ...   @433 +'h18                            
+    r_WRC_register       ral_reg_simple_ral_env_r_WRC_register    ...   @438 +'h1c                            
+    r_WRS_register       ral_reg_simple_ral_env_r_WRS_register    ...   @443 +'h20                            
+    r_WC_register        ral_reg_simple_ral_env_r_WC_register     ...   @448 +'h24                            
+    r_WS_register        ral_reg_simple_ral_env_r_WS_register     ...   @453 +'h28                            
+    r_WSRC_register      ral_reg_simple_ral_env_r_WSRC_register   ...   @458 +'h2c                            
+    r_WCRS_register      ral_reg_simple_ral_env_r_WCRS_register   ...   @463 +'h30                            
+    r_W1C_register       ral_reg_simple_ral_env_r_W1C_register    ...   @468 +'h34                            
+    r_W1S_register       ral_reg_simple_ral_env_r_W1S_register    ...   @473 +'h38                            
+    r_W1T_register       ral_reg_simple_ral_env_r_W1T_register    ...   @478 +'h3c                            
+    r_W0C_register       ral_reg_simple_ral_env_r_W0C_register    ...   @483 +'h40                            
+    r_W0S_register       ral_reg_simple_ral_env_r_W0S_register    ...   @488 +'h44                            
+    r_W0T_register       ral_reg_simple_ral_env_r_W0T_register    ...   @493 +'h48                            
+    r_W1SRC_register     ral_reg_simple_ral_env_r_W1SRC_register  ...   @498 +'h4c                            
+    r_W1CRS_register     ral_reg_simple_ral_env_r_W1CRS_register  ...   @503 +'h50                            
+    r_W0SRC_register     ral_reg_simple_ral_env_r_W0SRC_register  ...   @508 +'h54                            
+    r_W0CRS_register     ral_reg_simple_ral_env_r_W0CRS_register  ...   @513 +'h58                            
+    r_WO_register        ral_reg_simple_ral_env_r_WO_register     ...   @518 +'h5c                            
+    r_WOC_register       ral_reg_simple_ral_env_r_WOC_register    ...   @523 +'h60                            
+    r_WOS_register       ral_reg_simple_ral_env_r_WOS_register    ...   @528 +'h64                            
+    r_W1_register        ral_reg_simple_ral_env_r_W1_register     ...   @533 +'h68                            
+    r_WO1_register       ral_reg_simple_ral_env_r_WO1_register    ...   @538 +'h6c                            
+    r_aliased_1          ral_reg_simple_ral_env_r_aliased_1       ...   @543 +'h70                            
+    r_aliased_2          ral_reg_simple_ral_env_r_aliased_2       ...   @547 +'h74                            
+    master_index         ral_reg_simple_ral_env_master_index      ...   @551 +'h78                            
+    master_data          ral_reg_simple_ral_env_master_data       ...   @555 +'h7c                            
+--------------------------------------------------------------------------------------------------------------
+This path is simple_ral_env_top.dut           0
+name of path m_reg_access_seq : r_WC_register
+UVM_INFO ../src/wb_master_agent_sequence_library.sv(162) @ 405000: reporter@@m_reg_access_seq [m_reg_access_seq] BEFORE Read Value : 00000000
+Write Value deadbeef 
+Set Value: beefdead
+ MirrorValue:00000000
+ GetValue : 00000000
+                   0          2863315899
+UVM_INFO ../src/wb_master_agent_sequence_library.sv(165) @ 405000: reporter@@m_reg_access_seq [uvm_reg_single_all_access_seq] Status was UVM_IS_OK when performing peek() from regmodel.r_WC_register peek_value = 0000000000000024
+UVM_INFO ../src/wb_master_agent_sequence_library.sv(168) @ 405000: reporter@@m_reg_access_seq [uvm_reg_single_all_access_seq] Status was UVM_IS_OK when performing poke() from regmodel.r_WC_register poke_value = 00000000aaaabbbb
+UVM_INFO ../src/wb_master_agent_sequence_library.sv(172) @ 405000: reporter@@m_reg_access_seq [uvm_reg_single_all_access_seq] Status was UVM_IS_OK when performing peek() from regmodel.r_WC_register peek_value = 000000000000bbbb
+UVM_INFO ../src/wb_master.sv(126) @ 405000: uvm_test_top.env.master_agent.mast_drv [wb_env_DRIVER] Starting transaction...
+UVM_INFO ../src/wb_master.sv(163) @ 415000: uvm_test_top.env.master_agent.mast_drv [Wb master] Got a read transaction
+------------------------------------------------
+Name               Type            Size  Value  
+------------------------------------------------
+tr                 wb_transaction  -     @1019  
+  address          integral        32    'h24   
+  data             integral        32    'h0    
+  sel              integral        4     'hf    
+  tga              integral        16    'h0    
+  tgc              integral        16    'h0    
+  lock             integral        1     'h0    
+  num_wait_states  integral        32    'h0    
+  kind             kinds_e         32    READ   
+  status           status_e        32    ACK    
+  next_cycle       pipelining_e    32    CLASSIC
+------------------------------------------------
+UVM_INFO ../src/wb_master.sv(200) @ 455000: uvm_test_top.env.master_agent.mast_drv [Wb master] Done read transaction
+UVM_INFO ../src/wb_master_agent_sequence_library.sv(175) @ 455000: reporter@@m_reg_access_seq [uvm_reg_single_all_access_seq] Status was UVM_IS_OK when performing read() from regmodel.r_WC_register read_value = 000000000000bbbb
+UVM_INFO ../src/wb_master_agent_sequence_library.sv(179) @ 455000: reporter@@m_reg_access_seq [uvm_reg_single_all_access_seq] Status was UVM_IS_OK when performing peek() from regmodel.r_WC_register peek_value = 000000000000bbbb
+UVM_INFO ../src/wb_master_agent_sequence_library.sv(183) @ 455000: reporter@@m_reg_access_seq [uvm_reg_single_all_access_seq] Status was UVM_IS_OK when performing FRONTDOOR write() from regmodel.r_WC_register write_value = 00000000deadbeef
+UVM_INFO ../src/wb_master_agent_sequence_library.sv(187) @ 455000: reporter@@m_reg_access_seq [uvm_reg_single_all_access_seq] Status was UVM_IS_OK when performing peek() from regmodel.r_WC_register peek_value = 0000000000000000
+UVM_INFO ../src/wb_master_agent_sequence_library.sv(190) @ 455000: reporter@@m_reg_access_seq [uvm_reg_single_all_access_seq] Status was UVM_IS_OK when performing poke() from regmodel.r_WC_register poke_value = 00000000aaaabbbb
+UVM_INFO ../src/wb_master_agent_sequence_library.sv(192) @ 455000: reporter@@m_reg_access_seq [m_reg_access_seq] BEFORE Read Value : 0000bbbb
+Write Value deadbeef 
+Set Value: beefdead
+ MirrorValue:00003bbb
+ GetValue : 00000000
+                   0          2863315899
+UVM_INFO ../src/wb_master_agent_sequence_library.sv(195) @ 455000: reporter@@m_reg_access_seq [uvm_reg_single_all_access_seq] Status was UVM_IS_OK when performing BACKDOOR read() from regmodel.r_WC_register read_value = 000000000000bbbb
+UVM_INFO ../src/wb_master_agent_sequence_library.sv(198) @ 455000: reporter@@m_reg_access_seq [uvm_reg_single_all_access_seq] Status was UVM_IS_OK when performing BACKDOOR WRITE() from regmodel.r_WC_register write_value = 00000000deadbeef
+UVM_INFO ../src/wb_master_agent_sequence_library.sv(201) @ 455000: reporter@@m_reg_access_seq [uvm_reg_single_all_access_seq] Status was UVM_IS_OK when performing BACKDOOR READ() from regmodel.r_WC_register write_value = 0000000000000000
+UVM_INFO ../src/wb_master_agent_sequence_library.sv(204) @ 455000: reporter@@m_reg_access_seq [uvm_reg_single_all_access_seq] Status was UVM_IS_OK when performing peek() from regmodel.r_WC_register peek_value = 0000000000000000
+UVM_INFO ../src/wb_master_agent_sequence_library.sv(206) @ 455000: reporter@@m_reg_access_seq [m_reg_access_seq] AFTER Read Value : 00000000
+Write Value deadbeef 
+Set Value: beefdead
+ MirrorValue:00003bbb
+ GetValue : 00000000
+                   0          2863315899
+UVM_INFO /global/apps/vcs_2016.06/etc/uvm-1.2/base/uvm_report_catcher.svh(705) @ 2455000: reporter [UVM/REPORT/CATCHER] 
+--- UVM Report catcher Summary ---
+
+
+Number of demoted UVM_FATAL reports  :    0
+Number of demoted UVM_ERROR reports  :    0
+Number of demoted UVM_WARNING reports:    0
+Number of caught UVM_FATAL reports   :    0
+Number of caught UVM_ERROR reports   :    0
+Number of caught UVM_WARNING reports :    0
+
+UVM_INFO /global/apps/vcs_2016.06/etc/uvm-1.2/base/uvm_report_server.svh(894) @ 2455000: reporter [UVM/REPORT/SERVER] 
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :   23
+UVM_WARNING :   62
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[RNTST]     1
+[RegModel]    62
+[UVM/RELNOTES]     1
+[UVM/REPORT/CATCHER]     1
+[UVMTOP]     1
+[Wb master]     2
+[m_reg_access_seq]     3
+[uvm_reg_single_all_access_seq]    12
+[uvm_test_top.env.master_agent.mast_drv]     1
+[wb_env_DRIVER]     1
+
+$finish called from file "/global/apps/vcs_2016.06/etc/uvm-1.2/base/uvm_root.svh", line 527.
+$finish at simulation time              2455000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 2455000 ps
+CPU Time:      0.700 seconds;       Data structure size:   0.4Mb
+Tue Aug 23 10:54:32 2016

@@ -1,0 +1,279 @@
+		   'h0c:  begin
+		   		if(WE_I) begin
+				end
+				else begin
+				DAT_O <= {16'b0, r_RO_register};
+		
+				end
+			      end
+		
+		   'h10:  begin
+		   		if(WE_I) begin
+				 r_RW_register <= DAT_I[15:0];	
+				end
+				else begin
+				DAT_O <= {16'b0, r_RW_register};
+		
+				end
+			      end
+		
+		   'h14:  begin
+		   		if(WE_I) begin
+				 r_RC_register <= DAT_I[15:0];	
+				end
+				else begin
+				DAT_O <= {16'b0, r_RC_register};
+		
+				end
+			      end
+		
+		   'h18:  begin
+		   		if(WE_I) begin
+				 r_RS_register <= DAT_I[15:0];	
+				end
+				else begin
+				DAT_O <= {16'b0, r_RS_register};
+		
+				end
+			      end
+		
+		   'h1c:  begin
+		   		if(WE_I) begin
+				 r_WRC_register <= DAT_I[15:0];	
+				end
+				else begin
+				DAT_O <= {16'b0, r_WRC_register};
+		
+				end
+			      end
+		
+		   'h20:  begin
+		   		if(WE_I) begin
+				 r_WRS_register <= DAT_I[15:0];	
+				end
+				else begin
+				DAT_O <= {16'b0, r_WRS_register};
+		
+				end
+			      end
+		
+		   'h24:  begin
+		   		if(WE_I) begin
+				 r_WC_register <= DAT_I[15:0];	
+				end
+				else begin
+				DAT_O <= {16'b0, r_WC_register};
+		
+				end
+			      end
+		
+		   'h28:  begin
+		   		if(WE_I) begin
+				 r_WS_register <= DAT_I[15:0];	
+				end
+				else begin
+				DAT_O <= {16'b0, r_WS_register};
+		
+				end
+			      end
+		
+		   'h2c:  begin
+		   		if(WE_I) begin
+				 r_WSRC_register <= DAT_I[15:0];	
+				end
+				else begin
+				DAT_O <= {16'b0, r_WSRC_register};
+		
+				end
+			      end
+		
+		   'h30:  begin
+		   		if(WE_I) begin
+				 r_WCRS_register <= DAT_I[15:0];	
+				end
+				else begin
+				DAT_O <= {16'b0, r_WCRS_register};
+		
+				end
+			      end
+		
+		   'h34:  begin
+		   		if(WE_I) begin
+				 r_W1C_register <= DAT_I[15:0];	
+				end
+				else begin
+				DAT_O <= {16'b0, r_W1C_register};
+		
+				end
+			      end
+		
+		   'h38:  begin
+		   		if(WE_I) begin
+				 r_W1S_register <= DAT_I[15:0];	
+				end
+				else begin
+				DAT_O <= {16'b0, r_W1S_register};
+		
+				end
+			      end
+		
+		   'h3c:  begin
+		   		if(WE_I) begin
+				 r_W1T_register <= DAT_I[15:0];	
+				end
+				else begin
+				DAT_O <= {16'b0, r_W1T_register};
+		
+				end
+			      end
+		
+		   'h40:  begin
+		   		if(WE_I) begin
+				 r_W0C_register <= DAT_I[15:0];	
+				end
+				else begin
+				DAT_O <= {16'b0, r_W0C_register};
+		
+				end
+			      end
+		
+		   'h44:  begin
+		   		if(WE_I) begin
+				 r_W0S_register <= DAT_I[15:0];	
+				end
+				else begin
+				DAT_O <= {16'b0, r_W0S_register};
+		
+				end
+			      end
+		
+		   'h48:  begin
+		   		if(WE_I) begin
+				 r_W0T_register <= DAT_I[15:0];	
+				end
+				else begin
+				DAT_O <= {16'b0, r_W0T_register};
+		
+				end
+			      end
+		
+		   'h4c:  begin
+		   		if(WE_I) begin
+				 r_W1SRC_register <= DAT_I[15:0];	
+				end
+				else begin
+				DAT_O <= {16'b0, r_W1SRC_register};
+		
+				end
+			      end
+		
+		   'h50:  begin
+		   		if(WE_I) begin
+				 r_W1CRS_register <= DAT_I[15:0];	
+				end
+				else begin
+				DAT_O <= {16'b0, r_W1CRS_register};
+		
+				end
+			      end
+		
+		   'h54:  begin
+		   		if(WE_I) begin
+				 r_W0SRC_register <= DAT_I[15:0];	
+				end
+				else begin
+				DAT_O <= {16'b0, r_W0SRC_register};
+		
+				end
+			      end
+		
+		   'h58:  begin
+		   		if(WE_I) begin
+				 r_W0CRS_register <= DAT_I[15:0];	
+				end
+				else begin
+				DAT_O <= {16'b0, r_W0CRS_register};
+		
+				end
+			      end
+		
+		   'h5c:  begin
+		   		if(WE_I) begin
+				 r_WO_register <= DAT_I[15:0];	
+				end
+				else begin
+				DAT_O <= {16'b0, r_WO_register};
+		
+				end
+			      end
+		
+		   'h60:  begin
+		   		if(WE_I) begin
+				 r_WOC_register <= DAT_I[15:0];	
+				end
+				else begin
+				DAT_O <= {16'b0, r_WOC_register};
+		
+				end
+			      end
+		
+		   'h64:  begin
+		   		if(WE_I) begin
+				 r_WOS_register <= DAT_I[15:0];	
+				end
+				else begin
+				DAT_O <= {16'b0, r_WOS_register};
+		
+				end
+			      end
+		
+		   'h68:  begin
+		   		if(WE_I) begin
+				 r_W1_register <= DAT_I[15:0];	
+				end
+				else begin
+				DAT_O <= {16'b0, r_W1_register};
+		
+				end
+			      end
+		
+		   'h6c:  begin
+		   		if(WE_I) begin
+				 r_WO1_register <= DAT_I[15:0];	
+				end
+				else begin
+				DAT_O <= {16'b0, r_WO1_register};
+		
+				end
+			      end
+		
+		   'h70:  begin
+		   		if(WE_I) begin
+				 r_aliased_1 <= DAT_I[15:0];	
+				end
+				else begin
+				DAT_O <= {16'b0, r_aliased_1};
+		
+				end
+			      end
+		
+		   'h74:  begin
+		   		if(WE_I) begin
+				 r_aliased_2 <= DAT_I[15:0];	
+				end
+				else begin
+				DAT_O <= {16'b0, r_aliased_2};
+		
+				end
+			      end
+		
+		   'h78:  begin
+		   		if(WE_I) begin
+				 master_index <= DAT_I[15:0];	
+				end
+				else begin
+				DAT_O <= {16'b0, master_index};
+		
+				end
+			      end
+		

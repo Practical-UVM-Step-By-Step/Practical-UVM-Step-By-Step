@@ -1,0 +1,206 @@
+Command: ./simv -l simv.log -lca +ntb_random_seed=1 +UVM_TESTNAME=wb_env_slave_test +define+UVM_DIRECTC_OPTS
+Chronologic VCS simulator copyright 1991-2016
+Contains Synopsys proprietary information.
+Compiler version L-2016.06-SP1-1; Runtime version L-2016.06-SP1-1;  Oct 25 22:00 2016
+----------------------------------------------------------------
+UVM-1.1d.Synopsys
+(C) 2007-2013 Mentor Graphics Corporation
+(C) 2007-2013 Cadence Design Systems, Inc.
+(C) 2006-2013 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+----------------------------------------------------------------
+UVM_INFO @ 0: reporter [RNTST] Running test wb_env_slave_test...
+UVM_INFO ../src/wb_slave_seqr.sv(44) @ 0: uvm_test_top.env.slave_agent.slv_seqr [WB_SLAVE_SEQR] Initializing memory
+Dropping env main_phase objecton
+UVM_INFO ../src/wb_master.sv(170) @ 35: uvm_test_top.env.master_agent.mast_drv [wb_env_DRIVER] Starting transaction...
+UVM_INFO ../src/wb_master.sv(251) @ 45: uvm_test_top.env.master_agent.mast_drv [Wb master] Got a write transaction
+UVM_INFO ../src/wb_master_mon.sv(164) @ 45: uvm_test_top.env.master_agent.mast_mon [WB master Monitor] got a write transaction  from Master 
+UVM_INFO ../src/wb_slave.sv(172) @ 45: uvm_test_top.env.slave_agent.drv [Wb_slave] got a write transaction  from Master 
+UVM_INFO ../src/wb_slave_mon.sv(150) @ 45: uvm_test_top.env.slave_agent.mon [WB slave Monitor] got a write transaction  from Master 
+In SLAVE SEQUENCER, Transaction adderss = 0000000000000003   kind = WRITE
+Now Got transaction from Ram Sequence
+---------------------------------------------------
+Name               Type            Size  Value     
+---------------------------------------------------
+tr                 wb_transaction  -     @1035     
+  address          integral        64    'h3       
+  data             integral        64    'hdeadbeef
+  sel              integral        8     'h0       
+  tga              integral        16    'h99d3    
+  tgc              integral        16    'h0       
+  lock             integral        1     'h0       
+  num_wait_states  integral        32    'h0       
+  kind             kinds_e         32    WRITE     
+  status           status_e        32    OK        
+  next_cycle       pipelining_e    32    CLASSIC   
+---------------------------------------------------
+completing
+UVM_INFO ../src/wb_slave.sv(219) @ 155: uvm_test_top.env.slave_agent.drv [SLAVE_DRIVER] Completed transaction...
+UVM_INFO ../src/wb_master.sv(198) @ 155: uvm_test_top.env.master_agent.mast_drv [wb_env_DRIVER] Completed transaction...
+count is           0
+
+UVM_INFO ../src/wb_master.sv(170) @ 155: uvm_test_top.env.master_agent.mast_drv [wb_env_DRIVER] Starting transaction...
+UVM_INFO ../src/wb_master.sv(251) @ 165: uvm_test_top.env.master_agent.mast_drv [Wb master] Got a write transaction
+UVM_INFO ../src/wb_master_mon.sv(164) @ 165: uvm_test_top.env.master_agent.mast_mon [WB master Monitor] got a write transaction  from Master 
+UVM_INFO ../src/wb_slave_mon.sv(150) @ 165: uvm_test_top.env.slave_agent.mon [WB slave Monitor] got a write transaction  from Master 
+UVM_INFO ../src/wb_slave.sv(172) @ 165: uvm_test_top.env.slave_agent.drv [Wb_slave] got a write transaction  from Master 
+In SLAVE SEQUENCER, Transaction adderss = 0000000000000004   kind = WRITE
+Now Got transaction from Ram Sequence
+---------------------------------------------------
+Name               Type            Size  Value     
+---------------------------------------------------
+tr                 wb_transaction  -     @1062     
+  address          integral        64    'h4       
+  data             integral        64    'hbeefdead
+  sel              integral        8     'h0       
+  tga              integral        16    'he4d0    
+  tgc              integral        16    'h0       
+  lock             integral        1     'h0       
+  num_wait_states  integral        32    'h0       
+  kind             kinds_e         32    WRITE     
+  status           status_e        32    OK        
+  next_cycle       pipelining_e    32    CLASSIC   
+---------------------------------------------------
+completing
+UVM_INFO ../src/wb_slave.sv(219) @ 275: uvm_test_top.env.slave_agent.drv [SLAVE_DRIVER] Completed transaction...
+UVM_INFO ../src/wb_master.sv(198) @ 275: uvm_test_top.env.master_agent.mast_drv [wb_env_DRIVER] Completed transaction...
+count is           1
+
+UVM_INFO ../src/wb_master.sv(170) @ 275: uvm_test_top.env.master_agent.mast_drv [wb_env_DRIVER] Starting transaction...
+UVM_INFO ../src/wb_master.sv(251) @ 285: uvm_test_top.env.master_agent.mast_drv [Wb master] Got a write transaction
+UVM_INFO ../src/wb_master_mon.sv(164) @ 285: uvm_test_top.env.master_agent.mast_mon [WB master Monitor] got a write transaction  from Master 
+UVM_INFO ../src/wb_slave_mon.sv(150) @ 285: uvm_test_top.env.slave_agent.mon [WB slave Monitor] got a write transaction  from Master 
+UVM_INFO ../src/wb_slave.sv(172) @ 285: uvm_test_top.env.slave_agent.drv [Wb_slave] got a write transaction  from Master 
+In SLAVE SEQUENCER, Transaction adderss = 0000000000000005   kind = WRITE
+Now Got transaction from Ram Sequence
+----------------------------------------------------
+Name               Type            Size  Value      
+----------------------------------------------------
+tr                 wb_transaction  -     @1082      
+  address          integral        64    'h5        
+  data             integral        64    'h123456678
+  sel              integral        8     'h0        
+  tga              integral        16    'he8ce     
+  tgc              integral        16    'h0        
+  lock             integral        1     'h0        
+  num_wait_states  integral        32    'h0        
+  kind             kinds_e         32    WRITE      
+  status           status_e        32    OK         
+  next_cycle       pipelining_e    32    CLASSIC    
+----------------------------------------------------
+completing
+UVM_INFO ../src/wb_slave.sv(219) @ 395: uvm_test_top.env.slave_agent.drv [SLAVE_DRIVER] Completed transaction...
+UVM_INFO ../src/wb_master.sv(198) @ 395: uvm_test_top.env.master_agent.mast_drv [wb_env_DRIVER] Completed transaction...
+count is           2
+
+UVM_INFO ../src/wb_master.sv(170) @ 395: uvm_test_top.env.master_agent.mast_drv [wb_env_DRIVER] Starting transaction...
+UVM_INFO ../src/wb_master.sv(208) @ 405: uvm_test_top.env.master_agent.mast_drv [Wb master] Got a read transaction
+wb_master In read transaction. Waiting for a ack
+UVM_INFO ../src/wb_master_mon.sv(171) @ 405: uvm_test_top.env.master_agent.mast_mon [Wb_master Monitor] got a read transaction  
+UVM_INFO ../src/wb_slave_mon.sv(157) @ 405: uvm_test_top.env.slave_agent.mon [Wb_slave Monitor] got a read transaction  
+UVM_INFO ../src/wb_slave.sv(178) @ 405: uvm_test_top.env.slave_agent.drv [Wb_slave] got a read transaction  
+In SLAVE SEQUENCER, Transaction adderss = 0000000000000003   kind = READ
+Now Got transaction from Ram Sequence
+---------------------------------------------------
+Name               Type            Size  Value     
+---------------------------------------------------
+tr                 wb_transaction  -     @1102     
+  address          integral        64    'h3       
+  data             integral        64    'hdeadbeef
+  sel              integral        8     'h0       
+  tga              integral        16    'h84c7    
+  tgc              integral        16    'h0       
+  lock             integral        1     'h0       
+  num_wait_states  integral        32    'h0       
+  kind             kinds_e         32    READ      
+  status           status_e        32    OK        
+  next_cycle       pipelining_e    32    CLASSIC   
+---------------------------------------------------
+completing
+UVM_INFO ../src/wb_slave.sv(219) @ 515: uvm_test_top.env.slave_agent.drv [SLAVE_DRIVER] Completed transaction...
+UVM_INFO ../src/wb_master.sv(198) @ 515: uvm_test_top.env.master_agent.mast_drv [wb_env_DRIVER] Completed transaction...
+count is           3
+
+UVM_INFO ../src/wb_master.sv(170) @ 515: uvm_test_top.env.master_agent.mast_drv [wb_env_DRIVER] Starting transaction...
+UVM_INFO ../src/wb_master.sv(208) @ 525: uvm_test_top.env.master_agent.mast_drv [Wb master] Got a read transaction
+wb_master In read transaction. Waiting for a ack
+UVM_INFO ../src/wb_master_mon.sv(171) @ 525: uvm_test_top.env.master_agent.mast_mon [Wb_master Monitor] got a read transaction  
+UVM_INFO ../src/wb_slave_mon.sv(157) @ 525: uvm_test_top.env.slave_agent.mon [Wb_slave Monitor] got a read transaction  
+UVM_INFO ../src/wb_slave.sv(178) @ 525: uvm_test_top.env.slave_agent.drv [Wb_slave] got a read transaction  
+In SLAVE SEQUENCER, Transaction adderss = 0000000000000004   kind = READ
+Now Got transaction from Ram Sequence
+---------------------------------------------------
+Name               Type            Size  Value     
+---------------------------------------------------
+tr                 wb_transaction  -     @1122     
+  address          integral        64    'h4       
+  data             integral        64    'hbeefdead
+  sel              integral        8     'h0       
+  tga              integral        16    'h8978    
+  tgc              integral        16    'h0       
+  lock             integral        1     'h0       
+  num_wait_states  integral        32    'h0       
+  kind             kinds_e         32    READ      
+  status           status_e        32    OK        
+  next_cycle       pipelining_e    32    CLASSIC   
+---------------------------------------------------
+completing
+UVM_INFO ../src/wb_slave.sv(219) @ 635: uvm_test_top.env.slave_agent.drv [SLAVE_DRIVER] Completed transaction...
+UVM_INFO ../src/wb_master.sv(198) @ 635: uvm_test_top.env.master_agent.mast_drv [wb_env_DRIVER] Completed transaction...
+count is           4
+
+UVM_INFO ../src/wb_master.sv(170) @ 635: uvm_test_top.env.master_agent.mast_drv [wb_env_DRIVER] Starting transaction...
+UVM_INFO ../src/wb_master.sv(208) @ 645: uvm_test_top.env.master_agent.mast_drv [Wb master] Got a read transaction
+wb_master In read transaction. Waiting for a ack
+UVM_INFO ../src/wb_master_mon.sv(171) @ 645: uvm_test_top.env.master_agent.mast_mon [Wb_master Monitor] got a read transaction  
+UVM_INFO ../src/wb_slave_mon.sv(157) @ 645: uvm_test_top.env.slave_agent.mon [Wb_slave Monitor] got a read transaction  
+UVM_INFO ../src/wb_slave.sv(178) @ 645: uvm_test_top.env.slave_agent.drv [Wb_slave] got a read transaction  
+In SLAVE SEQUENCER, Transaction adderss = 0000000000000005   kind = READ
+Now Got transaction from Ram Sequence
+----------------------------------------------------
+Name               Type            Size  Value      
+----------------------------------------------------
+tr                 wb_transaction  -     @1142      
+  address          integral        64    'h5        
+  data             integral        64    'h123456678
+  sel              integral        8     'h0        
+  tga              integral        16    'h74de     
+  tgc              integral        16    'h0        
+  lock             integral        1     'h0        
+  num_wait_states  integral        32    'h0        
+  kind             kinds_e         32    READ       
+  status           status_e        32    OK         
+  next_cycle       pipelining_e    32    CLASSIC    
+----------------------------------------------------
+completing
+UVM_INFO ../src/wb_slave.sv(219) @ 755: uvm_test_top.env.slave_agent.drv [SLAVE_DRIVER] Completed transaction...
+UVM_INFO ../src/wb_master.sv(198) @ 755: uvm_test_top.env.master_agent.mast_drv [wb_env_DRIVER] Completed transaction...
+count is           5
+
+UVM_INFO ../tests/wb_env_slave_test.sv(54) @ 755: uvm_test_top [wb_env_slave_test] ** UVM TEST PASSED **
+
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :   45
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[RNTST]     1
+[SLAVE_DRIVER]     6
+[WB master Monitor]     3
+[WB slave Monitor]     3
+[WB_SLAVE_SEQR]     1
+[Wb master]     6
+[Wb_master Monitor]     3
+[Wb_slave]     6
+[Wb_slave Monitor]     3
+[wb_env_DRIVER]    12
+[wb_env_slave_test]     1
+$finish called from file "/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.1/base/uvm_root.svh", line 439.
+$finish at simulation time                  755
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 755
+CPU Time:      0.470 seconds;       Data structure size:   0.4Mb
+Tue Oct 25 22:00:49 2016

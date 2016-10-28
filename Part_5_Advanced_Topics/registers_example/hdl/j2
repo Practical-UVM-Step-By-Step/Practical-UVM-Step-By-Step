@@ -1,0 +1,31 @@
+reg [15:0] r_RO_register; //	Read Only
+reg [15:0] r_RW_register; //	Read, Write
+reg [15:0] r_RC_register; //	Read Clears All
+reg [15:0] r_RS_register; //	Read Sets All
+reg [15:0] r_WRC_register; //	Write, Read Clears All
+reg [15:0] r_WRS_register; //	Write, Read Sets All
+reg [15:0] r_WC_register; //	Write Clears All
+reg [15:0] r_WS_register; //	Write Sets All
+reg [15:0] r_WSRC_register; //	Write Sets All, Read Clears All
+reg [15:0] r_WCRS_register; //	Write Clears All, Read Sets All
+reg [15:0] r_W1C_register; //	Write 1 to Clear
+reg [15:0] r_W1S_register; //	Write 1 to Set
+reg [15:0] r_W1T_register; //	Write 1 to Toggle
+reg [15:0] r_W0C_register; //	Write 0 to Clear
+reg [15:0] r_W0S_register; //	Write 0 to Set
+reg [15:0] r_W0T_register; //	Write 0 to Toggle
+reg [15:0] r_W1SRC_register; //	Write 1 to Set, Read Clears All
+reg [15:0] r_W1CRS_register; //	Write 1 to Clear, Read Sets All
+reg [15:0] r_W0SRC_register; //	Write 0 to Set, Read Clears All
+reg [15:0] r_W0CRS_register; //	Write 0 to Clear, Read Sets All
+reg [15:0] r_WO_register; //	Write Only
+reg [15:0] r_WOC_register; //	Write Only Clears All
+reg [15:0] r_WOS_register; //	Write Only Sets All
+reg [15:0] r_W1_register; //	Write Once
+reg [15:0] r_WO1_register; //	Write Only, Once
+
+reg [31:0] r_aliased_1; //	Source for Alias
+reg [15:0] r_aliased_2; //	Alias destination
+
+reg [15:0] master_index; //	Index Register
+reg [31:0] register_array[16]; // Register array for Index registers.

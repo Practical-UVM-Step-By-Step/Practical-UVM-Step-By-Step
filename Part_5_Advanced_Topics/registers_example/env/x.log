@@ -1,0 +1,23 @@
+
+Synopsys UVM Register Abstraction Layer Code Generator
+Copyright (c) 1991-2015 by Synopsys Inc.
+All Rights Reserved.
+
+Checkout succeeded: VCSTools_Net/2D8650AC61F3D771BBE7
+	License file: 26585@us01snpslmd2
+	License Server: 26585@us01snpslmd2
+[SCL] Checking status for feature 'VCSTools_Net' - 11/13/2015 15:20:18
+[SCL] 11/13/2015 15:20:18 PID:9995 Client:vgintsb141 Server:26585@us01snpslmd2 Checkout succeeded VCSTools_Net 2015.09
+Warning: hdl_path not specified for field 'REVISION_ID'. (RALF File: simple_ral_env.ralf Line: 13)
+Warning: hdl_path not specified for field 'CHIP_ID'. (RALF File: simple_ral_env.ralf Line: 18)
+Warning: hdl_path not specified for field 'PRODUCT_ID'. (RALF File: simple_ral_env.ralf Line: 23)
+Warning: hdl_path not specified for register 'r_aliased_1'. (RALF File: simple_ral_env.ralf Line: 205)
+Warning: hdl_path not specified for field 'r_aliased_1'. (RALF File: simple_ral_env.ralf Line: 206)
+Warning: hdl_path not specified for register 'r_aliased_2'. (RALF File: simple_ral_env.ralf Line: 212)
+Warning: hdl_path not specified for field 'r_aliased_2'. (RALF File: simple_ral_env.ralf Line: 213)
+Warning: hdl_path not specified for register 'master_index'. (RALF File: simple_ral_env.ralf Line: 219)
+Warning: hdl_path not specified for field 'master_index'. (RALF File: simple_ral_env.ralf Line: 220)
+Warning: hdl_path not specified for register 'master_data'. (RALF File: simple_ral_env.ralf Line: 226)
+Warning: hdl_path not specified for field 'field_data'. (RALF File: simple_ral_env.ralf Line: 227)
+Warning: 7 bytes register 'CHIP_ID' instantiated in 4 bytes block.
+

@@ -1,0 +1,1691 @@
+plan reg_CSR;
+    attribute string path = "";
+
+    feature PAUSE_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_CSR::cg_bits.${path}_bits.PAUSE";
+        endmeasure
+    endfeature
+endplan
+
+
+plan reg_INT_MASKA;
+    attribute string path = "";
+
+    feature f_mask0_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_MASKA::cg_bits.${path}_bits.f_mask0";
+        endmeasure
+    endfeature
+    feature f_mask1_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_MASKA::cg_bits.${path}_bits.f_mask1";
+        endmeasure
+    endfeature
+    feature f_mask2_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_MASKA::cg_bits.${path}_bits.f_mask2";
+        endmeasure
+    endfeature
+    feature f_mask3_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_MASKA::cg_bits.${path}_bits.f_mask3";
+        endmeasure
+    endfeature
+    feature f_mask4_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_MASKA::cg_bits.${path}_bits.f_mask4";
+        endmeasure
+    endfeature
+    feature f_mask5_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_MASKA::cg_bits.${path}_bits.f_mask5";
+        endmeasure
+    endfeature
+    feature f_mask6_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_MASKA::cg_bits.${path}_bits.f_mask6";
+        endmeasure
+    endfeature
+    feature f_mask7_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_MASKA::cg_bits.${path}_bits.f_mask7";
+        endmeasure
+    endfeature
+    feature f_mask8_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_MASKA::cg_bits.${path}_bits.f_mask8";
+        endmeasure
+    endfeature
+    feature f_mask9_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_MASKA::cg_bits.${path}_bits.f_mask9";
+        endmeasure
+    endfeature
+    feature f_mask10_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_MASKA::cg_bits.${path}_bits.f_mask10";
+        endmeasure
+    endfeature
+    feature f_mask11_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_MASKA::cg_bits.${path}_bits.f_mask11";
+        endmeasure
+    endfeature
+    feature f_mask12_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_MASKA::cg_bits.${path}_bits.f_mask12";
+        endmeasure
+    endfeature
+    feature f_mask13_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_MASKA::cg_bits.${path}_bits.f_mask13";
+        endmeasure
+    endfeature
+    feature f_mask14_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_MASKA::cg_bits.${path}_bits.f_mask14";
+        endmeasure
+    endfeature
+    feature f_mask15_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_MASKA::cg_bits.${path}_bits.f_mask15";
+        endmeasure
+    endfeature
+    feature f_mask16_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_MASKA::cg_bits.${path}_bits.f_mask16";
+        endmeasure
+    endfeature
+    feature f_mask17_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_MASKA::cg_bits.${path}_bits.f_mask17";
+        endmeasure
+    endfeature
+    feature f_mask18_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_MASKA::cg_bits.${path}_bits.f_mask18";
+        endmeasure
+    endfeature
+    feature f_mask19_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_MASKA::cg_bits.${path}_bits.f_mask19";
+        endmeasure
+    endfeature
+    feature f_mask20_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_MASKA::cg_bits.${path}_bits.f_mask20";
+        endmeasure
+    endfeature
+    feature f_mask21_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_MASKA::cg_bits.${path}_bits.f_mask21";
+        endmeasure
+    endfeature
+    feature f_mask22_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_MASKA::cg_bits.${path}_bits.f_mask22";
+        endmeasure
+    endfeature
+    feature f_mask23_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_MASKA::cg_bits.${path}_bits.f_mask23";
+        endmeasure
+    endfeature
+    feature f_mask24_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_MASKA::cg_bits.${path}_bits.f_mask24";
+        endmeasure
+    endfeature
+    feature f_mask25_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_MASKA::cg_bits.${path}_bits.f_mask25";
+        endmeasure
+    endfeature
+    feature f_mask26_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_MASKA::cg_bits.${path}_bits.f_mask26";
+        endmeasure
+    endfeature
+    feature f_mask27_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_MASKA::cg_bits.${path}_bits.f_mask27";
+        endmeasure
+    endfeature
+    feature f_mask28_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_MASKA::cg_bits.${path}_bits.f_mask28";
+        endmeasure
+    endfeature
+    feature f_mask29_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_MASKA::cg_bits.${path}_bits.f_mask29";
+        endmeasure
+    endfeature
+    feature f_mask30_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_MASKA::cg_bits.${path}_bits.f_mask30";
+        endmeasure
+    endfeature
+    feature f_mask31_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_MASKA::cg_bits.${path}_bits.f_mask31";
+        endmeasure
+    endfeature
+endplan
+
+
+plan reg_INT_MASKB;
+    attribute string path = "";
+
+    feature f_mask0_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_MASKB::cg_bits.${path}_bits.f_mask0";
+        endmeasure
+    endfeature
+    feature f_mask1_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_MASKB::cg_bits.${path}_bits.f_mask1";
+        endmeasure
+    endfeature
+    feature f_mask2_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_MASKB::cg_bits.${path}_bits.f_mask2";
+        endmeasure
+    endfeature
+    feature f_mask3_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_MASKB::cg_bits.${path}_bits.f_mask3";
+        endmeasure
+    endfeature
+    feature f_mask4_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_MASKB::cg_bits.${path}_bits.f_mask4";
+        endmeasure
+    endfeature
+    feature f_mask5_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_MASKB::cg_bits.${path}_bits.f_mask5";
+        endmeasure
+    endfeature
+    feature f_mask6_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_MASKB::cg_bits.${path}_bits.f_mask6";
+        endmeasure
+    endfeature
+    feature f_mask7_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_MASKB::cg_bits.${path}_bits.f_mask7";
+        endmeasure
+    endfeature
+    feature f_mask8_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_MASKB::cg_bits.${path}_bits.f_mask8";
+        endmeasure
+    endfeature
+    feature f_mask9_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_MASKB::cg_bits.${path}_bits.f_mask9";
+        endmeasure
+    endfeature
+    feature f_mask10_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_MASKB::cg_bits.${path}_bits.f_mask10";
+        endmeasure
+    endfeature
+    feature f_mask11_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_MASKB::cg_bits.${path}_bits.f_mask11";
+        endmeasure
+    endfeature
+    feature f_mask12_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_MASKB::cg_bits.${path}_bits.f_mask12";
+        endmeasure
+    endfeature
+    feature f_mask13_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_MASKB::cg_bits.${path}_bits.f_mask13";
+        endmeasure
+    endfeature
+    feature f_mask14_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_MASKB::cg_bits.${path}_bits.f_mask14";
+        endmeasure
+    endfeature
+    feature f_mask15_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_MASKB::cg_bits.${path}_bits.f_mask15";
+        endmeasure
+    endfeature
+    feature f_mask16_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_MASKB::cg_bits.${path}_bits.f_mask16";
+        endmeasure
+    endfeature
+    feature f_mask17_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_MASKB::cg_bits.${path}_bits.f_mask17";
+        endmeasure
+    endfeature
+    feature f_mask18_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_MASKB::cg_bits.${path}_bits.f_mask18";
+        endmeasure
+    endfeature
+    feature f_mask19_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_MASKB::cg_bits.${path}_bits.f_mask19";
+        endmeasure
+    endfeature
+    feature f_mask20_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_MASKB::cg_bits.${path}_bits.f_mask20";
+        endmeasure
+    endfeature
+    feature f_mask21_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_MASKB::cg_bits.${path}_bits.f_mask21";
+        endmeasure
+    endfeature
+    feature f_mask22_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_MASKB::cg_bits.${path}_bits.f_mask22";
+        endmeasure
+    endfeature
+    feature f_mask23_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_MASKB::cg_bits.${path}_bits.f_mask23";
+        endmeasure
+    endfeature
+    feature f_mask24_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_MASKB::cg_bits.${path}_bits.f_mask24";
+        endmeasure
+    endfeature
+    feature f_mask25_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_MASKB::cg_bits.${path}_bits.f_mask25";
+        endmeasure
+    endfeature
+    feature f_mask26_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_MASKB::cg_bits.${path}_bits.f_mask26";
+        endmeasure
+    endfeature
+    feature f_mask27_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_MASKB::cg_bits.${path}_bits.f_mask27";
+        endmeasure
+    endfeature
+    feature f_mask28_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_MASKB::cg_bits.${path}_bits.f_mask28";
+        endmeasure
+    endfeature
+    feature f_mask29_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_MASKB::cg_bits.${path}_bits.f_mask29";
+        endmeasure
+    endfeature
+    feature f_mask30_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_MASKB::cg_bits.${path}_bits.f_mask30";
+        endmeasure
+    endfeature
+    feature f_mask31_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_MASKB::cg_bits.${path}_bits.f_mask31";
+        endmeasure
+    endfeature
+endplan
+
+
+plan reg_INT_SRCA;
+    attribute string path = "";
+
+    feature f_mask0_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_SRCA::cg_bits.${path}_bits.f_mask0";
+        endmeasure
+    endfeature
+    feature f_mask1_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_SRCA::cg_bits.${path}_bits.f_mask1";
+        endmeasure
+    endfeature
+    feature f_mask2_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_SRCA::cg_bits.${path}_bits.f_mask2";
+        endmeasure
+    endfeature
+    feature f_mask3_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_SRCA::cg_bits.${path}_bits.f_mask3";
+        endmeasure
+    endfeature
+    feature f_mask4_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_SRCA::cg_bits.${path}_bits.f_mask4";
+        endmeasure
+    endfeature
+    feature f_mask5_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_SRCA::cg_bits.${path}_bits.f_mask5";
+        endmeasure
+    endfeature
+    feature f_mask6_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_SRCA::cg_bits.${path}_bits.f_mask6";
+        endmeasure
+    endfeature
+    feature f_mask7_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_SRCA::cg_bits.${path}_bits.f_mask7";
+        endmeasure
+    endfeature
+    feature f_mask8_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_SRCA::cg_bits.${path}_bits.f_mask8";
+        endmeasure
+    endfeature
+    feature f_mask9_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_SRCA::cg_bits.${path}_bits.f_mask9";
+        endmeasure
+    endfeature
+    feature f_mask10_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_SRCA::cg_bits.${path}_bits.f_mask10";
+        endmeasure
+    endfeature
+    feature f_mask11_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_SRCA::cg_bits.${path}_bits.f_mask11";
+        endmeasure
+    endfeature
+    feature f_mask12_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_SRCA::cg_bits.${path}_bits.f_mask12";
+        endmeasure
+    endfeature
+    feature f_mask13_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_SRCA::cg_bits.${path}_bits.f_mask13";
+        endmeasure
+    endfeature
+    feature f_mask14_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_SRCA::cg_bits.${path}_bits.f_mask14";
+        endmeasure
+    endfeature
+    feature f_mask15_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_SRCA::cg_bits.${path}_bits.f_mask15";
+        endmeasure
+    endfeature
+    feature f_mask16_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_SRCA::cg_bits.${path}_bits.f_mask16";
+        endmeasure
+    endfeature
+    feature f_mask17_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_SRCA::cg_bits.${path}_bits.f_mask17";
+        endmeasure
+    endfeature
+    feature f_mask18_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_SRCA::cg_bits.${path}_bits.f_mask18";
+        endmeasure
+    endfeature
+    feature f_mask19_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_SRCA::cg_bits.${path}_bits.f_mask19";
+        endmeasure
+    endfeature
+    feature f_mask20_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_SRCA::cg_bits.${path}_bits.f_mask20";
+        endmeasure
+    endfeature
+    feature f_mask21_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_SRCA::cg_bits.${path}_bits.f_mask21";
+        endmeasure
+    endfeature
+    feature f_mask22_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_SRCA::cg_bits.${path}_bits.f_mask22";
+        endmeasure
+    endfeature
+    feature f_mask23_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_SRCA::cg_bits.${path}_bits.f_mask23";
+        endmeasure
+    endfeature
+    feature f_mask24_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_SRCA::cg_bits.${path}_bits.f_mask24";
+        endmeasure
+    endfeature
+    feature f_mask25_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_SRCA::cg_bits.${path}_bits.f_mask25";
+        endmeasure
+    endfeature
+    feature f_mask26_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_SRCA::cg_bits.${path}_bits.f_mask26";
+        endmeasure
+    endfeature
+    feature f_mask27_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_SRCA::cg_bits.${path}_bits.f_mask27";
+        endmeasure
+    endfeature
+    feature f_mask28_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_SRCA::cg_bits.${path}_bits.f_mask28";
+        endmeasure
+    endfeature
+    feature f_mask29_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_SRCA::cg_bits.${path}_bits.f_mask29";
+        endmeasure
+    endfeature
+    feature f_mask30_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_SRCA::cg_bits.${path}_bits.f_mask30";
+        endmeasure
+    endfeature
+    feature f_mask31_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_SRCA::cg_bits.${path}_bits.f_mask31";
+        endmeasure
+    endfeature
+endplan
+
+
+plan reg_INT_SRCB;
+    attribute string path = "";
+
+    feature f_mask0_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_SRCB::cg_bits.${path}_bits.f_mask0";
+        endmeasure
+    endfeature
+    feature f_mask1_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_SRCB::cg_bits.${path}_bits.f_mask1";
+        endmeasure
+    endfeature
+    feature f_mask2_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_SRCB::cg_bits.${path}_bits.f_mask2";
+        endmeasure
+    endfeature
+    feature f_mask3_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_SRCB::cg_bits.${path}_bits.f_mask3";
+        endmeasure
+    endfeature
+    feature f_mask4_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_SRCB::cg_bits.${path}_bits.f_mask4";
+        endmeasure
+    endfeature
+    feature f_mask5_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_SRCB::cg_bits.${path}_bits.f_mask5";
+        endmeasure
+    endfeature
+    feature f_mask6_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_SRCB::cg_bits.${path}_bits.f_mask6";
+        endmeasure
+    endfeature
+    feature f_mask7_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_SRCB::cg_bits.${path}_bits.f_mask7";
+        endmeasure
+    endfeature
+    feature f_mask8_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_SRCB::cg_bits.${path}_bits.f_mask8";
+        endmeasure
+    endfeature
+    feature f_mask9_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_SRCB::cg_bits.${path}_bits.f_mask9";
+        endmeasure
+    endfeature
+    feature f_mask10_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_SRCB::cg_bits.${path}_bits.f_mask10";
+        endmeasure
+    endfeature
+    feature f_mask11_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_SRCB::cg_bits.${path}_bits.f_mask11";
+        endmeasure
+    endfeature
+    feature f_mask12_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_SRCB::cg_bits.${path}_bits.f_mask12";
+        endmeasure
+    endfeature
+    feature f_mask13_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_SRCB::cg_bits.${path}_bits.f_mask13";
+        endmeasure
+    endfeature
+    feature f_mask14_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_SRCB::cg_bits.${path}_bits.f_mask14";
+        endmeasure
+    endfeature
+    feature f_mask15_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_SRCB::cg_bits.${path}_bits.f_mask15";
+        endmeasure
+    endfeature
+    feature f_mask16_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_SRCB::cg_bits.${path}_bits.f_mask16";
+        endmeasure
+    endfeature
+    feature f_mask17_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_SRCB::cg_bits.${path}_bits.f_mask17";
+        endmeasure
+    endfeature
+    feature f_mask18_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_SRCB::cg_bits.${path}_bits.f_mask18";
+        endmeasure
+    endfeature
+    feature f_mask19_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_SRCB::cg_bits.${path}_bits.f_mask19";
+        endmeasure
+    endfeature
+    feature f_mask20_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_SRCB::cg_bits.${path}_bits.f_mask20";
+        endmeasure
+    endfeature
+    feature f_mask21_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_SRCB::cg_bits.${path}_bits.f_mask21";
+        endmeasure
+    endfeature
+    feature f_mask22_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_SRCB::cg_bits.${path}_bits.f_mask22";
+        endmeasure
+    endfeature
+    feature f_mask23_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_SRCB::cg_bits.${path}_bits.f_mask23";
+        endmeasure
+    endfeature
+    feature f_mask24_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_SRCB::cg_bits.${path}_bits.f_mask24";
+        endmeasure
+    endfeature
+    feature f_mask25_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_SRCB::cg_bits.${path}_bits.f_mask25";
+        endmeasure
+    endfeature
+    feature f_mask26_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_SRCB::cg_bits.${path}_bits.f_mask26";
+        endmeasure
+    endfeature
+    feature f_mask27_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_SRCB::cg_bits.${path}_bits.f_mask27";
+        endmeasure
+    endfeature
+    feature f_mask28_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_SRCB::cg_bits.${path}_bits.f_mask28";
+        endmeasure
+    endfeature
+    feature f_mask29_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_SRCB::cg_bits.${path}_bits.f_mask29";
+        endmeasure
+    endfeature
+    feature f_mask30_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_SRCB::cg_bits.${path}_bits.f_mask30";
+        endmeasure
+    endfeature
+    feature f_mask31_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_INT_SRCB::cg_bits.${path}_bits.f_mask31";
+        endmeasure
+    endfeature
+endplan
+
+
+plan reg_CH0_CSR;
+    attribute string path = "";
+
+    feature CH_EN_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_CH0_CSR::cg_bits.${path}_bits.CH_EN";
+        endmeasure
+    endfeature
+    feature DST_SEL_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_CH0_CSR::cg_bits.${path}_bits.DST_SEL";
+        endmeasure
+    endfeature
+    feature SRC_SEL_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_CH0_CSR::cg_bits.${path}_bits.SRC_SEL";
+        endmeasure
+    endfeature
+    feature INC_DST_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_CH0_CSR::cg_bits.${path}_bits.INC_DST";
+        endmeasure
+    endfeature
+    feature INC_SRC_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_CH0_CSR::cg_bits.${path}_bits.INC_SRC";
+        endmeasure
+    endfeature
+    feature MODE_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_CH0_CSR::cg_bits.${path}_bits.MODE";
+        endmeasure
+    endfeature
+    feature ARS_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_CH0_CSR::cg_bits.${path}_bits.ARS";
+        endmeasure
+    endfeature
+    feature USE_ED_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_CH0_CSR::cg_bits.${path}_bits.USE_ED";
+        endmeasure
+    endfeature
+    feature SZ_WB_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_CH0_CSR::cg_bits.${path}_bits.SZ_WB";
+        endmeasure
+    endfeature
+    feature STOP_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_CH0_CSR::cg_bits.${path}_bits.STOP";
+        endmeasure
+    endfeature
+    feature BUSY_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_CH0_CSR::cg_bits.${path}_bits.BUSY";
+        endmeasure
+    endfeature
+    feature DONE_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_CH0_CSR::cg_bits.${path}_bits.DONE";
+        endmeasure
+    endfeature
+    feature ERR_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_CH0_CSR::cg_bits.${path}_bits.ERR";
+        endmeasure
+    endfeature
+    feature PARITY_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_CH0_CSR::cg_bits.${path}_bits.PARITY";
+        endmeasure
+    endfeature
+endplan
+
+
+plan reg_CHN_SZ;
+    attribute string path = "";
+
+    feature CHK_SZ_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_CHN_SZ::cg_bits.${path}_bits.CHK_SZ";
+        endmeasure
+    endfeature
+    feature TOT_SZ_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_CHN_SZ::cg_bits.${path}_bits.TOT_SZ";
+        endmeasure
+    endfeature
+endplan
+
+
+plan reg_CHN_A0;
+    attribute string path = "";
+
+    feature ADDRESS_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_CHN_A0::cg_bits.${path}_bits.ADDRESS";
+        endmeasure
+    endfeature
+endplan
+
+
+plan reg_CHN_AM0;
+    attribute string path = "";
+
+    feature ADDRESS_MASK_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_CHN_AM0::cg_bits.${path}_bits.ADDRESS_MASK";
+        endmeasure
+    endfeature
+endplan
+
+
+plan reg_CHN_A1;
+    attribute string path = "";
+
+    feature ADDRESS_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_CHN_A1::cg_bits.${path}_bits.ADDRESS";
+        endmeasure
+    endfeature
+endplan
+
+
+plan reg_CHN_AM1;
+    attribute string path = "";
+
+    feature ADDRESS_MASK_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_CHN_AM1::cg_bits.${path}_bits.ADDRESS_MASK";
+        endmeasure
+    endfeature
+endplan
+
+
+plan reg_CHN_DESC;
+    attribute string path = "";
+
+    feature ADDRESS_MASK_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_CHN_DESC::cg_bits.${path}_bits.ADDRESS_MASK";
+        endmeasure
+    endfeature
+endplan
+
+
+plan reg_CHN_SWPTR;
+    attribute string path = "";
+
+    feature SWPTR_EN_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_CHN_SWPTR::cg_bits.${path}_bits.SWPTR_EN";
+        endmeasure
+    endfeature
+    feature SW_POINTER_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_CHN_SWPTR::cg_bits.${path}_bits.SW_POINTER";
+        endmeasure
+    endfeature
+endplan
+
+
+plan reg_CHN_CSR;
+    attribute string path = "";
+
+    feature CH_EN_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_CHN_CSR::cg_bits.${path}_bits.CH_EN";
+        endmeasure
+    endfeature
+    feature DST_SEL_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_CHN_CSR::cg_bits.${path}_bits.DST_SEL";
+        endmeasure
+    endfeature
+    feature SRC_SEL_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_CHN_CSR::cg_bits.${path}_bits.SRC_SEL";
+        endmeasure
+    endfeature
+    feature INC_DST_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_CHN_CSR::cg_bits.${path}_bits.INC_DST";
+        endmeasure
+    endfeature
+    feature INC_SRC_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_CHN_CSR::cg_bits.${path}_bits.INC_SRC";
+        endmeasure
+    endfeature
+    feature MODE_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_CHN_CSR::cg_bits.${path}_bits.MODE";
+        endmeasure
+    endfeature
+    feature ARS_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_CHN_CSR::cg_bits.${path}_bits.ARS";
+        endmeasure
+    endfeature
+    feature USE_ED_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_CHN_CSR::cg_bits.${path}_bits.USE_ED";
+        endmeasure
+    endfeature
+    feature SZ_WB_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_CHN_CSR::cg_bits.${path}_bits.SZ_WB";
+        endmeasure
+    endfeature
+    feature STOP_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_CHN_CSR::cg_bits.${path}_bits.STOP";
+        endmeasure
+    endfeature
+    feature BUSY_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_CHN_CSR::cg_bits.${path}_bits.BUSY";
+        endmeasure
+    endfeature
+    feature DONE_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_CHN_CSR::cg_bits.${path}_bits.DONE";
+        endmeasure
+    endfeature
+    feature ERR_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_CHN_CSR::cg_bits.${path}_bits.ERR";
+        endmeasure
+    endfeature
+    feature PARITY_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_CHN_CSR::cg_bits.${path}_bits.PARITY";
+        endmeasure
+    endfeature
+endplan
+
+
+plan block_wb_dma;
+    attribute string path = "";
+
+    feature reg_CSR;
+        subplan reg_CSR #(path="CSR");
+    endfeature
+    feature reg_INT_MASKA;
+        subplan reg_INT_MASKA #(path="INT_MASKA");
+    endfeature
+    feature reg_INT_MASKB;
+        subplan reg_INT_MASKB #(path="INT_MASKB");
+    endfeature
+    feature reg_INT_SRCA;
+        subplan reg_INT_SRCA #(path="INT_SRCA");
+    endfeature
+    feature reg_INT_SRCB;
+        subplan reg_INT_SRCB #(path="INT_SRCB");
+    endfeature
+    feature reg_CH0_CSR;
+        subplan reg_CH0_CSR #(path="CH0_CSR");
+    endfeature
+    feature reg_ch0_sz;
+        subplan reg_CHN_SZ #(path="ch0_sz");
+    endfeature
+    feature reg_ch0_a0;
+        subplan reg_CHN_A0 #(path="ch0_a0");
+    endfeature
+    feature reg_ch0_am0;
+        subplan reg_CHN_AM0 #(path="ch0_am0");
+    endfeature
+    feature reg_ch0_a1;
+        subplan reg_CHN_A1 #(path="ch0_a1");
+    endfeature
+    feature reg_ch0_am1;
+        subplan reg_CHN_AM1 #(path="ch0_am1");
+    endfeature
+    feature reg_ch0_desc;
+        subplan reg_CHN_DESC #(path="ch0_desc");
+    endfeature
+    feature reg_ch0_swptr;
+        subplan reg_CHN_SWPTR #(path="ch0_swptr");
+    endfeature
+    feature reg_ch1_csr;
+        subplan reg_CHN_CSR #(path="ch1_csr");
+    endfeature
+    feature reg_ch1_sz;
+        subplan reg_CHN_SZ #(path="ch1_sz");
+    endfeature
+    feature reg_ch1_a0;
+        subplan reg_CHN_A0 #(path="ch1_a0");
+    endfeature
+    feature reg_ch1_am0;
+        subplan reg_CHN_AM0 #(path="ch1_am0");
+    endfeature
+    feature reg_ch1_a1;
+        subplan reg_CHN_A1 #(path="ch1_a1");
+    endfeature
+    feature reg_ch1_am1;
+        subplan reg_CHN_AM1 #(path="ch1_am1");
+    endfeature
+    feature reg_ch1_desc;
+        subplan reg_CHN_DESC #(path="ch1_desc");
+    endfeature
+    feature reg_ch1_swptr;
+        subplan reg_CHN_SWPTR #(path="ch1_swptr");
+    endfeature
+    feature reg_ch2_csr;
+        subplan reg_CHN_CSR #(path="ch2_csr");
+    endfeature
+    feature reg_ch2_sz;
+        subplan reg_CHN_SZ #(path="ch2_sz");
+    endfeature
+    feature reg_ch2_a0;
+        subplan reg_CHN_A0 #(path="ch2_a0");
+    endfeature
+    feature reg_ch2_am0;
+        subplan reg_CHN_AM0 #(path="ch2_am0");
+    endfeature
+    feature reg_ch2_a1;
+        subplan reg_CHN_A1 #(path="ch2_a1");
+    endfeature
+    feature reg_ch2_am1;
+        subplan reg_CHN_AM1 #(path="ch2_am1");
+    endfeature
+    feature reg_ch2_desc;
+        subplan reg_CHN_DESC #(path="ch2_desc");
+    endfeature
+    feature reg_ch2_swptr;
+        subplan reg_CHN_SWPTR #(path="ch2_swptr");
+    endfeature
+    feature reg_ch3_csr;
+        subplan reg_CHN_CSR #(path="ch3_csr");
+    endfeature
+    feature reg_ch3_sz;
+        subplan reg_CHN_SZ #(path="ch3_sz");
+    endfeature
+    feature reg_ch3_a0;
+        subplan reg_CHN_A0 #(path="ch3_a0");
+    endfeature
+    feature reg_ch3_am0;
+        subplan reg_CHN_AM0 #(path="ch3_am0");
+    endfeature
+    feature reg_ch3_a1;
+        subplan reg_CHN_A1 #(path="ch3_a1");
+    endfeature
+    feature reg_ch3_am1;
+        subplan reg_CHN_AM1 #(path="ch3_am1");
+    endfeature
+    feature reg_ch3_desc;
+        subplan reg_CHN_DESC #(path="ch3_desc");
+    endfeature
+    feature reg_ch3_swptr;
+        subplan reg_CHN_SWPTR #(path="ch3_swptr");
+    endfeature
+    feature reg_ch4_csr;
+        subplan reg_CHN_CSR #(path="ch4_csr");
+    endfeature
+    feature reg_ch4_sz;
+        subplan reg_CHN_SZ #(path="ch4_sz");
+    endfeature
+    feature reg_ch4_a0;
+        subplan reg_CHN_A0 #(path="ch4_a0");
+    endfeature
+    feature reg_ch4_am0;
+        subplan reg_CHN_AM0 #(path="ch4_am0");
+    endfeature
+    feature reg_ch4_a1;
+        subplan reg_CHN_A1 #(path="ch4_a1");
+    endfeature
+    feature reg_ch4_am1;
+        subplan reg_CHN_AM1 #(path="ch4_am1");
+    endfeature
+    feature reg_ch4_desc;
+        subplan reg_CHN_DESC #(path="ch4_desc");
+    endfeature
+    feature reg_ch4_swptr;
+        subplan reg_CHN_SWPTR #(path="ch4_swptr");
+    endfeature
+    feature reg_ch5_csr;
+        subplan reg_CHN_CSR #(path="ch5_csr");
+    endfeature
+    feature reg_ch5_sz;
+        subplan reg_CHN_SZ #(path="ch5_sz");
+    endfeature
+    feature reg_ch5_a0;
+        subplan reg_CHN_A0 #(path="ch5_a0");
+    endfeature
+    feature reg_ch5_am0;
+        subplan reg_CHN_AM0 #(path="ch5_am0");
+    endfeature
+    feature reg_ch5_a1;
+        subplan reg_CHN_A1 #(path="ch5_a1");
+    endfeature
+    feature reg_ch5_am1;
+        subplan reg_CHN_AM1 #(path="ch5_am1");
+    endfeature
+    feature reg_ch5_desc;
+        subplan reg_CHN_DESC #(path="ch5_desc");
+    endfeature
+    feature reg_ch5_swptr;
+        subplan reg_CHN_SWPTR #(path="ch5_swptr");
+    endfeature
+    feature reg_ch6_csr;
+        subplan reg_CHN_CSR #(path="ch6_csr");
+    endfeature
+    feature reg_ch6_sz;
+        subplan reg_CHN_SZ #(path="ch6_sz");
+    endfeature
+    feature reg_ch6_a0;
+        subplan reg_CHN_A0 #(path="ch6_a0");
+    endfeature
+    feature reg_ch6_am0;
+        subplan reg_CHN_AM0 #(path="ch6_am0");
+    endfeature
+    feature reg_ch6_a1;
+        subplan reg_CHN_A1 #(path="ch6_a1");
+    endfeature
+    feature reg_ch6_am1;
+        subplan reg_CHN_AM1 #(path="ch6_am1");
+    endfeature
+    feature reg_ch6_desc;
+        subplan reg_CHN_DESC #(path="ch6_desc");
+    endfeature
+    feature reg_ch6_swptr;
+        subplan reg_CHN_SWPTR #(path="ch6_swptr");
+    endfeature
+    feature reg_ch7_csr;
+        subplan reg_CHN_CSR #(path="ch7_csr");
+    endfeature
+    feature reg_ch7_sz;
+        subplan reg_CHN_SZ #(path="ch7_sz");
+    endfeature
+    feature reg_ch7_a0;
+        subplan reg_CHN_A0 #(path="ch7_a0");
+    endfeature
+    feature reg_ch7_am0;
+        subplan reg_CHN_AM0 #(path="ch7_am0");
+    endfeature
+    feature reg_ch7_a1;
+        subplan reg_CHN_A1 #(path="ch7_a1");
+    endfeature
+    feature reg_ch7_am1;
+        subplan reg_CHN_AM1 #(path="ch7_am1");
+    endfeature
+    feature reg_ch7_desc;
+        subplan reg_CHN_DESC #(path="ch7_desc");
+    endfeature
+    feature reg_ch7_swptr;
+        subplan reg_CHN_SWPTR #(path="ch7_swptr");
+    endfeature
+    feature reg_ch8_csr;
+        subplan reg_CHN_CSR #(path="ch8_csr");
+    endfeature
+    feature reg_ch8_sz;
+        subplan reg_CHN_SZ #(path="ch8_sz");
+    endfeature
+    feature reg_ch8_a0;
+        subplan reg_CHN_A0 #(path="ch8_a0");
+    endfeature
+    feature reg_ch8_am0;
+        subplan reg_CHN_AM0 #(path="ch8_am0");
+    endfeature
+    feature reg_ch8_a1;
+        subplan reg_CHN_A1 #(path="ch8_a1");
+    endfeature
+    feature reg_ch8_am1;
+        subplan reg_CHN_AM1 #(path="ch8_am1");
+    endfeature
+    feature reg_ch8_desc;
+        subplan reg_CHN_DESC #(path="ch8_desc");
+    endfeature
+    feature reg_ch8_swptr;
+        subplan reg_CHN_SWPTR #(path="ch8_swptr");
+    endfeature
+    feature reg_ch9_csr;
+        subplan reg_CHN_CSR #(path="ch9_csr");
+    endfeature
+    feature reg_ch9_sz;
+        subplan reg_CHN_SZ #(path="ch9_sz");
+    endfeature
+    feature reg_ch9_a0;
+        subplan reg_CHN_A0 #(path="ch9_a0");
+    endfeature
+    feature reg_ch9_am0;
+        subplan reg_CHN_AM0 #(path="ch9_am0");
+    endfeature
+    feature reg_ch9_a1;
+        subplan reg_CHN_A1 #(path="ch9_a1");
+    endfeature
+    feature reg_ch9_am1;
+        subplan reg_CHN_AM1 #(path="ch9_am1");
+    endfeature
+    feature reg_ch9_desc;
+        subplan reg_CHN_DESC #(path="ch9_desc");
+    endfeature
+    feature reg_ch9_swptr;
+        subplan reg_CHN_SWPTR #(path="ch9_swptr");
+    endfeature
+    feature reg_ch10_csr;
+        subplan reg_CHN_CSR #(path="ch10_csr");
+    endfeature
+    feature reg_ch10_sz;
+        subplan reg_CHN_SZ #(path="ch10_sz");
+    endfeature
+    feature reg_ch10_a0;
+        subplan reg_CHN_A0 #(path="ch10_a0");
+    endfeature
+    feature reg_ch10_am0;
+        subplan reg_CHN_AM0 #(path="ch10_am0");
+    endfeature
+    feature reg_ch10_a1;
+        subplan reg_CHN_A1 #(path="ch10_a1");
+    endfeature
+    feature reg_ch10_am1;
+        subplan reg_CHN_AM1 #(path="ch10_am1");
+    endfeature
+    feature reg_ch10_desc;
+        subplan reg_CHN_DESC #(path="ch10_desc");
+    endfeature
+    feature reg_ch10_swptr;
+        subplan reg_CHN_SWPTR #(path="ch10_swptr");
+    endfeature
+    feature reg_ch11_csr;
+        subplan reg_CHN_CSR #(path="ch11_csr");
+    endfeature
+    feature reg_ch11_sz;
+        subplan reg_CHN_SZ #(path="ch11_sz");
+    endfeature
+    feature reg_ch11_a0;
+        subplan reg_CHN_A0 #(path="ch11_a0");
+    endfeature
+    feature reg_ch11_am0;
+        subplan reg_CHN_AM0 #(path="ch11_am0");
+    endfeature
+    feature reg_ch11_a1;
+        subplan reg_CHN_A1 #(path="ch11_a1");
+    endfeature
+    feature reg_ch11_am1;
+        subplan reg_CHN_AM1 #(path="ch11_am1");
+    endfeature
+    feature reg_ch11_desc;
+        subplan reg_CHN_DESC #(path="ch11_desc");
+    endfeature
+    feature reg_ch11_swptr;
+        subplan reg_CHN_SWPTR #(path="ch11_swptr");
+    endfeature
+    feature reg_ch12_csr;
+        subplan reg_CHN_CSR #(path="ch12_csr");
+    endfeature
+    feature reg_ch12_sz;
+        subplan reg_CHN_SZ #(path="ch12_sz");
+    endfeature
+    feature reg_ch12_a0;
+        subplan reg_CHN_A0 #(path="ch12_a0");
+    endfeature
+    feature reg_ch12_am0;
+        subplan reg_CHN_AM0 #(path="ch12_am0");
+    endfeature
+    feature reg_ch12_a1;
+        subplan reg_CHN_A1 #(path="ch12_a1");
+    endfeature
+    feature reg_ch12_am1;
+        subplan reg_CHN_AM1 #(path="ch12_am1");
+    endfeature
+    feature reg_ch12_desc;
+        subplan reg_CHN_DESC #(path="ch12_desc");
+    endfeature
+    feature reg_ch12_swptr;
+        subplan reg_CHN_SWPTR #(path="ch12_swptr");
+    endfeature
+    feature reg_ch13_csr;
+        subplan reg_CHN_CSR #(path="ch13_csr");
+    endfeature
+    feature reg_ch13_sz;
+        subplan reg_CHN_SZ #(path="ch13_sz");
+    endfeature
+    feature reg_ch13_a0;
+        subplan reg_CHN_A0 #(path="ch13_a0");
+    endfeature
+    feature reg_ch13_am0;
+        subplan reg_CHN_AM0 #(path="ch13_am0");
+    endfeature
+    feature reg_ch13_a1;
+        subplan reg_CHN_A1 #(path="ch13_a1");
+    endfeature
+    feature reg_ch13_am1;
+        subplan reg_CHN_AM1 #(path="ch13_am1");
+    endfeature
+    feature reg_ch13_desc;
+        subplan reg_CHN_DESC #(path="ch13_desc");
+    endfeature
+    feature reg_ch13_swptr;
+        subplan reg_CHN_SWPTR #(path="ch13_swptr");
+    endfeature
+    feature reg_ch14_csr;
+        subplan reg_CHN_CSR #(path="ch14_csr");
+    endfeature
+    feature reg_ch14_sz;
+        subplan reg_CHN_SZ #(path="ch14_sz");
+    endfeature
+    feature reg_ch14_a0;
+        subplan reg_CHN_A0 #(path="ch14_a0");
+    endfeature
+    feature reg_ch14_am0;
+        subplan reg_CHN_AM0 #(path="ch14_am0");
+    endfeature
+    feature reg_ch14_a1;
+        subplan reg_CHN_A1 #(path="ch14_a1");
+    endfeature
+    feature reg_ch14_am1;
+        subplan reg_CHN_AM1 #(path="ch14_am1");
+    endfeature
+    feature reg_ch14_desc;
+        subplan reg_CHN_DESC #(path="ch14_desc");
+    endfeature
+    feature reg_ch14_swptr;
+        subplan reg_CHN_SWPTR #(path="ch14_swptr");
+    endfeature
+    feature reg_ch15_csr;
+        subplan reg_CHN_CSR #(path="ch15_csr");
+    endfeature
+    feature reg_ch15_sz;
+        subplan reg_CHN_SZ #(path="ch15_sz");
+    endfeature
+    feature reg_ch15_a0;
+        subplan reg_CHN_A0 #(path="ch15_a0");
+    endfeature
+    feature reg_ch15_am0;
+        subplan reg_CHN_AM0 #(path="ch15_am0");
+    endfeature
+    feature reg_ch15_a1;
+        subplan reg_CHN_A1 #(path="ch15_a1");
+    endfeature
+    feature reg_ch15_am1;
+        subplan reg_CHN_AM1 #(path="ch15_am1");
+    endfeature
+    feature reg_ch15_desc;
+        subplan reg_CHN_DESC #(path="ch15_desc");
+    endfeature
+    feature reg_ch15_swptr;
+        subplan reg_CHN_SWPTR #(path="ch15_swptr");
+    endfeature
+    feature reg_ch16_csr;
+        subplan reg_CHN_CSR #(path="ch16_csr");
+    endfeature
+    feature reg_ch16_sz;
+        subplan reg_CHN_SZ #(path="ch16_sz");
+    endfeature
+    feature reg_ch16_a0;
+        subplan reg_CHN_A0 #(path="ch16_a0");
+    endfeature
+    feature reg_ch16_am0;
+        subplan reg_CHN_AM0 #(path="ch16_am0");
+    endfeature
+    feature reg_ch16_a1;
+        subplan reg_CHN_A1 #(path="ch16_a1");
+    endfeature
+    feature reg_ch16_am1;
+        subplan reg_CHN_AM1 #(path="ch16_am1");
+    endfeature
+    feature reg_ch16_desc;
+        subplan reg_CHN_DESC #(path="ch16_desc");
+    endfeature
+    feature reg_ch16_swptr;
+        subplan reg_CHN_SWPTR #(path="ch16_swptr");
+    endfeature
+    feature reg_ch17_csr;
+        subplan reg_CHN_CSR #(path="ch17_csr");
+    endfeature
+    feature reg_ch17_sz;
+        subplan reg_CHN_SZ #(path="ch17_sz");
+    endfeature
+    feature reg_ch17_a0;
+        subplan reg_CHN_A0 #(path="ch17_a0");
+    endfeature
+    feature reg_ch17_am0;
+        subplan reg_CHN_AM0 #(path="ch17_am0");
+    endfeature
+    feature reg_ch17_a1;
+        subplan reg_CHN_A1 #(path="ch17_a1");
+    endfeature
+    feature reg_ch17_am1;
+        subplan reg_CHN_AM1 #(path="ch17_am1");
+    endfeature
+    feature reg_ch17_desc;
+        subplan reg_CHN_DESC #(path="ch17_desc");
+    endfeature
+    feature reg_ch17_swptr;
+        subplan reg_CHN_SWPTR #(path="ch17_swptr");
+    endfeature
+    feature reg_ch18_csr;
+        subplan reg_CHN_CSR #(path="ch18_csr");
+    endfeature
+    feature reg_ch18_sz;
+        subplan reg_CHN_SZ #(path="ch18_sz");
+    endfeature
+    feature reg_ch18_a0;
+        subplan reg_CHN_A0 #(path="ch18_a0");
+    endfeature
+    feature reg_ch18_am0;
+        subplan reg_CHN_AM0 #(path="ch18_am0");
+    endfeature
+    feature reg_ch18_a1;
+        subplan reg_CHN_A1 #(path="ch18_a1");
+    endfeature
+    feature reg_ch18_am1;
+        subplan reg_CHN_AM1 #(path="ch18_am1");
+    endfeature
+    feature reg_ch18_desc;
+        subplan reg_CHN_DESC #(path="ch18_desc");
+    endfeature
+    feature reg_ch18_swptr;
+        subplan reg_CHN_SWPTR #(path="ch18_swptr");
+    endfeature
+    feature reg_ch19_csr;
+        subplan reg_CHN_CSR #(path="ch19_csr");
+    endfeature
+    feature reg_ch19_sz;
+        subplan reg_CHN_SZ #(path="ch19_sz");
+    endfeature
+    feature reg_ch19_a0;
+        subplan reg_CHN_A0 #(path="ch19_a0");
+    endfeature
+    feature reg_ch19_am0;
+        subplan reg_CHN_AM0 #(path="ch19_am0");
+    endfeature
+    feature reg_ch19_a1;
+        subplan reg_CHN_A1 #(path="ch19_a1");
+    endfeature
+    feature reg_ch19_am1;
+        subplan reg_CHN_AM1 #(path="ch19_am1");
+    endfeature
+    feature reg_ch19_desc;
+        subplan reg_CHN_DESC #(path="ch19_desc");
+    endfeature
+    feature reg_ch19_swptr;
+        subplan reg_CHN_SWPTR #(path="ch19_swptr");
+    endfeature
+    feature reg_ch20_csr;
+        subplan reg_CHN_CSR #(path="ch20_csr");
+    endfeature
+    feature reg_ch20_sz;
+        subplan reg_CHN_SZ #(path="ch20_sz");
+    endfeature
+    feature reg_ch20_a0;
+        subplan reg_CHN_A0 #(path="ch20_a0");
+    endfeature
+    feature reg_ch20_am0;
+        subplan reg_CHN_AM0 #(path="ch20_am0");
+    endfeature
+    feature reg_ch20_a1;
+        subplan reg_CHN_A1 #(path="ch20_a1");
+    endfeature
+    feature reg_ch20_am1;
+        subplan reg_CHN_AM1 #(path="ch20_am1");
+    endfeature
+    feature reg_ch20_desc;
+        subplan reg_CHN_DESC #(path="ch20_desc");
+    endfeature
+    feature reg_ch20_swptr;
+        subplan reg_CHN_SWPTR #(path="ch20_swptr");
+    endfeature
+    feature reg_ch21_csr;
+        subplan reg_CHN_CSR #(path="ch21_csr");
+    endfeature
+    feature reg_ch21_sz;
+        subplan reg_CHN_SZ #(path="ch21_sz");
+    endfeature
+    feature reg_ch21_a0;
+        subplan reg_CHN_A0 #(path="ch21_a0");
+    endfeature
+    feature reg_ch21_am0;
+        subplan reg_CHN_AM0 #(path="ch21_am0");
+    endfeature
+    feature reg_ch21_a1;
+        subplan reg_CHN_A1 #(path="ch21_a1");
+    endfeature
+    feature reg_ch21_am1;
+        subplan reg_CHN_AM1 #(path="ch21_am1");
+    endfeature
+    feature reg_ch21_desc;
+        subplan reg_CHN_DESC #(path="ch21_desc");
+    endfeature
+    feature reg_ch21_swptr;
+        subplan reg_CHN_SWPTR #(path="ch21_swptr");
+    endfeature
+    feature reg_ch22_csr;
+        subplan reg_CHN_CSR #(path="ch22_csr");
+    endfeature
+    feature reg_ch22_sz;
+        subplan reg_CHN_SZ #(path="ch22_sz");
+    endfeature
+    feature reg_ch22_a0;
+        subplan reg_CHN_A0 #(path="ch22_a0");
+    endfeature
+    feature reg_ch22_am0;
+        subplan reg_CHN_AM0 #(path="ch22_am0");
+    endfeature
+    feature reg_ch22_a1;
+        subplan reg_CHN_A1 #(path="ch22_a1");
+    endfeature
+    feature reg_ch22_am1;
+        subplan reg_CHN_AM1 #(path="ch22_am1");
+    endfeature
+    feature reg_ch22_desc;
+        subplan reg_CHN_DESC #(path="ch22_desc");
+    endfeature
+    feature reg_ch22_swptr;
+        subplan reg_CHN_SWPTR #(path="ch22_swptr");
+    endfeature
+    feature reg_ch23_csr;
+        subplan reg_CHN_CSR #(path="ch23_csr");
+    endfeature
+    feature reg_ch23_sz;
+        subplan reg_CHN_SZ #(path="ch23_sz");
+    endfeature
+    feature reg_ch23_a0;
+        subplan reg_CHN_A0 #(path="ch23_a0");
+    endfeature
+    feature reg_ch23_am0;
+        subplan reg_CHN_AM0 #(path="ch23_am0");
+    endfeature
+    feature reg_ch23_a1;
+        subplan reg_CHN_A1 #(path="ch23_a1");
+    endfeature
+    feature reg_ch23_am1;
+        subplan reg_CHN_AM1 #(path="ch23_am1");
+    endfeature
+    feature reg_ch23_desc;
+        subplan reg_CHN_DESC #(path="ch23_desc");
+    endfeature
+    feature reg_ch23_swptr;
+        subplan reg_CHN_SWPTR #(path="ch23_swptr");
+    endfeature
+    feature reg_ch24_csr;
+        subplan reg_CHN_CSR #(path="ch24_csr");
+    endfeature
+    feature reg_ch24_sz;
+        subplan reg_CHN_SZ #(path="ch24_sz");
+    endfeature
+    feature reg_ch24_a0;
+        subplan reg_CHN_A0 #(path="ch24_a0");
+    endfeature
+    feature reg_ch24_am0;
+        subplan reg_CHN_AM0 #(path="ch24_am0");
+    endfeature
+    feature reg_ch24_a1;
+        subplan reg_CHN_A1 #(path="ch24_a1");
+    endfeature
+    feature reg_ch24_am1;
+        subplan reg_CHN_AM1 #(path="ch24_am1");
+    endfeature
+    feature reg_ch24_desc;
+        subplan reg_CHN_DESC #(path="ch24_desc");
+    endfeature
+    feature reg_ch24_swptr;
+        subplan reg_CHN_SWPTR #(path="ch24_swptr");
+    endfeature
+    feature reg_ch25_csr;
+        subplan reg_CHN_CSR #(path="ch25_csr");
+    endfeature
+    feature reg_ch25_sz;
+        subplan reg_CHN_SZ #(path="ch25_sz");
+    endfeature
+    feature reg_ch25_a0;
+        subplan reg_CHN_A0 #(path="ch25_a0");
+    endfeature
+    feature reg_ch25_am0;
+        subplan reg_CHN_AM0 #(path="ch25_am0");
+    endfeature
+    feature reg_ch25_a1;
+        subplan reg_CHN_A1 #(path="ch25_a1");
+    endfeature
+    feature reg_ch25_am1;
+        subplan reg_CHN_AM1 #(path="ch25_am1");
+    endfeature
+    feature reg_ch25_desc;
+        subplan reg_CHN_DESC #(path="ch25_desc");
+    endfeature
+    feature reg_ch25_swptr;
+        subplan reg_CHN_SWPTR #(path="ch25_swptr");
+    endfeature
+    feature reg_ch26_csr;
+        subplan reg_CHN_CSR #(path="ch26_csr");
+    endfeature
+    feature reg_ch26_sz;
+        subplan reg_CHN_SZ #(path="ch26_sz");
+    endfeature
+    feature reg_ch26_a0;
+        subplan reg_CHN_A0 #(path="ch26_a0");
+    endfeature
+    feature reg_ch26_am0;
+        subplan reg_CHN_AM0 #(path="ch26_am0");
+    endfeature
+    feature reg_ch26_a1;
+        subplan reg_CHN_A1 #(path="ch26_a1");
+    endfeature
+    feature reg_ch26_am1;
+        subplan reg_CHN_AM1 #(path="ch26_am1");
+    endfeature
+    feature reg_ch26_desc;
+        subplan reg_CHN_DESC #(path="ch26_desc");
+    endfeature
+    feature reg_ch26_swptr;
+        subplan reg_CHN_SWPTR #(path="ch26_swptr");
+    endfeature
+    feature reg_ch27_csr;
+        subplan reg_CHN_CSR #(path="ch27_csr");
+    endfeature
+    feature reg_ch27_sz;
+        subplan reg_CHN_SZ #(path="ch27_sz");
+    endfeature
+    feature reg_ch27_a0;
+        subplan reg_CHN_A0 #(path="ch27_a0");
+    endfeature
+    feature reg_ch27_am0;
+        subplan reg_CHN_AM0 #(path="ch27_am0");
+    endfeature
+    feature reg_ch27_a1;
+        subplan reg_CHN_A1 #(path="ch27_a1");
+    endfeature
+    feature reg_ch27_am1;
+        subplan reg_CHN_AM1 #(path="ch27_am1");
+    endfeature
+    feature reg_ch27_desc;
+        subplan reg_CHN_DESC #(path="ch27_desc");
+    endfeature
+    feature reg_ch27_swptr;
+        subplan reg_CHN_SWPTR #(path="ch27_swptr");
+    endfeature
+    feature reg_ch28_csr;
+        subplan reg_CHN_CSR #(path="ch28_csr");
+    endfeature
+    feature reg_ch28_sz;
+        subplan reg_CHN_SZ #(path="ch28_sz");
+    endfeature
+    feature reg_ch28_a0;
+        subplan reg_CHN_A0 #(path="ch28_a0");
+    endfeature
+    feature reg_ch28_am0;
+        subplan reg_CHN_AM0 #(path="ch28_am0");
+    endfeature
+    feature reg_ch28_a1;
+        subplan reg_CHN_A1 #(path="ch28_a1");
+    endfeature
+    feature reg_ch28_am1;
+        subplan reg_CHN_AM1 #(path="ch28_am1");
+    endfeature
+    feature reg_ch28_desc;
+        subplan reg_CHN_DESC #(path="ch28_desc");
+    endfeature
+    feature reg_ch28_swptr;
+        subplan reg_CHN_SWPTR #(path="ch28_swptr");
+    endfeature
+    feature reg_ch29_csr;
+        subplan reg_CHN_CSR #(path="ch29_csr");
+    endfeature
+    feature reg_ch29_sz;
+        subplan reg_CHN_SZ #(path="ch29_sz");
+    endfeature
+    feature reg_ch29_a0;
+        subplan reg_CHN_A0 #(path="ch29_a0");
+    endfeature
+    feature reg_ch29_am0;
+        subplan reg_CHN_AM0 #(path="ch29_am0");
+    endfeature
+    feature reg_ch29_a1;
+        subplan reg_CHN_A1 #(path="ch29_a1");
+    endfeature
+    feature reg_ch29_am1;
+        subplan reg_CHN_AM1 #(path="ch29_am1");
+    endfeature
+    feature reg_ch29_desc;
+        subplan reg_CHN_DESC #(path="ch29_desc");
+    endfeature
+    feature reg_ch29_swptr;
+        subplan reg_CHN_SWPTR #(path="ch29_swptr");
+    endfeature
+    feature reg_ch30_csr;
+        subplan reg_CHN_CSR #(path="ch30_csr");
+    endfeature
+    feature reg_ch30_sz;
+        subplan reg_CHN_SZ #(path="ch30_sz");
+    endfeature
+    feature reg_ch30_a0;
+        subplan reg_CHN_A0 #(path="ch30_a0");
+    endfeature
+    feature reg_ch30_am0;
+        subplan reg_CHN_AM0 #(path="ch30_am0");
+    endfeature
+    feature reg_ch30_a1;
+        subplan reg_CHN_A1 #(path="ch30_a1");
+    endfeature
+    feature reg_ch30_am1;
+        subplan reg_CHN_AM1 #(path="ch30_am1");
+    endfeature
+    feature reg_ch30_desc;
+        subplan reg_CHN_DESC #(path="ch30_desc");
+    endfeature
+    feature reg_ch30_swptr;
+        subplan reg_CHN_SWPTR #(path="ch30_swptr");
+    endfeature
+
+    feature address_map;
+        measure Group fcov;
+            source = "group instance:**::ral_block_wb_dma::cg_addr";
+        endmeasure
+    endfeature
+
+    feature field_values;
+        measure Group fcov;
+            source = "group instance:**::cg_vals";
+        endmeasure
+    endfeature
+endplan
+
+

@@ -1,0 +1,27 @@
+Testbench Group List
+
+Total Groups Coverage Summary 
+SCORE  INST SCORE WEIGHT 
+ 32.63  25.48     1      
+
+
+Total groups in report: 16
+-------------------------------------------------------------------------------
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING COMMENT NAME                             
+ 24.40  25.00    1      100    1        1            64           64                    test::ral_reg_CH0_CSR::cg_bits   
+ 24.40  25.00    1      100    1        1            64           64                    test::ral_reg_CHN_CSR::cg_bits   
+ 25.00  25.00    1      100    1        1            64           64                    test::ral_reg_CSR::cg_bits       
+ 25.00  25.00    1      100    1        1            64           64                    test::ral_reg_INT_MASKA::cg_bits 
+ 25.00  25.00    1      100    1        1            64           64                    test::ral_reg_INT_MASKB::cg_bits 
+ 25.00  25.00    1      100    1        1            64           64                    test::ral_reg_INT_SRCA::cg_bits  
+ 25.00  25.00    1      100    1        1            64           64                    test::ral_reg_INT_SRCB::cg_bits  
+ 25.00  25.00    1      100    1        1            64           64                    test::ral_reg_CHN_SZ::cg_bits    
+ 25.00  25.00    1      100    1        1            64           64                    test::ral_reg_CHN_A0::cg_bits    
+ 25.00  25.00    1      100    1        1            64           64                    test::ral_reg_CHN_AM0::cg_bits   
+ 25.00  25.00    1      100    1        1            64           64                    test::ral_reg_CHN_A1::cg_bits    
+ 25.00  25.00    1      100    1        1            64           64                    test::ral_reg_CHN_AM1::cg_bits   
+ 25.00  25.00    1      100    1        1            64           64                    test::ral_reg_CHN_DESC::cg_bits  
+ 25.00  25.00    1      100    1        1            64           64                    test::ral_reg_CHN_SWPTR::cg_bits 
+ 73.33 --        1      100    1        0            64           64                    test::wb_dma_env_cov::cg_trans   
+100.00 100.00    1      100    1        1            64           64                    test::ral_block_wb_dma::cg_addr  
+

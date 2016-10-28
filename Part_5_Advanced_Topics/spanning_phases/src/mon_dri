@@ -1,0 +1,55 @@
+ forever begin
+	wb_transaction tr;
+
+	    do begin
+
+         @(this.drv_if.CYC_I or
+           this.drv_if.STB_I or
+           this.drv_if.ADR_I or
+           this.drv_if.SEL_I or
+           this.drv_if.WE_I  or
+           this.drv_if.TGA_I or
+           this.drv_if.TGC_I);
+      end while (this.drv_if.CYC_I !== 1'b1 ||
+                 this.drv_if.STB_I !== 1'b1);
+	tr= wb_transaction::type_id::create("tr", this);
+	tr.address = this.drv_if.ADR_I;
+	// Are we supposed to respond to this cycle?
+	if(this.wb_slave_cfg.min_addr <= tr.address  && tr.address <=this.wb_slave_cfg.max_addr )
+	begin
+      `uvm_do_callbacks(wb_slave,wb_slave_callbacks, pre_tx(this, tr))
+	  	tr.tga = this.drv_if.TGA_I;
+		if(this.drv_if.WE_I) begin
+			tr.kind = wb_transaction::WRITE;
+	   		`uvm_info("Wb_slave","got a write transaction  from Master ",UVM_LOW)
+			tr.data  = this.drv_if.DAT_I;
+	        	tr.tgd  = this.drv_if.TGD_I;
+			write(tr.address,tr.data);
+			tr.status = wb_transaction::ACK;
+                end
+		else begin
+		 	tr.kind = wb_transaction::READ ;
+   			`uvm_info("Wb_slave","got a read transaction  ",UVM_LOW)
+				read_data = read(tr.address);
+
+				this.drv_if.DAT_O = read_data;
+				this.drv_if.TGD_O = tr.tgd;
+				tr.status = wb_transaction::ACK;
+      		end
+
+
+	  repeat (this.wb_slave_cfg.max_n_wss) begin
+               @ (this.drv_if.slave_cb);
+            end
+
+
+
+      tr.sel = this.drv_if.SEL_I;
+      tr.tgc  = this.drv_if.TGC_I;
+	@(this.drv_if.slave_cb);
+      end
+// replace callback      `uvm_do_callbacks(wb_slave,wb_slave_callbacks, post_tx(this, tr))
+      		// replace message `uvm_info("SLAVE_DRIVER", "Completed transaction...",UVM_LOW)
+   end
+endtask : slave_driver
+

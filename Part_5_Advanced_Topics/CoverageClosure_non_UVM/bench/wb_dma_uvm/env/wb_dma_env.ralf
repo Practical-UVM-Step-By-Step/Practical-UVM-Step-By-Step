@@ -1,0 +1,585 @@
+#
+# Template for RALF file used by RAL environment
+#
+
+# ToDo: wb_dma_env.ralf file needs to be modified according to user configuration 
+# to generate ral_wb_dma_env block inside ral_wb_dma_env.sv file
+# Default implementation of register, memory, field and block 
+# kept inside this wb_dma_env.ralf file
+
+register CSR {
+	bytes 4;
+      field PAUSE @0 {
+         bits 1;
+         access rw;
+         reset 'h0;
+      } 
+
+}
+
+field mask {
+	bits 1;
+	access rw;
+         reset 'h0;
+}
+
+register INT_MASKA {
+	bytes 4;
+
+	for {set i 0} {$i < 32} {incr i} {
+         field mask=f_mask${i} @$i ;
+	}
+	
+}
+register INT_MASKB {
+	bytes 4;
+          
+	for {set i 0} {$i < 32} {incr i} {
+         field mask=f_mask${i} @$i ;
+	}
+	
+
+}
+register INT_SRCA {
+	bytes 4;
+	for {set i 0} {$i < 32} {incr i} {
+         field mask=f_mask${i} @$i ;
+	}
+	
+
+}
+
+register INT_SRCB {
+	bytes 4;
+	for {set i 0} {$i < 32} {incr i} {
+         field mask=f_mask${i} @$i ;
+
+	}
+}
+
+register CHN_CSR {
+         bytes 4;
+
+      field CH_EN @0 {
+         bits 1;
+         access rw;
+         reset 'h0;
+      }
+      field DST_SEL @1 {
+         bits 1;
+         access rw;
+         reset 'h0;
+      }
+      field SRC_SEL @2 {
+         bits 1;
+         access rw;
+         reset 'h0;
+      }
+      field INC_DST @3 {
+         bits 1;
+         access rw;
+         reset 'h0;
+      }
+      field INC_SRC @4 {
+         bits 1;
+         access rw;
+         reset 'h0;
+      }
+      field MODE @5 {
+         bits 1;
+         access rw;
+         reset 'h0;
+      }
+      field ARS @6 {
+         bits 1;
+         access rw;
+         reset 'h0;
+      }
+      field USE_ED @7 {
+         bits 1;
+         access rw;
+         reset 'h0;
+      }
+      field SZ_WB @8 {
+         bits 1;
+         access rw;
+         reset 'h0;
+      }
+      field STOP @9 {
+         bits 1;
+         access wo;
+         reset 'h0;
+      }
+      field BUSY @10 {
+         bits 1;
+         access ro;
+         reset 'h0;
+      }
+      field DONE @11 {
+         bits 1;
+         access ro;
+         reset 'h0;
+      }
+
+      field ERR @12 {
+         bits 1;
+         access rc;
+         reset 'h0;
+      }
+      field PARITY @13 {
+         bits 3;
+         access rw;
+         reset 'h0;
+      }
+}
+
+register CHN_SZ {
+         bytes 4;
+          
+      field CHK_SZ @16 {
+         bits 12;
+         access rw;
+      }
+      field reserved {
+	bits 4;
+      }
+
+      field TOT_SZ @0 {
+         bits 12;
+         access rw;
+      }
+
+}
+#
+register CHN_A0 {
+         bytes 4;
+          
+      field ADDRESS @0 {
+         bits 29;
+         access rw;
+      }
+
+
+      field reserved {
+	bits 2;
+      }
+}
+register CHN_A1 {
+         bytes 4;
+          
+      field ADDRESS @0 {
+         bits 29;
+         access rw;
+      }
+
+
+      field reserved {
+	bits 2;
+      }
+
+}
+
+register CHN_AM0 {
+         bytes 4;
+          
+      field ADDRESS_MASK  {
+         bits 28;
+         access rw;
+      }
+
+
+      field reserved {
+	bits 4;
+      }
+
+
+}
+register CHN_AM1 {
+         bytes 4;
+          
+      field ADDRESS_MASK  {
+         bits 28;
+         access rw;
+      }
+
+
+      field reserved {
+	bits 4;
+      }
+
+
+}
+register CHN_DESC {
+         bytes 4;
+      field ADDRESS_MASK  {
+         bits 28;
+         access rw;
+      }
+      field reserved {
+	bits 2;
+      }
+          
+
+
+}
+register CHN_SWPTR {
+         bytes 4;
+          
+      field SWPTR_EN {
+         bits 1;
+         access rw;
+      }
+      field SW_POINTER {
+         bits 29;
+         access rw;
+      }
+
+      field reserved {
+	bits 2;
+      }
+
+
+}
+#
+#
+register CH0_CSR {
+         bytes 4;
+
+      field CH_EN @0 {
+         bits 1;
+         access rw;
+         reset 'h0;
+      }
+      field DST_SEL @1 {
+         bits 1;
+         access rw;
+         reset 'h0;
+      }
+      field SRC_SEL @2 {
+         bits 1;
+         access rw;
+         reset 'h0;
+      }
+      field INC_DST @3 {
+         bits 1;
+         access rw;
+         reset 'h0;
+      }
+      field INC_SRC @4 {
+         bits 1;
+         access rw;
+         reset 'h0;
+      }
+      field MODE @5 {
+         bits 1;
+         access rw;
+         reset 'h0;
+      }
+      field ARS @6 {
+         bits 1;
+         access rw;
+         reset 'h0;
+      }
+      field USE_ED @7 {
+         bits 1;
+         access rw;
+         reset 'h0;
+      }
+      field SZ_WB @8 {
+         bits 1;
+         access rw;
+         reset 'h0;
+      }
+      field STOP @9 {
+         bits 1;
+         access wo;
+         reset 'h0;
+      }
+      field BUSY @10 {
+         bits 1;
+         access ro;
+         reset 'h0;
+      }
+      field DONE @11 {
+         bits 1;
+         access ro;
+         reset 'h0;
+      }
+
+      field ERR @12 {
+         bits 1;
+         access rc;
+         reset 'h0;
+      }
+      field PARITY @13 {
+         bits 3;
+         access rw;
+         reset 'h0;
+      }
+}
+
+#
+#
+
+
+block wb_dma {
+   bytes 4096;
+      register CSR @'h0 ;
+      register INT_MASKA @'h4 ;
+      register INT_MASKB @'h8 ;
+      register INT_SRCA @'hc  ;
+      register INT_SRCB @'h10  ;
+
+
+		 # register CHN_CSR=ch0_csr @'h20;
+		register CH0_CSR @'h20;
+		register CHN_SZ=ch0_sz @'h24 ;
+		register CHN_A0=ch0_a0 @'h28 ;
+		register CHN_AM0=ch0_am0 @'h2c ;
+		register CHN_A1=ch0_a1 @'h30 ;
+		register CHN_AM1=ch0_am1 @'h34 ;
+		register CHN_DESC=ch0_desc@'h38 ;
+		register CHN_SWPTR=ch0_swptr@'h3c ;
+		register CHN_CSR=ch1_csr @'h40 ;
+		register CHN_SZ=ch1_sz @'h44 ;
+		register CHN_A0=ch1_a0 @'h48 ;
+		register CHN_AM0=ch1_am0 @'h4c ;
+		register CHN_A1=ch1_a1 @'h50 ;
+		register CHN_AM1=ch1_am1 @'h54 ;
+		register CHN_DESC=ch1_desc@'h58 ;
+		register CHN_SWPTR=ch1_swptr@'h5c ;
+		register CHN_CSR=ch2_csr @'h60 ;
+		register CHN_SZ=ch2_sz @'h64 ;
+		register CHN_A0=ch2_a0 @'h68 ;
+		register CHN_AM0=ch2_am0 @'h6c ;
+		register CHN_A1=ch2_a1 @'h70 ;
+		register CHN_AM1=ch2_am1 @'h74 ;
+		register CHN_DESC=ch2_desc@'h78 ;
+		register CHN_SWPTR=ch2_swptr@'h7c ;
+		register CHN_CSR=ch3_csr @'h80 ;
+		register CHN_SZ=ch3_sz @'h84 ;
+		register CHN_A0=ch3_a0 @'h88 ;
+		register CHN_AM0=ch3_am0 @'h8c ;
+		register CHN_A1=ch3_a1 @'h90 ;
+		register CHN_AM1=ch3_am1 @'h94 ;
+		register CHN_DESC=ch3_desc@'h98 ;
+		register CHN_SWPTR=ch3_swptr@'h9c ;
+		register CHN_CSR=ch4_csr @'ha0 ;
+		register CHN_SZ=ch4_sz @'ha4 ;
+		register CHN_A0=ch4_a0 @'ha8 ;
+		register CHN_AM0=ch4_am0 @'hac ;
+		register CHN_A1=ch4_a1 @'hb0 ;
+		register CHN_AM1=ch4_am1 @'hb4 ;
+		register CHN_DESC=ch4_desc@'hb8 ;
+		register CHN_SWPTR=ch4_swptr@'hbc ;
+		register CHN_CSR=ch5_csr @'hc0 ;
+		register CHN_SZ=ch5_sz @'hc4 ;
+		register CHN_A0=ch5_a0 @'hc8 ;
+		register CHN_AM0=ch5_am0 @'hcc ;
+		register CHN_A1=ch5_a1 @'hd0 ;
+		register CHN_AM1=ch5_am1 @'hd4 ;
+		register CHN_DESC=ch5_desc@'hd8 ;
+		register CHN_SWPTR=ch5_swptr@'hdc ;
+		register CHN_CSR=ch6_csr @'he0 ;
+		register CHN_SZ=ch6_sz @'he4 ;
+		register CHN_A0=ch6_a0 @'he8 ;
+		register CHN_AM0=ch6_am0 @'hec ;
+		register CHN_A1=ch6_a1 @'hf0 ;
+		register CHN_AM1=ch6_am1 @'hf4 ;
+		register CHN_DESC=ch6_desc@'hf8 ;
+		register CHN_SWPTR=ch6_swptr@'hfc ;
+		register CHN_CSR=ch7_csr @'h100 ;
+		register CHN_SZ=ch7_sz @'h104 ;
+		register CHN_A0=ch7_a0 @'h108 ;
+		register CHN_AM0=ch7_am0 @'h10c ;
+		register CHN_A1=ch7_a1 @'h110 ;
+		register CHN_AM1=ch7_am1 @'h114 ;
+		register CHN_DESC=ch7_desc@'h118 ;
+		register CHN_SWPTR=ch7_swptr@'h11c ;
+		register CHN_CSR=ch8_csr @'h120 ;
+		register CHN_SZ=ch8_sz @'h124 ;
+		register CHN_A0=ch8_a0 @'h128 ;
+		register CHN_AM0=ch8_am0 @'h12c ;
+		register CHN_A1=ch8_a1 @'h130 ;
+		register CHN_AM1=ch8_am1 @'h134 ;
+		register CHN_DESC=ch8_desc@'h138 ;
+		register CHN_SWPTR=ch8_swptr@'h13c ;
+		register CHN_CSR=ch9_csr @'h140 ;
+		register CHN_SZ=ch9_sz @'h144 ;
+		register CHN_A0=ch9_a0 @'h148 ;
+		register CHN_AM0=ch9_am0 @'h14c ;
+		register CHN_A1=ch9_a1 @'h150 ;
+		register CHN_AM1=ch9_am1 @'h154 ;
+		register CHN_DESC=ch9_desc@'h158 ;
+		register CHN_SWPTR=ch9_swptr@'h15c ;
+		register CHN_CSR=ch10_csr @'h160 ;
+		register CHN_SZ=ch10_sz @'h164 ;
+		register CHN_A0=ch10_a0 @'h168 ;
+		register CHN_AM0=ch10_am0 @'h16c ;
+		register CHN_A1=ch10_a1 @'h170 ;
+		register CHN_AM1=ch10_am1 @'h174 ;
+		register CHN_DESC=ch10_desc@'h178 ;
+		register CHN_SWPTR=ch10_swptr@'h17c ;
+		register CHN_CSR=ch11_csr @'h180 ;
+		register CHN_SZ=ch11_sz @'h184 ;
+		register CHN_A0=ch11_a0 @'h188 ;
+		register CHN_AM0=ch11_am0 @'h18c ;
+		register CHN_A1=ch11_a1 @'h190 ;
+		register CHN_AM1=ch11_am1 @'h194 ;
+		register CHN_DESC=ch11_desc@'h198 ;
+		register CHN_SWPTR=ch11_swptr@'h19c ;
+		register CHN_CSR=ch12_csr @'h1a0 ;
+		register CHN_SZ=ch12_sz @'h1a4 ;
+		register CHN_A0=ch12_a0 @'h1a8 ;
+		register CHN_AM0=ch12_am0 @'h1ac ;
+		register CHN_A1=ch12_a1 @'h1b0 ;
+		register CHN_AM1=ch12_am1 @'h1b4 ;
+		register CHN_DESC=ch12_desc@'h1b8 ;
+		register CHN_SWPTR=ch12_swptr@'h1bc ;
+		register CHN_CSR=ch13_csr @'h1c0 ;
+		register CHN_SZ=ch13_sz @'h1c4 ;
+		register CHN_A0=ch13_a0 @'h1c8 ;
+		register CHN_AM0=ch13_am0 @'h1cc ;
+		register CHN_A1=ch13_a1 @'h1d0 ;
+		register CHN_AM1=ch13_am1 @'h1d4 ;
+		register CHN_DESC=ch13_desc@'h1d8 ;
+		register CHN_SWPTR=ch13_swptr@'h1dc ;
+		register CHN_CSR=ch14_csr @'h1e0 ;
+		register CHN_SZ=ch14_sz @'h1e4 ;
+		register CHN_A0=ch14_a0 @'h1e8 ;
+		register CHN_AM0=ch14_am0 @'h1ec ;
+		register CHN_A1=ch14_a1 @'h1f0 ;
+		register CHN_AM1=ch14_am1 @'h1f4 ;
+		register CHN_DESC=ch14_desc@'h1f8 ;
+		register CHN_SWPTR=ch14_swptr@'h1fc ;
+		register CHN_CSR=ch15_csr @'h200 ;
+		register CHN_SZ=ch15_sz @'h204 ;
+		register CHN_A0=ch15_a0 @'h208 ;
+		register CHN_AM0=ch15_am0 @'h20c ;
+		register CHN_A1=ch15_a1 @'h210 ;
+		register CHN_AM1=ch15_am1 @'h214 ;
+		register CHN_DESC=ch15_desc@'h218 ;
+		register CHN_SWPTR=ch15_swptr@'h21c ;
+		register CHN_CSR=ch16_csr @'h220 ;
+		register CHN_SZ=ch16_sz @'h224 ;
+		register CHN_A0=ch16_a0 @'h228 ;
+		register CHN_AM0=ch16_am0 @'h22c ;
+		register CHN_A1=ch16_a1 @'h230 ;
+		register CHN_AM1=ch16_am1 @'h234 ;
+		register CHN_DESC=ch16_desc@'h238 ;
+		register CHN_SWPTR=ch16_swptr@'h23c ;
+		register CHN_CSR=ch17_csr @'h240 ;
+		register CHN_SZ=ch17_sz @'h244 ;
+		register CHN_A0=ch17_a0 @'h248 ;
+		register CHN_AM0=ch17_am0 @'h24c ;
+		register CHN_A1=ch17_a1 @'h250 ;
+		register CHN_AM1=ch17_am1 @'h254 ;
+		register CHN_DESC=ch17_desc@'h258 ;
+		register CHN_SWPTR=ch17_swptr@'h25c ;
+		register CHN_CSR=ch18_csr @'h260 ;
+		register CHN_SZ=ch18_sz @'h264 ;
+		register CHN_A0=ch18_a0 @'h268 ;
+		register CHN_AM0=ch18_am0 @'h26c ;
+		register CHN_A1=ch18_a1 @'h270 ;
+		register CHN_AM1=ch18_am1 @'h274 ;
+		register CHN_DESC=ch18_desc@'h278 ;
+		register CHN_SWPTR=ch18_swptr@'h27c ;
+		register CHN_CSR=ch19_csr @'h280 ;
+		register CHN_SZ=ch19_sz @'h284 ;
+		register CHN_A0=ch19_a0 @'h288 ;
+		register CHN_AM0=ch19_am0 @'h28c ;
+		register CHN_A1=ch19_a1 @'h290 ;
+		register CHN_AM1=ch19_am1 @'h294 ;
+		register CHN_DESC=ch19_desc@'h298 ;
+		register CHN_SWPTR=ch19_swptr@'h29c ;
+		register CHN_CSR=ch20_csr @'h2a0 ;
+		register CHN_SZ=ch20_sz @'h2a4 ;
+		register CHN_A0=ch20_a0 @'h2a8 ;
+		register CHN_AM0=ch20_am0 @'h2ac ;
+		register CHN_A1=ch20_a1 @'h2b0 ;
+		register CHN_AM1=ch20_am1 @'h2b4 ;
+		register CHN_DESC=ch20_desc@'h2b8 ;
+		register CHN_SWPTR=ch20_swptr@'h2bc ;
+		register CHN_CSR=ch21_csr @'h2c0 ;
+		register CHN_SZ=ch21_sz @'h2c4 ;
+		register CHN_A0=ch21_a0 @'h2c8 ;
+		register CHN_AM0=ch21_am0 @'h2cc ;
+		register CHN_A1=ch21_a1 @'h2d0 ;
+		register CHN_AM1=ch21_am1 @'h2d4 ;
+		register CHN_DESC=ch21_desc@'h2d8 ;
+		register CHN_SWPTR=ch21_swptr@'h2dc ;
+		register CHN_CSR=ch22_csr @'h2e0 ;
+		register CHN_SZ=ch22_sz @'h2e4 ;
+		register CHN_A0=ch22_a0 @'h2e8 ;
+		register CHN_AM0=ch22_am0 @'h2ec ;
+		register CHN_A1=ch22_a1 @'h2f0 ;
+		register CHN_AM1=ch22_am1 @'h2f4 ;
+		register CHN_DESC=ch22_desc@'h2f8 ;
+		register CHN_SWPTR=ch22_swptr@'h2fc ;
+		register CHN_CSR=ch23_csr @'h300 ;
+		register CHN_SZ=ch23_sz @'h304 ;
+		register CHN_A0=ch23_a0 @'h308 ;
+		register CHN_AM0=ch23_am0 @'h30c ;
+		register CHN_A1=ch23_a1 @'h310 ;
+		register CHN_AM1=ch23_am1 @'h314 ;
+		register CHN_DESC=ch23_desc@'h318 ;
+		register CHN_SWPTR=ch23_swptr@'h31c ;
+		register CHN_CSR=ch24_csr @'h320 ;
+		register CHN_SZ=ch24_sz @'h324 ;
+		register CHN_A0=ch24_a0 @'h328 ;
+		register CHN_AM0=ch24_am0 @'h32c ;
+		register CHN_A1=ch24_a1 @'h330 ;
+		register CHN_AM1=ch24_am1 @'h334 ;
+		register CHN_DESC=ch24_desc@'h338 ;
+		register CHN_SWPTR=ch24_swptr@'h33c ;
+		register CHN_CSR=ch25_csr @'h340 ;
+		register CHN_SZ=ch25_sz @'h344 ;
+		register CHN_A0=ch25_a0 @'h348 ;
+		register CHN_AM0=ch25_am0 @'h34c ;
+		register CHN_A1=ch25_a1 @'h350 ;
+		register CHN_AM1=ch25_am1 @'h354 ;
+		register CHN_DESC=ch25_desc@'h358 ;
+		register CHN_SWPTR=ch25_swptr@'h35c ;
+		register CHN_CSR=ch26_csr @'h360 ;
+		register CHN_SZ=ch26_sz @'h364 ;
+		register CHN_A0=ch26_a0 @'h368 ;
+		register CHN_AM0=ch26_am0 @'h36c ;
+		register CHN_A1=ch26_a1 @'h370 ;
+		register CHN_AM1=ch26_am1 @'h374 ;
+		register CHN_DESC=ch26_desc@'h378 ;
+		register CHN_SWPTR=ch26_swptr@'h37c ;
+		register CHN_CSR=ch27_csr @'h380 ;
+		register CHN_SZ=ch27_sz @'h384 ;
+		register CHN_A0=ch27_a0 @'h388 ;
+		register CHN_AM0=ch27_am0 @'h38c ;
+		register CHN_A1=ch27_a1 @'h390 ;
+		register CHN_AM1=ch27_am1 @'h394 ;
+		register CHN_DESC=ch27_desc@'h398 ;
+		register CHN_SWPTR=ch27_swptr@'h39c ;
+		register CHN_CSR=ch28_csr @'h3a0 ;
+		register CHN_SZ=ch28_sz @'h3a4 ;
+		register CHN_A0=ch28_a0 @'h3a8 ;
+		register CHN_AM0=ch28_am0 @'h3ac ;
+		register CHN_A1=ch28_a1 @'h3b0 ;
+		register CHN_AM1=ch28_am1 @'h3b4 ;
+		register CHN_DESC=ch28_desc@'h3b8 ;
+		register CHN_SWPTR=ch28_swptr@'h3bc ;
+		register CHN_CSR=ch29_csr @'h3c0 ;
+		register CHN_SZ=ch29_sz @'h3c4 ;
+		register CHN_A0=ch29_a0 @'h3c8 ;
+		register CHN_AM0=ch29_am0 @'h3cc ;
+		register CHN_A1=ch29_a1 @'h3d0 ;
+		register CHN_AM1=ch29_am1 @'h3d4 ;
+		register CHN_DESC=ch29_desc@'h3d8 ;
+		register CHN_SWPTR=ch29_swptr@'h3dc ;
+		register CHN_CSR=ch30_csr @'h3e0 ;
+		register CHN_SZ=ch30_sz @'h3e4 ;
+		register CHN_A0=ch30_a0 @'h3e8 ;
+		register CHN_AM0=ch30_am0 @'h3ec ;
+		register CHN_A1=ch30_a1 @'h3f0 ;
+		register CHN_AM1=ch30_am1 @'h3f4 ;
+		register CHN_DESC=ch30_desc@'h3f8 ;
+		register CHN_SWPTR=ch30_swptr@'h3fc ;
+		
+  
+}

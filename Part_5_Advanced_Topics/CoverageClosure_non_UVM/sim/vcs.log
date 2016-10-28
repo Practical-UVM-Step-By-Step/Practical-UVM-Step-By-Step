@@ -1,0 +1,565 @@
+Command: vcs -ntb_opts uvm +incdir+../rtl/verilog +incdir+../bench/verilog ../rtl/verilog/wb_dma_ch_pri_enc.v \
+../rtl/verilog/wb_dma_ch_arb.v ../rtl/verilog/wb_dma_pri_enc_sub.v ../rtl/verilog/wb_dma_ch_sel.v \
+../rtl/verilog/wb_dma_top.v ../rtl/verilog/wb_dma_ch_rf.v ../rtl/verilog/wb_dma_rf.v \
+../rtl/verilog/wb_dma_wb_if.v ../rtl/verilog/wb_dma_wb_mast.v ../rtl/verilog/wb_dma_wb_slv.v \
+../rtl/verilog/wb_dma_de.v ../rtl/verilog/wb_dma_inc30r.v ../bench/verilog/test_bench_top.sv \
+../bench/verilog/wb_slv_model.v ../bench/verilog/wb_mast_model.v -debug_all -l vcs.log \
+-debug_pp +incdir+../bench/common +systemverilogext+.sv -extinclude +systemverilogext+.svh \
++incdir+../bench/common+../bench/wb_dma_uvm/src+../bench/wb_dma_uvm/tests+../bench/wb_dma_uvm/env+../bench/wb_dma_uvm/include \
+-timescale=1ns/1ps -kdb -lca
+                         Chronologic VCS (TM)
+         Version L-2016.06-SP1-1 -- Tue Oct 25 22:43:32 2016
+               Copyright (c) 1991-2016 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+
+Warning-[LCA_FEATURES_ENABLED] Usage warning
+  LCA features enabled by '-lca' argument on the command line.  For more 
+  information regarding list of LCA features please refer to Chapter "LCA 
+  features" in the VCS/VCS-MX Release Notes
+
+Parsing design file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/uvm_pkg.sv'
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/uvm_macros.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/macros/uvm_version_defines.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/uvm_macros.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/macros/uvm_message_defines.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/uvm_macros.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/macros/uvm_phase_defines.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/uvm_macros.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/macros/uvm_object_defines.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/uvm_macros.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/macros/uvm_printer_defines.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/uvm_macros.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/macros/uvm_tlm_defines.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/tlm1/uvm_tlm_imps.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/macros/uvm_tlm_defines.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/uvm_macros.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/macros/uvm_sequence_defines.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/uvm_macros.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/macros/uvm_callback_defines.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/uvm_macros.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/macros/uvm_reg_defines.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/uvm_macros.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/macros/uvm_deprecated_defines.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/uvm_macros.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/uvm_pkg.sv'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/directc/uvm_directc.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/directc/uvm_seed.vh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/directc/uvm_directc.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/uvm_pkg.sv'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/dpi/uvm_dpi.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/dpi/uvm_hdl.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/dpi/uvm_dpi.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/dpi/uvm_svcmd_dpi.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/dpi/uvm_dpi.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/dpi/uvm_regex.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/dpi/uvm_dpi.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/uvm_pkg.sv'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/base/uvm_base.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/base/uvm_version.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/base/uvm_base.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/base/uvm_object_globals.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/base/uvm_base.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/base/uvm_misc.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/base/uvm_base.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/base/uvm_object.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/base/uvm_base.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/base/uvm_pool.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/base/uvm_base.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/base/uvm_queue.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/base/uvm_base.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/base/uvm_factory.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/base/uvm_base.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/base/uvm_registry.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/base/uvm_base.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/base/uvm_spell_chkr.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/base/uvm_base.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/base/uvm_resource.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/base/uvm_base.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/deprecated/uvm_resource_converter.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/base/uvm_base.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/base/uvm_resource_specializations.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/base/uvm_base.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/base/uvm_resource_db.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/base/uvm_base.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/base/uvm_config_db.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/base/uvm_base.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/base/uvm_printer.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/base/uvm_base.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/base/uvm_comparer.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/base/uvm_base.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/base/uvm_packer.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/base/uvm_base.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/base/uvm_recorder.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/base/uvm_base.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/base/uvm_event_callback.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/base/uvm_base.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/base/uvm_event.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/base/uvm_base.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/base/uvm_barrier.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/base/uvm_base.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/base/uvm_callback.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/uvm_macros.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/base/uvm_callback.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/base/uvm_base.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/base/uvm_report_catcher.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/base/uvm_base.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/base/uvm_report_server.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/base/uvm_base.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/base/uvm_report_handler.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/base/uvm_base.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/base/uvm_report_object.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/base/uvm_base.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/base/uvm_transaction.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/base/uvm_base.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/base/uvm_phase.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/base/uvm_base.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/base/uvm_domain.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/base/uvm_base.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/base/uvm_bottomup_phase.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/base/uvm_base.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/base/uvm_topdown_phase.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/base/uvm_base.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/base/uvm_task_phase.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/base/uvm_base.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/base/uvm_common_phases.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/base/uvm_base.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/base/uvm_runtime_phases.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/base/uvm_base.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/base/uvm_component.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/base/uvm_root.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/base/uvm_component.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/base/uvm_base.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/base/uvm_objection.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/base/uvm_base.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/base/uvm_heartbeat.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/base/uvm_base.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/base/uvm_globals.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/base/uvm_base.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/base/uvm_cmdline_processor.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/base/uvm_base.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/uvm_pkg.sv'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/tlm1/uvm_tlm.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/tlm1/uvm_tlm_ifs.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/tlm1/uvm_tlm.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/tlm1/uvm_sqr_ifs.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/tlm1/uvm_tlm.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/base/uvm_port_base.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/tlm1/uvm_tlm.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/tlm1/uvm_imps.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/tlm1/uvm_tlm.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/tlm1/uvm_ports.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/tlm1/uvm_tlm.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/tlm1/uvm_exports.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/tlm1/uvm_tlm.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/tlm1/uvm_analysis_port.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/tlm1/uvm_tlm.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/tlm1/uvm_tlm_fifo_base.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/tlm1/uvm_tlm.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/tlm1/uvm_tlm_fifos.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/tlm1/uvm_tlm.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/tlm1/uvm_tlm_req_rsp.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/tlm1/uvm_tlm.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/tlm1/uvm_sqr_connections.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/tlm1/uvm_tlm.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/uvm_pkg.sv'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/comps/uvm_comps.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/comps/uvm_pair.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/comps/uvm_comps.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/comps/uvm_policies.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/comps/uvm_comps.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/comps/uvm_in_order_comparator.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/comps/uvm_comps.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/comps/uvm_algorithmic_comparator.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/comps/uvm_comps.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/comps/uvm_random_stimulus.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/comps/uvm_comps.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/comps/uvm_subscriber.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/comps/uvm_comps.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/comps/uvm_monitor.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/comps/uvm_comps.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/comps/uvm_driver.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/comps/uvm_comps.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/comps/uvm_push_driver.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/comps/uvm_comps.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/comps/uvm_scoreboard.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/comps/uvm_comps.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/comps/uvm_agent.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/comps/uvm_comps.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/comps/uvm_env.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/comps/uvm_comps.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/comps/uvm_test.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/comps/uvm_comps.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/uvm_pkg.sv'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/seq/uvm_seq.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/seq/uvm_sequence_item.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/seq/uvm_seq.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/seq/uvm_sequencer_base.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/seq/uvm_seq.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/seq/uvm_sequencer_analysis_fifo.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/seq/uvm_seq.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/seq/uvm_sequencer_param_base.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/seq/uvm_seq.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/seq/uvm_sequencer.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/seq/uvm_seq.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/seq/uvm_push_sequencer.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/seq/uvm_seq.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/seq/uvm_sequence_base.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/seq/uvm_seq.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/seq/uvm_sequence.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/seq/uvm_seq.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/seq/uvm_sequence_library.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/seq/uvm_seq.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/seq/uvm_sequence_builtin.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/seq/uvm_seq.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/uvm_pkg.sv'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/tlm2/uvm_tlm2.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/tlm2/uvm_tlm2_defines.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/tlm2/uvm_tlm2.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/tlm2/uvm_tlm2_time.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/tlm2/uvm_tlm2.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/tlm2/uvm_tlm2_generic_payload.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/tlm2/uvm_tlm2.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/tlm2/uvm_tlm2_ifs.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/tlm2/uvm_tlm2.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/tlm2/uvm_tlm2_imps.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/tlm2/uvm_tlm2.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/tlm2/uvm_tlm2_ports.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/tlm2/uvm_tlm2.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/tlm2/uvm_tlm2_exports.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/tlm2/uvm_tlm2.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/tlm2/uvm_tlm2_sockets_base.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/tlm2/uvm_tlm2.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/tlm2/uvm_tlm2_sockets.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/tlm2/uvm_tlm2.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/uvm_pkg.sv'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/reg/uvm_reg_model.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/reg/uvm_reg_item.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/reg/uvm_reg_model.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/reg/uvm_reg_adapter.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/reg/uvm_reg_model.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/reg/uvm_reg_predictor.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/reg/uvm_reg_model.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/reg/uvm_reg_sequence.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/reg/uvm_reg_model.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/reg/uvm_reg_cbs.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/reg/uvm_reg_model.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/reg/uvm_reg_backdoor.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/reg/uvm_reg_model.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/reg/uvm_reg_field.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/reg/uvm_reg_model.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/reg/uvm_vreg_field.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/reg/uvm_reg_model.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/reg/uvm_reg.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/reg/uvm_reg_model.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/reg/uvm_reg_indirect.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/reg/uvm_reg_model.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/reg/uvm_reg_fifo.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/reg/uvm_reg_model.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/reg/uvm_reg_file.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/reg/uvm_reg_model.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/reg/uvm_mem_mam.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/reg/uvm_reg_model.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/reg/uvm_vreg.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/reg/uvm_reg_model.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/reg/uvm_mem.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/reg/uvm_reg_model.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/reg/uvm_reg_map.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/reg/uvm_reg_model.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/reg/uvm_reg_block.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/reg/uvm_reg_model.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/reg/sequences/uvm_reg_hw_reset_seq.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/reg/uvm_reg_model.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/reg/sequences/uvm_reg_bit_bash_seq.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/reg/uvm_reg_model.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/reg/sequences/uvm_mem_walk_seq.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/reg/uvm_reg_model.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/reg/sequences/uvm_mem_access_seq.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/reg/uvm_reg_model.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/reg/sequences/uvm_reg_access_seq.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/reg/uvm_reg_model.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/reg/sequences/uvm_reg_mem_shared_access_seq.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/reg/uvm_reg_model.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/reg/sequences/uvm_reg_mem_built_in_seq.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/reg/uvm_reg_model.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/reg/sequences/uvm_reg_mem_hdl_paths_seq.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/reg/uvm_reg_model.svh'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/reg/snps_uvm_reg_bank.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/reg/uvm_reg_model.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/uvm_pkg.sv'.
+Parsing design file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/vcs/uvm_custom_install_vcs_recorder.sv'
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/vcs/msglog.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/vcs/uvm_custom_install_vcs_recorder.sv'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/vcs/uvm_msglog_report_server.sv'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/vcs/uvm_custom_install_vcs_recorder.sv'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/vcs/uvm_vcs_recorder.svh'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/vcs/uvm_custom_install_vcs_recorder.sv'.
+Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/vcs/uvm_vcs_record_interface.sv'.
+Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm/vcs/uvm_custom_install_vcs_recorder.sv'.
+Parsing design file '../rtl/verilog/wb_dma_ch_pri_enc.v'
+Parsing included file '../rtl/verilog/wb_dma_defines.v'.
+Back to file '../rtl/verilog/wb_dma_ch_pri_enc.v'.
+Parsing design file '../rtl/verilog/wb_dma_ch_arb.v'
+Parsing included file '../rtl/verilog/wb_dma_defines.v'.
+Back to file '../rtl/verilog/wb_dma_ch_arb.v'.
+Parsing design file '../rtl/verilog/wb_dma_pri_enc_sub.v'
+Parsing included file '../rtl/verilog/wb_dma_defines.v'.
+Back to file '../rtl/verilog/wb_dma_pri_enc_sub.v'.
+Parsing design file '../rtl/verilog/wb_dma_ch_sel.v'
+Parsing included file '../rtl/verilog/wb_dma_defines.v'.
+Back to file '../rtl/verilog/wb_dma_ch_sel.v'.
+Parsing design file '../rtl/verilog/wb_dma_top.v'
+Parsing included file '../rtl/verilog/wb_dma_defines.v'.
+Back to file '../rtl/verilog/wb_dma_top.v'.
+Parsing design file '../rtl/verilog/wb_dma_ch_rf.v'
+Parsing included file '../rtl/verilog/wb_dma_defines.v'.
+Back to file '../rtl/verilog/wb_dma_ch_rf.v'.
+Parsing design file '../rtl/verilog/wb_dma_rf.v'
+Parsing included file '../rtl/verilog/wb_dma_defines.v'.
+Back to file '../rtl/verilog/wb_dma_rf.v'.
+Parsing design file '../rtl/verilog/wb_dma_wb_if.v'
+Parsing included file '../rtl/verilog/wb_dma_defines.v'.
+Back to file '../rtl/verilog/wb_dma_wb_if.v'.
+Parsing design file '../rtl/verilog/wb_dma_wb_mast.v'
+Parsing included file '../rtl/verilog/wb_dma_defines.v'.
+Back to file '../rtl/verilog/wb_dma_wb_mast.v'.
+Parsing design file '../rtl/verilog/wb_dma_wb_slv.v'
+Parsing included file '../rtl/verilog/wb_dma_defines.v'.
+Back to file '../rtl/verilog/wb_dma_wb_slv.v'.
+Parsing design file '../rtl/verilog/wb_dma_de.v'
+Parsing included file '../rtl/verilog/wb_dma_defines.v'.
+Back to file '../rtl/verilog/wb_dma_de.v'.
+Parsing design file '../rtl/verilog/wb_dma_inc30r.v'
+Parsing included file '../rtl/verilog/wb_dma_defines.v'.
+Back to file '../rtl/verilog/wb_dma_inc30r.v'.
+Parsing design file '../bench/verilog/test_bench_top.sv'
+Parsing included file '../rtl/verilog/wb_dma_defines.v'.
+Back to file '../bench/verilog/test_bench_top.sv'.
+Parsing included file '../bench/common/wb_master_if.sv'.
+Back to file '../bench/verilog/test_bench_top.sv'.
+Parsing included file '../bench/common/wb_slave_if.sv'.
+Back to file '../bench/verilog/test_bench_top.sv'.
+Parsing included file '../bench/wb_dma_uvm/env/wb_dma_env_ral_env.sv'.
+Parsing included file '../bench/wb_dma_uvm/include/wb_dma_env.inc'.
+Parsing included file '../bench/wb_dma_uvm/include/mstr_slv_src.incl'.
+Parsing included file '../bench/common/wb_master_mon.sv'.
+Back to file '../bench/wb_dma_uvm/include/mstr_slv_src.incl'.
+Parsing included file '../bench/common/wb_master_seqr.sv'.
+Back to file '../bench/wb_dma_uvm/include/mstr_slv_src.incl'.
+Parsing included file '../bench/common/wb_transaction.sv'.
+Back to file '../bench/wb_dma_uvm/include/mstr_slv_src.incl'.
+Parsing included file '../bench/common/wb_master.sv'.
+Back to file '../bench/wb_dma_uvm/include/mstr_slv_src.incl'.
+Parsing included file '../bench/common/wb_master_agent.sv'.
+Back to file '../bench/wb_dma_uvm/include/mstr_slv_src.incl'.
+Parsing included file '../bench/common/wb_slave_mon.sv'.
+Back to file '../bench/wb_dma_uvm/include/mstr_slv_src.incl'.
+Parsing included file '../bench/common/wb_slave.sv'.
+Back to file '../bench/wb_dma_uvm/include/mstr_slv_src.incl'.
+Parsing included file '../bench/common/wb_slave_agent.sv'.
+Back to file '../bench/wb_dma_uvm/include/mstr_slv_src.incl'.
+Parsing included file '../bench/common/wb_config.sv'.
+Back to file '../bench/wb_dma_uvm/include/mstr_slv_src.incl'.
+Parsing included file '../bench/common/wb_master_agent_sequence_library.sv'.
+Back to file '../bench/wb_dma_uvm/include/mstr_slv_src.incl'.
+Parsing included file '../bench/wb_dma_uvm/src/wb_dma_ral_adapter.sv'.
+Back to file '../bench/wb_dma_uvm/include/mstr_slv_src.incl'.
+Back to file '../bench/wb_dma_uvm/include/wb_dma_env.inc'.
+Parsing included file '../bench/wb_dma_uvm/src/wb_dma_env_cfg.sv'.
+Back to file '../bench/wb_dma_uvm/include/wb_dma_env.inc'.
+Parsing included file '../bench/wb_dma_uvm/src/wb_dma_env_cov.sv'.
+Back to file '../bench/wb_dma_uvm/include/wb_dma_env.inc'.
+Parsing included file '../bench/common/mon_2cov.sv'.
+Back to file '../bench/wb_dma_uvm/include/wb_dma_env.inc'.
+Parsing included file '../bench/wb_dma_uvm/src/ral_multiplexed.sv'.
+Back to file '../bench/wb_dma_uvm/include/wb_dma_env.inc'.
+Parsing included file '../bench/wb_dma_uvm/env/ral_wb_dma.sv'.
+Back to file '../bench/wb_dma_uvm/include/wb_dma_env.inc'.
+Back to file '../bench/wb_dma_uvm/env/wb_dma_env_ral_env.sv'.
+Back to file '../bench/verilog/test_bench_top.sv'.
+Parsing included file '../bench/wb_dma_uvm/tests/wb_dma_env_test.sv'.
+Back to file '../bench/verilog/test_bench_top.sv'.
+
+Note-[SV-LCM-PPWI] Package previously wildcard imported
+../bench/verilog/test_bench_top.sv, 156
+test
+  Package 'uvm_pkg' already wildcard imported. 
+  Ignoring uvm_pkg::*
+  See the System Verilog LRM(1800-2005), section 18.1.
+
+Parsing included file '../rtl/verilog/tests.v'.
+
+Warning-[TMBIN] Too many bits in Based Number
+../rtl/verilog/tests.v, 207
+  The specified width is '24' bits, actually got '28' bits.
+  The offending number is : '0064_089'.
+
+
+Warning-[TMBIN] Too many bits in Based Number
+../rtl/verilog/tests.v, 234
+  The specified width is '24' bits, actually got '28' bits.
+  The offending number is : '0064_089'.
+
+
+Warning-[TMBIN] Too many bits in Based Number
+../rtl/verilog/tests.v, 485
+  The specified width is '12' bits, actually got '16' bits.
+  The offending number is : '0000'.
+
+
+Warning-[TMBIN] Too many bits in Based Number
+../rtl/verilog/tests.v, 848
+  The specified width is '12' bits, actually got '16' bits.
+  The offending number is : '0000'.
+
+
+Warning-[TMBIN] Too many bits in Based Number
+../rtl/verilog/tests.v, 857
+  The specified width is '12' bits, actually got '16' bits.
+  The offending number is : '0000'.
+
+
+Warning-[TMBIN] Too many bits in Based Number
+../rtl/verilog/tests.v, 866
+  The specified width is '12' bits, actually got '16' bits.
+  The offending number is : '0000'.
+
+
+Warning-[TMBIN] Too many bits in Based Number
+../rtl/verilog/tests.v, 875
+  The specified width is '12' bits, actually got '16' bits.
+  The offending number is : '0000'.
+
+
+Warning-[TMBIN] Too many bits in Based Number
+../rtl/verilog/tests.v, 1222
+  The specified width is '12' bits, actually got '16' bits.
+  The offending number is : '0000'.
+
+
+Warning-[TMBIN] Too many bits in Based Number
+../rtl/verilog/tests.v, 1230
+  The specified width is '12' bits, actually got '16' bits.
+  The offending number is : '0000'.
+
+
+Warning-[TMBIN] Too many bits in Based Number
+../rtl/verilog/tests.v, 1238
+  The specified width is '12' bits, actually got '16' bits.
+  The offending number is : '0000'.
+
+
+Warning-[TMBIN] Too many bits in Based Number
+../rtl/verilog/tests.v, 1246
+  The specified width is '12' bits, actually got '16' bits.
+  The offending number is : '0000'.
+
+
+Warning-[TMBIN] Too many bits in Based Number
+../rtl/verilog/tests.v, 1653
+  The specified width is '12' bits, actually got '16' bits.
+  The offending number is : '0000'.
+
+
+Warning-[TMBIN] Too many bits in Based Number
+../rtl/verilog/tests.v, 1668
+  The specified width is '24' bits, actually got '28' bits.
+  The offending number is : '0064_081'.
+
+
+Warning-[TMBIN] Too many bits in Based Number
+../rtl/verilog/tests.v, 1792
+  The specified width is '12' bits, actually got '16' bits.
+  The offending number is : '0000'.
+
+
+Warning-[TMBIN] Too many bits in Based Number
+../rtl/verilog/tests.v, 1807
+  The specified width is '24' bits, actually got '28' bits.
+  The offending number is : '0064_081'.
+
+
+Warning-[TMBIN] Too many bits in Based Number
+../rtl/verilog/tests.v, 2254
+  The specified width is '12' bits, actually got '16' bits.
+  The offending number is : '0000'.
+
+
+Warning-[TMBIN] Too many bits in Based Number
+../rtl/verilog/tests.v, 2263
+  The specified width is '12' bits, actually got '16' bits.
+  The offending number is : '0000'.
+
+
+Warning-[TMBIN] Too many bits in Based Number
+../rtl/verilog/tests.v, 2272
+  The specified width is '12' bits, actually got '16' bits.
+  The offending number is : '0000'.
+
+
+Warning-[TMBIN] Too many bits in Based Number
+../rtl/verilog/tests.v, 2281
+  The specified width is '12' bits, actually got '16' bits.
+  The offending number is : '0000'.
+
+Back to file '../bench/verilog/test_bench_top.sv'.
+
+Warning-[NZIR] Incorrect size number
+../bench/verilog/test_bench_top.sv, 521
+  The specified width is '0'. Nonzero unsigned decimal number is required as 
+  the size constant. This '0' width will be ignored.
+
+Parsing design file '../bench/verilog/wb_slv_model.v'
+Parsing included file '../rtl/verilog/wb_model_defines.v'.
+Back to file '../bench/verilog/wb_slv_model.v'.
+Parsing design file '../bench/verilog/wb_mast_model.v'
+Parsing included file '../rtl/verilog/wb_model_defines.v'.
+Back to file '../bench/verilog/wb_mast_model.v'.
+Top Level Modules:
+       uvm_custom_install_recording
+       wb_dma_ch_rf_dummy
+       test
+TimeScale is 1 ns / 1 ps
+Starting vcs inline pass...
+15 unique modules to generate
+recompiling package vcs_paramclassrepository
+recompiling package uvm_pkg
+recompiling package _vcs_msglog
+recompiling module uvm_custom_install_recording
+recompiling module wb_dma_ch_pri_enc
+recompiling module wb_dma_ch_arb
+recompiling module wb_dma_pri_enc_sub
+recompiling module wb_dma_ch_sel
+recompiling module wb_dma_top
+recompiling module wb_dma_ch_rf
+recompiling module wb_dma_ch_rf_dummy
+recompiling module wb_master_if
+recompiling module wb_slave_if
+recompiling module test
+recompiling module wb_mast
+All of 15 modules done
+make[1]: Entering directory `/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/Part_5/CoverageClosure_non_UVM/sim/csrc' \
+
+rm -f _csrc*.so pre_vcsobj_*.so share_vcsobj_*.so
+g++ -w  -pipe -m32 -DVCS -O -I/global/apps/vcsmx_2016.06-SP1-1/include    -c /global/apps/vcsmx_2016.06-SP1-1/etc/uvm/dpi/uvm_dpi.cc \
+
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv   -Wl,-rpath-link=./ -Wl,-rpath='$ORIGIN'/simv.daidir/ -Wl,-rpath=./simv.daidir/ \
+-Wl,-rpath='$ORIGIN'/simv.daidir//scsim.db.dir  -m32 -m32 -rdynamic  uvm_dpi.o   \
+objs/amcQw_d.o   _3929_archive_1.so  SIM_l.o      rmapats_mop.o rmapats.o rmar.o \
+rmar_llvm_0_1.o rmar_llvm_0_0.o          /global/apps/vcsmx_2016.06-SP1-1/linux/lib/libzerosoft_rt_stubs.so \
+/global/apps/vcsmx_2016.06-SP1-1/linux/lib/libvirsim.so /global/apps/vcsmx_2016.06-SP1-1/linux/lib/liberrorinf.so \
+/global/apps/vcsmx_2016.06-SP1-1/linux/lib/libsnpsmalloc.so    /global/apps/vcsmx_2016.06-SP1-1/linux/lib/libvcsnew.so \
+/global/apps/vcsmx_2016.06-SP1-1/linux/lib/libsimprofile.so /global/apps/vcsmx_2016.06-SP1-1/linux/lib/libuclinative.so \
+-Wl,-whole-archive /global/apps/vcsmx_2016.06-SP1-1/linux/lib/libvcsucli.so -Wl,-no-whole-archive \
+./../simv.daidir/vc_hdrs.o    /global/apps/vcsmx_2016.06-SP1-1/linux/lib/vcs_save_restore_new.o \
+/global/apps/vcsmx_2016.06-SP1-1/linux/lib/ctype-stubs_32.a -ldl  -lc -lm -lpthread \
+-ldl 
+../simv up to date
+make[1]: Leaving directory `/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/Part_5/CoverageClosure_non_UVM/sim/csrc' \
+
+CPU time: 15.671 seconds to compile + .409 seconds to elab + .499 seconds to link

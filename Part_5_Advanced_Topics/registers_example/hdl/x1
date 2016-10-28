@@ -1,0 +1,196 @@
+	register r_RO_register @'h000c {
+		field r_RO_field {
+		   bits 15;
+		   access rw;
+		   reset 'h0c;
+	}
+	}
+	register r_RW_register @'h0010 {
+		field r_RW_field {
+		   bits 15;
+		   access rw;
+		   reset 'h10;
+	}
+	}
+	register r_RC_register @'h0014 {
+		field r_RC_field {
+		   bits 15;
+		   access rw;
+		   reset 'h14;
+	}
+	}
+	register r_RS_register @'h0018 {
+		field r_RS_field {
+		   bits 15;
+		   access rw;
+		   reset 'h18;
+	}
+	}
+	register r_WRC_register @'h001c {
+		field r_WRC_field {
+		   bits 15;
+		   access rw;
+		   reset 'h1c;
+	}
+	}
+	register r_WRS_register @'h0020 {
+		field r_WRS_field {
+		   bits 15;
+		   access rw;
+		   reset 'h20;
+	}
+	}
+	register r_WC_register @'h0024 {
+		field r_WC_field {
+		   bits 15;
+		   access rw;
+		   reset 'h24;
+	}
+	}
+	register r_WS_register @'h0028 {
+		field r_WS_field {
+		   bits 15;
+		   access rw;
+		   reset 'h28;
+	}
+	}
+	register r_WSRC_register @'h002c {
+		field r_WSRC_field {
+		   bits 15;
+		   access rw;
+		   reset 'h2c;
+	}
+	}
+	register r_WCRS_register @'h0030 {
+		field r_WCRS_field {
+		   bits 15;
+		   access rw;
+		   reset 'h30;
+	}
+	}
+	register r_W1C_register @'h0034 {
+		field r_W1C_field {
+		   bits 15;
+		   access rw;
+		   reset 'h34;
+	}
+	}
+	register r_W1S_register @'h0038 {
+		field r_W1S_field {
+		   bits 15;
+		   access rw;
+		   reset 'h38;
+	}
+	}
+	register r_W1T_register @'h003c {
+		field r_W1T_field {
+		   bits 15;
+		   access rw;
+		   reset 'h3c;
+	}
+	}
+	register r_W0C_register @'h0040 {
+		field r_W0C_field {
+		   bits 15;
+		   access rw;
+		   reset 'h40;
+	}
+	}
+	register r_W0S_register @'h0044 {
+		field r_W0S_field {
+		   bits 15;
+		   access rw;
+		   reset 'h44;
+	}
+	}
+	register r_W0T_register @'h0048 {
+		field r_W0T_field {
+		   bits 15;
+		   access rw;
+		   reset 'h48;
+	}
+	}
+	register r_W1SRC_register @'h004c {
+		field r_W1SRC_field {
+		   bits 15;
+		   access rw;
+		   reset 'h4c;
+	}
+	}
+	register r_W1CRS_register @'h0050 {
+		field r_W1CRS_field {
+		   bits 15;
+		   access rw;
+		   reset 'h50;
+	}
+	}
+	register r_W0SRC_register @'h0054 {
+		field r_W0SRC_field {
+		   bits 15;
+		   access rw;
+		   reset 'h54;
+	}
+	}
+	register r_W0CRS_register @'h0058 {
+		field r_W0CRS_field {
+		   bits 15;
+		   access rw;
+		   reset 'h58;
+	}
+	}
+	register r_WO_register @'h005c {
+		field r_WO_field {
+		   bits 15;
+		   access rw;
+		   reset 'h5c;
+	}
+	}
+	register r_WOC_register @'h0060 {
+		field r_WOC_field {
+		   bits 15;
+		   access rw;
+		   reset 'h60;
+	}
+	}
+	register r_WOS_register @'h0064 {
+		field r_WOS_field {
+		   bits 15;
+		   access rw;
+		   reset 'h64;
+	}
+	}
+	register r_W1_register @'h0068 {
+		field r_W1_field {
+		   bits 15;
+		   access rw;
+		   reset 'h68;
+	}
+	}
+	register r_WO1_register @'h006c {
+		field r_WO1_field {
+		   bits 15;
+		   access rw;
+		   reset 'h6c;
+	}
+	}
+	register r_aliased_1 @'h0070 {
+		field r_aliased_1 {
+		   bits 15;
+		   access rw;
+		   reset 'h70;
+	}
+	}
+	register r_aliased_2 @'h0074 {
+		field r_aliased_2 {
+		   bits 15;
+		   access rw;
+		   reset 'h74;
+	}
+	}
+	register master_index @'h0078 {
+		field master_index {
+		   bits 15;
+		   access rw;
+		   reset 'h78;
+	}
+	}

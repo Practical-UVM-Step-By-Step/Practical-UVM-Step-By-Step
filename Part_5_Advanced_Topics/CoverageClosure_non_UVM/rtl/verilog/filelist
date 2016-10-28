@@ -1,0 +1,17 @@
+wb_dma_ch_arb.v
+wb_dma_ch_pri_enc.v
+wb_dma_ch_rf.v
+wb_dma_ch_sel.v
+wb_dma_defines.v
+wb_dma_de.v
+wb_dma_inc30r.v
+wb_dma_pri_enc_sub.v
+wb_dma_rf.v
+wb_dma_top.v
+wb_dma_wb_if.v
+wb_dma_wb_mast.v
+wb_dma_wb_slv.v
+wb_mast_model.v
+wb_model_defines.v
+wb_slv_model.v
+test_bench_top.v

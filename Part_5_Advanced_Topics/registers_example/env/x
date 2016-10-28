@@ -1,0 +1,110 @@
+
+Usage:
+======
+ralgen -h
+ralgen -v
+ralgen -l <lang> [-gen_c] -t <top> -f <file> [-top_domain <domainname>] [-B|-gen_byte_addr] [-I <dir1>:...:<dirN>] [(-e|-ext_ud)] [-b [-p <top_path>] -gen_vif_bkdr] [-q] [-qf <pattern_file>] [-R <dirname>] [-no_bkdr_cb] [-gen_html] <RALF-file>
+ralgen -ipxact2ralf <ipxact-file>
+
+Where
+       <lang>                   = Target Language. Currently, supported are 'sv', 'ov' and 'c'.
+       <top>                    = Name of top-level block/system
+                                  of your RALF spec.
+Options:
+        -h          : prints this help message.
+
+        -v          : prints ralgen version info.
+
+        -t  topname : name of top-level block or sytem in the RALF file
+
+        -f  file    : A file containing different ralgen options
+
+        -l  sv|ov|c : specifies target language of the RAL Model.
+
+        -uvm        : generates UVM RAL model.
+
+        -o fname    : Output file name. By default, uses ral_topname.
+                      A language-appropriate suffix will be automatically appended.
+
+        -g, -gen_c  : generates C interface to the RAL model. Invalid with <lang> == 'c'.
+                      Not yet supported.
+
+        -b          : triggers/activates backdoor code generation.
+                      By default, backdoor code is not generated.
+
+        -gen_vif_bkdr
+                    : Generates backdoor access using virtual interface reference.
+                      This option can only be used with option '-b'.
+
+        -no_vif_self_inst
+                    : Omits generating initial block inside interface for self registering.
+                      This option can only be used with option '-gen_vif_bkdr'.
+
+        -c  b|s|a|f|F : generate the specified coverage models.
+                        b: bit-level, generates single bin for 1/0 for RO bits
+                        s: bit-level, generates separate bins for 1/0 for RO bits
+                        a: address map
+                        f: field values, only if 'cover +f' is specified in RALF spec
+                        F: field values, even if 'cover +f' is not specified in RALF spec
+                      'b' and 's' coverage models cannot be specified at the same time
+                      Other combination of coverage models can be specified at the same time
+
+        -single_plan
+                    : generate the hvp as single plan.
+        -q          : executes ralgen in quiet mode where all warnings are
+                      suppressed.
+
+        -qf <pattern_file>
+                    : This option can be used whenever user wants to ignore a 
+                      bunch of known (kind of accaptable for a given RALF) 
+                      command line messages (typically used with warning messages).
+                      <pattern_file> will need to contain the list of messages (1 per line)
+                      or regular expressions (supported by egrep) of the list of 
+                      messages (1 per line) that should not be showed by ralgen.
+
+        -e, -ext_ud : Add undefined (external) constraint declarations in block and system classes.
+
+        -I <dir1>:...:<dirN>
+                    : list of folders to sequentially search 'source'd RALF files.
+
+        -flds_out_reg  all | none | no_uniq:
+                    : controls the field handle generation in blocks.
+                        all : generates all field handles in blocks (same as not providing -flds_all_reg)
+                        none : generates no field handles in blocks
+                        no_uniq : generates no field handles for uniquely named in blocks
+        -d, -top_domain
+                    : When the <top>-level block/system has multiple domains, 
+                      you must specify the top level domain name for which you need to 
+                      generate RAL C Model/Interface. Note: This option is valid only when 
+                      RAL C Model/Interface is generated.
+
+        -p <top_path>, -top_path <top_path>
+                    : Specifies the absolute top level XMR backdoor path of the DUT instance.
+                      This switch is used only for supporting VHDL backdoor.
+
+        -top_macro <top_macro>
+                    : Specifies the top level macro to be used in backdoor access.
+                      when -top_macro is not provided, ralgen uses <uppercase_topname>_TOP_PATH as the top level macro.
+
+        -full64, -comp64
+                    : Executes ralgen in 64 bit mode.
+
+        -R <RTL_dir_name>
+                    : Specifies the directory in which RTL files will be generated.
+
+        -B, -gen_byte_addr
+                    : Generates RAL model with byte-level address granularity.
+
+        -ipxact2ralf <ipxact-file>
+                    : Generates RALF file from the specified IPXACT file.
+
+        -no_bkdr_cb : With this option, backdoor pre/post_read/write callback invokation code
+                      is not genereated. This option can only be used with option '-b'.
+
+        -a, -auto_mirror
+                    : Generate code required for automatic mirror update.
+
+        -gen_html   : Generates HTML doc for the register model.
+                      This option can only be used when generating UVM RAL model.
+
+

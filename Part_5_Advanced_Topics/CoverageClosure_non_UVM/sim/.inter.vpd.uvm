@@ -1,0 +1,928 @@
+#0 in unnamed$$_19 at ../bench/verilog/test_bench_top.sv:568
+@ 0: [CFGDB/SET] Configuration 'uvm_test_top.env.slave_agent0.slv_if' (type virtual interface wb_slave_if#(5,3)) set by  = (virtual interface wb_slave_if#(5,3)) ?
+#0 in unnamed$$_19 at ../bench/verilog/test_bench_top.sv:569
+@ 0: [CFGDB/SET] Configuration 'uvm_test_top.env.slave_agent1.slv_if' (type virtual interface wb_slave_if#(5,3)) set by  = (virtual interface wb_slave_if#(5,3)) ?
+#0 in unnamed$$_19 at ../bench/verilog/test_bench_top.sv:570
+@ 0: [CFGDB/SET] Configuration 'uvm_test_top.env.master_agent0.mst_if' (type virtual interface wb_master_if#(5,3)) set by  = (virtual interface wb_master_if#(5,3)) ?
+#0 in unnamed$$_19 at ../bench/verilog/test_bench_top.sv:571
+@ 0: [CFGDB/SET] Configuration 'uvm_test_top.env.master_agent1.mst_if' (type virtual interface wb_master_if#(5,3)) set by  = (virtual interface wb_master_if#(5,3)) ?
+#0 in unnamed$$_19 at ../bench/verilog/test_bench_top.sv:572
+@ 0: [CFGDB/SET] Configuration 'uvm_test_top.env.master_agent0.is_active' (type enum uvm_pkg::uvm_active_passive_enum) set by  = UVM_PASSIVE
+#0 in unnamed$$_19 at ../bench/verilog/test_bench_top.sv:573
+@ 0: [CFGDB/SET] Configuration 'uvm_test_top.env.master_agent1.is_active' (type enum uvm_pkg::uvm_active_passive_enum) set by  = UVM_PASSIVE
+#0 in unnamed$$_19 at ../bench/verilog/test_bench_top.sv:574
+@ 0: [CFGDB/SET] Configuration 'uvm_test_top.env.slave_agent0.is_active' (type enum uvm_pkg::uvm_active_passive_enum) set by  = UVM_PASSIVE
+#0 in unnamed$$_19 at ../bench/verilog/test_bench_top.sv:575
+@ 0: [CFGDB/SET] Configuration 'uvm_test_top.env.slave_agent1.is_active' (type enum uvm_pkg::uvm_active_passive_enum) set by  = UVM_PASSIVE
+#0 in \uvm_component::new  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_component.svh:1836
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.recording_detail' (type logic signed[4095:0]) read by uvm_test_top = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_component.svh:1837
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.recording_detail' (type int) read by uvm_test_top = null (failed lookup)
+#0 in \uvm_root::run_test  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_root.svh:426
+@ 0: [PH/TRC/STRT] Phase 'common' (id=217) Starting phase
+#0 in \uvm_root::run_test  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_root.svh:426
+@ 0: [PH/TRC/DONE] Phase 'common' (id=217) Completed phase
+#0 in \uvm_root::run_test  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_root.svh:426
+@ 0: [PH/TRC/SCHEDULED] Phase 'common.build' (id=235) Scheduled from phase common
+#0 in \uvm_root::run_test  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_root.svh:426
+@ 0: [PH/TRC/STRT] Phase 'common.build' (id=235) Starting phase
+#0 in \uvm_component::new  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_component.svh:1836
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_component.svh:1837
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.recording_detail' (type int) read by uvm_test_top.env = null (failed lookup)
+#0 in \wb_dma_env_test::build_phase  at ../bench/wb_dma_uvm/tests/wb_dma_env_test.sv:40
+@ 0: [CFGDB/SET] Configuration 'uvm_test_top.env.master_agent0.mstr_agent_cfg' (type class test.wb_config) set by  = (class test.wb_config) ?
+#0 in \wb_dma_env_test::build_phase  at ../bench/wb_dma_uvm/tests/wb_dma_env_test.sv:41
+@ 0: [CFGDB/SET] Configuration 'uvm_test_top.env.master_agent1.mstr_agent_cfg' (type class test.wb_config) set by  = (class test.wb_config) ?
+#0 in \wb_dma_env_test::build_phase  at ../bench/wb_dma_uvm/tests/wb_dma_env_test.sv:42
+@ 0: [CFGDB/SET] Configuration 'uvm_test_top.env.slave_agent0.slv_agent_cfg' (type class test.wb_config) set by  = (class test.wb_config) ?
+#0 in \wb_dma_env_test::build_phase  at ../bench/wb_dma_uvm/tests/wb_dma_env_test.sv:43
+@ 0: [CFGDB/SET] Configuration 'uvm_test_top.env.slave_agent1.slv_agent_cfg' (type class test.wb_config) set by  = (class test.wb_config) ?
+#0 in \wb_dma_env_test::build_phase  at ../bench/wb_dma_uvm/tests/wb_dma_env_test.sv:45
+@ 0: [CFGDB/SET] Configuration 'uvm_test_top.env.master_agent0' (type enum uvm_pkg::uvm_active_passive_enum) set by  = UVM_PASSIVE
+#0 in \wb_dma_env_test::build_phase  at ../bench/wb_dma_uvm/tests/wb_dma_env_test.sv:46
+@ 0: [CFGDB/SET] Configuration 'uvm_test_top.env.master_agent1' (type enum uvm_pkg::uvm_active_passive_enum) set by  = UVM_PASSIVE
+#0 in \wb_dma_env_test::build_phase  at ../bench/wb_dma_uvm/tests/wb_dma_env_test.sv:47
+@ 0: [CFGDB/SET] Configuration 'uvm_test_top.env.slave_agent0' (type enum uvm_pkg::uvm_active_passive_enum) set by  = UVM_PASSIVE
+#0 in \wb_dma_env_test::build_phase  at ../bench/wb_dma_uvm/tests/wb_dma_env_test.sv:48
+@ 0: [CFGDB/SET] Configuration 'uvm_test_top.env.slave_agent1' (type enum uvm_pkg::uvm_active_passive_enum) set by  = UVM_PASSIVE
+#0 in \uvm_component::new  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_component.svh:1836
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.master_agent0.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.master_agent0 = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_component.svh:1837
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.master_agent0.recording_detail' (type int) read by uvm_test_top.env.master_agent0 = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_component.svh:1836
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.master_agent1.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.master_agent1 = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_component.svh:1837
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.master_agent1.recording_detail' (type int) read by uvm_test_top.env.master_agent1 = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_component.svh:1836
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.slave_agent0.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.slave_agent0 = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_component.svh:1837
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.slave_agent0.recording_detail' (type int) read by uvm_test_top.env.slave_agent0 = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_component.svh:1836
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.slave_agent1.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.slave_agent1 = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_component.svh:1837
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.slave_agent1.recording_detail' (type int) read by uvm_test_top.env.slave_agent1 = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_component.svh:1836
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.cov.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.cov = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_component.svh:1837
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.cov.recording_detail' (type int) read by uvm_test_top.env.cov = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_component.svh:1836
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.cov.Coverage Analysis.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.cov.Coverage Analysis = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_component.svh:1837
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.cov.Coverage Analysis.recording_detail' (type int) read by uvm_test_top.env.cov.Coverage Analysis = null (failed lookup)
+#0 in \uvm_port_base#(uvm_pkg::uvm_tlm_if_base#(test.wb_transaction,test.wb_transaction))::new  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_port_base.svh:243
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.cov.Coverage Analysis.check_connection_relationships' (type logic signed[4095:0]) read by uvm_test_top.env.cov.Coverage Analysis = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_component.svh:1836
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.mon2cov.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.mon2cov = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_component.svh:1837
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.mon2cov.recording_detail' (type int) read by uvm_test_top.env.mon2cov = null (failed lookup)
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch0_sz.CHK_SZ.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch0_sz.TOT_SZ.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch0_a0.ADDRESS.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch0_am0.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch0_a1.ADDRESS.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch0_am1.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch0_desc.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch0_swptr.SWPTR_EN.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch0_swptr.SW_POINTER.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch1_sz.CHK_SZ.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch1_sz.TOT_SZ.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch1_a0.ADDRESS.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch1_am0.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch1_a1.ADDRESS.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch1_am1.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch1_desc.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch1_swptr.SWPTR_EN.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch1_swptr.SW_POINTER.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch2_sz.CHK_SZ.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch2_sz.TOT_SZ.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch2_a0.ADDRESS.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch2_am0.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch2_a1.ADDRESS.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch2_am1.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch2_desc.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch2_swptr.SWPTR_EN.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch2_swptr.SW_POINTER.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch3_sz.CHK_SZ.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch3_sz.TOT_SZ.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch3_a0.ADDRESS.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch3_am0.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch3_a1.ADDRESS.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch3_am1.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch3_desc.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch3_swptr.SWPTR_EN.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch3_swptr.SW_POINTER.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch4_sz.CHK_SZ.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch4_sz.TOT_SZ.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch4_a0.ADDRESS.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch4_am0.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch4_a1.ADDRESS.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch4_am1.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch4_desc.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch4_swptr.SWPTR_EN.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch4_swptr.SW_POINTER.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch5_sz.CHK_SZ.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch5_sz.TOT_SZ.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch5_a0.ADDRESS.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch5_am0.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch5_a1.ADDRESS.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch5_am1.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch5_desc.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch5_swptr.SWPTR_EN.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch5_swptr.SW_POINTER.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch6_sz.CHK_SZ.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch6_sz.TOT_SZ.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch6_a0.ADDRESS.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch6_am0.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch6_a1.ADDRESS.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch6_am1.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch6_desc.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch6_swptr.SWPTR_EN.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch6_swptr.SW_POINTER.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch7_sz.CHK_SZ.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch7_sz.TOT_SZ.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch7_a0.ADDRESS.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch7_am0.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch7_a1.ADDRESS.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch7_am1.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch7_desc.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch7_swptr.SWPTR_EN.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch7_swptr.SW_POINTER.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch8_sz.CHK_SZ.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch8_sz.TOT_SZ.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch8_a0.ADDRESS.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch8_am0.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch8_a1.ADDRESS.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch8_am1.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch8_desc.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch8_swptr.SWPTR_EN.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch8_swptr.SW_POINTER.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch9_sz.CHK_SZ.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch9_sz.TOT_SZ.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch9_a0.ADDRESS.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch9_am0.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch9_a1.ADDRESS.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch9_am1.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch9_desc.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch9_swptr.SWPTR_EN.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch9_swptr.SW_POINTER.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch10_sz.CHK_SZ.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch10_sz.TOT_SZ.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch10_a0.ADDRESS.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch10_am0.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch10_a1.ADDRESS.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch10_am1.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch10_desc.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch10_swptr.SWPTR_EN.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch10_swptr.SW_POINTER.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch11_sz.CHK_SZ.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch11_sz.TOT_SZ.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch11_a0.ADDRESS.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch11_am0.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch11_a1.ADDRESS.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch11_am1.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch11_desc.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch11_swptr.SWPTR_EN.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch11_swptr.SW_POINTER.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch12_sz.CHK_SZ.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch12_sz.TOT_SZ.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch12_a0.ADDRESS.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch12_am0.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch12_a1.ADDRESS.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch12_am1.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch12_desc.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch12_swptr.SWPTR_EN.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch12_swptr.SW_POINTER.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch13_sz.CHK_SZ.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch13_sz.TOT_SZ.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch13_a0.ADDRESS.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch13_am0.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch13_a1.ADDRESS.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch13_am1.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch13_desc.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch13_swptr.SWPTR_EN.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch13_swptr.SW_POINTER.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch14_sz.CHK_SZ.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch14_sz.TOT_SZ.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch14_a0.ADDRESS.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch14_am0.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch14_a1.ADDRESS.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch14_am1.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch14_desc.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch14_swptr.SWPTR_EN.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch14_swptr.SW_POINTER.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch15_sz.CHK_SZ.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch15_sz.TOT_SZ.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch15_a0.ADDRESS.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch15_am0.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch15_a1.ADDRESS.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch15_am1.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch15_desc.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch15_swptr.SWPTR_EN.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch15_swptr.SW_POINTER.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch16_sz.CHK_SZ.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch16_sz.TOT_SZ.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch16_a0.ADDRESS.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch16_am0.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch16_a1.ADDRESS.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch16_am1.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch16_desc.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch16_swptr.SWPTR_EN.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch16_swptr.SW_POINTER.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch17_sz.CHK_SZ.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch17_sz.TOT_SZ.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch17_a0.ADDRESS.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch17_am0.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch17_a1.ADDRESS.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch17_am1.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch17_desc.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch17_swptr.SWPTR_EN.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch17_swptr.SW_POINTER.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch18_sz.CHK_SZ.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch18_sz.TOT_SZ.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch18_a0.ADDRESS.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch18_am0.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch18_a1.ADDRESS.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch18_am1.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch18_desc.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch18_swptr.SWPTR_EN.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch18_swptr.SW_POINTER.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch19_sz.CHK_SZ.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch19_sz.TOT_SZ.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch19_a0.ADDRESS.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch19_am0.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch19_a1.ADDRESS.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch19_am1.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch19_desc.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch19_swptr.SWPTR_EN.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch19_swptr.SW_POINTER.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch20_sz.CHK_SZ.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch20_sz.TOT_SZ.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch20_a0.ADDRESS.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch20_am0.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch20_a1.ADDRESS.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch20_am1.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch20_desc.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch20_swptr.SWPTR_EN.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch20_swptr.SW_POINTER.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch21_sz.CHK_SZ.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch21_sz.TOT_SZ.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch21_a0.ADDRESS.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch21_am0.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch21_a1.ADDRESS.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch21_am1.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch21_desc.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch21_swptr.SWPTR_EN.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch21_swptr.SW_POINTER.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch22_sz.CHK_SZ.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch22_sz.TOT_SZ.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch22_a0.ADDRESS.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch22_am0.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch22_a1.ADDRESS.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch22_am1.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch22_desc.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch22_swptr.SWPTR_EN.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch22_swptr.SW_POINTER.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch23_sz.CHK_SZ.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch23_sz.TOT_SZ.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch23_a0.ADDRESS.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch23_am0.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch23_a1.ADDRESS.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch23_am1.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch23_desc.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch23_swptr.SWPTR_EN.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch23_swptr.SW_POINTER.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch24_sz.CHK_SZ.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch24_sz.TOT_SZ.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch24_a0.ADDRESS.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch24_am0.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch24_a1.ADDRESS.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch24_am1.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch24_desc.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch24_swptr.SWPTR_EN.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch24_swptr.SW_POINTER.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch25_sz.CHK_SZ.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch25_sz.TOT_SZ.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch25_a0.ADDRESS.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch25_am0.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch25_a1.ADDRESS.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch25_am1.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch25_desc.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch25_swptr.SWPTR_EN.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch25_swptr.SW_POINTER.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch26_sz.CHK_SZ.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch26_sz.TOT_SZ.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch26_a0.ADDRESS.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch26_am0.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch26_a1.ADDRESS.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch26_am1.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch26_desc.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch26_swptr.SWPTR_EN.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch26_swptr.SW_POINTER.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch27_sz.CHK_SZ.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch27_sz.TOT_SZ.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch27_a0.ADDRESS.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch27_am0.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch27_a1.ADDRESS.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch27_am1.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch27_desc.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch27_swptr.SWPTR_EN.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch27_swptr.SW_POINTER.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch28_sz.CHK_SZ.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch28_sz.TOT_SZ.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch28_a0.ADDRESS.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch28_am0.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch28_a1.ADDRESS.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch28_am1.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch28_desc.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch28_swptr.SWPTR_EN.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch28_swptr.SW_POINTER.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch29_sz.CHK_SZ.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch29_sz.TOT_SZ.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch29_a0.ADDRESS.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch29_am0.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch29_a1.ADDRESS.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch29_am1.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch29_desc.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch29_swptr.SWPTR_EN.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch29_swptr.SW_POINTER.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch30_sz.CHK_SZ.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch30_sz.TOT_SZ.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch30_a0.ADDRESS.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch30_am0.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch30_a1.ADDRESS.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch30_am1.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch30_desc.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch30_swptr.SWPTR_EN.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch30_swptr.SW_POINTER.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch31_sz.CHK_SZ.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch31_sz.TOT_SZ.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch31_a0.ADDRESS.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch31_am0.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch31_a1.ADDRESS.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch31_am1.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch31_desc.ADDRESS_MASK.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch31_swptr.SWPTR_EN.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_reg_field::configure  at /global/apps5/vcs_2014.12/etc/uvm/reg/uvm_reg_field.svh:825
+@ 0: [RSRCDB/SET] Resource 'REG::regmodel.ch31_swptr.SW_POINTER.NO_REG_HW_RESET_TEST' (type bit) set by <unknown> = 1
+#0 in \uvm_component::new  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_component.svh:1836
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.Explicit Reg predictor.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.Explicit Reg predictor = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_component.svh:1837
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.Explicit Reg predictor.recording_detail' (type int) read by uvm_test_top.env.Explicit Reg predictor = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_component.svh:1836
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.Explicit Reg predictor.bus_in.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.Explicit Reg predictor.bus_in = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_component.svh:1837
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.Explicit Reg predictor.bus_in.recording_detail' (type int) read by uvm_test_top.env.Explicit Reg predictor.bus_in = null (failed lookup)
+#0 in \uvm_port_base#(uvm_pkg::uvm_tlm_if_base#(test.wb_transaction,test.wb_transaction))::new  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_port_base.svh:243
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.Explicit Reg predictor.bus_in.check_connection_relationships' (type logic signed[4095:0]) read by uvm_test_top.env.Explicit Reg predictor.bus_in = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_component.svh:1836
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.Explicit Reg predictor.reg_ap.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.Explicit Reg predictor.reg_ap = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_component.svh:1837
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.Explicit Reg predictor.reg_ap.recording_detail' (type int) read by uvm_test_top.env.Explicit Reg predictor.reg_ap = null (failed lookup)
+#0 in \uvm_port_base#(uvm_pkg::uvm_tlm_if_base#(uvm_pkg::uvm_reg_item,uvm_pkg::uvm_reg_item))::new  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_port_base.svh:243
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.Explicit Reg predictor.reg_ap.check_connection_relationships' (type logic signed[4095:0]) read by uvm_test_top.env.Explicit Reg predictor.reg_ap = null (failed lookup)
+#0 in \uvm_agent::build_phase  at /global/apps5/vcs_2014.12/etc/uvm/comps/uvm_agent.svh:60
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.master_agent0.is_active' (type enum uvm_pkg::uvm_active_passive_enum) read by uvm_test_top.env.master_agent0 = UVM_PASSIVE
+#0 in \uvm_component::new  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_component.svh:1836
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.master_agent0.mast_mon.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.master_agent0.mast_mon = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_component.svh:1837
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.master_agent0.mast_mon.recording_detail' (type int) read by uvm_test_top.env.master_agent0.mast_mon = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_component.svh:1836
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.master_agent0.mast_mon.mon_analysis_port.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.master_agent0.mast_mon.mon_analysis_port = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_component.svh:1837
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.master_agent0.mast_mon.mon_analysis_port.recording_detail' (type int) read by uvm_test_top.env.master_agent0.mast_mon.mon_analysis_port = null (failed lookup)
+#0 in \uvm_port_base#(uvm_pkg::uvm_tlm_if_base#(test.wb_transaction,test.wb_transaction))::new  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_port_base.svh:243
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.master_agent0.mast_mon.mon_analysis_port.check_connection_relationships' (type logic signed[4095:0]) read by uvm_test_top.env.master_agent0.mast_mon.mon_analysis_port = null (failed lookup)
+#0 in \wb_master_agent::build_phase  at ../bench/common/wb_master_agent.sv:43
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.master_agent0.mst_if' (type virtual interface wb_master_if#(5,3)) read by  = (virtual interface wb_master_if#(5,3)) ?
+#0 in \wb_master_agent::build_phase  at ../bench/common/wb_master_agent.sv:46
+@ 0: [CFGDB/SET] Configuration 'uvm_test_top.env.master_agent0.mast_drv.mst_if' (type virtual interface wb_master_if#(5,3)) set by uvm_test_top.env.master_agent0 = (virtual interface wb_master_if#(5,3)) ?
+#0 in \wb_master_agent::build_phase  at ../bench/common/wb_master_agent.sv:47
+@ 0: [CFGDB/SET] Configuration 'uvm_test_top.env.master_agent0.mast_mon.mon_if' (type virtual interface wb_master_if#(5,3)) set by uvm_test_top.env.master_agent0 = (virtual interface wb_master_if#(5,3)) ?
+#0 in \wb_master_agent::build_phase  at ../bench/common/wb_master_agent.sv:57
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.master_agent0.mstr_agent_cfg' (type class test.wb_config) read by  = (class test.wb_config) ?
+#0 in \uvm_agent::build_phase  at /global/apps5/vcs_2014.12/etc/uvm/comps/uvm_agent.svh:60
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.master_agent1.is_active' (type enum uvm_pkg::uvm_active_passive_enum) read by uvm_test_top.env.master_agent1 = UVM_PASSIVE
+#0 in \uvm_component::new  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_component.svh:1836
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.master_agent1.mast_mon.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.master_agent1.mast_mon = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_component.svh:1837
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.master_agent1.mast_mon.recording_detail' (type int) read by uvm_test_top.env.master_agent1.mast_mon = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_component.svh:1836
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.master_agent1.mast_mon.mon_analysis_port.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.master_agent1.mast_mon.mon_analysis_port = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_component.svh:1837
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.master_agent1.mast_mon.mon_analysis_port.recording_detail' (type int) read by uvm_test_top.env.master_agent1.mast_mon.mon_analysis_port = null (failed lookup)
+#0 in \uvm_port_base#(uvm_pkg::uvm_tlm_if_base#(test.wb_transaction,test.wb_transaction))::new  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_port_base.svh:243
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.master_agent1.mast_mon.mon_analysis_port.check_connection_relationships' (type logic signed[4095:0]) read by uvm_test_top.env.master_agent1.mast_mon.mon_analysis_port = null (failed lookup)
+#0 in \wb_master_agent::build_phase  at ../bench/common/wb_master_agent.sv:43
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.master_agent1.mst_if' (type virtual interface wb_master_if#(5,3)) read by  = (virtual interface wb_master_if#(5,3)) ?
+#0 in \wb_master_agent::build_phase  at ../bench/common/wb_master_agent.sv:46
+@ 0: [CFGDB/SET] Configuration 'uvm_test_top.env.master_agent1.mast_drv.mst_if' (type virtual interface wb_master_if#(5,3)) set by uvm_test_top.env.master_agent1 = (virtual interface wb_master_if#(5,3)) ?
+#0 in \wb_master_agent::build_phase  at ../bench/common/wb_master_agent.sv:47
+@ 0: [CFGDB/SET] Configuration 'uvm_test_top.env.master_agent1.mast_mon.mon_if' (type virtual interface wb_master_if#(5,3)) set by uvm_test_top.env.master_agent1 = (virtual interface wb_master_if#(5,3)) ?
+#0 in \wb_master_agent::build_phase  at ../bench/common/wb_master_agent.sv:57
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.master_agent1.mstr_agent_cfg' (type class test.wb_config) read by  = (class test.wb_config) ?
+#0 in \uvm_agent::build_phase  at /global/apps5/vcs_2014.12/etc/uvm/comps/uvm_agent.svh:60
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.slave_agent0.is_active' (type enum uvm_pkg::uvm_active_passive_enum) read by uvm_test_top.env.slave_agent0 = UVM_PASSIVE
+#0 in \uvm_component::new  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_component.svh:1836
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.slave_agent0.slv_mon.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.slave_agent0.slv_mon = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_component.svh:1837
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.slave_agent0.slv_mon.recording_detail' (type int) read by uvm_test_top.env.slave_agent0.slv_mon = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_component.svh:1836
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.slave_agent0.slv_mon.mon_analysis_port.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.slave_agent0.slv_mon.mon_analysis_port = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_component.svh:1837
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.slave_agent0.slv_mon.mon_analysis_port.recording_detail' (type int) read by uvm_test_top.env.slave_agent0.slv_mon.mon_analysis_port = null (failed lookup)
+#0 in \uvm_port_base#(uvm_pkg::uvm_tlm_if_base#(test.wb_transaction,test.wb_transaction))::new  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_port_base.svh:243
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.slave_agent0.slv_mon.mon_analysis_port.check_connection_relationships' (type logic signed[4095:0]) read by uvm_test_top.env.slave_agent0.slv_mon.mon_analysis_port = null (failed lookup)
+#0 in \wb_slave_agent::build_phase  at ../bench/common/wb_slave_agent.sv:37
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.slave_agent0.slv_if' (type virtual interface wb_slave_if#(5,3)) read by uvm_test_top.env.slave_agent0 = (virtual interface wb_slave_if#(5,3)) ?
+#0 in \wb_slave_agent::build_phase  at ../bench/common/wb_slave_agent.sv:40
+@ 0: [CFGDB/SET] Configuration 'uvm_test_top.env.slave_agent0.slv_drv.slv_if' (type virtual interface wb_slave_if#(5,3)) set by uvm_test_top.env.slave_agent0 = (virtual interface wb_slave_if#(5,3)) ?
+#0 in \wb_slave_agent::build_phase  at ../bench/common/wb_slave_agent.sv:41
+@ 0: [CFGDB/SET] Configuration 'uvm_test_top.env.slave_agent0.slv_mon.mon_if' (type virtual interface wb_slave_if#(5,3)) set by uvm_test_top.env.slave_agent0 = (virtual interface wb_slave_if#(5,3)) ?
+#0 in \wb_slave_agent::build_phase  at ../bench/common/wb_slave_agent.sv:43
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.slave_agent0.slv_agent_cfg' (type class test.wb_config) read by  = (class test.wb_config) ?
+#0 in \uvm_agent::build_phase  at /global/apps5/vcs_2014.12/etc/uvm/comps/uvm_agent.svh:60
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.slave_agent1.is_active' (type enum uvm_pkg::uvm_active_passive_enum) read by uvm_test_top.env.slave_agent1 = UVM_PASSIVE
+#0 in \uvm_component::new  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_component.svh:1836
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.slave_agent1.slv_mon.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.slave_agent1.slv_mon = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_component.svh:1837
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.slave_agent1.slv_mon.recording_detail' (type int) read by uvm_test_top.env.slave_agent1.slv_mon = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_component.svh:1836
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.slave_agent1.slv_mon.mon_analysis_port.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.slave_agent1.slv_mon.mon_analysis_port = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_component.svh:1837
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.slave_agent1.slv_mon.mon_analysis_port.recording_detail' (type int) read by uvm_test_top.env.slave_agent1.slv_mon.mon_analysis_port = null (failed lookup)
+#0 in \uvm_port_base#(uvm_pkg::uvm_tlm_if_base#(test.wb_transaction,test.wb_transaction))::new  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_port_base.svh:243
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.slave_agent1.slv_mon.mon_analysis_port.check_connection_relationships' (type logic signed[4095:0]) read by uvm_test_top.env.slave_agent1.slv_mon.mon_analysis_port = null (failed lookup)
+#0 in \wb_slave_agent::build_phase  at ../bench/common/wb_slave_agent.sv:37
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.slave_agent1.slv_if' (type virtual interface wb_slave_if#(5,3)) read by uvm_test_top.env.slave_agent1 = (virtual interface wb_slave_if#(5,3)) ?
+#0 in \wb_slave_agent::build_phase  at ../bench/common/wb_slave_agent.sv:40
+@ 0: [CFGDB/SET] Configuration 'uvm_test_top.env.slave_agent1.slv_drv.slv_if' (type virtual interface wb_slave_if#(5,3)) set by uvm_test_top.env.slave_agent1 = (virtual interface wb_slave_if#(5,3)) ?
+#0 in \wb_slave_agent::build_phase  at ../bench/common/wb_slave_agent.sv:41
+@ 0: [CFGDB/SET] Configuration 'uvm_test_top.env.slave_agent1.slv_mon.mon_if' (type virtual interface wb_slave_if#(5,3)) set by uvm_test_top.env.slave_agent1 = (virtual interface wb_slave_if#(5,3)) ?
+#0 in \wb_slave_agent::build_phase  at ../bench/common/wb_slave_agent.sv:43
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.slave_agent1.slv_agent_cfg' (type class test.wb_config) read by  = (class test.wb_config) ?
+#0 in \uvm_root::run_test  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_root.svh:426
+@ 0: [PH_END] Phase 'common.build' (id=235) ENDING PHASE
+#0 in \uvm_root::run_test  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_root.svh:426
+@ 0: [PH/TRC/DONE] Phase 'common.build' (id=235) Completed phase
+#0 in \uvm_root::run_test  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_root.svh:426
+@ 0: [PH/TRC/SCHEDULED] Phase 'common.connect' (id=247) Scheduled from phase common.build
+#0 in \uvm_root::run_test  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_root.svh:426
+@ 0: [PH/TRC/STRT] Phase 'common.connect' (id=247) Starting phase
+#0 in \wb_master_mon::connect_phase  at ../bench/common/wb_master_mon.sv:80
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.master_agent0.mast_mon.mon_if' (type virtual interface wb_master_if#(5,3)) read by uvm_test_top.env.master_agent0.mast_mon = (virtual interface wb_master_if#(5,3)) ?
+#0 in \wb_master_mon::connect_phase  at ../bench/common/wb_master_mon.sv:80
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.master_agent1.mast_mon.mon_if' (type virtual interface wb_master_if#(5,3)) read by uvm_test_top.env.master_agent1.mast_mon = (virtual interface wb_master_if#(5,3)) ?
+#0 in \wb_slave_mon::connect_phase  at ../bench/common/wb_slave_mon.sv:89
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.slave_agent0.slv_mon.mon_if' (type virtual interface wb_slave_if#(5,3)) read by uvm_test_top.env.slave_agent0.slv_mon = (virtual interface wb_slave_if#(5,3)) ?
+#0 in \wb_slave_mon::connect_phase  at ../bench/common/wb_slave_mon.sv:89
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.slave_agent1.slv_mon.mon_if' (type virtual interface wb_slave_if#(5,3)) read by uvm_test_top.env.slave_agent1.slv_mon = (virtual interface wb_slave_if#(5,3)) ?
+#0 in \uvm_root::run_test  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_root.svh:426
+@ 0: [PH_END] Phase 'common.connect' (id=247) ENDING PHASE
+#0 in \uvm_root::run_test  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_root.svh:426
+@ 0: [PH/TRC/DONE] Phase 'common.connect' (id=247) Completed phase
+#0 in \uvm_root::run_test  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_root.svh:426
+@ 0: [PH/TRC/SCHEDULED] Phase 'common.end_of_elaboration' (id=259) Scheduled from phase common.connect
+#0 in \uvm_root::run_test  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_root.svh:426
+@ 0: [PH/TRC/STRT] Phase 'common.end_of_elaboration' (id=259) Starting phase
+#0 in \uvm_root::run_test  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_root.svh:426
+@ 0: [PH_END] Phase 'common.end_of_elaboration' (id=259) ENDING PHASE
+#0 in \uvm_root::run_test  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_root.svh:426
+@ 0: [PH/TRC/DONE] Phase 'common.end_of_elaboration' (id=259) Completed phase
+#0 in \uvm_root::run_test  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_root.svh:426
+@ 0: [PH/TRC/SCHEDULED] Phase 'common.start_of_simulation' (id=271) Scheduled from phase common.end_of_elaboration
+#0 in \uvm_root::run_test  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_root.svh:426
+@ 0: [PH/TRC/STRT] Phase 'common.start_of_simulation' (id=271) Starting phase
+#0 in \uvm_root::run_test  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_root.svh:426
+@ 0: [PH_END] Phase 'common.start_of_simulation' (id=271) ENDING PHASE
+#0 in \uvm_root::run_test  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_root.svh:426
+@ 0: [PH/TRC/DONE] Phase 'common.start_of_simulation' (id=271) Completed phase
+#0 in \uvm_root::run_test  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_root.svh:426
+@ 0: [PH/TRC/SCHEDULED] Phase 'common.run' (id=283) Scheduled from phase common.start_of_simulation
+#0 in \uvm_root::run_test  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_root.svh:426
+@ 0: [PH/TRC/STRT] Phase 'common.run' (id=283) Starting phase
+#0 in \uvm_root::run_test  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_root.svh:426
+@ 0: [PH/TRC/SCHEDULED] Phase 'uvm' (id=332) Scheduled from phase common.start_of_simulation
+#0 in \uvm_root::run_test  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_root.svh:426
+@ 0: [PH/TRC/STRT] Phase 'uvm' (id=332) Starting phase
+#0 in \wb_dma_env::run_phase  at ../bench/wb_dma_uvm/env/wb_dma_env_ral_env.sv:95
+@ 0: [OBJTN_TRC] common.run Object uvm_test_top.env raised 1 objection(s): count=1  total=1
+#0 in \wb_dma_env::run_phase  at ../bench/wb_dma_uvm/env/wb_dma_env_ral_env.sv:96
+@ 0: [OBJTN_TRC] common.run Object uvm_test_top.env dropped 1 objection(s): count=0  total=0
+#0 in \uvm_root::run_test  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_root.svh:347
+@ 0: [OBJTN_TRC] common.run Object uvm_test_top.env all_dropped 1 objection(s): count=0  total=0
+#0 in \uvm_root::run_test  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_root.svh:426
+@ 0: [PH/TRC/DONE] Phase 'uvm' (id=332) Completed phase
+#0 in \uvm_root::run_test  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_root.svh:426
+@ 0: [PH/TRC/SCHEDULED] Phase 'uvm.uvm_sched' (id=344) Scheduled from phase uvm
+#0 in \uvm_root::run_test  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_root.svh:426
+@ 0: [PH/TRC/STRT] Phase 'uvm.uvm_sched' (id=344) Starting phase
+#0 in \uvm_root::run_test  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_root.svh:426
+@ 0: [PH/TRC/DONE] Phase 'uvm.uvm_sched' (id=344) Completed phase
+#0 in \uvm_root::run_test  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_root.svh:426
+@ 0: [PH/TRC/SCHEDULED] Phase 'uvm.uvm_sched.pre_reset' (id=362) Scheduled from phase uvm.uvm_sched
+#0 in \uvm_root::run_test  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_root.svh:426
+@ 0: [PH/TRC/STRT] Phase 'uvm.uvm_sched.pre_reset' (id=362) Starting phase
+#0 in \uvm_root::run_test  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_root.svh:426
+@ 0: [PH/TRC/SKIP] Phase 'uvm.uvm_sched.pre_reset' (id=362) No objections raised, skipping phase
+#0 in \uvm_root::run_test  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_root.svh:426
+@ 0: [PH/TRC/SKIP] Phase 'common.run' (id=283) No objections raised, skipping phase
+#0 in \uvm_root::run_test  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_root.svh:426
+@ 0: [PH/TRC/TO_WAIT] Phase 'common.run' (id=283) STARTING PHASE TIMEOUT WATCHDOG (timeout ==     9200000000000000)
+#0 in \uvm_root::run_test  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_root.svh:426
+@ 0: [PH_READY_TO_END_CB] Phase 'uvm.uvm_sched.pre_reset' (id=362) CALLING READY_TO_END CB
+#0 in \uvm_root::run_test  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_root.svh:426
+@ 0: [PH_END] Phase 'uvm.uvm_sched.pre_reset' (id=362) ENDING PHASE
+#0 in \uvm_root::run_test  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_root.svh:426
+@ 0: [PH/TRC/DONE] Phase 'uvm.uvm_sched.pre_reset' (id=362) Completed phase
+#0 in \uvm_root::run_test  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_root.svh:426
+@ 0: [PH/TRC/SCHEDULED] Phase 'uvm.uvm_sched.reset' (id=374) Scheduled from phase uvm.uvm_sched.pre_reset
+#0 in \uvm_root::run_test  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_root.svh:426
+@ 0: [PH/TRC/STRT] Phase 'uvm.uvm_sched.reset' (id=374) Starting phase
+#0 in \wb_dma_env::reset_phase  at ../bench/wb_dma_uvm/env/wb_dma_env_ral_env.sv:85
+@ 0: [OBJTN_TRC] uvm.uvm_sched.reset Object uvm_test_top.env raised 1 objection(s) (Resetting the DUT...): count=1  total=1
+#0 in \wb_dma_env::reset_phase  at ../bench/wb_dma_uvm/env/wb_dma_env_ral_env.sv:86
+@ 0: [OBJTN_TRC] uvm.uvm_sched.reset Object uvm_test_top.env dropped 1 objection(s): count=0  total=0
+#0 in \uvm_root::run_test  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_root.svh:347
+@ 0: [OBJTN_TRC] uvm.uvm_sched.reset Object uvm_test_top.env all_dropped 1 objection(s): count=0  total=0
+#0 in \uvm_root::run_test  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_root.svh:426
+@ 0: [PH/TRC/SKIP] Phase 'uvm.uvm_sched.reset' (id=374) No objections raised, skipping phase
+#0 in \uvm_root::run_test  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_root.svh:426
+@ 0: [PH_READY_TO_END_CB] Phase 'uvm.uvm_sched.reset' (id=374) CALLING READY_TO_END CB
+#0 in \uvm_root::run_test  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_root.svh:426
+@ 0: [PH_END] Phase 'uvm.uvm_sched.reset' (id=374) ENDING PHASE
+#0 in \uvm_root::run_test  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_root.svh:426
+@ 0: [PH/TRC/DONE] Phase 'uvm.uvm_sched.reset' (id=374) Completed phase
+#0 in \uvm_root::run_test  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_root.svh:426
+@ 0: [PH/TRC/SCHEDULED] Phase 'uvm.uvm_sched.post_reset' (id=386) Scheduled from phase uvm.uvm_sched.reset
+#0 in \uvm_root::run_test  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_root.svh:426
+@ 0: [PH/TRC/STRT] Phase 'uvm.uvm_sched.post_reset' (id=386) Starting phase
+#0 in \uvm_root::run_test  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_root.svh:426
+@ 0: [PH/TRC/SKIP] Phase 'uvm.uvm_sched.post_reset' (id=386) No objections raised, skipping phase
+#0 in \uvm_root::run_test  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_root.svh:426
+@ 0: [PH_READY_TO_END_CB] Phase 'uvm.uvm_sched.post_reset' (id=386) CALLING READY_TO_END CB
+#0 in \uvm_root::run_test  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_root.svh:426
+@ 0: [PH_END] Phase 'uvm.uvm_sched.post_reset' (id=386) ENDING PHASE
+#0 in \uvm_root::run_test  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_root.svh:426
+@ 0: [PH/TRC/DONE] Phase 'uvm.uvm_sched.post_reset' (id=386) Completed phase
+#0 in \uvm_root::run_test  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_root.svh:426
+@ 0: [PH/TRC/SCHEDULED] Phase 'uvm.uvm_sched.pre_configure' (id=398) Scheduled from phase uvm.uvm_sched.post_reset
+#0 in \uvm_root::run_test  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_root.svh:426
+@ 0: [PH/TRC/STRT] Phase 'uvm.uvm_sched.pre_configure' (id=398) Starting phase
+#0 in \uvm_root::run_test  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_root.svh:426
+@ 0: [PH/TRC/SKIP] Phase 'uvm.uvm_sched.pre_configure' (id=398) No objections raised, skipping phase
+#0 in \uvm_root::run_test  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_root.svh:426
+@ 0: [PH_READY_TO_END_CB] Phase 'uvm.uvm_sched.pre_configure' (id=398) CALLING READY_TO_END CB
+#0 in \uvm_root::run_test  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_root.svh:426
+@ 0: [PH_END] Phase 'uvm.uvm_sched.pre_configure' (id=398) ENDING PHASE
+#0 in \uvm_root::run_test  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_root.svh:426
+@ 0: [PH/TRC/DONE] Phase 'uvm.uvm_sched.pre_configure' (id=398) Completed phase
+#0 in \uvm_root::run_test  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_root.svh:426
+@ 0: [PH/TRC/SCHEDULED] Phase 'uvm.uvm_sched.configure' (id=410) Scheduled from phase uvm.uvm_sched.pre_configure
+#0 in \uvm_root::run_test  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_root.svh:426
+@ 0: [PH/TRC/STRT] Phase 'uvm.uvm_sched.configure' (id=410) Starting phase
+#0 in \uvm_root::run_test  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_root.svh:426
+@ 0: [PH/TRC/SKIP] Phase 'uvm.uvm_sched.configure' (id=410) No objections raised, skipping phase
+#0 in \uvm_root::run_test  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_root.svh:426
+@ 0: [PH_READY_TO_END_CB] Phase 'uvm.uvm_sched.configure' (id=410) CALLING READY_TO_END CB
+#0 in \uvm_root::run_test  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_root.svh:426
+@ 0: [PH_END] Phase 'uvm.uvm_sched.configure' (id=410) ENDING PHASE
+#0 in \uvm_root::run_test  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_root.svh:426
+@ 0: [PH/TRC/DONE] Phase 'uvm.uvm_sched.configure' (id=410) Completed phase
+#0 in \uvm_root::run_test  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_root.svh:426
+@ 0: [PH/TRC/SCHEDULED] Phase 'uvm.uvm_sched.post_configure' (id=422) Scheduled from phase uvm.uvm_sched.configure
+#0 in \uvm_root::run_test  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_root.svh:426
+@ 0: [PH/TRC/STRT] Phase 'uvm.uvm_sched.post_configure' (id=422) Starting phase
+#0 in \uvm_root::run_test  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_root.svh:426
+@ 0: [PH/TRC/SKIP] Phase 'uvm.uvm_sched.post_configure' (id=422) No objections raised, skipping phase
+#0 in \uvm_root::run_test  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_root.svh:426
+@ 0: [PH_READY_TO_END_CB] Phase 'uvm.uvm_sched.post_configure' (id=422) CALLING READY_TO_END CB
+#0 in \uvm_root::run_test  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_root.svh:426
+@ 0: [PH_END] Phase 'uvm.uvm_sched.post_configure' (id=422) ENDING PHASE
+#0 in \uvm_root::run_test  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_root.svh:426
+@ 0: [PH/TRC/DONE] Phase 'uvm.uvm_sched.post_configure' (id=422) Completed phase
+#0 in \uvm_root::run_test  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_root.svh:426
+@ 0: [PH/TRC/SCHEDULED] Phase 'uvm.uvm_sched.pre_main' (id=434) Scheduled from phase uvm.uvm_sched.post_configure
+#0 in \uvm_root::run_test  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_root.svh:426
+@ 0: [PH/TRC/STRT] Phase 'uvm.uvm_sched.pre_main' (id=434) Starting phase
+#0 in \uvm_root::run_test  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_root.svh:426
+@ 0: [PH/TRC/SKIP] Phase 'uvm.uvm_sched.pre_main' (id=434) No objections raised, skipping phase
+#0 in \uvm_root::run_test  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_root.svh:426
+@ 0: [PH_READY_TO_END_CB] Phase 'uvm.uvm_sched.pre_main' (id=434) CALLING READY_TO_END CB
+#0 in \uvm_root::run_test  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_root.svh:426
+@ 0: [PH_END] Phase 'uvm.uvm_sched.pre_main' (id=434) ENDING PHASE
+#0 in \uvm_root::run_test  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_root.svh:426
+@ 0: [PH/TRC/DONE] Phase 'uvm.uvm_sched.pre_main' (id=434) Completed phase
+#0 in \uvm_root::run_test  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_root.svh:426
+@ 0: [PH/TRC/SCHEDULED] Phase 'uvm.uvm_sched.main' (id=446) Scheduled from phase uvm.uvm_sched.pre_main
+#0 in \uvm_root::run_test  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_root.svh:426
+@ 0: [PH/TRC/STRT] Phase 'uvm.uvm_sched.main' (id=446) Starting phase
+#0 in \wb_slave_mon::main_phase  at ../bench/common/wb_slave_mon.sv:106
+@ 0: [OBJTN_TRC] uvm.uvm_sched.main Object uvm_test_top.env.slave_agent0.slv_mon raised 1 objection(s): count=1  total=1
+#0 in \wb_slave_mon::main_phase  at ../bench/common/wb_slave_mon.sv:110
+@ 0: [OBJTN_TRC] uvm.uvm_sched.main Object uvm_test_top.env.slave_agent0.slv_mon dropped 1 objection(s): count=0  total=0
+#0 in \wb_slave_agent::main_phase  at ../bench/common/wb_slave_agent.sv:63
+@ 0: [OBJTN_TRC] uvm.uvm_sched.main Object uvm_test_top.env.slave_agent0 raised 1 objection(s) (slv_agt_main): count=1  total=2
+#0 in \wb_slave_agent::main_phase  at ../bench/common/wb_slave_agent.sv:67
+@ 0: [OBJTN_TRC] uvm.uvm_sched.main Object uvm_test_top.env.slave_agent0 dropped 1 objection(s): count=0  total=1
+#0 in \wb_slave_mon::main_phase  at ../bench/common/wb_slave_mon.sv:106
+@ 0: [OBJTN_TRC] uvm.uvm_sched.main Object uvm_test_top.env.slave_agent1.slv_mon raised 1 objection(s): count=1  total=1
+#0 in \wb_slave_mon::main_phase  at ../bench/common/wb_slave_mon.sv:110
+@ 0: [OBJTN_TRC] uvm.uvm_sched.main Object uvm_test_top.env.slave_agent1.slv_mon dropped 1 objection(s): count=0  total=0
+#0 in \wb_slave_agent::main_phase  at ../bench/common/wb_slave_agent.sv:63
+@ 0: [OBJTN_TRC] uvm.uvm_sched.main Object uvm_test_top.env.slave_agent1 raised 1 objection(s) (slv_agt_main): count=1  total=2
+#0 in \wb_slave_agent::main_phase  at ../bench/common/wb_slave_agent.sv:67
+@ 0: [OBJTN_TRC] uvm.uvm_sched.main Object uvm_test_top.env.slave_agent1 dropped 1 objection(s): count=0  total=1
+#0 in \wb_dma_env_test::main_phase  at ../bench/wb_dma_uvm/tests/wb_dma_env_test.sv:60
+@ 0: [OBJTN_TRC] uvm.uvm_sched.main Object uvm_test_top raised 1 objection(s) (wb_dma_env_test): count=1  total=3
+#0 in \uvm_root::run_test  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_root.svh:347
+@ 0: [OBJTN_TRC] uvm.uvm_sched.main Object uvm_test_top.env.slave_agent0.slv_mon all_dropped 1 objection(s): count=0  total=0
+#0 in \uvm_root::run_test  at /global/apps5/vcs_2014.12/etc/uvm/base/uvm_root.svh:347
+@ 0: [OBJTN_TRC] uvm.uvm_sched.main Object uvm_test_top.env.slave_agent1.slv_mon all_dropped 1 objection(s): count=0  total=0
