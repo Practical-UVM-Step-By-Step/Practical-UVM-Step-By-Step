@@ -1,0 +1,188 @@
+Command: vcs +v2k -f /slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/tb/verilog_tb/ethernet/filelist \
++incdir+/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/tb/verilog_tb/ethernet/filelist \
+-f /slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/rtl/ethernet/filelist \
++incdir+/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/rtl/ethernet -debug_pp \
++incdir+/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/rtl/common +incdir+/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/rtl/include \
+-l vcs.log +systemverilogext+.sv
+                         Chronologic VCS (TM)
+          Version L-2016.06-SP1 -- Thu Nov  3 17:10:42 2016
+               Copyright (c) 1991-2016 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/tb/verilog_tb/ethernet/eth_host.v'
+Parsing included file 'tb_eth_defines.v'.
+Back to file '/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/tb/verilog_tb/ethernet/eth_host.v'.
+Parsing included file 'timescale.v'.
+Back to file '/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/tb/verilog_tb/ethernet/eth_host.v'.
+Parsing design file '/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/tb/verilog_tb/ethernet/eth_memory.v'
+Parsing included file 'tb_eth_defines.v'.
+Back to file '/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/tb/verilog_tb/ethernet/eth_memory.v'.
+Parsing included file 'timescale.v'.
+Back to file '/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/tb/verilog_tb/ethernet/eth_memory.v'.
+Parsing design file '/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/tb/verilog_tb/ethernet/eth_phy_defines.v'
+Parsing design file '/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/tb/verilog_tb/ethernet/eth_phy.v'
+Parsing included file 'timescale.v'.
+Back to file '/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/tb/verilog_tb/ethernet/eth_phy.v'.
+Parsing included file 'eth_phy_defines.v'.
+Back to file '/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/tb/verilog_tb/ethernet/eth_phy.v'.
+Parsing included file 'tb_eth_defines.v'.
+Back to file '/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/tb/verilog_tb/ethernet/eth_phy.v'.
+Parsing design file '/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/tb/verilog_tb/ethernet/tb_eth_defines.v'
+Parsing design file '/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/tb/verilog_tb/ethernet/tb_ethernet.v'
+Parsing included file 'eth_phy_defines.v'.
+Back to file '/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/tb/verilog_tb/ethernet/tb_ethernet.v'.
+Parsing included file 'wb_model_defines.v'.
+Back to file '/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/tb/verilog_tb/ethernet/tb_ethernet.v'.
+Parsing included file 'tb_eth_defines.v'.
+Back to file '/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/tb/verilog_tb/ethernet/tb_ethernet.v'.
+Parsing included file '/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/rtl/include/eth_defines.v'.
+Back to file '/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/tb/verilog_tb/ethernet/tb_ethernet.v'.
+Parsing included file 'timescale.v'.
+Back to file '/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/tb/verilog_tb/ethernet/tb_ethernet.v'.
+Parsing design file '/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/tb/verilog_tb/ethernet/wb_bus_mon.v'
+Parsing included file 'timescale.v'.
+Back to file '/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/tb/verilog_tb/ethernet/wb_bus_mon.v'.
+Parsing included file 'wb_model_defines.v'.
+Back to file '/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/tb/verilog_tb/ethernet/wb_bus_mon.v'.
+Parsing design file '/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/tb/verilog_tb/ethernet/wb_master32.v'
+Parsing included file 'wb_model_defines.v'.
+Back to file '/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/tb/verilog_tb/ethernet/wb_master32.v'.
+Parsing included file 'timescale.v'.
+Back to file '/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/tb/verilog_tb/ethernet/wb_master32.v'.
+Parsing design file '/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/tb/verilog_tb/ethernet/wb_master_behavioral.v'
+Parsing included file 'wb_model_defines.v'.
+Back to file '/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/tb/verilog_tb/ethernet/wb_master_behavioral.v'.
+Parsing included file 'timescale.v'.
+Back to file '/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/tb/verilog_tb/ethernet/wb_master_behavioral.v'.
+Parsing design file '/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/tb/verilog_tb/ethernet/wb_model_defines.v'
+Parsing design file '/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/tb/verilog_tb/ethernet/wb_slave_behavioral.v'
+Parsing included file 'timescale.v'.
+Back to file '/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/tb/verilog_tb/ethernet/wb_slave_behavioral.v'.
+Parsing included file 'wb_model_defines.v'.
+Back to file '/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/tb/verilog_tb/ethernet/wb_slave_behavioral.v'.
+Parsing design file '/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/rtl/ethernet/eth_clockgen.v'
+Parsing included file 'timescale.v'.
+Back to file '/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/rtl/ethernet/eth_clockgen.v'.
+Parsing design file '/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/rtl/ethernet/eth_crc.v'
+Parsing included file 'timescale.v'.
+Back to file '/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/rtl/ethernet/eth_crc.v'.
+Parsing design file '/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/rtl/ethernet/eth_fifo.v'
+Parsing included file '/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/rtl/include/eth_defines.v'.
+Back to file '/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/rtl/ethernet/eth_fifo.v'.
+Parsing included file 'timescale.v'.
+Back to file '/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/rtl/ethernet/eth_fifo.v'.
+Parsing design file '/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/rtl/ethernet/eth_maccontrol.v'
+Parsing included file 'timescale.v'.
+Back to file '/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/rtl/ethernet/eth_maccontrol.v'.
+Parsing design file '/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/rtl/ethernet/eth_macstatus.v'
+Parsing included file 'timescale.v'.
+Back to file '/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/rtl/ethernet/eth_macstatus.v'.
+Parsing design file '/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/rtl/ethernet/eth_miim.v'
+Parsing included file 'timescale.v'.
+Back to file '/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/rtl/ethernet/eth_miim.v'.
+Parsing design file '/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/rtl/ethernet/eth_outputcontrol.v'
+Parsing included file 'timescale.v'.
+Back to file '/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/rtl/ethernet/eth_outputcontrol.v'.
+Parsing design file '/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/rtl/ethernet/eth_random.v'
+Parsing included file 'timescale.v'.
+Back to file '/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/rtl/ethernet/eth_random.v'.
+Parsing design file '/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/rtl/ethernet/eth_receivecontrol.v'
+Parsing included file 'timescale.v'.
+Back to file '/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/rtl/ethernet/eth_receivecontrol.v'.
+Parsing design file '/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/rtl/ethernet/eth_registers.v'
+Parsing included file '/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/rtl/include/eth_defines.v'.
+Back to file '/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/rtl/ethernet/eth_registers.v'.
+Parsing included file 'timescale.v'.
+Back to file '/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/rtl/ethernet/eth_registers.v'.
+Parsing design file '/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/rtl/ethernet/eth_register.v'
+Parsing included file 'timescale.v'.
+Back to file '/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/rtl/ethernet/eth_register.v'.
+Parsing design file '/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/rtl/ethernet/eth_rxaddrcheck.v'
+Parsing included file 'timescale.v'.
+Back to file '/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/rtl/ethernet/eth_rxaddrcheck.v'.
+Parsing design file '/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/rtl/ethernet/eth_rxcounters.v'
+Parsing included file 'timescale.v'.
+Back to file '/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/rtl/ethernet/eth_rxcounters.v'.
+Parsing design file '/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/rtl/ethernet/eth_rxethmac.v'
+Parsing included file 'timescale.v'.
+Back to file '/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/rtl/ethernet/eth_rxethmac.v'.
+Parsing design file '/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/rtl/ethernet/eth_rxstatem.v'
+Parsing included file 'timescale.v'.
+Back to file '/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/rtl/ethernet/eth_rxstatem.v'.
+Parsing design file '/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/rtl/ethernet/eth_shiftreg.v'
+Parsing included file 'timescale.v'.
+Back to file '/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/rtl/ethernet/eth_shiftreg.v'.
+Parsing design file '/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/rtl/ethernet/eth_spram_256x32.v'
+Parsing included file '/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/rtl/include/eth_defines.v'.
+Back to file '/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/rtl/ethernet/eth_spram_256x32.v'.
+Parsing included file 'timescale.v'.
+Back to file '/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/rtl/ethernet/eth_spram_256x32.v'.
+Parsing design file '/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/rtl/ethernet/eth_top.v'
+Parsing included file '/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/rtl/include/eth_defines.v'.
+Back to file '/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/rtl/ethernet/eth_top.v'.
+Parsing included file 'timescale.v'.
+Back to file '/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/rtl/ethernet/eth_top.v'.
+Parsing design file '/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/rtl/ethernet/eth_transmitcontrol.v'
+Parsing included file 'timescale.v'.
+Back to file '/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/rtl/ethernet/eth_transmitcontrol.v'.
+Parsing design file '/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/rtl/ethernet/eth_txcounters.v'
+Parsing included file 'timescale.v'.
+Back to file '/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/rtl/ethernet/eth_txcounters.v'.
+Parsing design file '/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/rtl/ethernet/eth_txethmac.v'
+Parsing included file 'timescale.v'.
+Back to file '/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/rtl/ethernet/eth_txethmac.v'.
+Parsing design file '/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/rtl/ethernet/eth_txstatem.v'
+Parsing included file 'timescale.v'.
+Back to file '/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/rtl/ethernet/eth_txstatem.v'.
+Parsing design file '/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/rtl/ethernet/eth_wishbone.v'
+Parsing included file '/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/rtl/include/eth_defines.v'.
+Back to file '/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/rtl/ethernet/eth_wishbone.v'.
+Parsing included file 'timescale.v'.
+Back to file '/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/rtl/ethernet/eth_wishbone.v'.
+Top Level Modules:
+       eth_host
+       eth_memory
+       tb_ethernet
+TimeScale is 1 ns / 1 ps
+Starting vcs inline pass...
+17 unique modules to generate
+recompiling module eth_host
+recompiling module eth_memory
+recompiling module eth_phy
+recompiling module tb_ethernet
+recompiling module WB_BUS_MON
+recompiling module WB_MASTER_BEHAVIORAL
+recompiling module WB_SLAVE_BEHAVIORAL
+recompiling module eth_crc
+recompiling module eth_fifo
+recompiling module eth_maccontrol
+recompiling module eth_macstatus
+recompiling module eth_register
+recompiling module eth_rxethmac
+recompiling module eth_spram_256x32
+recompiling module eth_top
+recompiling module eth_txethmac
+recompiling module eth_wishbone
+All of 17 modules done
+make[1]: Entering directory `/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/tb/verilog_tb/ethernet/csrc' \
+
+rm -f _csrc*.so pre_vcsobj_*.so share_vcsobj_*.so
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv   -Wl,-rpath-link=./ -Wl,-rpath='$ORIGIN'/simv.daidir/ -Wl,-rpath=./simv.daidir/ \
+-Wl,-rpath='$ORIGIN'/simv.daidir//scsim.db.dir  -m32 -m32 -rdynamic   objs/amcQw_d.o \
+_8341_archive_1.so  SIM_l.o       rmapats_mop.o rmapats.o rmar.o  rmar_llvm_0_1.o \
+rmar_llvm_0_0.o          /global/apps3/vcs_2016.06-SP1/linux/lib/libzerosoft_rt_stubs.so \
+/global/apps3/vcs_2016.06-SP1/linux/lib/libvirsim.so /global/apps3/vcs_2016.06-SP1/linux/lib/liberrorinf.so \
+/global/apps3/vcs_2016.06-SP1/linux/lib/libsnpsmalloc.so    /global/apps3/vcs_2016.06-SP1/linux/lib/libvcsnew.so \
+/global/apps3/vcs_2016.06-SP1/linux/lib/libsimprofile.so /global/apps3/vcs_2016.06-SP1/linux/lib/libuclinative.so \
+-Wl,-whole-archive /global/apps3/vcs_2016.06-SP1/linux/lib/libvcsucli.so -Wl,-no-whole-archive \
+/global/apps3/vcs_2016.06-SP1/linux/lib/vcs_save_restore_new.o /global/apps3/vcs_2016.06-SP1/linux/lib/ctype-stubs_32.a \
+-ldl  -lc -lm -lpthread -ldl 
+../simv up to date
+make[1]: Leaving directory `/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/tb/verilog_tb/ethernet/csrc' \
+
+CPU time: 3.621 seconds to compile + .404 seconds to elab + .188 seconds to link

@@ -1,0 +1,4 @@
+
+`include "wb_master_if.sv" 
+`include "wb_slave_if.sv" 
+`include "spi_if.sv"

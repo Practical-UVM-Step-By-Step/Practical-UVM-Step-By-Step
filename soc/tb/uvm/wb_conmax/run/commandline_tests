@@ -1,0 +1,41 @@
++uvm_set_type_overrid
+
+ne Arguments	
+
++UVM_TESTNAME	+UVM_TESTNAME=<class name> allows the user to specify which uvm_test (or uvm_component) should be created via the factory and cycled through the UVM phases.
+
++UVM_VERBOSITY	+UVM_VERBOSITY=<verbosity> allows the user to specify the initial verbosity for all components.
+
++uvm_set_verbosity	+uvm_set_verbosity=<comp>,<id>,<verbosity>,<phase> and +uvm_set_verbosity=<comp>,<id>,<verbosity>,time,<time> allow the users to manipulate the verbosity of specific components at specific phases (and times during the run phases) of the simulation.
+
++uvm_set_action	+uvm_set_action=<comp>,<id>,<severity>,<action> provides the equivalent of various uvm_report_objects set_report_*_action APIs.
+
++uvm_set_severity	+uvm_set_severity=<comp>,<id>,<current severity>,<new severity> provides the equivalent of the various uvm_report_objects set_report_*_severity_override APIs.
+
++UVM_TIMEOUT	+UVM_TIMEOUT=<timeout>,<overridable> allows users to change the global timeout of the UVM framework.
+
++UVM_MAX_QUIT_COUNT	+UVM_MAX_QUIT_COUNT=<count>,<overridable> allows users to change max quit count for the report server.
+
++UVM_PHASE_TRACE	+UVM_PHASE_TRACE turns on tracing of phase executions.
+
++UVM_OBJECTION_TRACE	+UVM_OBJECTION_TRACE turns on tracing of objection activity.
+
++UVM_RESOURCE_DB_TRACE	+UVM_RESOURCE_DB_TRACE turns on tracing of resource DB access.
+
++UVM_CONFIG_DB_TRACE	+UVM_CONFIG_DB_TRACE turns on tracing of configuration DB access.
+
++uvm_set_inst_override	
+
++uvm_set_type_override	+uvm_set_inst_override=<req_type>,<override_type>,<full_inst_path> and +uvm_set_type_override=<req_type>,<override_type>[,<replace>] work like the name based overrides in the factory--factory.set_inst_override_by_name() and factory.set_type_override_by_name().
+
++uvm_set_config_int	
+
++uvm_set_config_string	+uvm_set_config_int=<comp>,<field>,<value> and +uvm_set_config_string=<comp>,<field>,<value> work like their procedural counterparts: set_config_int() and set_config_string().
+
++uvm_set_default_sequence	The +uvm_set_default_sequence=<seqr>,<phase>,<type> plusarg allows the user to define a default sequence from the command line, using the typename of that sequence.
+
+
+Things that are known to Work
+
++uvm_set_default_sequence    
+./simv -l simv.log +UVM_TESTNAME=wb_conmax_base_test +uvm_set_default_sequence=uvm_test_top.env.master_agent\[00\].mast_sqr,main_phase,sequence_0

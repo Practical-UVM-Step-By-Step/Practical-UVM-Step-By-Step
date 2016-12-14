@@ -1,0 +1,11 @@
+${ROOT}/rtl/debug_if/dbg_cpu_defines.v
+${ROOT}/rtl/debug_if/dbg_cpu_registers.v
+${ROOT}/rtl/debug_if/dbg_cpu.v
+${ROOT}/rtl/debug_if/dbg_crc32_d1.v
+${ROOT}/rtl/debug_if/dbg_defines_old.v
+${ROOT}/rtl/debug_if/dbg_defines.v
+${ROOT}/rtl/debug_if/dbg_register.v
+${ROOT}/rtl/debug_if/dbg_top_ip.v
+${ROOT}/rtl/debug_if/dbg_top.v
+${ROOT}/rtl/debug_if/dbg_wb_defines.v
+${ROOT}/rtl/debug_if/dbg_wb.v

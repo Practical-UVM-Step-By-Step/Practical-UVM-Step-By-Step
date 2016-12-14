@@ -1,0 +1,441 @@
+Command: ./simv -l run.log +incdir+/slowfs/vgcs13/srivats/project/soc/rtl/ethernet +incdir+/slowfs/vgcs13/srivats/project/soc/rtl/common +incdir+/slowfs/vgcs13/srivats/project/soc/rtl/include
+Chronologic VCS simulator copyright 1991-2016
+Contains Synopsys proprietary information.
+Compiler version L-2016.06_Full64; Runtime version L-2016.06_Full64;  Jul 20 16:56 2016
+
+===========================================================================
+PHY generates ideal Carrier sense and Collision signals for following tests
+===========================================================================
+ 
+MAC FULL DUPLEX TRANSMIT TEST
+  Time: 62387000
+  TEST 2: TRANSMIT PACKETS FROM MINFL TO MAXFL SIZES AT ONE TX BD ( 10Mbps )
+Time:             64725000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:             64785000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by NOT changing the CTI_O signals to '111' when end of burst!
+CTI_O didn't change to '111' when end of burst
+Time:             64905000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:             64965000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:             64995000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:             65025000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by NOT changing the CTI_O signals to '111' when end of burst!
+CTI_O didn't change to '111' when end of burst
+Time:             65175000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:             65235000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:             65445000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:            133605000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:            133665000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by NOT changing the CTI_O signals to '111' when end of burst!
+CTI_O didn't change to '111' when end of burst
+Time:            133785000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:            133845000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:            133875000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:            133905000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by NOT changing the CTI_O signals to '111' when end of burst!
+CTI_O didn't change to '111' when end of burst
+Time:            134055000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:            134115000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:            134325000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:            199965000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:            200025000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by NOT changing the CTI_O signals to '111' when end of burst!
+CTI_O didn't change to '111' when end of burst
+Time:            200145000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:            200205000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:            200235000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:            200265000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by NOT changing the CTI_O signals to '111' when end of burst!
+CTI_O didn't change to '111' when end of burst
+Time:            200415000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:            200475000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:            200685000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:            268005000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:            268065000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by NOT changing the CTI_O signals to '111' when end of burst!
+CTI_O didn't change to '111' when end of burst
+Time:            268185000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:            268245000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:            268275000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:            268305000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by NOT changing the CTI_O signals to '111' when end of burst!
+CTI_O didn't change to '111' when end of burst
+Time:            268455000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:            268515000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:            268725000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:            268995000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:            336405000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:            336465000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by NOT changing the CTI_O signals to '111' when end of burst!
+CTI_O didn't change to '111' when end of burst
+Time:            405525000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:            405585000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by NOT changing the CTI_O signals to '111' when end of burst!
+CTI_O didn't change to '111' when end of burst
+Time:            475605000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:            475665000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by NOT changing the CTI_O signals to '111' when end of burst!
+CTI_O didn't change to '111' when end of burst
+Time:            546405000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:            546465000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by NOT changing the CTI_O signals to '111' when end of burst!
+CTI_O didn't change to '111' when end of burst
+Time:            617925000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:            617985000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by NOT changing the CTI_O signals to '111' when end of burst!
+CTI_O didn't change to '111' when end of burst
+Time:            690405000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:            690465000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by NOT changing the CTI_O signals to '111' when end of burst!
+CTI_O didn't change to '111' when end of burst
+Time:            763605000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:            763665000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by NOT changing the CTI_O signals to '111' when end of burst!
+CTI_O didn't change to '111' when end of burst
+Time:            837525000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:            837585000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by NOT changing the CTI_O signals to '111' when end of burst!
+CTI_O didn't change to '111' when end of burst
+Time:            912405000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:            912465000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by NOT changing the CTI_O signals to '111' when end of burst!
+CTI_O didn't change to '111' when end of burst
+Time:            988005000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:            988065000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by NOT changing the CTI_O signals to '111' when end of burst!
+CTI_O didn't change to '111' when end of burst
+Time:           1064325000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:           1064385000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by NOT changing the CTI_O signals to '111' when end of burst!
+CTI_O didn't change to '111' when end of burst
+Time:           1141605000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:           1141665000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by NOT changing the CTI_O signals to '111' when end of burst!
+CTI_O didn't change to '111' when end of burst
+Time:           1219605000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:           1219665000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by NOT changing the CTI_O signals to '111' when end of burst!
+CTI_O didn't change to '111' when end of burst
+Time:           1298325000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:           1298385000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by NOT changing the CTI_O signals to '111' when end of burst!
+CTI_O didn't change to '111' when end of burst
+Time:           1378005000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:           1378065000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by NOT changing the CTI_O signals to '111' when end of burst!
+CTI_O didn't change to '111' when end of burst
+Time:           1458405000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:           1458465000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by NOT changing the CTI_O signals to '111' when end of burst!
+CTI_O didn't change to '111' when end of burst
+Time:           1539525000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:           1539585000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by NOT changing the CTI_O signals to '111' when end of burst!
+CTI_O didn't change to '111' when end of burst
+Time:           1621605000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:           1621665000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by NOT changing the CTI_O signals to '111' when end of burst!
+CTI_O didn't change to '111' when end of burst
+Time:           1704405000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:           1704465000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by NOT changing the CTI_O signals to '111' when end of burst!
+CTI_O didn't change to '111' when end of burst
+Time:           1787925000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:           1787985000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by NOT changing the CTI_O signals to '111' when end of burst!
+CTI_O didn't change to '111' when end of burst
+Time:           1872405000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:           1872465000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by NOT changing the CTI_O signals to '111' when end of burst!
+CTI_O didn't change to '111' when end of burst
+Time:           1957605000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:           1957665000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by NOT changing the CTI_O signals to '111' when end of burst!
+CTI_O didn't change to '111' when end of burst
+Time:           2043525000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:           2043585000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by NOT changing the CTI_O signals to '111' when end of burst!
+CTI_O didn't change to '111' when end of burst
+Time:           2130405000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:           2130465000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by NOT changing the CTI_O signals to '111' when end of burst!
+CTI_O didn't change to '111' when end of burst
+Time:           2218005000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:           2218065000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by NOT changing the CTI_O signals to '111' when end of burst!
+CTI_O didn't change to '111' when end of burst
+Time:           2306325000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:           2306385000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by NOT changing the CTI_O signals to '111' when end of burst!
+CTI_O didn't change to '111' when end of burst
+Time:           2395605000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:           2395665000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by NOT changing the CTI_O signals to '111' when end of burst!
+CTI_O didn't change to '111' when end of burst
+Time:           2485605000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:           2485665000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by NOT changing the CTI_O signals to '111' when end of burst!
+CTI_O didn't change to '111' when end of burst
+Time:           2576325000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:           2576385000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by NOT changing the CTI_O signals to '111' when end of burst!
+CTI_O didn't change to '111' when end of burst
+Time:           2668005000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:           2668065000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by NOT changing the CTI_O signals to '111' when end of burst!
+CTI_O didn't change to '111' when end of burst
+Time:           2760405000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:           2760465000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by NOT changing the CTI_O signals to '111' when end of burst!
+CTI_O didn't change to '111' when end of burst
+Time:           2853525000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:           2853585000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by NOT changing the CTI_O signals to '111' when end of burst!
+CTI_O didn't change to '111' when end of burst
+Time:           2947605000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:           2947665000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by NOT changing the CTI_O signals to '111' when end of burst!
+CTI_O didn't change to '111' when end of burst
+Time:           3042405000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:           3042465000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by NOT changing the CTI_O signals to '111' when end of burst!
+CTI_O didn't change to '111' when end of burst
+Time:           3137925000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:           3137985000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by NOT changing the CTI_O signals to '111' when end of burst!
+CTI_O didn't change to '111' when end of burst
+Time:           3234405000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:           3234465000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by NOT changing the CTI_O signals to '111' when end of burst!
+CTI_O didn't change to '111' when end of burst
+Time:           3331605000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:           3331665000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by NOT changing the CTI_O signals to '111' when end of burst!
+CTI_O didn't change to '111' when end of burst
+Time:           3429525000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:           3429585000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by NOT changing the CTI_O signals to '111' when end of burst!
+CTI_O didn't change to '111' when end of burst
+Time:           3528405000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:           3528465000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by NOT changing the CTI_O signals to '111' when end of burst!
+CTI_O didn't change to '111' when end of burst
+Time:           3628005000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:           3628065000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by NOT changing the CTI_O signals to '111' when end of burst!
+CTI_O didn't change to '111' when end of burst
+Time:           3728805000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:           3728865000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by NOT changing the CTI_O signals to '111' when end of burst!
+CTI_O didn't change to '111' when end of burst
+Time:           3829965000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:           3830025000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by NOT changing the CTI_O signals to '111' when end of burst!
+CTI_O didn't change to '111' when end of burst
+Time:           3932325000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:           3932385000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by NOT changing the CTI_O signals to '111' when end of burst!
+CTI_O didn't change to '111' when end of burst
+Time:           4035165000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:           4035225000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by NOT changing the CTI_O signals to '111' when end of burst!
+CTI_O didn't change to '111' when end of burst
+Time:           4139205000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:           4139265000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by NOT changing the CTI_O signals to '111' when end of burst!
+CTI_O didn't change to '111' when end of burst
+Time:           4243965000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:           4244025000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by NOT changing the CTI_O signals to '111' when end of burst!
+CTI_O didn't change to '111' when end of burst
+Time:           4349565000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:           4349625000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by NOT changing the CTI_O signals to '111' when end of burst!
+CTI_O didn't change to '111' when end of burst
+Time:           4456005000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:           4456065000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by NOT changing the CTI_O signals to '111' when end of burst!
+CTI_O didn't change to '111' when end of burst
+Time:           4563165000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:           4563225000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by NOT changing the CTI_O signals to '111' when end of burst!
+CTI_O didn't change to '111' when end of burst
+Time:           4671165000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:           4671225000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by NOT changing the CTI_O signals to '111' when end of burst!
+CTI_O didn't change to '111' when end of burst
+Time:           4780005000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:           4780065000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by NOT changing the CTI_O signals to '111' when end of burst!
+CTI_O didn't change to '111' when end of burst
+Time:           4889565000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:           4889625000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by NOT changing the CTI_O signals to '111' when end of burst!
+CTI_O didn't change to '111' when end of burst
+Time:           4999965000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:           5000025000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by NOT changing the CTI_O signals to '111' when end of burst!
+CTI_O didn't change to '111' when end of burst
+Time:           5111205000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:           5111265000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by NOT changing the CTI_O signals to '111' when end of burst!
+CTI_O didn't change to '111' when end of burst
+Time:           5223165000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:           5223225000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by NOT changing the CTI_O signals to '111' when end of burst!
+CTI_O didn't change to '111' when end of burst
+Time:           5335965000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:           5336025000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by NOT changing the CTI_O signals to '111' when end of burst!
+CTI_O didn't change to '111' when end of burst
+Time:           5449605000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:           5449665000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by NOT changing the CTI_O signals to '111' when end of burst!
+CTI_O didn't change to '111' when end of burst
+Time:           5563965000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:           5564025000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by NOT changing the CTI_O signals to '111' when end of burst!
+CTI_O didn't change to '111' when end of burst
+Time:           5679165000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:           5679225000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by NOT changing the CTI_O signals to '111' when end of burst!
+CTI_O didn't change to '111' when end of burst
+Time:           5795205000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:           5795265000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by NOT changing the CTI_O signals to '111' when end of burst!
+CTI_O didn't change to '111' when end of burst
+Time:           5912445000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:           5912505000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by NOT changing the CTI_O signals to '111' when end of burst!
+CTI_O didn't change to '111' when end of burst
+    pads appending to packets is NOT selected
+    ->packets with lengths from 64 (MINFL) to 128 are checked (length increasing by 1 byte)
+Time:           6030045000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:           6030105000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by NOT changing the CTI_O signals to '111' when end of burst!
+CTI_O didn't change to '111' when end of burst
+Time:           6252405000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:           6252465000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by NOT changing the CTI_O signals to '111' when end of burst!
+CTI_O didn't change to '111' when end of burst
+Time:           6579165000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:           6579225000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by NOT changing the CTI_O signals to '111' when end of burst!
+CTI_O didn't change to '111' when end of burst
+Time:           7010325000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:           7010385000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by NOT changing the CTI_O signals to '111' when end of burst!
+CTI_O didn't change to '111' when end of burst
+Time:           7546365000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:           7546425000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by NOT changing the CTI_O signals to '111' when end of burst!
+CTI_O didn't change to '111' when end of burst
+Time:           8186805000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:           8186865000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by NOT changing the CTI_O signals to '111' when end of burst!
+CTI_O didn't change to '111' when end of burst
+Time:           8932005000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:           8932065000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by NOT changing the CTI_O signals to '111' when end of burst!
+CTI_O didn't change to '111' when end of burst
+Time:           9781605000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by changing the value of TAG_O signals at inappropriate time!
+Time:           9781665000
+tb_ethernet.wb_eth_slave_bus_mon.message_out, Master violated WISHBONE protocol by NOT changing the CTI_O signals to '111' when end of burst!
+CTI_O didn't change to '111' when end of burst

@@ -1,0 +1,149 @@
+register CTRL {
+   left_to_right;
+   field unused {bits 6;}
+    field HC1R {
+	bits 1; access rw  ;
+	coverpoint { bins x = {0,1}}
+      } 
+    field HC1E {bits 1 ; access rw }
+    field unused {bits 2; }
+    field HC0R {bits 1; access rw }
+    field HCOE {bits 1 ; access rw }
+    field unused {bits 2; }
+    field BL {bits 1; access rw }
+    field CSL {bits 1 ; access rw}
+    field VSL {bits 1 ; access rw}
+    field HSL {bits 1 ; access rw}
+    field PC {bits 1 ; access rw}
+    field CD {bits 2 ; access rw}
+    field VBL {bits 2 ; access rw}
+    field CBSWE {bits 1 ; access rw}
+    field VBSWE {bits 1 ; access rw}
+    field CBSIE {bits 1 ; access rw}
+    field VBSIE {bits 1 ; access rw}
+    field HIE  {bits 1 ; access rw}
+    field VIE  {bits 1 ; access rw}
+    field VEN  {bits 1 ; access rw}
+}
+
+register STAT {
+   left_to_right;
+   field reserved {bits 7; }
+   field HC1A {bits 1; access ro }
+   field reserved {bits 2; }
+   field HC0A {bits 1; access ro }
+   field reserved {bits 2; }
+   field ACMP {bits 1; access ro }
+   field AVMP {bits 1; access ro }
+   field reserved {bits 2; }
+   field CBSINT {bits 1; access rw }
+   field VBSINT {bits 1; access rw }
+   field HINT {bits 1; access rw }
+   field VINT {bits 1; access rw }
+   field reserved {bits 2; }
+   field LUINT {bits 1; access rw }
+   field SINT {bits 1; access rw }
+
+}
+
+register HTIM {
+	left_to_right;
+	field THSYNC {bits 8; access rw;}
+	field THGDEL {bits 8; access rw;}
+	field THGATE {bits 16; access rw;}
+}
+
+register VTIM {
+	left_to_right;
+	field TVSYNC {bits 8; access rw;}
+	field TVGDEL {bits 8; access rw;}
+	field TVGATE {bits 16; access rw;}
+}
+ 
+ register HVLEN {
+	left_to_right;
+	field THLEN {bits 16; access rw;}
+	field TVLEN {bits 16; access rw;}
+ }
+
+ register VBARa {
+	left_to_right;
+	field VBA {bits 29; access rw;}
+	field reserved {bits 2; }
+ 
+ }
+## 
+ register VBARb {
+	left_to_right;
+	field VBA {bits 29; access rw;}
+	field reserved {bits 2; }
+
+ }
+ register C0XY {
+	left_to_right;
+	field CY {bits 16; access rw;}
+	field CX {bits 16; access rw;}
+ }
+
+ 
+ register C0BAR {
+	left_to_right;
+	field CBA {bits 22; access rw;}
+	field reserved {bits 10; }
+ 
+ }
+
+ register C1BAR {
+	left_to_right;
+	field CBA {bits 22; access rw;}
+	field reserved {bits 10; }
+ 	}
+
+ register C1XY {
+	left_to_right;
+	field CY {bits 16; access rw;}
+	field CX {bits 16; access rw;}
+ }
+ 
+# register PCLT {
+ 
+# }
+ register COCR {
+	left_to_right;
+	field CODD {bits 16; access rw;}
+	field CEVEN {bits 16; access rw;}
+ 
+ }
+ register C1CR {
+	left_to_right;
+	field CODD {bits 16; access rw;}
+	field CEVEN {bits 16; access rw;}
+ 	}
+memory CLUT0 {
+	bits 24;
+	size 256
+
+  }
+memory CLUT1 {
+	bits 24;
+	size 256
+
+  }
+
+ block vga_lcd  { 
+#block vga_lcd (vga_lcd_env_top.vga_enh_top.u0) { 
+	bytes 4;
+	endian little;
+	register CTRL (wbs.ctrl[31:0]) @0000;
+	register STAT (wbs.stat[31:0]) @0004;
+	register HTIM (htim[31:0]) @0008;
+	register VTIM (vtim[31:0]) @0012;
+# uhtim0.{vga_lcd_env_top.vga_enh_top.uhtim0.wbs.htim[31:0]}
+        # memory CLUT0  @'h0800 (clut_mem.clut_mem);
+         memory CLUT1  @'h0C00;
+}
+	
+
+
+
+ 

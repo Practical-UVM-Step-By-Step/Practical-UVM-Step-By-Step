@@ -1,0 +1,42 @@
+plan reg_wb_spi_env_CHIP_ID;
+    attribute string path = "";
+
+    feature REVISION_ID_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_wb_spi_env_CHIP_ID::cg_bits.${path}.REVISION_ID";
+        endmeasure
+    endfeature
+    feature CHIP_ID_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_wb_spi_env_CHIP_ID::cg_bits.${path}.CHIP_ID";
+        endmeasure
+    endfeature
+    feature PRODUCT_ID_bits;
+        measure Group fcov;
+            source = "group instance:**::ral_reg_wb_spi_env_CHIP_ID::cg_bits.${path}.PRODUCT_ID";
+        endmeasure
+    endfeature
+endplan
+
+
+plan block_wb_spi_env;
+    attribute string path = "";
+
+    feature reg_CHIP_ID;
+        subplan reg_wb_spi_env_CHIP_ID #(path="CHIP_ID");
+    endfeature
+
+    feature address_map;
+        measure Group fcov;
+            source = "group instance:**::ral_block_wb_spi_env::cg_addr";
+        endmeasure
+    endfeature
+
+    feature field_values;
+        measure Group fcov;
+            source = "group instance:**::cg_vals";
+        endmeasure
+    endfeature
+endplan
+
+

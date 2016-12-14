@@ -1,0 +1,7 @@
+${ROOT}/tb/verilog_tb/gpio/timescale.v
+${ROOT}/tb/verilog_tb/gpio/clkrst.v
+${ROOT}/tb/verilog_tb/gpio/gpio_mon.v
+${ROOT}/tb/verilog_tb/gpio/tb_defines.v
+${ROOT}/tb/verilog_tb/gpio/tb_tasks.v
+${ROOT}/tb/verilog_tb/gpio/wb_master.v
+${ROOT}/tb/verilog_tb/gpio/gpio_testbench.v

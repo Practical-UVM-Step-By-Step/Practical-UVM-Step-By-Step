@@ -1,0 +1,6 @@
+${ROOT}/tb/verilog_tb/vga_lcd/sync_check.v
+${ROOT}/tb/verilog_tb/vga_lcd/wb_b3_check.v
+${ROOT}/tb/verilog_tb/vga_lcd/wb_mast_model.v
+${ROOT}/tb/verilog_tb/vga_lcd/wb_model_defines.v
+${ROOT}/tb/verilog_tb/vga_lcd/wb_slv_model.v
+${ROOT}/tb/verilog_tb/vga_lcd/test_bench_top.v

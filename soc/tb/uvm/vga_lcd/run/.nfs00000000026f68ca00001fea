@@ -1,0 +1,12 @@
+Command: vcs -sverilog -l vcs.log -ntb_opts uvm +incdir+../include+../src+../env+../tests+../hdl+../../../../rtl/vga_lcd \
+-debug_all -timescale=1ns/1ps ../tests/vga_lcd_env_tb_mod.sv ../hdl/vga_lcd_env_top.sv \
+-file ../../../../rtl/vga_lcd/filelist
+                         Chronologic VCS (TM)
+            Version H-2013.06 -- Thu Aug 29 22:48:33 2013
+               Copyright (c) 1991-2013 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+

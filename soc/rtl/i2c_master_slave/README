@@ -1,0 +1,6 @@
+i2c master and slave
+
+This core is based on the i2c master by Richard Herveille from OpenCores.org, 
+with added slave capability by ORSoC. See the driver software in sw/drivers
+for details on use of the core.
+

@@ -1,0 +1,5 @@
+${ROOT}/rtl/gpio/gpio_defines.v
+${ROOT}/rtl/gpio/gpio_intf.sv
+${ROOT}/rtl/gpio/gpio_top.v
+${ROOT}/rtl/gpio/gpio_wrap.sv
+

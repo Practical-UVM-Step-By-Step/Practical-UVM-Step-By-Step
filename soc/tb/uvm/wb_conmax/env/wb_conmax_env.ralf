@@ -1,0 +1,83 @@
+#
+# Template for RALF file used by RAL environment
+#
+
+# ToDo: wb_conmax_env.ralf file needs to be modified according to user configuration 
+# to generate ral_wb_conmax_env block inside ral_wb_conmax_env.sv file
+# Default implementation of register, memory, field and block 
+# kept inside this wb_conmax_env.ralf file
+
+register CFG {
+      field master0_priority {
+         bits 2;
+         access rw;
+         reset 'h00;
+      }
+      field master1_priority {
+         bits 2;
+         access rw;
+         reset 'h00;
+      }
+      field master2_priority {
+         bits 2;
+         access rw;
+         reset 'h00;
+      }
+      field master3_priority {
+         bits 2;
+         access rw;
+         reset 'h00;
+      }
+      field master4_priority {
+         bits 2;
+         access rw;
+         reset 'h00;
+      }
+      field master5_priority {
+         bits 2;
+         access rw;
+         reset 'h00;
+      }
+      field master6_priority {
+         bits 2;
+         access rw;
+         reset 'h00;
+      }
+      field master7_priority {
+         bits 2;
+         access rw;
+         reset 'h00;
+      }
+## 	shared(cfg_0);
+}
+
+block wb_conmax_env_ral_block {
+        # for {set n 0} {$n < 16} {incr n } {
+       # register CFG=cfg_$n;
+        # }
+        for {set k 0} {$k < 8} {incr k } {
+    		domain my_domain$k  {
+   			bytes 4;
+        #		for {set n 0} {$n < 16} {incr n } {
+        			register CFG=cfg_$k;
+	#		}
+
+        }
+
+	}
+}
+
+
+system wb_conmax_env_sys {
+
+        	for {set k 0} {$k < 8} {incr k } {
+ 			domain master_$k {
+   			bytes 4;
+ 				block wb_conmax_env_ral_block.my_domain$k=reg_master$k;
+ 			}
+
+ 		}
+}
+
+
+

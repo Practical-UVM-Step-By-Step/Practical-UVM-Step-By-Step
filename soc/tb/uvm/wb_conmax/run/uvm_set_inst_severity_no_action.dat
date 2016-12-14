@@ -1,0 +1,221 @@
+Command: ./simv -l uvm_set_inst_severity_no_action.dat:Command: ./simv -l uvm_set_inst_severity_no_action.dat +uvm_set_severity=uvm_test_top.env.master_agent[00].mast_drv,Wb master,UVM_INFO,UVM_FATAL +UVM_TESTNAME=wb_conmax_flat_seq_test +uvm_set_action=uvm_test_top.env.master_agent[00].mast_drv,Wb master,UVM_FATAL,UVM_NO_ACTION
+Chronologic VCS simulator copyright 1991-2016
+Contains Synopsys proprietary information.
+Compiler version L-2016.06-SP1; Runtime version L-2016.06-SP1;  Dec  2 22:18 2016
+UVM_INFO /global/apps3/vcs_2016.06-SP1/etc/uvm-1.2/base/uvm_root.svh(402) @ 0: reporter [UVM/RELNOTES] 
+----------------------------------------------------------------
+UVM-1.2.Synopsys
+(C) 2007-2014 Mentor Graphics Corporation
+(C) 2007-2014 Cadence Design Systems, Inc.
+(C) 2006-2014 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+(C) 2013-2014 NVIDIA Corporation
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_DO_NOT_NEED_CONSTRUCTOR undefined.
+  See http://www.eda.org/svdb/view.php?id=3770 for more details.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_WARNING /global/apps3/vcs_2016.06-SP1/etc/uvm-1.2/base/uvm_component.svh(3725) @ 0: uvm_test_top [INVLCMDARGS] +uvm_set_action requires 4 arguments, but 2 given for command +uvm_set_action=uvm_test_top.env.master_agent[00].mast_drv,Wb, Usage: +uvm_set_action=<comp>,<id>,<severity>,<action[|action]>
+UVM_WARNING /global/apps3/vcs_2016.06-SP1/etc/uvm-1.2/base/uvm_component.svh(3795) @ 0: uvm_test_top [INVLCMDARGS] +uvm_set_severity requires 4 arguments, but 2 given for command +uvm_set_severity=uvm_test_top.env.master_agent[00].mast_drv,Wb, Usage: +uvm_set_severity=<comp>,<id>,<orig_severity>,<new_severity>
+UVM_INFO @ 0: reporter [RNTST] Running test wb_conmax_flat_seq_test...
+UVM_INFO /global/apps3/vcs_2016.06-SP1/etc/uvm-1.2/base/uvm_factory.svh(1645) @ 0: reporter [UVM/FACTORY/PRINT] 
+#### Factory Configuration (*)
+
+  No instance or type overrides are registered with this factory
+
+All types registered with the factory: 95 total
+  Type Name
+  ---------
+  base_sequence
+  parallel_sequence
+  ral_reg_CFG
+  sequence_0
+  sequence_1
+  sequence_2
+  snps_uvm_reg_bank_group
+  snps_uvm_reg_map
+  wb_config
+  wb_conmax_alter_message_test
+  wb_conmax_alter_verbosity_test
+  wb_conmax_base_test
+  wb_conmax_commandline_test_1
+  wb_conmax_env
+  wb_conmax_env_cfg
+  wb_conmax_env_cov
+  wb_conmax_env_ral_block
+  wb_conmax_factory_instance_override_test
+  wb_conmax_factory_instance_override_test_cmdline
+  wb_conmax_factory_type_override_test
+  wb_conmax_flat_seq_test
+  wb_conmax_instance_callback_test
+  wb_conmax_parallel_seq_test
+  wb_conmax_report_file_test
+  wb_conmax_scoreboard
+  wb_conmax_simple_cmdline_proc
+  wb_conmax_typewide_callback_test
+  wb_conmax_virtual_sequence
+  wb_conmax_virtual_sequencer
+  wb_master
+  wb_master_agent
+  wb_master_agent_n
+  wb_master_mon
+  wb_master_monitor_2cov_connect
+  wb_master_seqr
+  wb_master_txn
+  wb_slave
+  wb_slave_agent
+  wb_slave_mon
+  wb_transaction
+(*) Types with no associated type name will be printed as <unknown>
+
+####
+
+
+UVM_INFO /global/apps3/vcs_2016.06-SP1/etc/uvm-1.2/base/uvm_spell_chkr.svh(123) @ 0: reporter [UVM/CONFIGDB/SPELLCHK] include_coverage not located, did you mean default_sequence
+UVM_INFO /global/apps3/vcs_2016.06-SP1/etc/uvm-1.2/base/uvm_spell_chkr.svh(123) @ 0: reporter [UVM/CONFIGDB/SPELLCHK] include_coverage not located, did you mean default_sequence
+UVM_INFO /global/apps3/vcs_2016.06-SP1/etc/uvm-1.2/base/uvm_spell_chkr.svh(123) @ 0: reporter [UVM/CONFIGDB/SPELLCHK] include_coverage not located, did you mean default_sequence
+UVM_INFO /global/apps3/vcs_2016.06-SP1/etc/uvm-1.2/base/uvm_spell_chkr.svh(123) @ 0: reporter [UVM/CONFIGDB/SPELLCHK] include_coverage not located, did you mean default_sequence
+UVM_INFO /global/apps3/vcs_2016.06-SP1/etc/uvm-1.2/base/uvm_spell_chkr.svh(123) @ 0: reporter [UVM/CONFIGDB/SPELLCHK] include_coverage not located, did you mean default_sequence
+UVM_INFO /global/apps3/vcs_2016.06-SP1/etc/uvm-1.2/base/uvm_spell_chkr.svh(123) @ 0: reporter [UVM/CONFIGDB/SPELLCHK] include_coverage not located, did you mean default_sequence
+UVM_INFO /global/apps3/vcs_2016.06-SP1/etc/uvm-1.2/base/uvm_spell_chkr.svh(123) @ 0: reporter [UVM/CONFIGDB/SPELLCHK] include_coverage not located, did you mean default_sequence
+UVM_INFO /global/apps3/vcs_2016.06-SP1/etc/uvm-1.2/base/uvm_spell_chkr.svh(123) @ 0: reporter [UVM/CONFIGDB/SPELLCHK] include_coverage not located, did you mean default_sequence
+UVM_INFO /global/apps3/vcs_2016.06-SP1/etc/uvm-1.2/base/uvm_spell_chkr.svh(123) @ 0: reporter [UVM/CONFIGDB/SPELLCHK] include_coverage not located, did you mean default_sequence
+UVM_INFO ../src/wb_master_agent_sequence_library.sv(83) @ 0: uvm_test_top.env.master_agent[00].mast_sqr@@sequence_1 [uvm_test_top.env.master_agent[00].mast_sqr.sequence_1] Starting Sequence sequence_1 
+UVM_INFO ../../common/wb_master.sv(164) @ 0: uvm_test_top.env.master_agent[00].mast_drv [wb_env_DRIVER] Starting transaction...
+UVM_INFO ../../common/wb_master.sv(202) @ 5000: uvm_test_top.env.master_agent[00].mast_drv [Wb master] Got a read transaction
+UVM_INFO ../../common/wb_slave.sv(158) @ 206000: uvm_test_top.env.slave_agent[00].slv_drv [uvm_test_top.env.slave_agent[00].slv_drv] responding in this cycle
+UVM_INFO ../../common/wb_slave_mon.sv(151) @ 206000: uvm_test_top.env.slave_agent[00].slv_mon [Wb_slave Monitor] got a read transaction  
+UVM_INFO ../../common/wb_slave.sv(198) @ 235000: uvm_test_top.env.slave_agent[00].slv_drv [SLAVE_DRIVER] Completed transaction...
+UVM_INFO @ 235000: uvm_test_top.env.Scoreboard.comparator          0 [Comparator Match] 
+UVM_INFO ../../common/wb_master.sv(192) @ 245000: uvm_test_top.env.master_agent[00].mast_drv [wb_env_DRIVER] Completed transaction...
+UVM_INFO ../../common/wb_master.sv(164) @ 245000: uvm_test_top.env.master_agent[00].mast_drv [wb_env_DRIVER] Starting transaction...
+UVM_INFO ../../common/wb_master.sv(242) @ 255000: uvm_test_top.env.master_agent[00].mast_drv [Wb master] Got a write transaction
+UVM_INFO ../../common/wb_slave.sv(158) @ 276000: uvm_test_top.env.slave_agent[00].slv_drv [uvm_test_top.env.slave_agent[00].slv_drv] responding in this cycle
+UVM_INFO ../../common/wb_slave_mon.sv(141) @ 276000: uvm_test_top.env.slave_agent[00].slv_mon [WB slave Monitor] got a write transaction  from Master 
+UVM_INFO ../../common/wb_slave.sv(198) @ 305000: uvm_test_top.env.slave_agent[00].slv_drv [SLAVE_DRIVER] Completed transaction...
+UVM_INFO @ 305000: uvm_test_top.env.Scoreboard.comparator          0 [Comparator Match] 
+UVM_INFO ../../common/wb_master.sv(192) @ 315000: uvm_test_top.env.master_agent[00].mast_drv [wb_env_DRIVER] Completed transaction...
+UVM_INFO ../../common/wb_master.sv(164) @ 315000: uvm_test_top.env.master_agent[00].mast_drv [wb_env_DRIVER] Starting transaction...
+UVM_INFO ../../common/wb_master.sv(242) @ 325000: uvm_test_top.env.master_agent[00].mast_drv [Wb master] Got a write transaction
+UVM_INFO ../../common/wb_slave.sv(158) @ 346000: uvm_test_top.env.slave_agent[00].slv_drv [uvm_test_top.env.slave_agent[00].slv_drv] responding in this cycle
+UVM_INFO ../../common/wb_slave_mon.sv(141) @ 346000: uvm_test_top.env.slave_agent[00].slv_mon [WB slave Monitor] got a write transaction  from Master 
+UVM_INFO ../../common/wb_slave.sv(198) @ 375000: uvm_test_top.env.slave_agent[00].slv_drv [SLAVE_DRIVER] Completed transaction...
+UVM_INFO @ 375000: uvm_test_top.env.Scoreboard.comparator          0 [Comparator Match] 
+UVM_INFO ../../common/wb_master.sv(192) @ 385000: uvm_test_top.env.master_agent[00].mast_drv [wb_env_DRIVER] Completed transaction...
+UVM_INFO ../../common/wb_master.sv(164) @ 385000: uvm_test_top.env.master_agent[00].mast_drv [wb_env_DRIVER] Starting transaction...
+UVM_INFO ../../common/wb_master.sv(202) @ 395000: uvm_test_top.env.master_agent[00].mast_drv [Wb master] Got a read transaction
+UVM_INFO ../../common/wb_slave.sv(158) @ 416000: uvm_test_top.env.slave_agent[00].slv_drv [uvm_test_top.env.slave_agent[00].slv_drv] responding in this cycle
+UVM_INFO ../../common/wb_slave_mon.sv(151) @ 416000: uvm_test_top.env.slave_agent[00].slv_mon [Wb_slave Monitor] got a read transaction  
+UVM_INFO ../../common/wb_slave.sv(198) @ 445000: uvm_test_top.env.slave_agent[00].slv_drv [SLAVE_DRIVER] Completed transaction...
+UVM_INFO @ 445000: uvm_test_top.env.Scoreboard.comparator          0 [Comparator Match] 
+UVM_INFO ../../common/wb_master.sv(192) @ 455000: uvm_test_top.env.master_agent[00].mast_drv [wb_env_DRIVER] Completed transaction...
+UVM_INFO ../../common/wb_master.sv(164) @ 455000: uvm_test_top.env.master_agent[00].mast_drv [wb_env_DRIVER] Starting transaction...
+UVM_INFO ../../common/wb_master.sv(202) @ 465000: uvm_test_top.env.master_agent[00].mast_drv [Wb master] Got a read transaction
+UVM_INFO ../../common/wb_slave.sv(158) @ 486000: uvm_test_top.env.slave_agent[00].slv_drv [uvm_test_top.env.slave_agent[00].slv_drv] responding in this cycle
+UVM_INFO ../../common/wb_slave_mon.sv(151) @ 486000: uvm_test_top.env.slave_agent[00].slv_mon [Wb_slave Monitor] got a read transaction  
+UVM_INFO ../../common/wb_slave.sv(198) @ 515000: uvm_test_top.env.slave_agent[00].slv_drv [SLAVE_DRIVER] Completed transaction...
+UVM_INFO @ 515000: uvm_test_top.env.Scoreboard.comparator          0 [Comparator Match] 
+UVM_INFO ../../common/wb_master.sv(192) @ 525000: uvm_test_top.env.master_agent[00].mast_drv [wb_env_DRIVER] Completed transaction...
+UVM_INFO ../src/wb_conmax_scoreboard.sv(108) @ 525000: uvm_test_top.env.Scoreboard [Scoreboard Report] Comparator[0] Matches = 5, Mismatches = 0
+UVM_INFO ../src/wb_conmax_scoreboard.sv(108) @ 525000: uvm_test_top.env.Scoreboard [Scoreboard Report] Comparator[1] Matches = 0, Mismatches = 0
+UVM_INFO ../src/wb_conmax_scoreboard.sv(108) @ 525000: uvm_test_top.env.Scoreboard [Scoreboard Report] Comparator[2] Matches = 0, Mismatches = 0
+UVM_INFO ../src/wb_conmax_scoreboard.sv(108) @ 525000: uvm_test_top.env.Scoreboard [Scoreboard Report] Comparator[3] Matches = 0, Mismatches = 0
+UVM_INFO ../src/wb_conmax_scoreboard.sv(108) @ 525000: uvm_test_top.env.Scoreboard [Scoreboard Report] Comparator[4] Matches = 0, Mismatches = 0
+UVM_INFO ../src/wb_conmax_scoreboard.sv(108) @ 525000: uvm_test_top.env.Scoreboard [Scoreboard Report] Comparator[5] Matches = 0, Mismatches = 0
+UVM_INFO ../src/wb_conmax_scoreboard.sv(108) @ 525000: uvm_test_top.env.Scoreboard [Scoreboard Report] Comparator[6] Matches = 0, Mismatches = 0
+UVM_INFO ../src/wb_conmax_scoreboard.sv(108) @ 525000: uvm_test_top.env.Scoreboard [Scoreboard Report] Comparator[7] Matches = 0, Mismatches = 0
+UVM_INFO ../src/wb_conmax_scoreboard.sv(108) @ 525000: uvm_test_top.env.Scoreboard [Scoreboard Report] Comparator[8] Matches = 0, Mismatches = 0
+UVM_INFO ../src/wb_conmax_scoreboard.sv(108) @ 525000: uvm_test_top.env.Scoreboard [Scoreboard Report] Comparator[9] Matches = 0, Mismatches = 0
+UVM_INFO ../src/wb_conmax_scoreboard.sv(108) @ 525000: uvm_test_top.env.Scoreboard [Scoreboard Report] Comparator[10] Matches = 0, Mismatches = 0
+UVM_INFO ../src/wb_conmax_scoreboard.sv(108) @ 525000: uvm_test_top.env.Scoreboard [Scoreboard Report] Comparator[11] Matches = 0, Mismatches = 0
+UVM_INFO ../src/wb_conmax_scoreboard.sv(108) @ 525000: uvm_test_top.env.Scoreboard [Scoreboard Report] Comparator[12] Matches = 0, Mismatches = 0
+UVM_INFO ../src/wb_conmax_scoreboard.sv(108) @ 525000: uvm_test_top.env.Scoreboard [Scoreboard Report] Comparator[13] Matches = 0, Mismatches = 0
+UVM_INFO ../src/wb_conmax_scoreboard.sv(108) @ 525000: uvm_test_top.env.Scoreboard [Scoreboard Report] Comparator[14] Matches = 0, Mismatches = 0
+UVM_INFO ../src/wb_conmax_scoreboard.sv(108) @ 525000: uvm_test_top.env.Scoreboard [Scoreboard Report] Comparator[15] Matches = 0, Mismatches = 0
+
+
+ Thank you for using examples from the book Practical UVM. Book ISBN 0997789603 on www.amazon.com
+
+ 
+
+
+ Thank you for using examples from the book Practical UVM. Book ISBN 0997789603 on www.amazon.com
+
+ 
+
+
+ Thank you for using examples from the book Practical UVM. Book ISBN 0997789603 on www.amazon.com
+
+ 
+
+
+ Thank you for using examples from the book Practical UVM. Book ISBN 0997789603 on www.amazon.com
+
+ 
+
+
+ Thank you for using examples from the book Practical UVM. Book ISBN 0997789603 on www.amazon.com
+
+ 
+
+
+ Thank you for using examples from the book Practical UVM. Book ISBN 0997789603 on www.amazon.com
+
+ 
+
+
+ Thank you for using examples from the book Practical UVM. Book ISBN 0997789603 on www.amazon.com
+
+ 
+
+
+ Thank you for using examples from the book Practical UVM. Book ISBN 0997789603 on www.amazon.com
+
+ 
+UVM_INFO /global/apps3/vcs_2016.06-SP1/etc/uvm-1.2/base/uvm_report_catcher.svh(705) @ 525000: reporter [UVM/REPORT/CATCHER] 
+--- UVM Report catcher Summary ---
+
+
+Number of demoted UVM_FATAL reports  :    0
+Number of demoted UVM_ERROR reports  :    0
+Number of demoted UVM_WARNING reports:    0
+Number of caught UVM_FATAL reports   :    0
+Number of caught UVM_ERROR reports   :    0
+Number of caught UVM_WARNING reports :    0
+
+UVM_INFO /global/apps3/vcs_2016.06-SP1/etc/uvm-1.2/base/uvm_report_server.svh(894) @ 525000: reporter [UVM/REPORT/SERVER] 
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :   65
+UVM_WARNING :    2
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[Comparator Match]     5
+[INVLCMDARGS]     2
+[RNTST]     1
+[SLAVE_DRIVER]     5
+[Scoreboard Report]    16
+[UVM/CONFIGDB/SPELLCHK]     9
+[UVM/FACTORY/PRINT]     1
+[UVM/RELNOTES]     1
+[UVM/REPORT/CATCHER]     1
+[WB slave Monitor]     2
+[Wb master]     5
+[Wb_slave Monitor]     3
+[uvm_test_top.env.master_agent[00].mast_sqr.sequence_1]     1
+[uvm_test_top.env.slave_agent[00].slv_drv]     5
+[wb_env_DRIVER]    10
+
+$finish called from file "/global/apps3/vcs_2016.06-SP1/etc/uvm-1.2/base/uvm_root.svh", line 527.
+$finish at simulation time               525000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 525000 ps
+CPU Time:      0.960 seconds;       Data structure size:   0.9Mb
+Fri Dec  2 22:18:05 2016

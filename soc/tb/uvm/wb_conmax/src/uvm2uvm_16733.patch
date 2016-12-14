@@ -1,0 +1,47 @@
+Only in /slowfs/vgcs13/srivats/project/soc/tb/uvm/wb_conmax/src: uvm2uvm_16733.patch
+Only in /slowfs/vgcs13/srivats/project/soc/tb/uvm/wb_conmax/src: uvmgen_options_log.txt
+Only in /slowfs/vgcs13/srivats/project/soc/tb/uvm/wb_conmax/src: wb_conmax_scoreboard.sv.old
+diff -r /slowfs/vgcs13/srivats/project/soc/tb/uvm/wb_conmax/src/wb_master_agent_sequence_library.sv /tmp/NjI4IQB1OJ/wb_master_agent_sequence_library.sv
+24c24
+<     if (starting_phase != null)
+---
+>     if (get_starting_phase()!= null)
+28,30c28,31
+<   virtual task post_body();
+<     if (starting_phase != null)
+<        starting_phase.drop_objection(this);
+---
+>   virtual task post_body(); uvm_phase phase_=get_starting_phase();
+> 
+>     if (get_starting_phase()!= null)
+>        phase_.drop_objection(this);
+49c50,51
+<  virtual task pre_do(bit is_item);
+---
+>  virtual task pre_do(bit is_item); uvm_phase phase_=get_starting_phase();
+> 
+51c53
+<     if (starting_phase!=null) begin
+---
+>     if (get_starting_phase()!=null) begin
+55,56c57,58
+<                            starting_phase.get_name()), UVM_MEDIUM);
+<        // starting_phase.raise_objection(this);
+---
+>                            phase_.get_name()), UVM_MEDIUM);
+>        // phase_.raise_objection(this);
+63c65,66
+<   virtual function void post_do(uvm_sequence_item this_item);
+---
+>   virtual function void post_do(uvm_sequence_item this_item); uvm_phase phase_=get_starting_phase();
+> 
+65c68
+<     if (starting_phase!=null) begin
+---
+>     if (get_starting_phase()!=null) begin
+69,70c72,73
+<                            starting_phase.get_name()), UVM_MEDIUM);
+<     // starting_phase.drop_objection(this);
+---
+>                            phase_.get_name()), UVM_MEDIUM);
+>     // phase_.drop_objection(this);

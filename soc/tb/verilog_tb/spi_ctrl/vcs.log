@@ -1,0 +1,37 @@
+Command: ./simv -l vcs.log +incdir+/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/rtl/spi_ctrl +incdir+ +incdir+
+Chronologic VCS simulator copyright 1991-2016
+Contains Synopsys proprietary information.
+Compiler version L-2016.06-SP1; Runtime version L-2016.06-SP1;  Nov  3 17:19 2016
+
+status:                    0 Testbench started
+
+
+
+INFO: WISHBONE MASTER MODEL INSTANTIATED (tst_bench_top.u0)
+
+status:                 5000 done reset
+cpol:0, cpha:0, e:00
+cpol:0, cpha:0, e:01
+cpol:0, cpha:0, e:10
+cpol:0, cpha:0, e:11
+cpol:0, cpha:1, e:00
+cpol:0, cpha:1, e:01
+cpol:0, cpha:1, e:10
+cpol:0, cpha:1, e:11
+cpol:1, cpha:0, e:00
+cpol:1, cpha:0, e:01
+cpol:1, cpha:0, e:10
+cpol:1, cpha:0, e:11
+cpol:1, cpha:1, e:00
+cpol:1, cpha:1, e:01
+cpol:1, cpha:1, e:10
+cpol:1, cpha:1, e:11
+
+
+status:            517216000 Testbench done
+$finish called from file "/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/soc/tb/verilog_tb/spi_ctrl/tst_bench_top.v", line 214.
+$finish at simulation time            517216000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 517216000 ps
+CPU Time:      0.380 seconds;       Data structure size:   0.0Mb
+Thu Nov  3 17:19:21 2016

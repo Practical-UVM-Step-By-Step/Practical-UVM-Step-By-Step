@@ -1,0 +1,15 @@
+${ROOT}/rtl/usb/usb1_core.v
+${ROOT}/rtl/usb/usb1_crc16.v
+${ROOT}/rtl/usb/usb1_crc5.v
+${ROOT}/rtl/usb/usb1_ctrl.v
+${ROOT}/rtl/usb/usb1_defines.v
+${ROOT}/rtl/usb/usb1_fifo2.v
+${ROOT}/rtl/usb/usb1_idma.v
+${ROOT}/rtl/usb/usb1_pa.v
+${ROOT}/rtl/usb/usb1_pd.v
+${ROOT}/rtl/usb/usb1_pe.v
+${ROOT}/rtl/usb/usb1_pl.v
+${ROOT}/rtl/usb/usb1_rom1.v
+${ROOT}/rtl/usb/usb1_utmi_if.v
+${ROOT}/rtl/usb/usb1_intf.sv
+${ROOT}/rtl/usb/usb1_wrap_top.sv

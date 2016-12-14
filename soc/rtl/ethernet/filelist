@@ -1,0 +1,24 @@
+${ROOT}/rtl/ethernet/eth_clockgen.v
+${ROOT}/rtl/ethernet/eth_crc.v
+${ROOT}/rtl/ethernet/eth_fifo.v
+${ROOT}/rtl/ethernet/eth_maccontrol.v
+${ROOT}/rtl/ethernet/eth_macstatus.v
+${ROOT}/rtl/ethernet/eth_miim.v
+${ROOT}/rtl/ethernet/eth_outputcontrol.v
+${ROOT}/rtl/ethernet/eth_random.v
+${ROOT}/rtl/ethernet/eth_receivecontrol.v
+${ROOT}/rtl/ethernet/eth_registers.v
+${ROOT}/rtl/ethernet/eth_register.v
+${ROOT}/rtl/ethernet/eth_rxaddrcheck.v
+${ROOT}/rtl/ethernet/eth_rxcounters.v
+${ROOT}/rtl/ethernet/eth_rxethmac.v
+${ROOT}/rtl/ethernet/eth_rxstatem.v
+${ROOT}/rtl/ethernet/eth_shiftreg.v
+${ROOT}/rtl/ethernet/eth_spram_256x32.v
+${ROOT}/rtl/ethernet/eth_top.v
+${ROOT}/rtl/ethernet/eth_transmitcontrol.v
+${ROOT}/rtl/ethernet/eth_txcounters.v
+${ROOT}/rtl/ethernet/eth_txethmac.v
+${ROOT}/rtl/ethernet/eth_txstatem.v
+${ROOT}/rtl/ethernet/eth_wishbone.v
+// ${ROOT}/rtl/ethernet/eth_wrap_top.sv

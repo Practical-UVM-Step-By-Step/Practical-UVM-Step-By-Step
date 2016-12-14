@@ -1,0 +1,9 @@
+/uart_debug_if.v
+/uart_regs.v
+/uart_wb.v
+/uart_receiver.v
+/uart_sync_flops.v
+/uart_transmitter.v
+/uart_rfifo.v
+/uart_tfifo.v
+/raminfr.v

@@ -1,0 +1,8 @@
+USB 1.1 host/slave RTL
+
+http://opencores.org/project,usbhostslave
+
+This RTL contains both usbhost and slave cores. See the top-level files, usbhost.v, usbslave.v and usbhostslave.v for the desired configuration of the core.
+
+Include files are prefixed with usbhostslave_ in the include/ directory.
+

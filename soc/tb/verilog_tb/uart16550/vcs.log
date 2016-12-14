@@ -1,0 +1,111 @@
+Command: vcs +v2k -f /slowfs/vgcs13/srivats/project/soc/tb/verilog_tb/uart16550/filelist \
++incdir+/slowfs/vgcs13/srivats/project/soc/tb/verilog_tb/uart16550/filelist -f /slowfs/vgcs13/srivats/project/soc/rtl/uart16550/filelist \
++incdir+/slowfs/vgcs13/srivats/project/soc/rtl/uart16550 -debug_pp +incdir+ +incdir+ \
+-l vcs.log +systemverilogext+.sv
+                         Chronologic VCS (TM)
+         Version L-2016.06_Full64 -- Fri Jul 22 17:09:26 2016
+               Copyright (c) 1991-2016 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '/slowfs/vgcs13/srivats/project/soc/tb/verilog_tb/uart16550/uart_test.v'
+Parsing included file 'timescale.v'.
+Back to file '/slowfs/vgcs13/srivats/project/soc/tb/verilog_tb/uart16550/uart_test.v'.
+Parsing included file '/slowfs/vgcs13/srivats/project/soc/rtl/uart16550/uart_defines.v'.
+Back to file '/slowfs/vgcs13/srivats/project/soc/tb/verilog_tb/uart16550/uart_test.v'.
+Parsing design file '/slowfs/vgcs13/srivats/project/soc/tb/verilog_tb/uart16550/wb_mast.v'
+Parsing design file '/slowfs/vgcs13/srivats/project/soc/rtl/uart16550/uart_top.v'
+Parsing included file 'timescale.v'.
+Back to file '/slowfs/vgcs13/srivats/project/soc/rtl/uart16550/uart_top.v'.
+Parsing included file '/slowfs/vgcs13/srivats/project/soc/rtl/uart16550/uart_defines.v'.
+Back to file '/slowfs/vgcs13/srivats/project/soc/rtl/uart16550/uart_top.v'.
+Parsing design file '/slowfs/vgcs13/srivats/project/soc/rtl/uart16550/uart_debug_if.v'
+Parsing included file 'timescale.v'.
+Back to file '/slowfs/vgcs13/srivats/project/soc/rtl/uart16550/uart_debug_if.v'.
+Parsing included file '/slowfs/vgcs13/srivats/project/soc/rtl/uart16550/uart_defines.v'.
+Back to file '/slowfs/vgcs13/srivats/project/soc/rtl/uart16550/uart_debug_if.v'.
+Parsing design file '/slowfs/vgcs13/srivats/project/soc/rtl/uart16550/uart_regs.v'
+Parsing included file 'timescale.v'.
+Back to file '/slowfs/vgcs13/srivats/project/soc/rtl/uart16550/uart_regs.v'.
+Parsing included file '/slowfs/vgcs13/srivats/project/soc/rtl/uart16550/uart_defines.v'.
+Back to file '/slowfs/vgcs13/srivats/project/soc/rtl/uart16550/uart_regs.v'.
+Parsing design file '/slowfs/vgcs13/srivats/project/soc/rtl/uart16550/uart_rfifo.v'
+Parsing included file 'timescale.v'.
+Back to file '/slowfs/vgcs13/srivats/project/soc/rtl/uart16550/uart_rfifo.v'.
+Parsing included file '/slowfs/vgcs13/srivats/project/soc/rtl/uart16550/uart_defines.v'.
+Back to file '/slowfs/vgcs13/srivats/project/soc/rtl/uart16550/uart_rfifo.v'.
+Parsing design file '/slowfs/vgcs13/srivats/project/soc/rtl/uart16550/uart_sync_flops.v'
+Parsing included file 'timescale.v'.
+Back to file '/slowfs/vgcs13/srivats/project/soc/rtl/uart16550/uart_sync_flops.v'.
+Parsing design file '/slowfs/vgcs13/srivats/project/soc/rtl/uart16550/uart_tfifo.v'
+Parsing included file 'timescale.v'.
+Back to file '/slowfs/vgcs13/srivats/project/soc/rtl/uart16550/uart_tfifo.v'.
+Parsing included file '/slowfs/vgcs13/srivats/project/soc/rtl/uart16550/uart_defines.v'.
+Back to file '/slowfs/vgcs13/srivats/project/soc/rtl/uart16550/uart_tfifo.v'.
+Parsing design file '/slowfs/vgcs13/srivats/project/soc/rtl/uart16550/uart_transmitter.v'
+Parsing included file 'timescale.v'.
+Back to file '/slowfs/vgcs13/srivats/project/soc/rtl/uart16550/uart_transmitter.v'.
+Parsing included file '/slowfs/vgcs13/srivats/project/soc/rtl/uart16550/uart_defines.v'.
+Back to file '/slowfs/vgcs13/srivats/project/soc/rtl/uart16550/uart_transmitter.v'.
+Parsing design file '/slowfs/vgcs13/srivats/project/soc/rtl/uart16550/uart_wb.v'
+Parsing included file 'timescale.v'.
+Back to file '/slowfs/vgcs13/srivats/project/soc/rtl/uart16550/uart_wb.v'.
+Parsing included file '/slowfs/vgcs13/srivats/project/soc/rtl/uart16550/uart_defines.v'.
+Back to file '/slowfs/vgcs13/srivats/project/soc/rtl/uart16550/uart_wb.v'.
+Parsing design file '/slowfs/vgcs13/srivats/project/soc/rtl/uart16550/uart_receiver.v'
+Parsing included file 'timescale.v'.
+Back to file '/slowfs/vgcs13/srivats/project/soc/rtl/uart16550/uart_receiver.v'.
+Parsing included file '/slowfs/vgcs13/srivats/project/soc/rtl/uart16550/uart_defines.v'.
+Back to file '/slowfs/vgcs13/srivats/project/soc/rtl/uart16550/uart_receiver.v'.
+Parsing design file '/slowfs/vgcs13/srivats/project/soc/rtl/uart16550/raminfr.v'
+Top Level Modules:
+       uart_test
+TimeScale is 1 ns / 10 ps
+
+Warning-[PCWM-W] Port connection width mismatch
+/slowfs/vgcs13/srivats/project/soc/tb/verilog_tb/uart16550/uart_test.v, 171
+"wb_mast wbm( .adr (wb_adr_i),  .dout (wb_dat_i),  .cyc (wb_cyc_i),  .stb (wb_stb_i),  .sel (wb_sel_i),  .we (wb_we_i),  .clk (clk),  .rst (wb_rst_i),  .din (wb_dat_o),  .ack (wb_ack_o),  .err (1'b0),  .rty (1'b0));"
+  The following 5-bit expression is connected to 32-bit port "adr" of module 
+  "wb_mast", instance "wbm".
+  Expression: wb_adr_i
+  	use +lint=PCWM for more details
+
+
+Warning-[PCWM-W] Port connection width mismatch
+/slowfs/vgcs13/srivats/project/soc/tb/verilog_tb/uart16550/uart_test.v, 186
+"wb_mast wbm1( .adr (wb1_adr_i),  .dout (wb1_dat_i),  .cyc (wb1_cyc_i),  .stb (wb1_stb_i),  .sel (wb1_sel_i),  .we (wb1_we_i),  .clk (clk),  .rst (wb_rst_i),  .din (wb1_dat_o),  .ack (wb1_ack_o),  .err (1'b0),  .rty (1'b0));"
+  The following 5-bit expression is connected to 32-bit port "adr" of module 
+  "wb_mast", instance "wbm1".
+  Expression: wb1_adr_i
+  	use +lint=PCWM for more details
+
+Starting vcs inline pass...
+5 unique modules to generate
+5 modules and 0 UDP read. 
+recompiling package std
+recompiling module uart_test
+recompiling module wb_mast
+recompiling module uart_top
+recompiling module uart_debug_if
+All of 5 modules done
+make[1]: Entering directory `/slowfs/vgcs13/srivats/clone_me/Book_Examples/soc/tb/verilog_tb/uart16550/csrc' \
+
+rm -f _csrc*.so pre_vcsobj_*.so share_vcsobj_*.so
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv   -Wl,-rpath-link=./ -Wl,-rpath='$ORIGIN'/simv.daidir/ -Wl,-rpath=./simv.daidir/ \
+-Wl,-rpath='$ORIGIN'/simv.daidir//scsim.db.dir  -rdynamic   amcQwB.o objs/amcQw_d.o \
+_953_archive_1.so  SIM_l.o       rmapats_mop.o rmapats.o rmar.o  rmar_llvm_0_1.o \
+rmar_llvm_0_0.o          /global/apps/vcs_2016.06/linux64/lib/libzerosoft_rt_stubs.so \
+/global/apps/vcs_2016.06/linux64/lib/libvirsim.so /global/apps/vcs_2016.06/linux64/lib/liberrorinf.so \
+/global/apps/vcs_2016.06/linux64/lib/libsnpsmalloc.so    /global/apps/vcs_2016.06/linux64/lib/libvcsnew.so \
+/global/apps/vcs_2016.06/linux64/lib/libsimprofile.so /global/apps/vcs_2016.06/linux64/lib/libuclinative.so \
+-Wl,-whole-archive /global/apps/vcs_2016.06/linux64/lib/libvcsucli.so -Wl,-no-whole-archive \
+/global/apps/vcs_2016.06/linux64/lib/vcs_save_restore_new.o -ldl  -lc -lm -lpthread \
+-ldl 
+../simv up to date
+make[1]: Leaving directory `/slowfs/vgcs13/srivats/clone_me/Book_Examples/soc/tb/verilog_tb/uart16550/csrc' \
+
+CPU time: .389 seconds to compile + .299 seconds to elab + .121 seconds to link

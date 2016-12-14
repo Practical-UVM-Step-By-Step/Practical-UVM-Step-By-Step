@@ -1,0 +1,4 @@
+UVM Version : 2 
+Complete Env.(1) OR Individual Template(2)? : 2 
+Ind. Template Type : 1 
+Want to create your own methods[Instead of uvm shorthand macros]? : n 

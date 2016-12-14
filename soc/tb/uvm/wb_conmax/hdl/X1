@@ -1,0 +1,129 @@
+
+	assign  slave_if0.TGA_I = 7'b0;
+	assign  slave_if0.TGC_I = 7'b0;
+	assign  slave_if0.TGD_I = 7'b0;
+	assign  slave_if0.LOCK_I = 1'b0;
+
+	assign  master_if0.LOCK_O = 1'b0;
+
+	
+	assign  slave_if1.TGA_I = 7'b0;
+	assign  slave_if1.TGC_I = 7'b0;
+	assign  slave_if1.TGD_I = 7'b0;
+	assign  slave_if1.LOCK_I = 1'b0;
+
+	assign  master_if1.LOCK_O = 1'b0;
+
+	
+	assign  slave_if2.TGA_I = 7'b0;
+	assign  slave_if2.TGC_I = 7'b0;
+	assign  slave_if2.TGD_I = 7'b0;
+	assign  slave_if2.LOCK_I = 1'b0;
+
+	assign  master_if2.LOCK_O = 1'b0;
+
+	
+	assign  slave_if3.TGA_I = 7'b0;
+	assign  slave_if3.TGC_I = 7'b0;
+	assign  slave_if3.TGD_I = 7'b0;
+	assign  slave_if3.LOCK_I = 1'b0;
+
+	assign  master_if3.LOCK_O = 1'b0;
+
+	
+	assign  slave_if4.TGA_I = 7'b0;
+	assign  slave_if4.TGC_I = 7'b0;
+	assign  slave_if4.TGD_I = 7'b0;
+	assign  slave_if4.LOCK_I = 1'b0;
+
+	assign  master_if4.LOCK_O = 1'b0;
+
+	
+	assign  slave_if5.TGA_I = 7'b0;
+	assign  slave_if5.TGC_I = 7'b0;
+	assign  slave_if5.TGD_I = 7'b0;
+	assign  slave_if5.LOCK_I = 1'b0;
+
+	assign  master_if5.LOCK_O = 1'b0;
+
+	
+	assign  slave_if6.TGA_I = 7'b0;
+	assign  slave_if6.TGC_I = 7'b0;
+	assign  slave_if6.TGD_I = 7'b0;
+	assign  slave_if6.LOCK_I = 1'b0;
+
+	assign  master_if6.LOCK_O = 1'b0;
+
+	
+	assign  slave_if7.TGA_I = 7'b0;
+	assign  slave_if7.TGC_I = 7'b0;
+	assign  slave_if7.TGD_I = 7'b0;
+	assign  slave_if7.LOCK_I = 1'b0;
+
+	assign  master_if7.LOCK_O = 1'b0;
+
+	
+	assign  slave_if8.TGA_I = 7'b0;
+	assign  slave_if8.TGC_I = 7'b0;
+	assign  slave_if8.TGD_I = 7'b0;
+	assign  slave_if8.LOCK_I = 1'b0;
+
+	assign  master_if8.LOCK_O = 1'b0;
+
+	
+	assign  slave_if9.TGA_I = 7'b0;
+	assign  slave_if9.TGC_I = 7'b0;
+	assign  slave_if9.TGD_I = 7'b0;
+	assign  slave_if9.LOCK_I = 1'b0;
+
+	assign  master_if9.LOCK_O = 1'b0;
+
+	
+	assign  slave_if10.TGA_I = 7'b0;
+	assign  slave_if10.TGC_I = 7'b0;
+	assign  slave_if10.TGD_I = 7'b0;
+	assign  slave_if10.LOCK_I = 1'b0;
+
+	assign  master_if10.LOCK_O = 1'b0;
+
+	
+	assign  slave_if11.TGA_I = 7'b0;
+	assign  slave_if11.TGC_I = 7'b0;
+	assign  slave_if11.TGD_I = 7'b0;
+	assign  slave_if11.LOCK_I = 1'b0;
+
+	assign  master_if11.LOCK_O = 1'b0;
+
+	
+	assign  slave_if12.TGA_I = 7'b0;
+	assign  slave_if12.TGC_I = 7'b0;
+	assign  slave_if12.TGD_I = 7'b0;
+	assign  slave_if12.LOCK_I = 1'b0;
+
+	assign  master_if12.LOCK_O = 1'b0;
+
+	
+	assign  slave_if13.TGA_I = 7'b0;
+	assign  slave_if13.TGC_I = 7'b0;
+	assign  slave_if13.TGD_I = 7'b0;
+	assign  slave_if13.LOCK_I = 1'b0;
+
+	assign  master_if13.LOCK_O = 1'b0;
+
+	
+	assign  slave_if14.TGA_I = 7'b0;
+	assign  slave_if14.TGC_I = 7'b0;
+	assign  slave_if14.TGD_I = 7'b0;
+	assign  slave_if14.LOCK_I = 1'b0;
+
+	assign  master_if14.LOCK_O = 1'b0;
+
+	
+	assign  slave_if15.TGA_I = 7'b0;
+	assign  slave_if15.TGC_I = 7'b0;
+	assign  slave_if15.TGD_I = 7'b0;
+	assign  slave_if15.LOCK_I = 1'b0;
+
+	assign  master_if15.LOCK_O = 1'b0;
+
+	

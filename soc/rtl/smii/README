@@ -1,0 +1,5 @@
+MII to SMII converter RTL
+
+This implements conversion between the 3-pin SMII bus and the  higher-pin count MII interface for communication between a 10/100 ethernet MAC and ethernet PHY.
+
+

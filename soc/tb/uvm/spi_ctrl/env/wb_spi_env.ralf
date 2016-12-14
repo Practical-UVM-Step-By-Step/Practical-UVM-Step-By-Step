@@ -1,0 +1,35 @@
+#
+# Template for RALF file used by RAL environment
+#
+
+# ToDo: wb_spi_env.ralf file needs to be modified according to user configuration 
+# to generate ral_wb_spi_env block inside ral_wb_spi_env.sv file
+# Default implementation of register, memory, field and block 
+# kept inside this wb_spi_env.ralf file
+
+block wb_spi_env {
+   bytes 4;
+   register CHIP_ID @'h0000 {
+      field REVISION_ID {
+         bits 8;
+         access ro;
+         reset 'h03;
+      }
+      field CHIP_ID {
+         bits 8;
+         access ro;
+         reset 'h5A;
+      }
+      field PRODUCT_ID {
+         bits 10;
+         access ro;
+         reset 'h176;
+      }
+   }
+  
+   memory wb_spi_env_RAM @'h0800 {
+      size 1k;
+      bits 32;
+      access rw;
+   }
+}

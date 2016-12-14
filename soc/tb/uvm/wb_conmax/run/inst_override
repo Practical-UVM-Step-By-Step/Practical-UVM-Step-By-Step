@@ -1,0 +1,2 @@
+ ./simv -l uvm_set_inst_verbosity.dat +uvm_set_verbosity=uvm_test_top.env.master_agent\[00\].mast_drv,_ALL_,UVM_DEBUG,run +UVM_TESTNAME=wb_conmax_flat_seq_test
+# ./simv -l inst_override.dat +uvm_set_inst_override=wb_master_agent,wb_master_agent_n,uvm_test_top.env.master_agent\[00\] +UVM_TESTNAME=wb_conmax_base_test

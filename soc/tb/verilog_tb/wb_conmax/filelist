@@ -1,0 +1,5 @@
+${ROOT}/tb/verilog_tb/wb_conmax/test_bench_top.v
+// ${ROOT}/tb/verilog_tb/wb_conmax/tests.v
+${ROOT}/tb/verilog_tb/wb_conmax/wb_mast_model.v
+// ${ROOT}/tb/verilog_tb/wb_conmax/wb_model_defines.v
+${ROOT}/tb/verilog_tb/wb_conmax/wb_slv_model.v

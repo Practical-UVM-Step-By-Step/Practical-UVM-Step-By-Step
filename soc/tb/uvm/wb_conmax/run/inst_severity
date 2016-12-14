@@ -1,0 +1,2 @@
+ ./simv -l uvm_set_inst_severity_no_action.dat +uvm_set_severity=uvm_test_top.env.master_agent\[00\].mast_drv,"Wb master",UVM_INFO,UVM_FATAL +UVM_TESTNAME=wb_conmax_flat_seq_test +uvm_set_action=uvm_test_top.env.master_agent\[00\].mast_drv,"Wb master",UVM_FATAL,UVM_NO_ACTION
+# ./simv -l inst_override.dat +uvm_set_inst_override=wb_master_agent,wb_master_agent_n,uvm_test_top.env.master_agent\[00\] +UVM_TESTNAME=wb_conmax_base_test

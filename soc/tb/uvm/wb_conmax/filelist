@@ -1,0 +1,17 @@
+${ROOT}/rtl/wb_conmax/wb_conmax_defines.v
+${ROOT}/tb/uvm/wb_conmax/hdl/wb_conmax_wrap.sv
+${ROOT}/tb/uvm/wb_conmax/hdl/wb_conmax_tb_top.v
+${ROOT}/tb/uvm/common/wb_master_if.sv
+${ROOT}/tb/uvm/common/wb_slave_if.sv
+// This is the env itself
+${ROOT}/tb/uvm/common/wb_package.sv
+${ROOT}/tb/uvm/wb_conmax/env/wb_master_agent.sv
+${ROOT}/tb/uvm/wb_conmax/env/wb_slave_agent.sv
+${ROOT}/tb/uvm/wb_conmax/src/wb_conmax_scoreboard.sv
+${ROOT}/tb/uvm/wb_conmax/src/wb_conmax_virtual_sequencer.sv
+${ROOT}/tb/uvm/wb_conmax/src/wb_conmax_virtual_sequence.sv
+${ROOT}/tb/uvm/wb_conmax/env/wb_conmax_env.sv
+${ROOT}/tb/uvm/wb_conmax/tests/wb_conmax_env_test.sv
+${ROOT}/tb/uvm/wb_conmax/tests/wb_conmax_env_tb_mod.sv
+
+

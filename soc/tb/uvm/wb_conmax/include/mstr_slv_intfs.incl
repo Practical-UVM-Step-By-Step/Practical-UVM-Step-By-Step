@@ -1,0 +1,3 @@
+
+`include "wb_master_if.sv" 
+`include "wb_slave_if.sv"

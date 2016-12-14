@@ -1,0 +1,175 @@
+# Backward Compatibility Configuration, J-2014.12-1
+# Copyright (c) 1991-2014 by Synopsys Inc.
+
+# Usage:
+#  Use version=<version> to make vcs behave like that release.
+#  Use enable=<id> or disable=<id> to set individual features.
+#  Use env SNPS_SIM_BC_CONFIG_FILE=<path> to override installation.
+
+#diag=true     # uncomment (or use '-diag bc') to display the final configuration
+
+#version=VCS2012.09
+version=VCS2013.06
+#version=VCS2014.03
+#version=VCS2014.12
+
+#enable=2STATE
+# This option is also enabled by selecting version VCS2012.09.
+# This option retires after the VCS2014.12 release.
+
+#enable=ARRAY_BIN_SUBSCRIPT_IN_BINSOF
+# This option is also enabled by selecting version VCS2013.06.
+# This option retires after the VCS2014.12 release.
+
+#enable=ASSERTFINAL
+# This option is also enabled by selecting version VCS2013.06.
+# This option retires after the VCS2015.09 release.
+
+#enable=ASSIGNMENT_PATTERNS
+# This option is also enabled by selecting version VCS2014.03.
+# This option retires after the VCS2015.09 release.
+
+#enable=AUTOINCDEC_IN_WAIT
+# This option is also enabled by selecting version VCS2012.09.
+# This option retires after the VCS2014.12 release.
+
+#enable=CB_EXTENDED_BEHAVIOR
+# This option is also enabled by selecting version VCS2013.06.
+# This option retires after the VCS2014.12 release.
+
+#enable=CHECKER
+# This option is also enabled by selecting version VCS2013.06.
+# This option retires after the VCS2014.12 release.
+
+#enable=CONFIG_BIND
+# This option is also enabled by selecting version VCS2013.06.
+# This option retires after the VCS2014.12 release.
+
+#enable=CONST_KEYWORD_MISMATCH
+# This option is also enabled by selecting version VCS2013.06.
+# This option retires after the VCS2015.09 release.
+
+#enable=CSTR_MCHORP
+# This option is also enabled by selecting version VCS2013.06.
+# This option retires after the VCS2014.12 release.
+
+#enable=DISABLE_WARN
+# This option is also enabled by selecting version VCS2014.03.
+# This option retires after the VCS2015.09 release.
+
+#enable=DOLLARBITS_ON_REAL
+# This option is also enabled by selecting version VCS2014.03.
+# This option retires after the VCS2015.09 release.
+
+#enable=DONT_INIT_SUPPLY_SET_FUNC
+# This option is also enabled by selecting version VCS2014.03.
+# This option retires after the VCS2015.09 release.
+
+#enable=DYN_INOUT_MODPORT_PORT
+# This option is also enabled by selecting version VCS2014.03.
+# This option retires after the VCS2015.09 release.
+
+#enable=INTERFACE_PORT_DIRECTION
+# This option is also enabled by selecting version VCS2014.03.
+# This option retires after the VCS2015.09 release.
+
+#enable=INTF_MORE_DRVR_CHK
+# This option is also enabled by selecting version VCS2014.03.
+# This option retires after the VCS2015.09 release.
+
+#enable=INT_MATH_FUNCTION
+# This option is also enabled by selecting version VCS2014.03.
+# This option retires after the VCS2015.09 release.
+
+#enable=INVALID_COMPARISON
+# This option is also enabled by selecting version VCS2014.03.
+# This option retires after the VCS2015.09 release.
+
+#enable=IVCB_ALLV
+# This option is also enabled by selecting version VCS2013.06.
+# This option retires after the VCS2014.12 release.
+
+#enable=LET
+# This option is also enabled by selecting version VCS2013.06.
+# This option retires after the VCS2014.12 release.
+
+#enable=MTCOND_NODES
+# This option is also enabled by selecting version VCS2013.06.
+# This option retires after the VCS2015.09 release.
+
+#enable=MULT_DRV_CHK_INTF_TF
+# This option is also enabled by selecting version VCS2014.03.
+# This option retires after the VCS2015.09 release.
+
+#enable=NOMDBDELTAGATE
+# This option is also enabled by selecting version VCS2014.03.
+# This option retires after the VCS2014.12 release.
+
+#enable=NONBAUDPSCHED
+# This option is also enabled by selecting version VCS2014.03.
+# This option retires after the VCS2015.09 release.
+
+#enable=NON_HOMOGENOUS_INTF_PORTS
+# This option is also enabled by selecting version VCS2014.03.
+# This option retires after the VCS2015.09 release.
+
+#enable=NON_INTEGRAL_SIGNED_UNSIGNED_ARG
+# This option is also enabled by selecting version VCS2012.09.
+# This option retires after the VCS2015.09 release.
+
+#enable=NO_CHAINED_FUNC_CALL_ERR
+# This option is also enabled by selecting version VCS2014.03.
+# This option retires after the VCS2015.09 release.
+
+#enable=NO_RT_SVA_STACKSIG
+# This option is also enabled by selecting version VCS2014.03.
+# This option retires after the VCS2015.09 release.
+
+#enable=PACKAGE_IMPORT
+# This option is also enabled by selecting version VCS2012.09.
+# This option retires after the VCS2014.12 release.
+
+#enable=SCALED_REALTIME
+# This option is also enabled by selecting version VCS2012.09.
+# This option retires after the VCS2015.09 release.
+
+#enable=SV_MDSIP
+# This option is also enabled by selecting version VCS2014.12.
+# This option retires after the VCS2016.06 release.
+
+#enable=SV_OV_INTEROP_ENUM_CAST
+# This option is also enabled by selecting version VCS2013.06.
+# This option retires after the VCS2015.09 release.
+
+#enable=TIME0SCHED
+# This option is also enabled by selecting version VCS2014.03.
+# This option retires after the VCS2014.12 release.
+
+#enable=UNIFIED_INFERENCE
+# This option is also enabled by selecting version VCS2014.03.
+# This option retires after the VCS2015.09 release.
+
+#enable=UNPACKED_PARAM_OVERRIDE
+# This option is also enabled by selecting version VCS2013.06.
+# This option retires after the VCS2014.12 release.
+
+#enable=UPF_MISSO_ERROR
+# This option is also enabled by selecting version VCS2014.12.
+# This option retires after the VCS2016.06 release.
+
+#enable=VPI_COMPLIANCE
+# This option is also enabled by selecting version VCS2012.09.
+# This option retires after the VCS2015.09 release.
+
+#enable=WRONG_ENUM_CAST_OPTMIZATION
+# This option is also enabled by selecting version VCS2014.03.
+# This option retires after the VCS2015.09 release.
+
+#enable=WRONG_IMPLICIT_INFER_CB_MEM
+# This option is also enabled by selecting version VCS2013.06.
+# This option retires after the VCS2015.09 release.
+
+#enable=XLRM_NOZDDELTA
+# This option is also enabled by selecting version VCS2014.03.
+# This option retires after the VCS2014.12 release.
+

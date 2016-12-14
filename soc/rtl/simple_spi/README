@@ -1,0 +1,13 @@
+"Simple SPI" SPI controller RTL
+
+http://opencores.org/project,simple_spi
+
+The core has had a variable-width slave-select register and corresponding I/O 
+lines added.
+
+There is also optional boot-up logic, that sends a series of bus-commands upon 
+reset, initialising, say a SPI flash chip, to read-state. This could potentially
+save space in any bootloader code or FSM wishing to read from an SPI-bus chip 
+at boot time. Defparam the 'startup_state_reset' to 4'h10 to enable it, and 
+see the RTL for more details.
+

@@ -1,0 +1,16 @@
+${ROOT}/rtl/vga_lcd/generic_dpram.v
+${ROOT}/rtl/vga_lcd/generic_spram.v
+${ROOT}/rtl/vga_lcd/vga_clkgen.v
+${ROOT}/rtl/vga_lcd/vga_colproc.v
+${ROOT}/rtl/vga_lcd/vga_csm_pb.v
+${ROOT}/rtl/vga_lcd/vga_cur_cregs.v
+${ROOT}/rtl/vga_lcd/vga_curproc.v
+${ROOT}/rtl/vga_lcd/vga_enh_top.v
+${ROOT}/rtl/vga_lcd/vga_fifo_dc.v
+${ROOT}/rtl/vga_lcd/vga_fifo.v
+${ROOT}/rtl/vga_lcd/vga_pgen.v
+${ROOT}/rtl/vga_lcd/vga_tgen.v
+${ROOT}/rtl/vga_lcd/vga_vtim.v
+${ROOT}/rtl/vga_lcd/vga_wb_master.v
+${ROOT}/rtl/vga_lcd/vga_wb_slave.v
+ // ${ROOT}/rtl/vga_lcd/vga_enh_top_wrap.sv

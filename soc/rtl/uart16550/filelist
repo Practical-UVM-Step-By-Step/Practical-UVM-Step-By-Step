@@ -1,0 +1,13 @@
+${ROOT}/rtl/uart16550/uart_top.v
+${ROOT}/rtl/uart16550/uart_debug_if.v
+${ROOT}/rtl/uart16550/uart_regs.v
+${ROOT}/rtl/uart16550/uart_rfifo.v
+${ROOT}/rtl/uart16550/uart_sync_flops.v
+${ROOT}/rtl/uart16550/uart_tfifo.v
+${ROOT}/rtl/uart16550/uart_transmitter.v
+${ROOT}/rtl/uart16550/uart_wb.v
+${ROOT}/rtl/uart16550/uart_receiver.v
+${ROOT}/rtl/uart16550/raminfr.v
+// ${ROOT}/rtl/uart16550/uart_intf.sv
+// ${ROOT}/rtl/uart16550/uart_wrap_top.sv
+

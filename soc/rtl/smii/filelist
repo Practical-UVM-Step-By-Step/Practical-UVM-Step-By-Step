@@ -1,0 +1,4 @@
+${ROOT}/rtl/smii/smii_if.v
+${ROOT}/rtl/smii/smii_txrx.v
+${ROOT}/rtl/smii/smii.v
+${ROOT}/rtl/smii/smii_sync.v

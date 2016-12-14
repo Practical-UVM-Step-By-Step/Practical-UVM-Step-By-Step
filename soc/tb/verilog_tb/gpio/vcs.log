@@ -1,0 +1,52 @@
+Command: vcs +v2k -f /slowfs/vgcs13/srivats/project/soc/tb/verilog_tb/gpio/filelist \
++incdir+/slowfs/vgcs13/srivats/project/soc/tb/verilog_tb/gpio/filelist -f /slowfs/vgcs13/srivats/project/soc/rtl/gpio/filelist \
++incdir+/slowfs/vgcs13/srivats/project/soc/rtl/gpio -debug_pp +incdir+ +incdir+ -l \
+vcs.log
+                         Chronologic VCS (TM)
+         Version L-2016.06_Full64 -- Wed Jul 20 16:13:30 2016
+               Copyright (c) 1991-2016 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '/slowfs/vgcs13/srivats/project/soc/tb/verilog_tb/gpio/timescale.v'
+Parsing design file '/slowfs/vgcs13/srivats/project/soc/tb/verilog_tb/gpio/clkrst.v'
+Parsing included file 'timescale.v'.
+Back to file '/slowfs/vgcs13/srivats/project/soc/tb/verilog_tb/gpio/clkrst.v'.
+Parsing design file '/slowfs/vgcs13/srivats/project/soc/tb/verilog_tb/gpio/gpio_mon.v'
+Parsing included file 'timescale.v'.
+Back to file '/slowfs/vgcs13/srivats/project/soc/tb/verilog_tb/gpio/gpio_mon.v'.
+Parsing included file '/slowfs/vgcs13/srivats/project/soc/rtl/gpio/gpio_defines.v'.
+Back to file '/slowfs/vgcs13/srivats/project/soc/tb/verilog_tb/gpio/gpio_mon.v'.
+Parsing design file '/slowfs/vgcs13/srivats/project/soc/tb/verilog_tb/gpio/tb_defines.v'
+Parsing design file '/slowfs/vgcs13/srivats/project/soc/tb/verilog_tb/gpio/tb_tasks.v'
+Parsing included file 'timescale.v'.
+Back to file '/slowfs/vgcs13/srivats/project/soc/tb/verilog_tb/gpio/tb_tasks.v'.
+Parsing included file '/slowfs/vgcs13/srivats/project/soc/rtl/gpio/gpio_defines.v'.
+Back to file '/slowfs/vgcs13/srivats/project/soc/tb/verilog_tb/gpio/tb_tasks.v'.
+Parsing included file 'tb_defines.v'.
+Back to file '/slowfs/vgcs13/srivats/project/soc/tb/verilog_tb/gpio/tb_tasks.v'.
+Parsing design file '/slowfs/vgcs13/srivats/project/soc/tb/verilog_tb/gpio/wb_master.v'
+Parsing included file 'timescale.v'.
+Back to file '/slowfs/vgcs13/srivats/project/soc/tb/verilog_tb/gpio/wb_master.v'.
+Parsing included file '/slowfs/vgcs13/srivats/project/soc/rtl/gpio/gpio_defines.v'.
+Back to file '/slowfs/vgcs13/srivats/project/soc/tb/verilog_tb/gpio/wb_master.v'.
+Parsing design file '/slowfs/vgcs13/srivats/project/soc/tb/verilog_tb/gpio/gpio_testbench.v'
+Parsing included file 'timescale.v'.
+Back to file '/slowfs/vgcs13/srivats/project/soc/tb/verilog_tb/gpio/gpio_testbench.v'.
+Parsing included file '/slowfs/vgcs13/srivats/project/soc/rtl/gpio/gpio_defines.v'.
+Back to file '/slowfs/vgcs13/srivats/project/soc/tb/verilog_tb/gpio/gpio_testbench.v'.
+Parsing design file '/slowfs/vgcs13/srivats/project/soc/rtl/gpio/gpio_defines.v'
+Parsing design file '/slowfs/vgcs13/srivats/project/soc/rtl/gpio/gpio_intf.sv'
+
+Error-[SE] Syntax error
+  Following verilog source has syntax error :
+  "/slowfs/vgcs13/srivats/project/soc/rtl/gpio/gpio_intf.sv", 8: token is 
+  'input'
+  interface wb_intf  (input bit clk, rst);
+                           ^
+
+1 error
+CPU time: .091 seconds to compile

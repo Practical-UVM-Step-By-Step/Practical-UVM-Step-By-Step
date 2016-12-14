@@ -1,0 +1,48 @@
+The following is a list of tests that are presented with the 
+UVM CONMAX example
+
+
+1) wb_conmax_base_test.sv
+	This test is the base test for all the other tests in this series
+	all the master/slaves are created in this test and all the configuration information
+	is set in this test. Note that none of the default tests are enabled in this test.
+
+
+2) wb_conmax_factory_test_1.sv
+		This test explores some type overrides
+
+2) wb_conmax_factory_test_2.sv
+		This test illustrates some overrides by instance.
+
+
+3) wb_conmax_alter_message_verbosity.sv
+	This test alters the message verbosity
+
+4) wb_conmax_flat_sequence.sv
+
+5) wb_conmax_virtual_sequence.sv
+
+6) wb_conmax_multiple_domain_test.sv
+
+
+
+README --> This file.
+wb_conmax_alter_message.sv
+wb_conmax_alter_verbosity.sv
+wb_conmax_base_test.sv
+wb_conmax_commandline_test_1.sv
+wb_conmax_env_tb_mod.sv
+wb_conmax_factory_instance_override_cmdline.sv
+wb_conmax_factory_instance_override.sv
+wb_conmax_factory_type_override.sv
+wb_conmax_factory_type_undo.sv
+wb_conmax_factory_undo_instance.sv
+wb_conmax_factory_undo.sv
+wb_conmax_flat_sequence.sv
+wb_conmax_instance_callback_test.sv
+wb_conmax_parallel_sequence.sv
+wb_conmax_report_file.sv
+wb_conmax_report_hook.sv
+wb_conmax_sequence_config.sv
+wb_conmax_simple_cmdline_proc.sv
+wb_conmax_typewide_callback_test.sv

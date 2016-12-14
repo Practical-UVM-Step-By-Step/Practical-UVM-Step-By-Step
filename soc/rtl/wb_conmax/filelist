@@ -1,0 +1,12 @@
+${ROOT}/rtl/wb_conmax/wb_conmax_top.v
+${ROOT}/rtl/wb_conmax/wb_conmax_defines.v
+${ROOT}/rtl/wb_conmax/wb_conmax_arb.v
+${ROOT}/rtl/wb_conmax/wb_conmax_defines.v
+${ROOT}/rtl/wb_conmax/wb_conmax_master_if.v
+${ROOT}/rtl/wb_conmax/wb_conmax_msel.v
+${ROOT}/rtl/wb_conmax/wb_conmax_pri_dec.v
+${ROOT}/rtl/wb_conmax/wb_conmax_pri_enc.v
+${ROOT}/rtl/wb_conmax/wb_conmax_rf.v
+${ROOT}/rtl/wb_conmax/wb_conmax_slave_if.v
+// ${ROOT}/rtl/wb_conmax/wb_conmax_intf.sv
+// ${ROOT}/rtl/wb_conmax/wb_conmax_wrap_top.sv

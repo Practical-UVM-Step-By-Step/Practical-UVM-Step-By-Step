@@ -1,0 +1,104 @@
+plan reg_CFG;
+    attribute string path = "";
+
+    feature master0_priority_bits;
+        measure Group fcov;
+            source = "group instance: ** ::ral_cvr_reg_CFG::reg_bits.${path}.master0_priority";
+        endmeasure
+    endfeature
+    feature master1_priority_bits;
+        measure Group fcov;
+            source = "group instance: ** ::ral_cvr_reg_CFG::reg_bits.${path}.master1_priority";
+        endmeasure
+    endfeature
+    feature master2_priority_bits;
+        measure Group fcov;
+            source = "group instance: ** ::ral_cvr_reg_CFG::reg_bits.${path}.master2_priority";
+        endmeasure
+    endfeature
+    feature master3_priority_bits;
+        measure Group fcov;
+            source = "group instance: ** ::ral_cvr_reg_CFG::reg_bits.${path}.master3_priority";
+        endmeasure
+    endfeature
+    feature master4_priority_bits;
+        measure Group fcov;
+            source = "group instance: ** ::ral_cvr_reg_CFG::reg_bits.${path}.master4_priority";
+        endmeasure
+    endfeature
+    feature master5_priority_bits;
+        measure Group fcov;
+            source = "group instance: ** ::ral_cvr_reg_CFG::reg_bits.${path}.master5_priority";
+        endmeasure
+    endfeature
+    feature master6_priority_bits;
+        measure Group fcov;
+            source = "group instance: ** ::ral_cvr_reg_CFG::reg_bits.${path}.master6_priority";
+        endmeasure
+    endfeature
+    feature master7_priority_bits;
+        measure Group fcov;
+            source = "group instance: ** ::ral_cvr_reg_CFG::reg_bits.${path}.master7_priority";
+        endmeasure
+    endfeature
+endplan
+
+
+plan block_wb_conmax_env_ral_block;
+    attribute string path = "";
+
+    feature my_domain0;
+        feature reg_cfg_0;
+            subplan reg_CFG #(path="cfg_0(my_domain0)");
+        endfeature
+    endfeature
+    feature my_domain1;
+        feature reg_cfg_1;
+            subplan reg_CFG #(path="cfg_1(my_domain1)");
+        endfeature
+    endfeature
+    feature my_domain2;
+        feature reg_cfg_2;
+            subplan reg_CFG #(path="cfg_2(my_domain2)");
+        endfeature
+    endfeature
+    feature my_domain3;
+        feature reg_cfg_3;
+            subplan reg_CFG #(path="cfg_3(my_domain3)");
+        endfeature
+    endfeature
+    feature my_domain4;
+        feature reg_cfg_4;
+            subplan reg_CFG #(path="cfg_4(my_domain4)");
+        endfeature
+    endfeature
+    feature my_domain5;
+        feature reg_cfg_5;
+            subplan reg_CFG #(path="cfg_5(my_domain5)");
+        endfeature
+    endfeature
+    feature my_domain6;
+        feature reg_cfg_6;
+            subplan reg_CFG #(path="cfg_6(my_domain6)");
+        endfeature
+    endfeature
+    feature my_domain7;
+        feature reg_cfg_7;
+            subplan reg_CFG #(path="cfg_7(my_domain7)");
+        endfeature
+    endfeature
+
+    feature address_map;
+        measure Group fcov;
+            source = "group instance: ** ::ral_block_wb_conmax_env_ral_block::addr_map";
+        endmeasure
+    endfeature
+
+    feature field_values;
+        measure Group fcov;
+            source = "group instance: ** ::ral_block_wb_conmax_env_ral_block::field_values";
+        endmeasure
+    endfeature
+endplan
+
+

@@ -1,0 +1,91 @@
+module exampleSOC_top
+  (
+
+   // SPI Clock signals
+    output 	  spi_sd_sclk_pad_o ,
+    output 	  spi_sd_ss_pad_o ,
+    input 	  spi_sd_miso_pad_i ,
+    output 	  spi_sd_mosi_pad_o ,
+   
+ // SPI bus signals for flash memory
+
+    output 	  spi_flash_sclk_pad_o ,
+    output 	  spi_flash_ss_pad_o ,
+    input 	  spi_flash_miso_pad_i ,
+    output 	  spi_flash_mosi_pad_o , 
+    output 	  spi_flash_w_n_pad_o ,
+    output 	  spi_flash_hold_n_pad_o,
+
+   // SDRAM bus signals
+    inout [15:0]  mem_dat_pad_io,
+    output [12:0] mem_adr_pad_o ,
+    output [1:0]  mem_dqm_pad_o ,
+    output [1:0]  mem_ba_pad_o ,
+    output 	  mem_cs_pad_o ,
+    output 	  mem_ras_pad_o ,
+    output 	  mem_cas_pad_o ,
+    output 	  mem_we_pad_o ,
+    output 	  mem_cke_pad_o ,
+
+  
+// Ethernet pad outputs
+
+    output [1:1]  eth_sync_pad_o,
+    output [1:1]  eth_tx_pad_o,
+    input [1:1]   eth_rx_pad_i,
+    input 	  eth_clk_pad_i,
+    inout [1:1]   eth_md_pad_io,
+    output [1:1]  eth_mdc_pad_o, 
+
+
+    // SPI for Flash I/O
+
+    output 	  spi1_mosi_pad_o,
+    input 	  spi1_miso_pad_i,
+    output 	  spi1_ss_pad_o ,
+    output 	  spi1_sclk_pad_o,
+
+    inout [8-1:0] gpio_a_pad_io,
+
+  // UART I/O
+    input 	  uart0_srx_pad_i , 
+    output 	  uart0_stx_pad_o ,
+
+  // JTAG Signals
+    input 	  dbg_tdi_pad_i,
+    input 	  dbg_tck_pad_i,
+    input 	  dbg_tms_pad_i, 
+    output 	  dbg_tdo_pad_o,
+
+    // Common Clock and other signals.
+
+    input 	  rst_pad_i,
+    output 	  rst_pad_o,
+    input 	  clk_pad_i,
+
+
+    // VGA LCD signals 
+
+    output 	  clk_p_o, // VGA pixel clock output
+    output 	  hsync_pad_o, // horizontal sync
+    output 	  vsync_pad_o, // vertical sync
+    output 	  csync_pad_o, // composite sync
+    output 	  blank_pad_o, // blanking signal
+    output [ 7:0] r_pad_o, g_pad_o, b_pad_o, // RGB color signals
+
+    // Debug port signals
+     // Outputs
+     output  [31:0]  m_data_pad_o, 
+    output m_ack_pad_o, 
+    output m_err_pad_o, 
+    output m_rty_pad_o,
+   // Inputs
+    input clk_i, 
+    input [31:0] m_data_pad_i, 
+    input [31:0] m_addr_pad_i, 
+    input m_sel_pad_i, 
+    input m_we_pad_i, 
+    input m_cyc_pad_i,
+    input m_stb_pad_i
+   ) ;
+ 

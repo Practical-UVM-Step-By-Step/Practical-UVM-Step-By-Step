@@ -1,0 +1,7 @@
+${ROOT}/rtl/spi_ctrl/fifo4.v
+${ROOT}/rtl/spi_ctrl/spi_defines.v
+${ROOT}/rtl/spi_ctrl/spi_flash_clgen.v
+${ROOT}/rtl/spi_ctrl/spi_flash_shift.v
+${ROOT}/rtl/spi_ctrl/spi_flash_top.v
+${ROOT}/rtl/spi_ctrl/simple_spi_top.v
+//${ROOT}/rtl/spi_ctrl/spi_wrap_top.sv

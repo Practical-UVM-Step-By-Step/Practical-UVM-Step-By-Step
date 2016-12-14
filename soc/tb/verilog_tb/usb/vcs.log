@@ -1,0 +1,235 @@
+Command: vcs -sverilog -f /slowfs/vgcs13/srivats/project/soc/tb/verilog_tb/usb/filelist \
++incdir+/slowfs/vgcs13/srivats/project/soc/tb/verilog_tb/usb -f /slowfs/vgcs13/srivats/project/soc/rtl/usb/filelist \
++incdir+/slowfs/vgcs13/srivats/project/soc/rtl/usb -debug_all +incdir+ -timescale \
+1ns/1ps +incdir+ -l vcs.log
+                         Chronologic VCS (TM)
+           Version G-2012.09-1 -- Fri Dec  7 22:20:53 2012
+               Copyright (c) 1991-2012 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '/slowfs/vgcs13/srivats/project/soc/tb/verilog_tb/usb/test_bench_top.v'
+Parsing included file '/slowfs/vgcs13/srivats/project/soc/rtl/usb/usb1_defines.v'.
+Parsing included file 'timescale.v'.
+Back to file '/slowfs/vgcs13/srivats/project/soc/rtl/usb/usb1_defines.v'.
+Back to file '/slowfs/vgcs13/srivats/project/soc/tb/verilog_tb/usb/test_bench_top.v'.
+Parsing included file 'tests_lib.v'.
+Back to file '/slowfs/vgcs13/srivats/project/soc/tb/verilog_tb/usb/test_bench_top.v'.
+Parsing included file 'tests.v'.
+Back to file '/slowfs/vgcs13/srivats/project/soc/tb/verilog_tb/usb/test_bench_top.v'.
+Parsing design file '/slowfs/vgcs13/srivats/project/soc/rtl/usb/usb1_core.v'
+Parsing included file '/slowfs/vgcs13/srivats/project/soc/rtl/usb/usb1_defines.v'.
+Parsing included file 'timescale.v'.
+Back to file '/slowfs/vgcs13/srivats/project/soc/rtl/usb/usb1_defines.v'.
+Back to file '/slowfs/vgcs13/srivats/project/soc/rtl/usb/usb1_core.v'.
+
+Warning-[TMBIN] Too many bits in Based Number
+/slowfs/vgcs13/srivats/project/soc/rtl/usb/usb1_core.v, 606
+  The specified width is '4' bits, actually got '8' bits.
+  The offending number is : '00'.
+
+
+Warning-[TMBIN] Too many bits in Based Number
+/slowfs/vgcs13/srivats/project/soc/rtl/usb/usb1_core.v, 607
+  The specified width is '4' bits, actually got '8' bits.
+  The offending number is : '01'.
+
+
+Warning-[TMBIN] Too many bits in Based Number
+/slowfs/vgcs13/srivats/project/soc/rtl/usb/usb1_core.v, 608
+  The specified width is '4' bits, actually got '8' bits.
+  The offending number is : '02'.
+
+
+Warning-[TMBIN] Too many bits in Based Number
+/slowfs/vgcs13/srivats/project/soc/rtl/usb/usb1_core.v, 609
+  The specified width is '4' bits, actually got '8' bits.
+  The offending number is : '03'.
+
+
+Warning-[TMBIN] Too many bits in Based Number
+/slowfs/vgcs13/srivats/project/soc/rtl/usb/usb1_core.v, 610
+  The specified width is '4' bits, actually got '8' bits.
+  The offending number is : '04'.
+
+
+Warning-[TMBIN] Too many bits in Based Number
+/slowfs/vgcs13/srivats/project/soc/rtl/usb/usb1_core.v, 611
+  The specified width is '4' bits, actually got '8' bits.
+  The offending number is : '05'.
+
+
+Warning-[TMBIN] Too many bits in Based Number
+/slowfs/vgcs13/srivats/project/soc/rtl/usb/usb1_core.v, 612
+  The specified width is '4' bits, actually got '8' bits.
+  The offending number is : '06'.
+
+
+Warning-[TMBIN] Too many bits in Based Number
+/slowfs/vgcs13/srivats/project/soc/rtl/usb/usb1_core.v, 613
+  The specified width is '4' bits, actually got '8' bits.
+  The offending number is : '07'.
+
+
+Warning-[TMBIN] Too many bits in Based Number
+/slowfs/vgcs13/srivats/project/soc/rtl/usb/usb1_core.v, 615
+  The specified width is '4' bits, actually got '8' bits.
+  The offending number is : '00'.
+
+
+Warning-[TMBIN] Too many bits in Based Number
+/slowfs/vgcs13/srivats/project/soc/rtl/usb/usb1_core.v, 616
+  The specified width is '4' bits, actually got '8' bits.
+  The offending number is : '01'.
+
+
+Warning-[TMBIN] Too many bits in Based Number
+/slowfs/vgcs13/srivats/project/soc/rtl/usb/usb1_core.v, 617
+  The specified width is '4' bits, actually got '8' bits.
+  The offending number is : '02'.
+
+
+Warning-[TMBIN] Too many bits in Based Number
+/slowfs/vgcs13/srivats/project/soc/rtl/usb/usb1_core.v, 618
+  The specified width is '4' bits, actually got '8' bits.
+  The offending number is : '03'.
+
+
+Warning-[TMBIN] Too many bits in Based Number
+/slowfs/vgcs13/srivats/project/soc/rtl/usb/usb1_core.v, 619
+  The specified width is '4' bits, actually got '8' bits.
+  The offending number is : '04'.
+
+
+Warning-[TMBIN] Too many bits in Based Number
+/slowfs/vgcs13/srivats/project/soc/rtl/usb/usb1_core.v, 620
+  The specified width is '4' bits, actually got '8' bits.
+  The offending number is : '05'.
+
+
+Warning-[TMBIN] Too many bits in Based Number
+/slowfs/vgcs13/srivats/project/soc/rtl/usb/usb1_core.v, 621
+  The specified width is '4' bits, actually got '8' bits.
+  The offending number is : '06'.
+
+
+Warning-[TMBIN] Too many bits in Based Number
+/slowfs/vgcs13/srivats/project/soc/rtl/usb/usb1_core.v, 622
+  The specified width is '4' bits, actually got '8' bits.
+  The offending number is : '07'.
+
+Parsing design file '/slowfs/vgcs13/srivats/project/soc/rtl/usb/usb1_crc16.v'
+Parsing included file '/slowfs/vgcs13/srivats/project/soc/rtl/usb/usb1_defines.v'.
+Parsing included file 'timescale.v'.
+Back to file '/slowfs/vgcs13/srivats/project/soc/rtl/usb/usb1_defines.v'.
+Back to file '/slowfs/vgcs13/srivats/project/soc/rtl/usb/usb1_crc16.v'.
+Parsing design file '/slowfs/vgcs13/srivats/project/soc/rtl/usb/usb1_crc5.v'
+Parsing included file '/slowfs/vgcs13/srivats/project/soc/rtl/usb/usb1_defines.v'.
+Parsing included file 'timescale.v'.
+Back to file '/slowfs/vgcs13/srivats/project/soc/rtl/usb/usb1_defines.v'.
+Back to file '/slowfs/vgcs13/srivats/project/soc/rtl/usb/usb1_crc5.v'.
+Parsing design file '/slowfs/vgcs13/srivats/project/soc/rtl/usb/usb1_ctrl.v'
+Parsing included file '/slowfs/vgcs13/srivats/project/soc/rtl/usb/usb1_defines.v'.
+Parsing included file 'timescale.v'.
+Back to file '/slowfs/vgcs13/srivats/project/soc/rtl/usb/usb1_defines.v'.
+Back to file '/slowfs/vgcs13/srivats/project/soc/rtl/usb/usb1_ctrl.v'.
+
+Warning-[TMBIN] Too many bits in Based Number
+/slowfs/vgcs13/srivats/project/soc/rtl/usb/usb1_ctrl.v, 229
+  The specified width is '4' bits, actually got '8' bits.
+  The offending number is : '00'.
+
+
+Warning-[TMBIN] Too many bits in Based Number
+/slowfs/vgcs13/srivats/project/soc/rtl/usb/usb1_ctrl.v, 230
+  The specified width is '4' bits, actually got '8' bits.
+  The offending number is : '01'.
+
+
+Warning-[TMBIN] Too many bits in Based Number
+/slowfs/vgcs13/srivats/project/soc/rtl/usb/usb1_ctrl.v, 231
+  The specified width is '4' bits, actually got '8' bits.
+  The offending number is : '02'.
+
+
+Warning-[TMBIN] Too many bits in Based Number
+/slowfs/vgcs13/srivats/project/soc/rtl/usb/usb1_ctrl.v, 232
+  The specified width is '4' bits, actually got '8' bits.
+  The offending number is : '03'.
+
+
+Warning-[TMBIN] Too many bits in Based Number
+/slowfs/vgcs13/srivats/project/soc/rtl/usb/usb1_ctrl.v, 244
+  The specified width is '4' bits, actually got '8' bits.
+  The offending number is : '00'.
+
+
+Warning-[TMBIN] Too many bits in Based Number
+/slowfs/vgcs13/srivats/project/soc/rtl/usb/usb1_ctrl.v, 245
+  The specified width is '4' bits, actually got '8' bits.
+  The offending number is : '01'.
+
+
+Warning-[TMBIN] Too many bits in Based Number
+/slowfs/vgcs13/srivats/project/soc/rtl/usb/usb1_ctrl.v, 246
+  The specified width is '4' bits, actually got '8' bits.
+  The offending number is : '02'.
+
+
+Warning-[TMBIN] Too many bits in Based Number
+/slowfs/vgcs13/srivats/project/soc/rtl/usb/usb1_ctrl.v, 247
+  The specified width is '4' bits, actually got '8' bits.
+  The offending number is : '03'.
+
+Parsing design file '/slowfs/vgcs13/srivats/project/soc/rtl/usb/usb1_defines.v'
+Parsing included file 'timescale.v'.
+Back to file '/slowfs/vgcs13/srivats/project/soc/rtl/usb/usb1_defines.v'.
+Parsing design file '/slowfs/vgcs13/srivats/project/soc/rtl/usb/usb1_fifo2.v'
+Parsing included file 'timescale.v'.
+Back to file '/slowfs/vgcs13/srivats/project/soc/rtl/usb/usb1_fifo2.v'.
+Parsing design file '/slowfs/vgcs13/srivats/project/soc/rtl/usb/usb1_idma.v'
+Parsing included file '/slowfs/vgcs13/srivats/project/soc/rtl/usb/usb1_defines.v'.
+Parsing included file 'timescale.v'.
+Back to file '/slowfs/vgcs13/srivats/project/soc/rtl/usb/usb1_defines.v'.
+Back to file '/slowfs/vgcs13/srivats/project/soc/rtl/usb/usb1_idma.v'.
+Parsing design file '/slowfs/vgcs13/srivats/project/soc/rtl/usb/usb1_pa.v'
+Parsing included file '/slowfs/vgcs13/srivats/project/soc/rtl/usb/usb1_defines.v'.
+Parsing included file 'timescale.v'.
+Back to file '/slowfs/vgcs13/srivats/project/soc/rtl/usb/usb1_defines.v'.
+Back to file '/slowfs/vgcs13/srivats/project/soc/rtl/usb/usb1_pa.v'.
+Parsing design file '/slowfs/vgcs13/srivats/project/soc/rtl/usb/usb1_pd.v'
+Parsing included file '/slowfs/vgcs13/srivats/project/soc/rtl/usb/usb1_defines.v'.
+Parsing included file 'timescale.v'.
+Back to file '/slowfs/vgcs13/srivats/project/soc/rtl/usb/usb1_defines.v'.
+Back to file '/slowfs/vgcs13/srivats/project/soc/rtl/usb/usb1_pd.v'.
+Parsing design file '/slowfs/vgcs13/srivats/project/soc/rtl/usb/usb1_pe.v'
+Parsing included file '/slowfs/vgcs13/srivats/project/soc/rtl/usb/usb1_defines.v'.
+Parsing included file 'timescale.v'.
+Back to file '/slowfs/vgcs13/srivats/project/soc/rtl/usb/usb1_defines.v'.
+Back to file '/slowfs/vgcs13/srivats/project/soc/rtl/usb/usb1_pe.v'.
+Parsing design file '/slowfs/vgcs13/srivats/project/soc/rtl/usb/usb1_pl.v'
+Parsing design file '/slowfs/vgcs13/srivats/project/soc/rtl/usb/usb1_rom1.v'
+Parsing included file '/slowfs/vgcs13/srivats/project/soc/rtl/usb/usb1_defines.v'.
+Parsing included file 'timescale.v'.
+Back to file '/slowfs/vgcs13/srivats/project/soc/rtl/usb/usb1_defines.v'.
+Back to file '/slowfs/vgcs13/srivats/project/soc/rtl/usb/usb1_rom1.v'.
+Parsing design file '/slowfs/vgcs13/srivats/project/soc/rtl/usb/usb1_utmi_if.v'
+Parsing included file '/slowfs/vgcs13/srivats/project/soc/rtl/usb/usb1_defines.v'.
+Parsing included file 'timescale.v'.
+Back to file '/slowfs/vgcs13/srivats/project/soc/rtl/usb/usb1_defines.v'.
+Back to file '/slowfs/vgcs13/srivats/project/soc/rtl/usb/usb1_utmi_if.v'.
+Parsing design file '/slowfs/vgcs13/srivats/project/soc/rtl/usb/usb1_intf.sv'
+Parsing design file '/slowfs/vgcs13/srivats/project/soc/rtl/usb/usb1_wrap_top.sv'
+
+Error-[SFCOR] Source file cannot be opened
+  Source file "1ns/1ps" cannot be opened for reading due to 'No such file or 
+  directory'.
+  Please fix above issue and compile again.
+  "/slowfs/vgcs13/srivats/project/soc/rtl/usb/usb1_wrap_top.sv", 130
+
+24 warnings
+1 error
+CPU time: .099 seconds to compile

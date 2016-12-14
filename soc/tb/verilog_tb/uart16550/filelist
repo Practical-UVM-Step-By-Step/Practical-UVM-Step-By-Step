@@ -1,0 +1,8 @@
+// ${ROOT}/tb/verilog_tb/uart16550/uart_log.v
+// ${ROOT}/tb/verilog_tb/uart16550/uart_testbench_defines.v
+// ${ROOT}/tb/verilog_tb/uart16550/uart_test.v
+// ${ROOT}/tb/verilog_tb/uart16550/wb_mast.v
+// ${ROOT}/tb/verilog_tb/uart16550/wb_model_defines.v
+
+${ROOT}/tb/verilog_tb/uart16550/uart_test.v
+ ${ROOT}/tb/verilog_tb/uart16550/wb_mast.v

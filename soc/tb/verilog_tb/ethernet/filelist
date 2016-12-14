@@ -1,0 +1,11 @@
+${ROOT}/tb/verilog_tb/ethernet/eth_host.v
+${ROOT}/tb/verilog_tb/ethernet/eth_memory.v
+${ROOT}/tb/verilog_tb/ethernet/eth_phy_defines.v
+${ROOT}/tb/verilog_tb/ethernet/eth_phy.v
+${ROOT}/tb/verilog_tb/ethernet/tb_eth_defines.v
+${ROOT}/tb/verilog_tb/ethernet/tb_ethernet.v
+${ROOT}/tb/verilog_tb/ethernet/wb_bus_mon.v
+${ROOT}/tb/verilog_tb/ethernet/wb_master32.v
+${ROOT}/tb/verilog_tb/ethernet/wb_master_behavioral.v
+${ROOT}/tb/verilog_tb/ethernet/wb_model_defines.v
+${ROOT}/tb/verilog_tb/ethernet/wb_slave_behavioral.v

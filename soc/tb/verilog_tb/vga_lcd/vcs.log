@@ -1,0 +1,702 @@
+Command: vcs +v2k -f /slowfs/vgcs13/srivats/project/soc/tb/verilog_tb/vga_lcd/filelist \
++incdir+/slowfs/vgcs13/srivats/project/soc/tb/verilog_tb/vga_lcd/filelist -f /slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/filelist \
++incdir+/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd -debug_pp +incdir+/slowfs/vgcs13/srivats/project/soc/rtl/common \
++incdir+ -l vcs.log +systemverilogext+.sv
+                         Chronologic VCS (TM)
+         Version L-2016.06_Full64 -- Fri Jul 22 17:07:52 2016
+               Copyright (c) 1991-2016 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '/slowfs/vgcs13/srivats/project/soc/tb/verilog_tb/vga_lcd/sync_check.v'
+Parsing included file '/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_defines.v'.
+Back to file '/slowfs/vgcs13/srivats/project/soc/tb/verilog_tb/vga_lcd/sync_check.v'.
+Parsing design file '/slowfs/vgcs13/srivats/project/soc/tb/verilog_tb/vga_lcd/test_bench_top.v'
+Parsing included file 'tests.v'.
+Back to file '/slowfs/vgcs13/srivats/project/soc/tb/verilog_tb/vga_lcd/test_bench_top.v'.
+Parsing design file '/slowfs/vgcs13/srivats/project/soc/tb/verilog_tb/vga_lcd/wb_b3_check.v'
+Parsing design file '/slowfs/vgcs13/srivats/project/soc/tb/verilog_tb/vga_lcd/wb_mast_model.v'
+Parsing included file 'wb_model_defines.v'.
+Back to file '/slowfs/vgcs13/srivats/project/soc/tb/verilog_tb/vga_lcd/wb_mast_model.v'.
+Parsing design file '/slowfs/vgcs13/srivats/project/soc/tb/verilog_tb/vga_lcd/wb_model_defines.v'
+Parsing design file '/slowfs/vgcs13/srivats/project/soc/tb/verilog_tb/vga_lcd/wb_slv_model.v'
+Parsing included file 'wb_model_defines.v'.
+Back to file '/slowfs/vgcs13/srivats/project/soc/tb/verilog_tb/vga_lcd/wb_slv_model.v'.
+Parsing design file '/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/generic_dpram.v'
+Parsing included file '/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/timescale.v'.
+Back to file '/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/generic_dpram.v'.
+Parsing design file '/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/generic_spram.v'
+Parsing included file '/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/timescale.v'.
+Back to file '/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/generic_spram.v'.
+Parsing design file '/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_clkgen.v'
+Parsing included file '/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/timescale.v'.
+Back to file '/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_clkgen.v'.
+Parsing included file '/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_defines.v'.
+Back to file '/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_clkgen.v'.
+Parsing design file '/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_colproc.v'
+Parsing included file '/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/timescale.v'.
+Back to file '/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_colproc.v'.
+Parsing design file '/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_csm_pb.v'
+Parsing included file '/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/timescale.v'.
+Back to file '/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_csm_pb.v'.
+Parsing design file '/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_cur_cregs.v'
+Parsing included file '/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/timescale.v'.
+Back to file '/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_cur_cregs.v'.
+Parsing design file '/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_curproc.v'
+Parsing included file '/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/timescale.v'.
+Back to file '/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_curproc.v'.
+Parsing design file '/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_enh_top.v'
+Parsing included file '/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/timescale.v'.
+Back to file '/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_enh_top.v'.
+Parsing included file '/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_defines.v'.
+Back to file '/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_enh_top.v'.
+Parsing design file '/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_fifo_dc.v'
+Parsing included file '/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/timescale.v'.
+Back to file '/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_fifo_dc.v'.
+Parsing design file '/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_fifo.v'
+Parsing included file '/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/timescale.v'.
+Back to file '/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_fifo.v'.
+Parsing design file '/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_pgen.v'
+Parsing included file '/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/timescale.v'.
+Back to file '/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_pgen.v'.
+Parsing included file '/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_defines.v'.
+Back to file '/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_pgen.v'.
+Parsing design file '/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_tgen.v'
+Parsing included file '/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/timescale.v'.
+Back to file '/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_tgen.v'.
+Parsing design file '/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_vtim.v'
+Parsing included file '/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/timescale.v'.
+Back to file '/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_vtim.v'.
+Parsing design file '/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_wb_master.v'
+Parsing included file '/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/timescale.v'.
+Back to file '/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_wb_master.v'.
+Parsing design file '/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_wb_slave.v'
+Parsing included file '/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/timescale.v'.
+Back to file '/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_wb_slave.v'.
+Parsing included file '/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_defines.v'.
+Back to file '/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_wb_slave.v'.
+Top Level Modules:
+       test
+       vga_cur_cregs
+       vga_curproc
+TimeScale is 1 ns / 10 ps
+
+Warning-[TFIPC] Too few instance port connections
+/slowfs/vgcs13/srivats/project/soc/tb/verilog_tb/vga_lcd/test_bench_top.v, 583
+"vga_enh_top #(1'b0, LINE_FIFO_AWIDTH) u0( .wb_clk_i (clk),  .wb_rst_i (1'b0),  .rst_i (rst),  .wb_inta_o (\int ),  .wbs_adr_i (wb_addr_i[11:0]),  .wbs_dat_i (wb_data_i),  .wbs_dat_o (wb_data_o),  .wbs_sel_i (wb_sel_i),  .wbs_we_i (wb_we_i),  .wbs_stb_i (wb_stb_i),  .wbs_cyc_i (wb_cyc_i),  .wbs_ack_o (wb_ack_o),  .wbs_rty_o (wb_rty_o),  .wbs_err_o (wb_err_o),  .wbm_adr_o (wb_addr_o[31:0]),  .wbm_dat_i (wbm_data_i),  .wbm_sel_o (wb_sel_o),  .wbm_we_o (wb_we_o),  .wbm_stb_o (wb_stb_o),  .wbm_cyc_o (wb_cyc_o),  .wbm_cti_o (wb_cti_o),  .wbm_bte_o (wb_bte_o),  .wbm_ack_i (wb_ack_i),  .wbm_err_i (wb_err_i),  .clk_p_i (pclk_i),  .hsync_pad_o (hsync),  .vsync_pad_o (vsync),  .csync_pad_o (csync),  .blank_pad_o (blanc),  .r_pad_o (red),  .g_pad_o (green),  .b_pad ... "
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[SIOB] Select index out of bounds
+/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_fifo.v, 131
+"q[5]"
+  The select index is out of declared bounds : [4:1].
+  In module instance : clut_sw_fifo 
+  In module : vga_fifo.
+
+
+Warning-[SIOB] Select index out of bounds
+/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_fifo.v, 132
+"q[6]"
+  The select index is out of declared bounds : [4:1].
+  In module instance : clut_sw_fifo 
+  In module : vga_fifo.
+
+
+Warning-[SIOB] Select index out of bounds
+/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_fifo.v, 132
+"q[5]"
+  The select index is out of declared bounds : [4:1].
+  In module instance : clut_sw_fifo 
+  In module : vga_fifo.
+
+
+Warning-[SIOB] Select index out of bounds
+/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_fifo.v, 133
+"q[7]"
+  The select index is out of declared bounds : [4:1].
+  In module instance : clut_sw_fifo 
+  In module : vga_fifo.
+
+
+Warning-[SIOB] Select index out of bounds
+/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_fifo.v, 133
+"q[6]"
+  The select index is out of declared bounds : [4:1].
+  In module instance : clut_sw_fifo 
+  In module : vga_fifo.
+
+
+Warning-[SIOB] Select index out of bounds
+/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_fifo.v, 134
+"q[8]"
+  The select index is out of declared bounds : [4:1].
+  In module instance : clut_sw_fifo 
+  In module : vga_fifo.
+
+
+Warning-[SIOB] Select index out of bounds
+/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_fifo.v, 134
+"q[6]"
+  The select index is out of declared bounds : [4:1].
+  In module instance : clut_sw_fifo 
+  In module : vga_fifo.
+
+
+Warning-[SIOB] Select index out of bounds
+/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_fifo.v, 134
+"q[5]"
+  The select index is out of declared bounds : [4:1].
+  In module instance : clut_sw_fifo 
+  In module : vga_fifo.
+
+
+Warning-[SIOB] Select index out of bounds
+/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_fifo.v, 135
+"q[9]"
+  The select index is out of declared bounds : [4:1].
+  In module instance : clut_sw_fifo 
+  In module : vga_fifo.
+
+
+Warning-[SIOB] Select index out of bounds
+/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_fifo.v, 135
+"q[5]"
+  The select index is out of declared bounds : [4:1].
+  In module instance : clut_sw_fifo 
+  In module : vga_fifo.
+
+
+Warning-[SIOB] Select index out of bounds
+/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_fifo.v, 136
+"q[10]"
+  The select index is out of declared bounds : [4:1].
+  In module instance : clut_sw_fifo 
+  In module : vga_fifo.
+
+
+Warning-[SIOB] Select index out of bounds
+/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_fifo.v, 136
+"q[7]"
+  The select index is out of declared bounds : [4:1].
+  In module instance : clut_sw_fifo 
+  In module : vga_fifo.
+
+
+Warning-[SIOB] Select index out of bounds
+/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_fifo.v, 137
+"q[11]"
+  The select index is out of declared bounds : [4:1].
+  In module instance : clut_sw_fifo 
+  In module : vga_fifo.
+
+
+Warning-[SIOB] Select index out of bounds
+/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_fifo.v, 137
+"q[9]"
+  The select index is out of declared bounds : [4:1].
+  In module instance : clut_sw_fifo 
+  In module : vga_fifo.
+
+
+Warning-[SIOB] Select index out of bounds
+/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_fifo.v, 138
+"q[12]"
+  The select index is out of declared bounds : [4:1].
+  In module instance : clut_sw_fifo 
+  In module : vga_fifo.
+
+
+Warning-[SIOB] Select index out of bounds
+/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_fifo.v, 138
+"q[6]"
+  The select index is out of declared bounds : [4:1].
+  In module instance : clut_sw_fifo 
+  In module : vga_fifo.
+
+
+Warning-[SIOB] Select index out of bounds
+/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_fifo.v, 139
+"q[13]"
+  The select index is out of declared bounds : [4:1].
+  In module instance : clut_sw_fifo 
+  In module : vga_fifo.
+
+
+Warning-[SIOB] Select index out of bounds
+/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_fifo.v, 140
+"q[14]"
+  The select index is out of declared bounds : [4:1].
+  In module instance : clut_sw_fifo 
+  In module : vga_fifo.
+
+
+Warning-[SIOB] Select index out of bounds
+/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_fifo.v, 140
+"q[5]"
+  The select index is out of declared bounds : [4:1].
+  In module instance : clut_sw_fifo 
+  In module : vga_fifo.
+
+
+Warning-[SIOB] Select index out of bounds
+/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_fifo.v, 141
+"q[15]"
+  The select index is out of declared bounds : [4:1].
+  In module instance : clut_sw_fifo 
+  In module : vga_fifo.
+
+
+Warning-[SIOB] Select index out of bounds
+/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_fifo.v, 141
+"q[14]"
+  The select index is out of declared bounds : [4:1].
+  In module instance : clut_sw_fifo 
+  In module : vga_fifo.
+
+
+Warning-[SIOB] Select index out of bounds
+/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_fifo.v, 142
+"q[16]"
+  The select index is out of declared bounds : [4:1].
+  In module instance : clut_sw_fifo 
+  In module : vga_fifo.
+
+
+Warning-[SIOB] Select index out of bounds
+/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_fifo.v, 142
+"q[15]"
+  The select index is out of declared bounds : [4:1].
+  In module instance : clut_sw_fifo 
+  In module : vga_fifo.
+
+
+Warning-[SIOB] Select index out of bounds
+/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_fifo.v, 142
+"q[13]"
+  The select index is out of declared bounds : [4:1].
+  In module instance : clut_sw_fifo 
+  In module : vga_fifo.
+
+
+Warning-[SIOB] Select index out of bounds
+/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_fifo.v, 131
+"q[5]"
+  The select index is out of declared bounds : [4:1].
+  In module instance : data_fifo 
+  In module : vga_fifo.
+
+
+Warning-[SIOB] Select index out of bounds
+/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_fifo.v, 132
+"q[6]"
+  The select index is out of declared bounds : [4:1].
+  In module instance : data_fifo 
+  In module : vga_fifo.
+
+
+Warning-[SIOB] Select index out of bounds
+/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_fifo.v, 132
+"q[5]"
+  The select index is out of declared bounds : [4:1].
+  In module instance : data_fifo 
+  In module : vga_fifo.
+
+
+Warning-[SIOB] Select index out of bounds
+/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_fifo.v, 133
+"q[7]"
+  The select index is out of declared bounds : [4:1].
+  In module instance : data_fifo 
+  In module : vga_fifo.
+
+
+Warning-[SIOB] Select index out of bounds
+/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_fifo.v, 133
+"q[6]"
+  The select index is out of declared bounds : [4:1].
+  In module instance : data_fifo 
+  In module : vga_fifo.
+
+
+Warning-[SIOB] Select index out of bounds
+/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_fifo.v, 134
+"q[8]"
+  The select index is out of declared bounds : [4:1].
+  In module instance : data_fifo 
+  In module : vga_fifo.
+
+
+Warning-[SIOB] Select index out of bounds
+/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_fifo.v, 134
+"q[6]"
+  The select index is out of declared bounds : [4:1].
+  In module instance : data_fifo 
+  In module : vga_fifo.
+
+
+Warning-[SIOB] Select index out of bounds
+/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_fifo.v, 134
+"q[5]"
+  The select index is out of declared bounds : [4:1].
+  In module instance : data_fifo 
+  In module : vga_fifo.
+
+
+Warning-[SIOB] Select index out of bounds
+/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_fifo.v, 135
+"q[9]"
+  The select index is out of declared bounds : [4:1].
+  In module instance : data_fifo 
+  In module : vga_fifo.
+
+
+Warning-[SIOB] Select index out of bounds
+/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_fifo.v, 135
+"q[5]"
+  The select index is out of declared bounds : [4:1].
+  In module instance : data_fifo 
+  In module : vga_fifo.
+
+
+Warning-[SIOB] Select index out of bounds
+/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_fifo.v, 136
+"q[10]"
+  The select index is out of declared bounds : [4:1].
+  In module instance : data_fifo 
+  In module : vga_fifo.
+
+
+Warning-[SIOB] Select index out of bounds
+/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_fifo.v, 136
+"q[7]"
+  The select index is out of declared bounds : [4:1].
+  In module instance : data_fifo 
+  In module : vga_fifo.
+
+
+Warning-[SIOB] Select index out of bounds
+/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_fifo.v, 137
+"q[11]"
+  The select index is out of declared bounds : [4:1].
+  In module instance : data_fifo 
+  In module : vga_fifo.
+
+
+Warning-[SIOB] Select index out of bounds
+/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_fifo.v, 137
+"q[9]"
+  The select index is out of declared bounds : [4:1].
+  In module instance : data_fifo 
+  In module : vga_fifo.
+
+
+Warning-[SIOB] Select index out of bounds
+/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_fifo.v, 138
+"q[12]"
+  The select index is out of declared bounds : [4:1].
+  In module instance : data_fifo 
+  In module : vga_fifo.
+
+
+Warning-[SIOB] Select index out of bounds
+/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_fifo.v, 138
+"q[6]"
+  The select index is out of declared bounds : [4:1].
+  In module instance : data_fifo 
+  In module : vga_fifo.
+
+
+Warning-[SIOB] Select index out of bounds
+/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_fifo.v, 139
+"q[13]"
+  The select index is out of declared bounds : [4:1].
+  In module instance : data_fifo 
+  In module : vga_fifo.
+
+
+Warning-[SIOB] Select index out of bounds
+/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_fifo.v, 140
+"q[14]"
+  The select index is out of declared bounds : [4:1].
+  In module instance : data_fifo 
+  In module : vga_fifo.
+
+
+Warning-[SIOB] Select index out of bounds
+/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_fifo.v, 140
+"q[5]"
+  The select index is out of declared bounds : [4:1].
+  In module instance : data_fifo 
+  In module : vga_fifo.
+
+
+Warning-[SIOB] Select index out of bounds
+/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_fifo.v, 141
+"q[15]"
+  The select index is out of declared bounds : [4:1].
+  In module instance : data_fifo 
+  In module : vga_fifo.
+
+
+Warning-[SIOB] Select index out of bounds
+/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_fifo.v, 141
+"q[14]"
+  The select index is out of declared bounds : [4:1].
+  In module instance : data_fifo 
+  In module : vga_fifo.
+
+
+Warning-[SIOB] Select index out of bounds
+/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_fifo.v, 142
+"q[16]"
+  The select index is out of declared bounds : [4:1].
+  In module instance : data_fifo 
+  In module : vga_fifo.
+
+
+Warning-[SIOB] Select index out of bounds
+/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_fifo.v, 142
+"q[15]"
+  The select index is out of declared bounds : [4:1].
+  In module instance : data_fifo 
+  In module : vga_fifo.
+
+
+Warning-[SIOB] Select index out of bounds
+/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_fifo.v, 142
+"q[13]"
+  The select index is out of declared bounds : [4:1].
+  In module instance : data_fifo 
+  In module : vga_fifo.
+
+
+Warning-[SIOB] Select index out of bounds
+/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_fifo.v, 131
+"q[5]"
+  The select index is out of declared bounds : [4:1].
+  In module instance : rgb_fifo 
+  In module : vga_fifo.
+
+
+Warning-[SIOB] Select index out of bounds
+/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_fifo.v, 132
+"q[6]"
+  The select index is out of declared bounds : [4:1].
+  In module instance : rgb_fifo 
+  In module : vga_fifo.
+
+
+Warning-[SIOB] Select index out of bounds
+/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_fifo.v, 132
+"q[5]"
+  The select index is out of declared bounds : [4:1].
+  In module instance : rgb_fifo 
+  In module : vga_fifo.
+
+
+Warning-[SIOB] Select index out of bounds
+/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_fifo.v, 133
+"q[7]"
+  The select index is out of declared bounds : [4:1].
+  In module instance : rgb_fifo 
+  In module : vga_fifo.
+
+
+Warning-[SIOB] Select index out of bounds
+/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_fifo.v, 133
+"q[6]"
+  The select index is out of declared bounds : [4:1].
+  In module instance : rgb_fifo 
+  In module : vga_fifo.
+
+
+Warning-[SIOB] Select index out of bounds
+/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_fifo.v, 134
+"q[8]"
+  The select index is out of declared bounds : [4:1].
+  In module instance : rgb_fifo 
+  In module : vga_fifo.
+
+
+Warning-[SIOB] Select index out of bounds
+/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_fifo.v, 134
+"q[6]"
+  The select index is out of declared bounds : [4:1].
+  In module instance : rgb_fifo 
+  In module : vga_fifo.
+
+
+Warning-[SIOB] Select index out of bounds
+/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_fifo.v, 134
+"q[5]"
+  The select index is out of declared bounds : [4:1].
+  In module instance : rgb_fifo 
+  In module : vga_fifo.
+
+
+Warning-[SIOB] Select index out of bounds
+/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_fifo.v, 135
+"q[9]"
+  The select index is out of declared bounds : [4:1].
+  In module instance : rgb_fifo 
+  In module : vga_fifo.
+
+
+Warning-[SIOB] Select index out of bounds
+/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_fifo.v, 135
+"q[5]"
+  The select index is out of declared bounds : [4:1].
+  In module instance : rgb_fifo 
+  In module : vga_fifo.
+
+
+Warning-[SIOB] Select index out of bounds
+/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_fifo.v, 136
+"q[10]"
+  The select index is out of declared bounds : [4:1].
+  In module instance : rgb_fifo 
+  In module : vga_fifo.
+
+
+Warning-[SIOB] Select index out of bounds
+/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_fifo.v, 136
+"q[7]"
+  The select index is out of declared bounds : [4:1].
+  In module instance : rgb_fifo 
+  In module : vga_fifo.
+
+
+Warning-[SIOB] Select index out of bounds
+/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_fifo.v, 137
+"q[11]"
+  The select index is out of declared bounds : [4:1].
+  In module instance : rgb_fifo 
+  In module : vga_fifo.
+
+
+Warning-[SIOB] Select index out of bounds
+/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_fifo.v, 137
+"q[9]"
+  The select index is out of declared bounds : [4:1].
+  In module instance : rgb_fifo 
+  In module : vga_fifo.
+
+
+Warning-[SIOB] Select index out of bounds
+/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_fifo.v, 138
+"q[12]"
+  The select index is out of declared bounds : [4:1].
+  In module instance : rgb_fifo 
+  In module : vga_fifo.
+
+
+Warning-[SIOB] Select index out of bounds
+/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_fifo.v, 138
+"q[6]"
+  The select index is out of declared bounds : [4:1].
+  In module instance : rgb_fifo 
+  In module : vga_fifo.
+
+
+Warning-[SIOB] Select index out of bounds
+/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_fifo.v, 139
+"q[13]"
+  The select index is out of declared bounds : [4:1].
+  In module instance : rgb_fifo 
+  In module : vga_fifo.
+
+
+Warning-[SIOB] Select index out of bounds
+/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_fifo.v, 140
+"q[14]"
+  The select index is out of declared bounds : [4:1].
+  In module instance : rgb_fifo 
+  In module : vga_fifo.
+
+
+Warning-[SIOB] Select index out of bounds
+/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_fifo.v, 140
+"q[5]"
+  The select index is out of declared bounds : [4:1].
+  In module instance : rgb_fifo 
+  In module : vga_fifo.
+
+
+Warning-[SIOB] Select index out of bounds
+/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_fifo.v, 141
+"q[15]"
+  The select index is out of declared bounds : [4:1].
+  In module instance : rgb_fifo 
+  In module : vga_fifo.
+
+
+Warning-[SIOB] Select index out of bounds
+/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_fifo.v, 141
+"q[14]"
+  The select index is out of declared bounds : [4:1].
+  In module instance : rgb_fifo 
+  In module : vga_fifo.
+
+
+Warning-[SIOB] Select index out of bounds
+/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_fifo.v, 142
+"q[16]"
+  The select index is out of declared bounds : [4:1].
+  In module instance : rgb_fifo 
+  In module : vga_fifo.
+
+
+Warning-[SIOB] Select index out of bounds
+/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_fifo.v, 142
+"q[15]"
+  The select index is out of declared bounds : [4:1].
+  In module instance : rgb_fifo 
+  In module : vga_fifo.
+
+
+Warning-[SIOB] Select index out of bounds
+/slowfs/vgcs13/srivats/project/soc/rtl/vga_lcd/vga_fifo.v, 142
+"q[13]"
+  The select index is out of declared bounds : [4:1].
+  In module instance : rgb_fifo 
+  In module : vga_fifo.
+
+Starting vcs inline pass...
+11 unique modules to generate
+11 modules and 0 UDP read. 
+recompiling package std
+recompiling module sync_check
+recompiling module test
+recompiling module wb_b3_check
+recompiling module wb_mast
+recompiling module wb_slv
+recompiling module vga_cur_cregs
+recompiling module vga_curproc
+recompiling module vga_enh_top
+recompiling module vga_fifo_dc
+recompiling module vga_vtim
+All of 11 modules done
+make[1]: Entering directory `/slowfs/vgcs13/srivats/clone_me/Book_Examples/soc/tb/verilog_tb/vga_lcd/csrc' \
+
+rm -f _csrc*.so pre_vcsobj_*.so share_vcsobj_*.so
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv   -Wl,-rpath-link=./ -Wl,-rpath='$ORIGIN'/simv.daidir/ -Wl,-rpath=./simv.daidir/ \
+-Wl,-rpath='$ORIGIN'/simv.daidir//scsim.db.dir  -rdynamic   amcQwB.o objs/amcQw_d.o \
+_31724_archive_1.so  SIM_l.o       rmapats_mop.o rmapats.o rmar.o  rmar_llvm_0_1.o \
+rmar_llvm_0_0.o          /global/apps/vcs_2016.06/linux64/lib/libzerosoft_rt_stubs.so \
+/global/apps/vcs_2016.06/linux64/lib/libvirsim.so /global/apps/vcs_2016.06/linux64/lib/liberrorinf.so \
+/global/apps/vcs_2016.06/linux64/lib/libsnpsmalloc.so    /global/apps/vcs_2016.06/linux64/lib/libvcsnew.so \
+/global/apps/vcs_2016.06/linux64/lib/libsimprofile.so /global/apps/vcs_2016.06/linux64/lib/libuclinative.so \
+-Wl,-whole-archive /global/apps/vcs_2016.06/linux64/lib/libvcsucli.so -Wl,-no-whole-archive \
+/global/apps/vcs_2016.06/linux64/lib/vcs_save_restore_new.o -ldl  -lc -lm -lpthread \
+-ldl 
+../simv up to date
+make[1]: Leaving directory `/slowfs/vgcs13/srivats/clone_me/Book_Examples/soc/tb/verilog_tb/vga_lcd/csrc' \
+
+CPU time: .609 seconds to compile + .323 seconds to elab + .122 seconds to link

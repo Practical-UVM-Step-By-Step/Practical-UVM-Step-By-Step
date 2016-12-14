@@ -1,0 +1,5 @@
+10/100MBps ethernet MAC core
+
+This is based on the core from OpenCores, but heavily modified and improved to provide better bus usage, and buffer configurability.
+
+See the include file, include/ethmac_defines.v for options.
