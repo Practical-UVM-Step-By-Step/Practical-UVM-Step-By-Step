@@ -1,15 +1,19 @@
-There were a few Minor errors in the listings in Chapter 2.  I have uploaded the sources for these files as a correction to Github. Please update your repository.
+There were a few Minor errors in the listings in Chapter 2 during initial check in.
+I have uploaded the correct sources for these files. Please update your repository.
 
-Note that I have only provided run scripts for copy and compare. The others should be self explanatory, and should give you a chance to get familar with your compiler options.
+Note that I have only provided run scripts for copy and compare. The others should be self explanatory, 
+and should give you a chance to get familar with your compiler options -:)
 
 
-The names of the files are self explanatory.
+The names of the files below are self explanatory. They should match the listings in the book.
 listing_2.1.sv
 listing_2.10
 listing_2.10.sv
 listing_2.2.sv
 
-I could have renamed these files. However, some of them are a combination of several others to make it easy to compile.  So I chose to leave them the way they are. If you have any suggestions, let me know. 
+I could have renamed the files below. 
+However, some of them are a combination of several others to make it easy to compile.  
+So I chose to leave them the way they are. If you have any suggestions on how to do this cleanly, let me know and I will update GitHub.
 
 
 clone.sv      -- Listing 2.6
@@ -22,8 +26,8 @@ compare2.sv    -- This is a complete example for the compare operation
 print.sv -- Listing 2.9
 completed_class.sv   -- Listing 2.12
 
-If you see any problems, I would appreciate a quick note. 
-Any bugs are most likely are a result of copy-paste/move errors. 
+If you see any problems, I would appreciate a quick note so that I can fix it. The database is now over 7K files, and 
+Any bugs are most likely are a result of copy-paste/move errors that I may have made inadverdently.
 
 Thank you
 Srivatsa
