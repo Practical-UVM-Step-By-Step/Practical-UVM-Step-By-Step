@@ -5,14 +5,13 @@ Note that I have only provided run scripts for copy and compare. The others shou
 and should give you a chance to get familar with your compiler options -:)
 
 
-The names of the files below are self explanatory. They should match the listings in the book.
+The names of the following files  are self explanatory. They should match the listings in the book.
 listing_2.1.sv
 listing_2.10
 listing_2.10.sv
 listing_2.2.sv
 
-I could have renamed the files below. 
-However, some of them are a combination of several others to make it easy to compile.  
+I could have renamed the files which are listed below. However, some of them are a combination of several others to make it easy to compile.  
 So I chose to leave them the way they are. If you have any suggestions on how to do this cleanly, let me know and I will update GitHub.
 
 
