@@ -1,4 +1,17 @@
-class.sv
+There were a few Minor errors in the listings in Chapter 2.  I have uploaded the sources for these files as a correction to Github. Please update your repository.
+
+Note that I have only provided run scripts for copy and compare. The others should be self explanatory, and should give you a chance to get familar with your compiler options.
+
+
+The names of the files are self explanatory.
+listing_2.1.sv
+listing_2.10
+listing_2.10.sv
+listing_2.2.sv
+
+I could have renamed these files. However, some of them are a combination of several others to make it easy to compile.  So I chose to leave them the way they are. If you have any suggestions, let me know. 
+
+
 clone.sv      -- Listing 2.6
 compare_ex.sv  -- This is Listing 2.7
 copy.sv        -- This is a combination of Listing 2.1, listing 2.2 and Listing 2.4.
@@ -8,3 +21,9 @@ new_packer.sv  -- Listing 2.11
 compare2.sv    -- This is a complete example for the compare operation
 print.sv -- Listing 2.9
 completed_class.sv   -- Listing 2.12
+
+If you see any problems, I would appreciate a quick note. 
+Any bugs are most likely are a result of copy-paste/move errors. 
+
+Thank you
+Srivatsa
