@@ -1,0 +1,38 @@
+run_all: run_packer run_compare run_copy run_print
+
+all:   run_all
+
+help:
+	echo "********************************* \
+	 make help: This message  \
+	run_(packer|copy|compare|print)  \
+	runs the examples \
+	*********************************" 
+
+	
+
+
+run_packer: 
+	rm -rf INCA* *.log *.shm
+	irun -access rw -sv -uvmhome $(IUS_UVM_1_2_HOME)  ../src/new_packer.sv +define+UVM_NO_DEPRECATED +incdir+../src -l g2u_ius_packer.log
+	
+
+
+run_compare:
+	rm -rf csrc* g2u_ius_run_compare*
+	irun -sv -uvm ../src/compare_ex.sv +define+UVM_NO_DEPRECATED -o g2u_ius_run_compare +incdir+../src -l g2u_ius_compare.log
+
+
+
+run_copy: 
+	rm -rf csrc* g2u_ius_run_copy*
+	irun -sv -uvm  ../src/copy_ex.sv +define+UVM_NO_DEPRECATED -o g2u_ius_run_copy +incdir+../src -l g2u_ius_copy.log
+
+clean:
+	rm -rf INCA*
+
+run_print:
+	rm -rf INCA*
+	irun -sv -uvm  ../src/print.sv +define+UVM_NO_DEPRECATED -o g2u_ius_run_print +incdir+../src -l g2u_ius_print.log
+
+

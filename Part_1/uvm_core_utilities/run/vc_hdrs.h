@@ -50,6 +50,10 @@ typedef struct VeriC_Descriptor *vc_handle;
 
  extern int uvm_hdl_read(/* INPUT */const char* path, /* OUTPUT */svLogicVecVal *value);
 
+ extern SV_STRING uvm_hdl_read_string(/* INPUT */const char* path);
+
+ extern int uvm_memory_load(/* INPUT */const char* nid, /* INPUT */const char* scope, /* INPUT */const char* fileName, /* INPUT */const char* radix, /* INPUT */const char* startaddr, /* INPUT */const char* endaddr, /* INPUT */const char* types);
+
  extern SV_STRING uvm_dpi_get_next_arg_c(/* INPUT */int init);
 
  extern SV_STRING uvm_dpi_get_tool_name_c();

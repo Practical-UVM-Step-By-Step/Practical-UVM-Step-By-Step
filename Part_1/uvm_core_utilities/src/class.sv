@@ -13,11 +13,11 @@ class class_A extends uvm_object;
 			`uvm_field_aa_int_longint_unsigned(logic_data,UVM_ALL_ON)
 	`uvm_object_utils_end
 		
-		function new(string name="",int value);
+		function new(string name="");
 			int idx = 1;
 			super.new(name);	
 			cl_string = name;
-			cl_int = value;
+			cl_int = 10;
 	 		cl_int_arr = new[cl_int];
 			for(int i = 0; i < cl_int; i++) begin
 				cl_int_arr[i] = i + 1;
@@ -51,10 +51,10 @@ class_A cl3; // UVM_DEEP
 		`uvm_field_object(cl3,UVM_ALL_ON|UVM_REFERENCE)
         `uvm_object_utils_end
 
- function new(string name="",int inst_id);
+ function new(string name="");
 	super.new(name);
-	cl1 = new(name,inst_id );
-  	cl3 = new(name,inst_id +1 )	;
+	cl1 = new(name);
+  	cl3 = new(name )	;
 	par_string  = name;
   endfunction
 	
@@ -93,10 +93,10 @@ class_A cl3; // UVM_DEEP
 		`uvm_field_object(cl3,UVM_ALL_ON|UVM_SHALLOW)
         `uvm_object_utils_end
 
- function new(string name="",int inst_id);
+ function new(string name="");
 	super.new(name);
-	cl1 = new(name,inst_id );
-  	cl3 = new(name,inst_id +1 )	;
+	cl1 = new(name);
+  	cl3 = new(name );
 	par_string  = name;
   endfunction
 	

@@ -14,10 +14,10 @@ class class_A extends uvm_object;
 			`uvm_field_array_int(cl_int_arr,UVM_ALL_ON);
 	`uvm_object_utils_end
 		
-		function new(string name="",int value);
+		function new(string name="");
 			super.new(name);	
 			cl_string = name;
-			cl_int = value;
+			cl_int = 11;
 	 		cl_int_arr = new[cl_int];
 			for(int i = 0; i < cl_int; i++) begin
 				cl_int_arr[i] = i + 1;

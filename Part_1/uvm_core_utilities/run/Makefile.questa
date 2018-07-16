@@ -1,0 +1,38 @@
+run_all: run_packer run_compare run_copy run_print
+
+all:   run_all
+
+help:
+	echo "********************************* \
+	 make help: This message  \
+	run_(packer|copy|compare|print)  \
+	runs the examples \
+	*********************************" 
+
+	
+
+
+run_packer: 
+	rm -rf INCA* *.log *.shm
+	qverilog -sv ../src/class.sv +define+UVM_NO_DEPRECATED +incdir+../src -l g2u_qsta_top.log
+                                        	
+
+
+run_compare:
+	rm -rf csrc* g2u_qsta_run_compare*
+	qverilog -sv ../src/class2.sv +define+UVM_NO_DEPRECATED +incdir+../src -l g2u_qsta_compare.log
+
+
+
+run_copy: 
+	rm -rf csrc* g2u_qsta_run_copy*
+	qverilog -sv ../src/clone.sv +define+UVM_NO_DEPRECATED +incdir+../src -l g2u_qsta_copy.log
+
+clean:
+	rm -rf INCA*
+
+run_print:
+	rm -rf INCA*
+	qverilog -sv   ../src/compare2.sv +define+UVM_NO_DEPRECATED +incdir+../src -l g2u_qsta_print.log
+
+

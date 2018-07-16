@@ -1,8 +1,8 @@
-Command: ./simv_print -l simv_print.log
-Chronologic VCS simulator copyright 1991-2016
+Command: /u/srivats/proj_area/examples_reconciled/Practical-UVM-Step-By-Step/Part_1/uvm_core_utilities/run/./simv_print -l simv_print.log
+Chronologic VCS simulator copyright 1991-2017
 Contains Synopsys proprietary information.
-Compiler version L-2016.06-SP1-1; Runtime version L-2016.06-SP1-1;  Oct 26 23:51 2016
-UVM_INFO /global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_root.svh(402) @ 0: reporter [UVM/RELNOTES] 
+Compiler version N-2017.12-SP2; Runtime version N-2017.12-SP2;  Jul 16 11:09 2018
+UVM_INFO /global/apps/vcs_2017.12-SP2/etc/uvm-1.2/base/uvm_root.svh(402) @ 0: reporter [UVM/RELNOTES] 
 ----------------------------------------------------------------
 UVM-1.2.Synopsys
 (C) 2007-2014 Mentor Graphics Corporation
@@ -92,5 +92,5 @@ Child Class: (class_A@335) {
 }
            V C S   S i m u l a t i o n   R e p o r t 
 Time: 0
-CPU Time:      0.370 seconds;       Data structure size:   0.2Mb
-Wed Oct 26 23:51:34 2016
+CPU Time:      0.430 seconds;       Data structure size:   0.2Mb
+Mon Jul 16 11:09:28 2018

@@ -14,10 +14,10 @@ class class_A extends uvm_object;
 			`uvm_field_array_int(cl_int_arr,UVM_ALL_ON);
 	`uvm_object_utils_end
 		
-		function new(string name="",int value);
+		function new(string name="");
 			super.new(name);	
 			cl_string = name;
-			cl_int = value;
+			cl_int = 10;
 	 		cl_int_arr = new[cl_int];
 			for(int i = 0; i < cl_int; i++) begin
 				cl_int_arr[i] = i + 1;
@@ -47,10 +47,10 @@ class_A cl3; // UVM_DEEP
 		`uvm_field_object(cl3,UVM_ALL_ON | UVM_NOCOPY)
         `uvm_object_utils_end
 
- function new(string name="",int inst_id);
+ function new(string name="");
 	super.new(name);
-	cl1 = new(name,inst_id );
-  	cl3 = new(name,inst_id +1 )	;
+	cl1 = new(name);
+  	cl3 = new(name )	;
 	par_string  = name;
   endfunction
 	
@@ -78,16 +78,16 @@ endclass
  class_A    class_A_inst2;
 initial begin
 	// free children
-	class_A_inst1 = new("child_inst1",1);
-	class_A_inst2 = new("child_inst3",3);
+	class_A_inst1 = new("child_inst1");
+	class_A_inst2 = new("child_inst3");
 
 
 
- 	class_P_inst1 = new("first_inst",1);
+ 	class_P_inst1 = new("first_inst");
 	class_P_inst1.randomize();
 	class_P_inst1.print();
 	
- 	class_P_inst2 = new("second_inst",2);
+ 	class_P_inst2 = new("second_inst");
 	class_P_inst2.randomize();
 	class_P_inst2.print();
 

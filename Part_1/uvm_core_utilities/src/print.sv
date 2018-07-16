@@ -1,7 +1,7 @@
 
 module top;
 import uvm_pkg::*;
-`include "class2.sv"
+`include "class.sv"
 
 	uvm_line_printer local_line_printer = new;
 	uvm_tree_printer local_tree_printer = new;
