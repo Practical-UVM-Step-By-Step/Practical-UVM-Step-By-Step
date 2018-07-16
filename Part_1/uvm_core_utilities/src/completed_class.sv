@@ -37,7 +37,7 @@ endclass
 class  class_B extends uvm_object;
 
    // basic datatypes
-   rand int par_int; 
+   rand int par_int;  int inst_id = 10;
    rand byte par_address;
    string par_string;
    logic [3:0] bits_field;
@@ -58,6 +58,7 @@ class  class_B extends uvm_object;
 
    function new(string name="");
       super.new(name);
+
       cl1 = new(name,10);
       cl3 = new(name,11 )	;
       par_string  = name;

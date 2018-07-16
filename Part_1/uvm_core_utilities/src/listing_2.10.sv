@@ -20,10 +20,10 @@ class  class_B2 extends uvm_object;
       `uvm_field_int(bits_field,UVM_DEFAULT|UVM_NOPACK)
    `uvm_object_utils_end
 
-   function new(string name="",int inst_id);
+   function new(string name="");
       super.new(name);
-      cl1 = new(name,inst_id );
-      cl3 = new(name,inst_id +1 )	;
+      cl1 = new(name);
+      cl3 = new(name )	;
       par_string  = name;
       bits_field = inst_id;
    endfunction
