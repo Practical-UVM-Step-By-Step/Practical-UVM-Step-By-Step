@@ -49,11 +49,11 @@ All the directories  for the most part are organized using the approach below in
 
 
 env  --> This contains all the environment container files. Any Register Abstraction RALF files are here.<br>
-hdl  --> Usually contains the top level testbench
-include --> List of include files
-README --> This file
-run --> All runtime files are kept here. The Makefile is here.
-src --> Sources  for the example. If it is a wishbone, there may be files in a common directory one level up depending on the example.
-tests --> All UVM tests are stored here
+hdl  --> Usually contains the top level testbench <br>
+include --> List of include files <br>
+README --> This file <br>
+run --> All runtime files are kept here. The Makefile is here. <br>
+src --> Sources  for the example. If it is a wishbone, there may be files in a common directory one level up depending on the example. <br>
+tests --> All UVM tests are stored here <br>
 
 
