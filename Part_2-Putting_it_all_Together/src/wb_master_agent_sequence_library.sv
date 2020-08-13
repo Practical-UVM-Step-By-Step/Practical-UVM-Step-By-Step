@@ -50,8 +50,9 @@ class sequence_0 extends base_sequence;
       end
       start_item(req);
       finish_item(req);
-   endtask
+   endtask 
    virtual task pre_body(); 
+	// Provided as an example. See above comment DONT USE THIS.
 
       uvm_phase phase_=get_starting_phase();
 
@@ -65,7 +66,7 @@ class sequence_0 extends base_sequence;
    endtask
 
    // Drop the objection in the post_body so the objection is removed when
-   // the root sequence is complete. 
+   // the root sequence is complete.   Provided as an example. See above comment. DONT USE THIS.
    virtual task post_body(); 
       uvm_phase phase_=get_starting_phase();
 
