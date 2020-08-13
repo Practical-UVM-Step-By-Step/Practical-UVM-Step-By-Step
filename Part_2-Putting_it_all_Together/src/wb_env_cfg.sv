@@ -1,9 +1,5 @@
-//
-// Template for UVM-compliant configuration class
-//
-
 `ifndef WB_ENV_CFG__SV
-`define WB_ENV_CFG__SV
+ `define WB_ENV_CFG__SV
 
 class wb_env_cfg extends uvm_object; 
 
@@ -21,17 +17,14 @@ class wb_env_cfg extends uvm_object;
    // ToDo: Add constraint blocks to prevent error injection
 
    `uvm_object_utils_begin(wb_env_cfg)
-      `uvm_field_int(num_trans,UVM_ALL_ON) 
-      `uvm_field_int(num_scen,UVM_ALL_ON)
+      `uvm_field_int(num_trans,UVM_DEFAULT) 
+      `uvm_field_int(num_scen,UVM_DEFAULT)
       // ToDo: add properties using macros here
-
    `uvm_object_utils_end
- function new(name = null) ;
-	super.new(name);
- endfunction
-  
+   function new(string name = "wb_env_cfg") ;
+      super.new(name);
+   endfunction
+   
 endclass: wb_env_cfg
-
-
 
 `endif // WB_ENV_CFG__SV

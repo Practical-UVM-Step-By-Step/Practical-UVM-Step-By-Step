@@ -60,14 +60,14 @@ comp: check
 ifndef ERR_STATUS
 ifeq ($(MODE), RECORD)
 		vcs $(COMP_OPTS)  \
-        	 -debug_all ../tests/wb_env_tb_mod.sv ../hdl/wb_env_top.sv ../hdl/dut2.v
+        	 -debug_all ../tests/wb_env_tb_mod.sv ../hdl/wb_env_top.sv ../hdl/dut2.sv
 else		 
 ifeq ($(MODE), DEBUG)
 		vcs $(COMP_OPTS)  \
-        	 -debug_all ../tests/wb_env_tb_mod.sv ../hdl/wb_env_top.sv  ../hdl/dut2.v
+        	 -debug_all ../tests/wb_env_tb_mod.sv ../hdl/wb_env_top.sv  ../hdl/dut2.sv
 else			 
 		vcs $(COMP_OPTS)  \
-        	 ../tests/wb_env_tb_mod.sv ../hdl/wb_env_top.sv ../hdl/dut2.v
+        	 ../tests/wb_env_tb_mod.sv ../hdl/wb_env_top.sv ../hdl/dut2.sv
 endif			 
 endif		 
 endif

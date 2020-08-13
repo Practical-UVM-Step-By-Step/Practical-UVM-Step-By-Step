@@ -1,463 +1,933 @@
-Command: vcs -sverilog -l vcs.log -ntb_opts uvm-1.2 +incdir+../include+../src+../env+../tests+../hdl \
-+define+UVM_NO_DEPRECATED +define+UVM_OBJECT_MUST_HAVE_CONSTRUCTOR -debug_all ../tests/wb_env_tb_mod.sv \
-../hdl/wb_env_top.sv ../hdl/dut2.v
+[2020-08-13 02:14:27 EDT] vcs -licqueue '-timescale=1ns/1ns' '+vcs+flush+all' '+warn=all' '-sverilog' +incdir+$UVM_HOME/src $UVM_HOME/src/uvm.sv $UVM_HOME/src/dpi/uvm_dpi.cc -CFLAGS -DVCS design.sv testbench.sv  && ./simv +vcs+lic+wait '+UVM_TESTNAME=wb_env_base_test'  
+
+Warning-[LINX_KRNL] Unsupported Linux kernel
+  Linux kernel '3.13.0-71-generic' is not supported.
+  Supported versions are 2.4* or 2.6*.
+
                          Chronologic VCS (TM)
-         Version L-2016.06-SP1-1 -- Tue Oct 25 20:08:51 2016
-               Copyright (c) 1991-2016 by Synopsys Inc.
+           Version P-2019.06-1 -- Thu Aug 13 02:14:28 2020
+               Copyright (c) 1991-2019 by Synopsys Inc.
                          ALL RIGHTS RESERVED
 
 This program is proprietary and confidential information of Synopsys Inc.
 and may be used and disclosed only as authorized in a license agreement
 controlling such use and disclosure.
 
-Parsing design file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/uvm_pkg.sv'
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/uvm_macros.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/macros/uvm_version_defines.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/uvm_macros.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/macros/uvm_global_defines.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/uvm_macros.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/macros/uvm_message_defines.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/uvm_macros.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/macros/uvm_phase_defines.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/uvm_macros.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/macros/uvm_object_defines.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/uvm_macros.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/macros/uvm_printer_defines.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/uvm_macros.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/macros/uvm_tlm_defines.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/tlm1/uvm_tlm_imps.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/macros/uvm_tlm_defines.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/uvm_macros.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/macros/uvm_sequence_defines.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/uvm_macros.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/macros/uvm_callback_defines.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/uvm_macros.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/macros/uvm_reg_defines.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/uvm_macros.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/macros/uvm_deprecated_defines.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/uvm_macros.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/uvm_pkg.sv'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/dpi/uvm_dpi.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/dpi/uvm_hdl.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/dpi/uvm_dpi.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/dpi/uvm_svcmd_dpi.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/dpi/uvm_dpi.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/dpi/uvm_regex.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/dpi/uvm_dpi.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/uvm_pkg.sv'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_base.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_coreservice.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_base.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_version.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_base.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_object_globals.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_base.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_misc.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_base.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_object.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_base.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_pool.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_base.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_queue.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_base.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_factory.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_base.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_registry.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_base.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_spell_chkr.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_base.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_resource.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_base.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_resource_specializations.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_base.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_resource_db.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_base.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_config_db.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_base.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_printer.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_base.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_comparer.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_base.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_packer.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_base.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_links.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_base.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_tr_database.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_base.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_tr_stream.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_base.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_recorder.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_base.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_event_callback.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_base.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_event.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_base.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_barrier.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_base.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_callback.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/uvm_macros.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_callback.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_base.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_report_message.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_base.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_report_catcher.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_base.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_report_server.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_base.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_report_handler.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_base.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_report_object.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_base.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_transaction.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_base.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_phase.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_base.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_domain.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_base.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_bottomup_phase.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_base.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_topdown_phase.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_base.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_task_phase.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_base.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_common_phases.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_base.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_runtime_phases.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_base.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_component.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_root.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_component.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_base.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_objection.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_base.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_heartbeat.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_base.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_globals.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_base.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_cmdline_processor.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_base.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_traversal.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_base.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/uvm_pkg.sv'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/dap/uvm_dap.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/dap/uvm_set_get_dap_base.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/dap/uvm_dap.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/dap/uvm_simple_lock_dap.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/dap/uvm_dap.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/dap/uvm_get_to_lock_dap.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/dap/uvm_dap.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/dap/uvm_set_before_get_dap.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/dap/uvm_dap.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/uvm_pkg.sv'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/tlm1/uvm_tlm.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/tlm1/uvm_tlm_ifs.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/tlm1/uvm_tlm.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/tlm1/uvm_sqr_ifs.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/tlm1/uvm_tlm.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_port_base.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/tlm1/uvm_tlm.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/tlm1/uvm_tlm_imps.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/tlm1/uvm_tlm.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/tlm1/uvm_imps.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/tlm1/uvm_tlm.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/tlm1/uvm_ports.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/tlm1/uvm_tlm.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/tlm1/uvm_exports.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/tlm1/uvm_tlm.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/tlm1/uvm_analysis_port.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/tlm1/uvm_tlm.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/tlm1/uvm_tlm_fifo_base.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/tlm1/uvm_tlm.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/tlm1/uvm_tlm_fifos.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/tlm1/uvm_tlm.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/tlm1/uvm_tlm_req_rsp.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/tlm1/uvm_tlm.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/tlm1/uvm_sqr_connections.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/tlm1/uvm_tlm.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/uvm_pkg.sv'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/comps/uvm_comps.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/comps/uvm_pair.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/comps/uvm_comps.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/comps/uvm_policies.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/comps/uvm_comps.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/comps/uvm_in_order_comparator.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/comps/uvm_comps.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/comps/uvm_algorithmic_comparator.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/comps/uvm_comps.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/comps/uvm_random_stimulus.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/comps/uvm_comps.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/comps/uvm_subscriber.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/comps/uvm_comps.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/comps/uvm_monitor.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/comps/uvm_comps.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/comps/uvm_driver.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/comps/uvm_comps.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/comps/uvm_push_driver.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/comps/uvm_comps.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/comps/uvm_scoreboard.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/comps/uvm_comps.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/comps/uvm_agent.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/comps/uvm_comps.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/comps/uvm_env.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/comps/uvm_comps.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/comps/uvm_test.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/comps/uvm_comps.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/uvm_pkg.sv'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/seq/uvm_seq.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/seq/uvm_sequence_item.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/seq/uvm_seq.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/seq/uvm_sequencer_base.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/seq/uvm_seq.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/seq/uvm_sequencer_analysis_fifo.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/seq/uvm_seq.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/seq/uvm_sequencer_param_base.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/seq/uvm_seq.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/seq/uvm_sequencer.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/seq/uvm_seq.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/seq/uvm_push_sequencer.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/seq/uvm_seq.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/seq/uvm_sequence_base.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/seq/uvm_seq.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/seq/uvm_sequence.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/seq/uvm_seq.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/seq/uvm_sequence_library.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/seq/uvm_seq.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/seq/uvm_sequence_builtin.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/seq/uvm_seq.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/uvm_pkg.sv'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/tlm2/uvm_tlm2.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/tlm2/uvm_tlm2_defines.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/tlm2/uvm_tlm2.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/tlm2/uvm_tlm2_time.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/tlm2/uvm_tlm2.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/tlm2/uvm_tlm2_generic_payload.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/tlm2/uvm_tlm2.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/tlm2/uvm_tlm2_ifs.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/tlm2/uvm_tlm2.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/tlm2/uvm_tlm2_imps.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/tlm2/uvm_tlm2.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/tlm2/uvm_tlm2_ports.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/tlm2/uvm_tlm2.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/tlm2/uvm_tlm2_exports.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/tlm2/uvm_tlm2.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/tlm2/uvm_tlm2_sockets_base.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/tlm2/uvm_tlm2.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/tlm2/uvm_tlm2_sockets.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/tlm2/uvm_tlm2.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/uvm_pkg.sv'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/reg/uvm_reg_model.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/reg/uvm_reg_item.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/reg/uvm_reg_model.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/reg/uvm_reg_adapter.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/reg/uvm_reg_model.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/reg/uvm_reg_predictor.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/reg/uvm_reg_model.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/reg/uvm_reg_sequence.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/reg/uvm_reg_model.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/reg/uvm_reg_cbs.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/reg/uvm_reg_model.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/reg/uvm_reg_backdoor.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/reg/uvm_reg_model.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/reg/uvm_reg_field.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/reg/uvm_reg_model.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/reg/uvm_vreg_field.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/reg/uvm_reg_model.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/reg/uvm_reg.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/reg/uvm_reg_model.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/reg/uvm_reg_indirect.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/reg/uvm_reg_model.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/reg/uvm_reg_fifo.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/reg/uvm_reg_model.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/reg/uvm_reg_file.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/reg/uvm_reg_model.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/reg/uvm_mem_mam.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/reg/uvm_reg_model.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/reg/uvm_vreg.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/reg/uvm_reg_model.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/reg/uvm_mem.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/reg/uvm_reg_model.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/reg/uvm_reg_map.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/reg/uvm_reg_model.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/reg/uvm_reg_block.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/reg/uvm_reg_model.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/reg/sequences/uvm_reg_hw_reset_seq.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/reg/uvm_reg_model.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/reg/sequences/uvm_reg_bit_bash_seq.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/reg/uvm_reg_model.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/reg/sequences/uvm_mem_walk_seq.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/reg/uvm_reg_model.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/reg/sequences/uvm_mem_access_seq.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/reg/uvm_reg_model.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/reg/sequences/uvm_reg_access_seq.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/reg/uvm_reg_model.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/reg/sequences/uvm_reg_mem_shared_access_seq.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/reg/uvm_reg_model.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/reg/sequences/uvm_reg_mem_built_in_seq.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/reg/uvm_reg_model.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/reg/sequences/uvm_reg_mem_hdl_paths_seq.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/reg/uvm_reg_model.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/reg/snps_uvm_reg_bank.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/reg/uvm_reg_model.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/uvm_pkg.sv'.
-Parsing design file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/vcs/uvm_custom_install_vcs_recorder.sv'
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/vcs/msglog.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/vcs/uvm_custom_install_vcs_recorder.sv'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/vcs/uvm_msglog_report_server.sv'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/vcs/uvm_custom_install_vcs_recorder.sv'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/vcs/uvm_vcs_recorder.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/vcs/uvm_vcs_tr_database.svh'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/vcs/uvm_vcs_tr_stream.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/vcs/uvm_vcs_tr_database.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/vcs/uvm_vcs_recorder.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/vcs/uvm_custom_install_vcs_recorder.sv'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/vcs/uvm_vcs_record_interface.sv'.
-Parsing included file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/macros/uvm_global_defines.svh'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/vcs/uvm_vcs_record_interface.sv'.
-Back to file '/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/vcs/uvm_custom_install_vcs_recorder.sv'.
-Parsing design file '../tests/wb_env_tb_mod.sv'
-Parsing included file '../include/mstr_slv_intfs.incl'.
-Parsing included file '../src/wb_master_if.sv'.
-Back to file '../include/mstr_slv_intfs.incl'.
-Parsing included file '../src/wb_slave_if.sv'.
-Back to file '../include/mstr_slv_intfs.incl'.
-Back to file '../tests/wb_env_tb_mod.sv'.
-Parsing included file '../env/wb_env_env.sv'.
-Parsing included file '../include/wb_env.sv'.
-Parsing included file '../include/mstr_slv_src.incl'.
-Parsing included file '../src/wb_master_mon.sv'.
-Back to file '../include/mstr_slv_src.incl'.
-Parsing included file '../src/wb_master_seqr.sv'.
-Back to file '../include/mstr_slv_src.incl'.
-Parsing included file '../src/wb_transaction.sv'.
-
-Warning-[IPDW] Identifier previously declared
-../src/wb_transaction.sv, 27
-  Second declaration for identifier 'status' ignored
-  Identifier 'status' previously declared as <UserDefinedType>. 
-  [../src/wb_transaction.sv, 21]
-
-Back to file '../include/mstr_slv_src.incl'.
-Parsing included file '../src/wb_master.sv'.
-Back to file '../include/mstr_slv_src.incl'.
-Parsing included file '../env/wb_master_agent.sv'.
-Back to file '../include/mstr_slv_src.incl'.
-Parsing included file '../src/wb_transaction.sv'.
-Back to file '../include/mstr_slv_src.incl'.
-Parsing included file '../src/wb_slave_mon.sv'.
-Back to file '../include/mstr_slv_src.incl'.
-Parsing included file '../src/wb_slave.sv'.
-Back to file '../include/mstr_slv_src.incl'.
-Parsing included file '../env/wb_slave_agent.sv'.
-Back to file '../include/mstr_slv_src.incl'.
-Parsing included file '../src/wb_config.sv'.
-Back to file '../include/mstr_slv_src.incl'.
-Parsing included file '../src/wb_master_agent_sequence_library.sv'.
-Back to file '../include/mstr_slv_src.incl'.
-Back to file '../include/wb_env.sv'.
-Parsing included file '../src/wb_env_cfg.sv'.
-Back to file '../include/wb_env.sv'.
-Parsing included file '../src/wb_env_cov.sv'.
-Back to file '../include/wb_env.sv'.
-Parsing included file '../src/mon_2cov.sv'.
-Back to file '../include/wb_env.sv'.
-Parsing included file '../src/wb_scoreboard.sv'.
-Back to file '../include/wb_env.sv'.
-Back to file '../env/wb_env_env.sv'.
-Back to file '../tests/wb_env_tb_mod.sv'.
-Parsing included file '../tests/wb_env_test.sv'.
-Back to file '../tests/wb_env_tb_mod.sv'.
-Parsing design file '../hdl/wb_env_top.sv'
-Parsing design file '../hdl/dut2.v'
-Parsing included file '../src/wb_master_if.sv'.
-Back to file '../hdl/dut2.v'.
-Parsing included file '../src/wb_slave_if.sv'.
-Back to file '../hdl/dut2.v'.
+Parsing design file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/uvm.sv'
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/uvm_pkg.sv'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/uvm_macros.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/macros/uvm_version_defines.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/uvm_macros.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/macros/uvm_global_defines.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/uvm_macros.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/macros/uvm_message_defines.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/uvm_macros.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/macros/uvm_phase_defines.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/uvm_macros.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/macros/uvm_object_defines.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/uvm_macros.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/macros/uvm_printer_defines.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/uvm_macros.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/macros/uvm_tlm_defines.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/tlm1/uvm_tlm_imps.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/macros/uvm_tlm_defines.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/uvm_macros.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/macros/uvm_sequence_defines.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/uvm_macros.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/macros/uvm_callback_defines.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/uvm_macros.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/macros/uvm_reg_defines.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/uvm_macros.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/macros/uvm_deprecated_defines.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/uvm_macros.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/uvm_pkg.sv'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/dpi/uvm_dpi.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/dpi/uvm_hdl.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/dpi/uvm_dpi.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/dpi/uvm_svcmd_dpi.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/dpi/uvm_dpi.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/dpi/uvm_regex.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/dpi/uvm_dpi.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/uvm_pkg.sv'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_coreservice.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_version.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_object_globals.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_misc.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_object.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_pool.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_queue.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_factory.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_registry.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_spell_chkr.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_resource.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_resource_specializations.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_resource_db.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_config_db.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_printer.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_comparer.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_packer.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_links.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_tr_database.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_tr_stream.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_recorder.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_event_callback.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_event.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_barrier.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_callback.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/uvm_macros.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_callback.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_report_message.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_report_catcher.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_report_server.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_report_handler.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_report_object.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_transaction.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_phase.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_domain.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_bottomup_phase.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_topdown_phase.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_task_phase.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_common_phases.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_runtime_phases.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_component.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_root.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_component.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_objection.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_heartbeat.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_globals.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_cmdline_processor.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_traversal.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_base.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/uvm_pkg.sv'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/dap/uvm_dap.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/dap/uvm_set_get_dap_base.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/dap/uvm_dap.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/dap/uvm_simple_lock_dap.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/dap/uvm_dap.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/dap/uvm_get_to_lock_dap.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/dap/uvm_dap.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/dap/uvm_set_before_get_dap.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/dap/uvm_dap.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/uvm_pkg.sv'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/tlm1/uvm_tlm.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/tlm1/uvm_tlm_ifs.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/tlm1/uvm_tlm.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/tlm1/uvm_sqr_ifs.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/tlm1/uvm_tlm.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_port_base.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/tlm1/uvm_tlm.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/tlm1/uvm_tlm_imps.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/tlm1/uvm_tlm.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/tlm1/uvm_imps.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/tlm1/uvm_tlm.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/tlm1/uvm_ports.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/tlm1/uvm_tlm.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/tlm1/uvm_exports.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/tlm1/uvm_tlm.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/tlm1/uvm_analysis_port.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/tlm1/uvm_tlm.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/tlm1/uvm_tlm_fifo_base.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/tlm1/uvm_tlm.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/tlm1/uvm_tlm_fifos.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/tlm1/uvm_tlm.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/tlm1/uvm_tlm_req_rsp.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/tlm1/uvm_tlm.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/tlm1/uvm_sqr_connections.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/tlm1/uvm_tlm.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/uvm_pkg.sv'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/comps/uvm_comps.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/comps/uvm_pair.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/comps/uvm_comps.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/comps/uvm_policies.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/comps/uvm_comps.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/comps/uvm_in_order_comparator.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/comps/uvm_comps.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/comps/uvm_algorithmic_comparator.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/comps/uvm_comps.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/comps/uvm_random_stimulus.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/comps/uvm_comps.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/comps/uvm_subscriber.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/comps/uvm_comps.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/comps/uvm_monitor.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/comps/uvm_comps.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/comps/uvm_driver.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/comps/uvm_comps.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/comps/uvm_push_driver.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/comps/uvm_comps.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/comps/uvm_scoreboard.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/comps/uvm_comps.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/comps/uvm_agent.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/comps/uvm_comps.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/comps/uvm_env.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/comps/uvm_comps.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/comps/uvm_test.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/comps/uvm_comps.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/uvm_pkg.sv'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/seq/uvm_seq.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/seq/uvm_sequence_item.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/seq/uvm_seq.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/seq/uvm_sequencer_base.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/seq/uvm_seq.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/seq/uvm_sequencer_analysis_fifo.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/seq/uvm_seq.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/seq/uvm_sequencer_param_base.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/seq/uvm_seq.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/seq/uvm_sequencer.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/seq/uvm_seq.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/seq/uvm_push_sequencer.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/seq/uvm_seq.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/seq/uvm_sequence_base.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/seq/uvm_seq.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/seq/uvm_sequence.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/seq/uvm_seq.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/seq/uvm_sequence_library.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/seq/uvm_seq.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/seq/uvm_sequence_builtin.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/seq/uvm_seq.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/uvm_pkg.sv'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/tlm2/uvm_tlm2.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/tlm2/uvm_tlm2_defines.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/tlm2/uvm_tlm2.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/tlm2/uvm_tlm2_time.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/tlm2/uvm_tlm2.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/tlm2/uvm_tlm2_generic_payload.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/tlm2/uvm_tlm2.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/tlm2/uvm_tlm2_ifs.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/tlm2/uvm_tlm2.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/tlm2/uvm_tlm2_imps.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/tlm2/uvm_tlm2.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/tlm2/uvm_tlm2_ports.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/tlm2/uvm_tlm2.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/tlm2/uvm_tlm2_exports.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/tlm2/uvm_tlm2.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/tlm2/uvm_tlm2_sockets_base.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/tlm2/uvm_tlm2.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/tlm2/uvm_tlm2_sockets.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/tlm2/uvm_tlm2.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/uvm_pkg.sv'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/reg/uvm_reg_item.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/reg/uvm_reg_adapter.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/reg/uvm_reg_predictor.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/reg/uvm_reg_sequence.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/reg/uvm_reg_cbs.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/reg/uvm_reg_backdoor.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/reg/uvm_reg_field.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/reg/uvm_vreg_field.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/reg/uvm_reg.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/reg/uvm_reg_indirect.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/reg/uvm_reg_fifo.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/reg/uvm_reg_file.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/reg/uvm_mem_mam.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/reg/uvm_vreg.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/reg/uvm_mem.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/reg/uvm_reg_map.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/reg/uvm_reg_block.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/reg/sequences/uvm_reg_hw_reset_seq.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/reg/sequences/uvm_reg_bit_bash_seq.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/reg/sequences/uvm_mem_walk_seq.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/reg/sequences/uvm_mem_access_seq.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/reg/sequences/uvm_reg_access_seq.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/reg/sequences/uvm_reg_mem_shared_access_seq.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/reg/sequences/uvm_reg_mem_built_in_seq.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/reg/sequences/uvm_reg_mem_hdl_paths_seq.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/reg/snps_uvm_reg_bank.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/uvm_pkg.sv'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/uvm.sv'.
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/vcs/snps_reg.svh'.
+Back to file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/uvm.sv'.
+Parsing design file 'design.sv'
+Parsing included file 'wb_master_if.sv'.
+Back to file 'design.sv'.
+Parsing included file 'wb_slave_if.sv'.
+Back to file 'design.sv'.
+Parsing design file 'testbench.sv'
+Parsing included file '/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/uvm_macros.svh'.
+Back to file 'testbench.sv'.
+Parsing included file 'wb_test.pkg'.
+Parsing included file 'wb_env.sv'.
+Parsing included file 'wb_env_inc.sv'.
+Parsing included file 'mstr_slv_src.incl'.
+Parsing included file 'wb_master_mon.sv'.
+Back to file 'mstr_slv_src.incl'.
+Parsing included file 'wb_master_seqr.sv'.
+Back to file 'mstr_slv_src.incl'.
+Parsing included file 'wb_transaction.sv'.
+Back to file 'mstr_slv_src.incl'.
+Parsing included file 'wb_master.sv'.
+Back to file 'mstr_slv_src.incl'.
+Parsing included file 'wb_master_agent.sv'.
+Back to file 'mstr_slv_src.incl'.
+Parsing included file 'wb_slave_seqr.sv'.
+Back to file 'mstr_slv_src.incl'.
+Parsing included file 'wb_transaction.sv'.
+Back to file 'mstr_slv_src.incl'.
+Parsing included file 'wb_slave_mon.sv'.
+Back to file 'mstr_slv_src.incl'.
+Parsing included file 'wb_slave.sv'.
+Back to file 'mstr_slv_src.incl'.
+Parsing included file 'wb_slave_agent.sv'.
+Back to file 'mstr_slv_src.incl'.
+Parsing included file 'wb_config.sv'.
+Back to file 'mstr_slv_src.incl'.
+Parsing included file 'wb_master_agent_sequence_library.sv'.
+Back to file 'mstr_slv_src.incl'.
+Parsing included file 'wb_slave_agent_sequence_library.sv'.
+Back to file 'mstr_slv_src.incl'.
+Parsing included file 'wb_scoreboard.sv'.
+Back to file 'mstr_slv_src.incl'.
+Parsing included file 'wb_transaction_extended.sv'.
+Back to file 'mstr_slv_src.incl'.
+Back to file 'wb_env_inc.sv'.
+Parsing included file 'wb_env_cfg.sv'.
+Back to file 'wb_env_inc.sv'.
+Parsing included file 'wb_env_cov.sv'.
+Back to file 'wb_env_inc.sv'.
+Back to file 'wb_env.sv'.
+Back to file 'wb_test.pkg'.
+Parsing included file 'wb_env_base_test.sv'.
+Back to file 'wb_test.pkg'.
+Parsing included file 'wb_env_test_extended.sv'.
+Back to file 'wb_test.pkg'.
+Back to file 'testbench.sv'.
 Top Level Modules:
-       uvm_custom_install_recording
        wb_env_top_mod
-No TimeScale specified
+TimeScale is 1 ns / 1 ns
 
-Warning-[SV-SVPIA] String value passed to integral arg
-../src/wb_env_cfg.sv, 23
-  Value of string type is passed to the argument of type integral.
-  The following expression is incompatible with the formal parameter of the 
-  function. The type of the actual is 'string', while the type of the formal 
-  is 'logic'. Values of integral type can be assigned to a string variable 
-  through cast.
-  Expression: name
-  Source info: wb_env_cfg::new(name)
-
-
-Warning-[SV-SVPIA] String value passed to integral arg
-/global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/base/uvm_registry.svh, 208
-  Value of string type is passed to the argument of type integral.
-  The following expression is incompatible with the formal parameter of the 
-  function. The type of the actual is 'string', while the type of the formal 
-  is 'logic'. Values of integral type can be assigned to a string variable 
-  through cast.
-  Expression: name
-  Source info: wb_env_cfg::new(name)
+Warning-[SV-NFIVC] Non-void Function Used In Void Context
+wb_master_mon.sv, 86
+wb_tests, "uvm_config_db#(v_if) ::get"
+  The non-void function 'uvm_pkg_uvm_config_db_35093361872547275377_28::get' 
+  is used as a void function. Hence the value returned by the function will be
+  ignored.
+  Please cast the function call with void in case the value returned by the 
+  function is not needed.
 
 
-Warning-[BCNACMBP] Missing constraint definition
-../src/wb_transaction.sv, 73
-wb_env_tb_mod, "constraint test_constraints1;"
-  The constraint test_constraints1 declared in the class wb_transaction is not
-  defined.
-  Provide a definition of the constraint body test_constraints1 or remove the 
-  constraint declaration test_constraints1 from the class declaration 
-  wb_transaction.
+Warning-[SV-NFIVC] Non-void Function Used In Void Context
+wb_master_mon.sv, 169
+wb_tests, "cb.pre_ack"
+  The non-void function 'wb_master_mon_callbacks::pre_ack' is used as a void 
+  function. Hence the value returned by the function will be ignored.
+  Please cast the function call with void in case the value returned by the 
+  function is not needed.
 
 
-Warning-[BCNACMBP] Missing constraint definition
-../src/wb_transaction.sv, 74
-wb_env_tb_mod, "constraint test_constraints2;"
-  The constraint test_constraints2 declared in the class wb_transaction is not
-  defined.
-  Provide a definition of the constraint body test_constraints2 or remove the 
-  constraint declaration test_constraints2 from the class declaration 
-  wb_transaction.
+Warning-[SV-NFIVC] Non-void Function Used In Void Context
+wb_master_agent.sv, 35
+wb_tests, "uvm_config_db#(wb_config) ::get"
+  The non-void function 'uvm_pkg_uvm_config_db_29284870023256700599_33::get' 
+  is used as a void function. Hence the value returned by the function will be
+  ignored.
+  Please cast the function call with void in case the value returned by the 
+  function is not needed.
 
 
-Warning-[BCNACMBP] Missing constraint definition
-../src/wb_transaction.sv, 75
-wb_env_tb_mod, "constraint test_constraints3;"
-  The constraint test_constraints3 declared in the class wb_transaction is not
-  defined.
-  Provide a definition of the constraint body test_constraints3 or remove the 
-  constraint declaration test_constraints3 from the class declaration 
-  wb_transaction.
+Warning-[SV-NFIVC] Non-void Function Used In Void Context
+wb_slave_mon.sv, 84
+wb_tests, "uvm_config_db#(v_if) ::get"
+  The non-void function 'uvm_pkg_uvm_config_db_32851936131897838366_27::get' 
+  is used as a void function. Hence the value returned by the function will be
+  ignored.
+  Please cast the function call with void in case the value returned by the 
+  function is not needed.
 
+
+Warning-[SV-NFIVC] Non-void Function Used In Void Context
+wb_slave_mon.sv, 160
+wb_tests, "cb.pre_ack"
+  The non-void function 'wb_slave_mon_callbacks::pre_ack' is used as a void 
+  function. Hence the value returned by the function will be ignored.
+  Please cast the function call with void in case the value returned by the 
+  function is not needed.
+
+
+Warning-[SV-NFIVC] Non-void Function Used In Void Context
+wb_slave_agent.sv, 28
+wb_tests, "uvm_config_db#(wb_config) ::get"
+  The non-void function 'uvm_pkg_uvm_config_db_29284870023256700599_33::get' 
+  is used as a void function. Hence the value returned by the function will be
+  ignored.
+  Please cast the function call with void in case the value returned by the 
+  function is not needed.
+
+
+Warning-[SV-NFIVC] Non-void Function Used In Void Context
+wb_master.sv, 77
+wb_tests, "uvm_config_db#(v_if) ::get"
+  The non-void function 'uvm_pkg_uvm_config_db_35093361872547275377_28::get' 
+  is used as a void function. Hence the value returned by the function will be
+  ignored.
+  Please cast the function call with void in case the value returned by the 
+  function is not needed.
+
+
+Warning-[SV-ICHU] Illegal class handle usage
+/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/vcs/snps_reg.svh, 180
+  Illegal '!' operator on class handle 'rg'.
+  As per LRM(P1800-2009), section 8.4. only ==, !=, ===, !== and conditional 
+  operator are allowed operators on class handles.
+  Source Expression: (!rg)
+
+
+Warning-[SV-ICHU] Illegal class handle usage
+/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/vcs/snps_reg.svh, 247
+  Illegal '!' operator on class handle 'rg'.
+  As per LRM(P1800-2009), section 8.4. only ==, !=, ===, !== and conditional 
+  operator are allowed operators on class handles.
+  Source Expression: (!rg)
+
+
+Warning-[SV-ICHU] Illegal class handle usage
+/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/vcs/snps_reg.svh, 165
+  Illegal '!' operator on class handle 'this.m_use_map'.
+  As per LRM(P1800-2009), section 8.4. only ==, !=, ===, !== and conditional 
+  operator are allowed operators on class handles.
+  Source Expression: (!this.m_use_map)
+
+
+Warning-[SV-ICHU] Illegal class handle usage
+/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/vcs/snps_reg.svh, 167
+  Illegal '!' operator on class handle 'rg'.
+  As per LRM(P1800-2009), section 8.4. only ==, !=, ===, !== and conditional 
+  operator are allowed operators on class handles.
+  Source Expression: (!rg)
+
+Notice: Ports coerced to inout, use -notice for details
 Starting vcs inline pass...
-9 unique modules to generate
+
+7 modules and 0 UDP read.
 recompiling package vcs_paramclassrepository
 recompiling package _vcs_DPI_package
 recompiling package uvm_pkg
-recompiling package _vcs_msglog
-recompiling module uvm_custom_install_recording
 recompiling module wb_master_if
 recompiling module wb_slave_if
-recompiling module wb_env_tb_mod
 recompiling module wb_env_top_mod
-All of 9 modules done
-make[1]: Entering directory `/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/Part_2/uvm_scoreboard/run/csrc' \
-
+recompiling package wb_tests
+All of 7 modules done
 rm -f _csrc*.so pre_vcsobj_*.so share_vcsobj_*.so
-g++ -w  -pipe -m32 -DVCSMX -O -I/global/apps/vcsmx_2016.06-SP1-1/include    -c /global/apps/vcsmx_2016.06-SP1-1/etc/uvm-1.2/dpi/uvm_dpi.cc \
-
+g++ -w  -pipe -m32 -DVCS -O -I/apps/vcsmx/vcs/P-2019.06-1/include    -c /apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/dpi/uvm_dpi.cc
+gcc  -w  -pipe -m32 -DVCS -O -I/apps/vcsmx/vcs/P-2019.06-1/include     -c -o uM9F1_0x2aB.o uM9F1_0x2aB.c
 if [ -x ../simv ]; then chmod -x ../simv; fi
-g++  -o ../simv   -Wl,-rpath-link=./ -Wl,-rpath='$ORIGIN'/simv.daidir/ -Wl,-rpath=./simv.daidir/ \
--Wl,-rpath='$ORIGIN'/simv.daidir//scsim.db.dir  -m32 -m32 -rdynamic  uvm_dpi.o   \
-objs/amcQw_d.o   _30629_archive_1.so  SIM_l.o      rmapats_mop.o rmapats.o rmar.o \
-rmar_llvm_0_1.o rmar_llvm_0_0.o          /global/apps/vcsmx_2016.06-SP1-1/linux/lib/libzerosoft_rt_stubs.so \
-/global/apps/vcsmx_2016.06-SP1-1/linux/lib/libvirsim.so /global/apps/vcsmx_2016.06-SP1-1/linux/lib/liberrorinf.so \
-/global/apps/vcsmx_2016.06-SP1-1/linux/lib/libsnpsmalloc.so    /global/apps/vcsmx_2016.06-SP1-1/linux/lib/libvcsnew.so \
-/global/apps/vcsmx_2016.06-SP1-1/linux/lib/libsimprofile.so /global/apps/vcsmx_2016.06-SP1-1/linux/lib/libuclinative.so \
--Wl,-whole-archive /global/apps/vcsmx_2016.06-SP1-1/linux/lib/libvcsucli.so -Wl,-no-whole-archive \
-./../simv.daidir/vc_hdrs.o    /global/apps/vcsmx_2016.06-SP1-1/linux/lib/vcs_save_restore_new.o \
-/global/apps/vcsmx_2016.06-SP1-1/linux/lib/ctype-stubs_32.a -ldl  -lc -lm -lpthread \
--ldl 
+g++  -o ../simv    -m32 -m32 -rdynamic  -Wl,-rpath='$ORIGIN'/simv.daidir -Wl,-rpath=./simv.daidir -Wl,-rpath=/apps/vcsmx/vcs/P-2019.06-1/linux/lib -L/apps/vcsmx/vcs/P-2019.06-1/linux/lib  -Wl,-rpath-link=./  uvm_dpi.o   objs/amcQw_d.o   _399_archive_1.so  SIM_l.o    uM9F1_0x2aB.o   rmapats_mop.o rmapats.o rmar.o rmar_nd.o  rmar_llvm_0_1.o rmar_llvm_0_0.o          -lvirsim -lerrorinf -lsnpsmalloc -lvfs    -lvcsnew -lsimprofile -luclinative /apps/vcsmx/vcs/P-2019.06-1/linux/lib/vcs_tls.o   -Wl,-whole-archive -lvcsucli -Wl,-no-whole-archive       ./../simv.daidir/vc_hdrs.o    /apps/vcsmx/vcs/P-2019.06-1/linux/lib/vcs_save_restore_new.o /apps/vcsmx/vcs/P-2019.06-1/linux/lib/ctype-stubs_32.a -ldl  -lc -lm -lpthread -ldl 
 ../simv up to date
-make[1]: Leaving directory `/slowfs/vgcs13/srivats/clone_me/Practical_UVM_EXAMPLES/Part_2/uvm_scoreboard/run/csrc' \
+CPU time: 11.492 seconds to compile + .424 seconds to elab + .593 seconds to link
+Chronologic VCS simulator copyright 1991-2019
+Contains Synopsys proprietary information.
+Compiler version P-2019.06-1; Runtime version P-2019.06-1;  Aug 13 02:14 2020
+UVM_INFO /apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_root.svh(412) @ 0: reporter [UVM/RELNOTES] 
+----------------------------------------------------------------
+UVM-1.2.Synopsys
+(C) 2007-2014 Mentor Graphics Corporation
+(C) 2007-2014 Cadence Design Systems, Inc.
+(C) 2006-2014 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+(C) 2013-2014 NVIDIA Corporation
+----------------------------------------------------------------
 
-CPU time: 10.317 seconds to compile + .319 seconds to elab + .505 seconds to link
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+  See http://www.eda.org/svdb/view.php?id=3313 for more details.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_DO_NOT_NEED_CONSTRUCTOR undefined.
+  See http://www.eda.org/svdb/view.php?id=3770 for more details.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_INFO @ 0: reporter [RNTST] Running test wb_env_base_test...
+UVM_INFO wb_slave_seqr.sv(42) @ 0: uvm_test_top.env.slave_agent.slv_seqr [WB_SLAVE_SEQR] Initializing memory
+----------------------------------------------
+Name             Type           Size  Value   
+----------------------------------------------
+wb_slave_config  wb_config      -     @458    
+  port_size      sizes_e        32    BYTE    
+  granularity    sizes_e        32    BYTE    
+  cycles         cycle_types_e  32    CLASSIC 
+  max_n_wss      integral       32    'ha     
+  min_addr       integral       64    'h0     
+  max_addr       integral       64    'h989680
+----------------------------------------------
+UVM_INFO /apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_objection.svh(1276) @ 0: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+UVM_INFO wb_master.sv(145) @ 0: uvm_test_top.env.master_agent.mast_drv [wb_env_DRIVER] Starting transaction...
+UVM_INFO wb_master.sv(222) @ 5: uvm_test_top.env.master_agent.mast_drv [Wb master] Got a write transaction
+UVM_INFO wb_master_mon.sv(157) @ 5: uvm_test_top.env.master_agent.mast_mon [WB master Monitor] got a write transaction  from Master 
+UVM_INFO wb_slave.sv(154) @ 5: uvm_test_top.env.slave_agent.slv_drv [Wb_slave] got a write transaction  from Master 
+UVM_INFO wb_slave_mon.sv(146) @ 5: uvm_test_top.env.slave_agent.slv_mon [WB slave Monitor] got a write transaction  from Master 
+UVM_INFO wb_slave_agent_sequence_library.sv(50) @ 5: uvm_test_top.env.slave_agent.slv_seqr@@ram_sequence [uvm_test_top.env.slave_agent.slv_seqr.ram_sequence] In SLAVE SEQUENCER, Transaction address = 0000000000000003   kind = WRITE
+UVM_INFO wb_slave_agent_sequence_library.sv(56) @ 5: uvm_test_top.env.slave_agent.slv_seqr@@ram_sequence [uvm_test_top.env.slave_agent.slv_seqr.ram_sequence] SLAVE SEQUENCER OUTPUT, Transaction address = 0000000000000003   kind = WRITE data = 00000000deadbeef
+UVM_INFO wb_master.sv(171) @ 115: uvm_test_top.env.master_agent.mast_drv [wb_env_DRIVER] ------------------------------------------------------------------------------------------------------
+Name                           Type            Size  Value                                            
+------------------------------------------------------------------------------------------------------
+req                            wb_transaction  -     @1092                                            
+  address                      integral        64    'h3                                              
+  data                         integral        64    'hdeadbeef                                       
+  sel                          integral        8     'h1                                              
+  tga                          integral        16    'h7f5f                                           
+  tgc                          integral        16    'hb857                                           
+  lock                         integral        1     'h1                                              
+  num_wait_states              integral        32    'h0                                              
+  kind                         kinds_e         32    WRITE                                            
+  status                       status_e        32    ACK                                              
+  next_cycle                   pipelining_e    32    CLASSIC                                          
+  begin_time                   time            64    0                                                
+  depth                        int             32    'd2                                              
+  parent sequence (name)       string          10    sequence_1                                       
+  parent sequence (full name)  string          49    uvm_test_top.env.master_agent.mast_sqr.sequence_1
+  sequencer                    string          38    uvm_test_top.env.master_agent.mast_sqr           
+------------------------------------------------------------------------------------------------------
+
+UVM_INFO wb_master.sv(174) @ 115: uvm_test_top.env.master_agent.mast_drv [wb_env_DRIVER] Completed transaction...
+UVM_INFO wb_scoreboard.sv(47) @ 115: uvm_test_top.env.sb [SCOREBOARD] EXPECTED TRANSACTION
+---------------------------------------------------
+Name               Type            Size  Value     
+---------------------------------------------------
+tr                 wb_transaction  -     @1122     
+  address          integral        64    'h3       
+  data             integral        64    'hdeadbeef
+  sel              integral        8     'h1       
+  tga              integral        16    'h7f5f    
+  tgc              integral        16    'hb857    
+  lock             integral        1     'h0       
+  num_wait_states  integral        32    'h0       
+  kind             kinds_e         32    WRITE     
+  status           status_e        32    ACK       
+  next_cycle       pipelining_e    32    CLASSIC   
+---------------------------------------------------
+UVM_INFO wb_scoreboard.sv(49) @ 115: uvm_test_top.env.sb [SCOREBOARD] ACTUAL TRANSACTION
+---------------------------------------------------
+Name               Type            Size  Value     
+---------------------------------------------------
+tr                 wb_transaction  -     @1108     
+  address          integral        64    'h3       
+  data             integral        64    'hdeadbeef
+  sel              integral        8     'h1       
+  tga              integral        16    'h7f5f    
+  tgc              integral        16    'hb857    
+  lock             integral        1     'h0       
+  num_wait_states  integral        32    'h0       
+  kind             kinds_e         32    WRITE     
+  status           status_e        32    ACK       
+  next_cycle       pipelining_e    32    CLASSIC   
+---------------------------------------------------
+UVM_INFO wb_scoreboard.sv(58) @ 115: uvm_test_top.env.sb [WB SCOREBOARD] TRANSACTIONS MATCH
+UVM_INFO wb_master.sv(145) @ 115: uvm_test_top.env.master_agent.mast_drv [wb_env_DRIVER] Starting transaction...
+UVM_INFO wb_slave.sv(180) @ 125: uvm_test_top.env.slave_agent.slv_drv [SLAVE_DRIVER] Completed transaction...
+UVM_INFO wb_master.sv(222) @ 125: uvm_test_top.env.master_agent.mast_drv [Wb master] Got a write transaction
+UVM_INFO wb_master_mon.sv(157) @ 125: uvm_test_top.env.master_agent.mast_mon [WB master Monitor] got a write transaction  from Master 
+UVM_INFO wb_slave_mon.sv(146) @ 125: uvm_test_top.env.slave_agent.slv_mon [WB slave Monitor] got a write transaction  from Master 
+UVM_INFO wb_slave.sv(154) @ 125: uvm_test_top.env.slave_agent.slv_drv [Wb_slave] got a write transaction  from Master 
+UVM_INFO wb_slave_agent_sequence_library.sv(50) @ 125: uvm_test_top.env.slave_agent.slv_seqr@@ram_sequence [uvm_test_top.env.slave_agent.slv_seqr.ram_sequence] In SLAVE SEQUENCER, Transaction address = 0000000000000004   kind = WRITE
+UVM_INFO wb_slave_agent_sequence_library.sv(56) @ 125: uvm_test_top.env.slave_agent.slv_seqr@@ram_sequence [uvm_test_top.env.slave_agent.slv_seqr.ram_sequence] SLAVE SEQUENCER OUTPUT, Transaction address = 0000000000000004   kind = WRITE data = 00000000beefdead
+UVM_INFO wb_master.sv(171) @ 235: uvm_test_top.env.master_agent.mast_drv [wb_env_DRIVER] ------------------------------------------------------------------------------------------------------
+Name                           Type            Size  Value                                            
+------------------------------------------------------------------------------------------------------
+req                            wb_transaction  -     @1174                                            
+  address                      integral        64    'h4                                              
+  data                         integral        64    'hbeefdead                                       
+  sel                          integral        8     'h1                                              
+  tga                          integral        16    'hf794                                           
+  tgc                          integral        16    'h1903                                           
+  lock                         integral        1     'h0                                              
+  num_wait_states              integral        32    'h0                                              
+  kind                         kinds_e         32    WRITE                                            
+  status                       status_e        32    ACK                                              
+  next_cycle                   pipelining_e    32    CLASSIC                                          
+  begin_time                   time            64    115                                              
+  depth                        int             32    'd2                                              
+  parent sequence (name)       string          10    sequence_1                                       
+  parent sequence (full name)  string          49    uvm_test_top.env.master_agent.mast_sqr.sequence_1
+  sequencer                    string          38    uvm_test_top.env.master_agent.mast_sqr           
+------------------------------------------------------------------------------------------------------
+
+UVM_INFO wb_master.sv(174) @ 235: uvm_test_top.env.master_agent.mast_drv [wb_env_DRIVER] Completed transaction...
+UVM_INFO wb_scoreboard.sv(47) @ 235: uvm_test_top.env.sb [SCOREBOARD] EXPECTED TRANSACTION
+---------------------------------------------------
+Name               Type            Size  Value     
+---------------------------------------------------
+tr                 wb_transaction  -     @1193     
+  address          integral        64    'h4       
+  data             integral        64    'hbeefdead
+  sel              integral        8     'h1       
+  tga              integral        16    'hf794    
+  tgc              integral        16    'h1903    
+  lock             integral        1     'h0       
+  num_wait_states  integral        32    'h0       
+  kind             kinds_e         32    WRITE     
+  status           status_e        32    ACK       
+  next_cycle       pipelining_e    32    CLASSIC   
+---------------------------------------------------
+UVM_INFO wb_scoreboard.sv(49) @ 235: uvm_test_top.env.sb [SCOREBOARD] ACTUAL TRANSACTION
+---------------------------------------------------
+Name               Type            Size  Value     
+---------------------------------------------------
+tr                 wb_transaction  -     @1186     
+  address          integral        64    'h4       
+  data             integral        64    'hbeefdead
+  sel              integral        8     'h1       
+  tga              integral        16    'hf794    
+  tgc              integral        16    'h1903    
+  lock             integral        1     'h0       
+  num_wait_states  integral        32    'h0       
+  kind             kinds_e         32    WRITE     
+  status           status_e        32    ACK       
+  next_cycle       pipelining_e    32    CLASSIC   
+---------------------------------------------------
+UVM_INFO wb_scoreboard.sv(58) @ 235: uvm_test_top.env.sb [WB SCOREBOARD] TRANSACTIONS MATCH
+UVM_INFO wb_master.sv(145) @ 235: uvm_test_top.env.master_agent.mast_drv [wb_env_DRIVER] Starting transaction...
+UVM_INFO wb_slave.sv(180) @ 245: uvm_test_top.env.slave_agent.slv_drv [SLAVE_DRIVER] Completed transaction...
+UVM_INFO wb_master.sv(222) @ 245: uvm_test_top.env.master_agent.mast_drv [Wb master] Got a write transaction
+UVM_INFO wb_master_mon.sv(157) @ 245: uvm_test_top.env.master_agent.mast_mon [WB master Monitor] got a write transaction  from Master 
+UVM_INFO wb_slave_mon.sv(146) @ 245: uvm_test_top.env.slave_agent.slv_mon [WB slave Monitor] got a write transaction  from Master 
+UVM_INFO wb_slave.sv(154) @ 245: uvm_test_top.env.slave_agent.slv_drv [Wb_slave] got a write transaction  from Master 
+UVM_INFO wb_slave_agent_sequence_library.sv(50) @ 245: uvm_test_top.env.slave_agent.slv_seqr@@ram_sequence [uvm_test_top.env.slave_agent.slv_seqr.ram_sequence] In SLAVE SEQUENCER, Transaction address = 0000000000000005   kind = WRITE
+UVM_INFO wb_slave_agent_sequence_library.sv(56) @ 245: uvm_test_top.env.slave_agent.slv_seqr@@ram_sequence [uvm_test_top.env.slave_agent.slv_seqr.ram_sequence] SLAVE SEQUENCER OUTPUT, Transaction address = 0000000000000005   kind = WRITE data = 0000000123456678
+UVM_INFO wb_master.sv(171) @ 355: uvm_test_top.env.master_agent.mast_drv [wb_env_DRIVER] ------------------------------------------------------------------------------------------------------
+Name                           Type            Size  Value                                            
+------------------------------------------------------------------------------------------------------
+req                            wb_transaction  -     @1221                                            
+  address                      integral        64    'h5                                              
+  data                         integral        64    'h123456678                                      
+  sel                          integral        8     'h1                                              
+  tga                          integral        16    'h6cf4                                           
+  tgc                          integral        16    'h56b7                                           
+  lock                         integral        1     'h1                                              
+  num_wait_states              integral        32    'h0                                              
+  kind                         kinds_e         32    WRITE                                            
+  status                       status_e        32    ACK                                              
+  next_cycle                   pipelining_e    32    CLASSIC                                          
+  begin_time                   time            64    235                                              
+  depth                        int             32    'd2                                              
+  parent sequence (name)       string          10    sequence_1                                       
+  parent sequence (full name)  string          49    uvm_test_top.env.master_agent.mast_sqr.sequence_1
+  sequencer                    string          38    uvm_test_top.env.master_agent.mast_sqr           
+------------------------------------------------------------------------------------------------------
+
+UVM_INFO wb_master.sv(174) @ 355: uvm_test_top.env.master_agent.mast_drv [wb_env_DRIVER] Completed transaction...
+UVM_INFO wb_scoreboard.sv(47) @ 355: uvm_test_top.env.sb [SCOREBOARD] EXPECTED TRANSACTION
+----------------------------------------------------
+Name               Type            Size  Value      
+----------------------------------------------------
+tr                 wb_transaction  -     @1239      
+  address          integral        64    'h5        
+  data             integral        64    'h123456678
+  sel              integral        8     'h1        
+  tga              integral        16    'h6cf4     
+  tgc              integral        16    'h56b7     
+  lock             integral        1     'h0        
+  num_wait_states  integral        32    'h0        
+  kind             kinds_e         32    WRITE      
+  status           status_e        32    ACK        
+  next_cycle       pipelining_e    32    CLASSIC    
+----------------------------------------------------
+UVM_INFO wb_scoreboard.sv(49) @ 355: uvm_test_top.env.sb [SCOREBOARD] ACTUAL TRANSACTION
+----------------------------------------------------
+Name               Type            Size  Value      
+----------------------------------------------------
+tr                 wb_transaction  -     @1232      
+  address          integral        64    'h5        
+  data             integral        64    'h123456678
+  sel              integral        8     'h1        
+  tga              integral        16    'h6cf4     
+  tgc              integral        16    'h56b7     
+  lock             integral        1     'h0        
+  num_wait_states  integral        32    'h0        
+  kind             kinds_e         32    WRITE      
+  status           status_e        32    ACK        
+  next_cycle       pipelining_e    32    CLASSIC    
+----------------------------------------------------
+UVM_INFO wb_scoreboard.sv(58) @ 355: uvm_test_top.env.sb [WB SCOREBOARD] TRANSACTIONS MATCH
+UVM_INFO wb_master.sv(145) @ 355: uvm_test_top.env.master_agent.mast_drv [wb_env_DRIVER] Starting transaction...
+UVM_INFO wb_slave.sv(180) @ 365: uvm_test_top.env.slave_agent.slv_drv [SLAVE_DRIVER] Completed transaction...
+UVM_INFO wb_master.sv(183) @ 365: uvm_test_top.env.master_agent.mast_drv [Wb master] Got a read transaction
+UVM_INFO wb_master_mon.sv(164) @ 365: uvm_test_top.env.master_agent.mast_mon [Wb_master Monitor] got a read transaction  
+UVM_INFO wb_slave_mon.sv(153) @ 365: uvm_test_top.env.slave_agent.slv_mon [Wb_slave Monitor] got a read transaction  
+UVM_INFO wb_slave.sv(160) @ 365: uvm_test_top.env.slave_agent.slv_drv [Wb_slave] got a read transaction  
+UVM_INFO wb_slave_agent_sequence_library.sv(50) @ 365: uvm_test_top.env.slave_agent.slv_seqr@@ram_sequence [uvm_test_top.env.slave_agent.slv_seqr.ram_sequence] In SLAVE SEQUENCER, Transaction address = 0000000000000006   kind = READ
+UVM_INFO wb_slave_agent_sequence_library.sv(56) @ 365: uvm_test_top.env.slave_agent.slv_seqr@@ram_sequence [uvm_test_top.env.slave_agent.slv_seqr.ram_sequence] SLAVE SEQUENCER OUTPUT, Transaction address = 0000000000000006   kind = READ data = 000000000000003c
+UVM_INFO wb_master.sv(171) @ 475: uvm_test_top.env.master_agent.mast_drv [wb_env_DRIVER] ------------------------------------------------------------------------------------------------------
+Name                           Type            Size  Value                                            
+------------------------------------------------------------------------------------------------------
+req                            wb_transaction  -     @1267                                            
+  address                      integral        64    'h6                                              
+  data                         integral        64    'h3c                                             
+  sel                          integral        8     'h1                                              
+  tga                          integral        16    'h1d04                                           
+  tgc                          integral        16    'hbfc7                                           
+  lock                         integral        1     'h0                                              
+  num_wait_states              integral        32    'h0                                              
+  kind                         kinds_e         32    READ                                             
+  status                       status_e        32    ACK                                              
+  next_cycle                   pipelining_e    32    CLASSIC                                          
+  begin_time                   time            64    355                                              
+  depth                        int             32    'd2                                              
+  parent sequence (name)       string          10    sequence_1                                       
+  parent sequence (full name)  string          49    uvm_test_top.env.master_agent.mast_sqr.sequence_1
+  sequencer                    string          38    uvm_test_top.env.master_agent.mast_sqr           
+------------------------------------------------------------------------------------------------------
+
+UVM_INFO wb_master.sv(174) @ 475: uvm_test_top.env.master_agent.mast_drv [wb_env_DRIVER] Completed transaction...
+UVM_INFO wb_scoreboard.sv(47) @ 475: uvm_test_top.env.sb [SCOREBOARD] EXPECTED TRANSACTION
+------------------------------------------------
+Name               Type            Size  Value  
+------------------------------------------------
+tr                 wb_transaction  -     @1285  
+  address          integral        64    'h6    
+  data             integral        64    'h0    
+  sel              integral        8     'h1    
+  tga              integral        16    'h1d04 
+  tgc              integral        16    'hbfc7 
+  lock             integral        1     'h0    
+  num_wait_states  integral        32    'h0    
+  kind             kinds_e         32    READ   
+  status           status_e        32    ACK    
+  next_cycle       pipelining_e    32    CLASSIC
+------------------------------------------------
+UVM_INFO wb_scoreboard.sv(49) @ 475: uvm_test_top.env.sb [SCOREBOARD] ACTUAL TRANSACTION
+------------------------------------------------
+Name               Type            Size  Value  
+------------------------------------------------
+tr                 wb_transaction  -     @1278  
+  address          integral        64    'h6    
+  data             integral        64    'h0    
+  sel              integral        8     'h1    
+  tga              integral        16    'h1d04 
+  tgc              integral        16    'hbfc7 
+  lock             integral        1     'h0    
+  num_wait_states  integral        32    'h0    
+  kind             kinds_e         32    READ   
+  status           status_e        32    ACK    
+  next_cycle       pipelining_e    32    CLASSIC
+------------------------------------------------
+UVM_INFO wb_scoreboard.sv(58) @ 475: uvm_test_top.env.sb [WB SCOREBOARD] TRANSACTIONS MATCH
+UVM_INFO wb_master.sv(145) @ 475: uvm_test_top.env.master_agent.mast_drv [wb_env_DRIVER] Starting transaction...
+UVM_INFO wb_slave.sv(180) @ 485: uvm_test_top.env.slave_agent.slv_drv [SLAVE_DRIVER] Completed transaction...
+UVM_INFO wb_master.sv(183) @ 485: uvm_test_top.env.master_agent.mast_drv [Wb master] Got a read transaction
+UVM_INFO wb_master_mon.sv(164) @ 485: uvm_test_top.env.master_agent.mast_mon [Wb_master Monitor] got a read transaction  
+UVM_INFO wb_slave_mon.sv(153) @ 485: uvm_test_top.env.slave_agent.slv_mon [Wb_slave Monitor] got a read transaction  
+UVM_INFO wb_slave.sv(160) @ 485: uvm_test_top.env.slave_agent.slv_drv [Wb_slave] got a read transaction  
+UVM_INFO wb_slave_agent_sequence_library.sv(50) @ 485: uvm_test_top.env.slave_agent.slv_seqr@@ram_sequence [uvm_test_top.env.slave_agent.slv_seqr.ram_sequence] In SLAVE SEQUENCER, Transaction address = 0000000000000006   kind = READ
+UVM_INFO wb_slave_agent_sequence_library.sv(56) @ 485: uvm_test_top.env.slave_agent.slv_seqr@@ram_sequence [uvm_test_top.env.slave_agent.slv_seqr.ram_sequence] SLAVE SEQUENCER OUTPUT, Transaction address = 0000000000000006   kind = READ data = 000000000000003c
+UVM_INFO wb_master.sv(171) @ 595: uvm_test_top.env.master_agent.mast_drv [wb_env_DRIVER] ------------------------------------------------------------------------------------------------------
+Name                           Type            Size  Value                                            
+------------------------------------------------------------------------------------------------------
+req                            wb_transaction  -     @1313                                            
+  address                      integral        64    'h6                                              
+  data                         integral        64    'h3c                                             
+  sel                          integral        8     'h1                                              
+  tga                          integral        16    'h6730                                           
+  tgc                          integral        16    'hd2e2                                           
+  lock                         integral        1     'h1                                              
+  num_wait_states              integral        32    'h0                                              
+  kind                         kinds_e         32    READ                                             
+  status                       status_e        32    ACK                                              
+  next_cycle                   pipelining_e    32    CLASSIC                                          
+  begin_time                   time            64    475                                              
+  depth                        int             32    'd2                                              
+  parent sequence (name)       string          10    sequence_1                                       
+  parent sequence (full name)  string          49    uvm_test_top.env.master_agent.mast_sqr.sequence_1
+  sequencer                    string          38    uvm_test_top.env.master_agent.mast_sqr           
+------------------------------------------------------------------------------------------------------
+
+UVM_INFO wb_master.sv(174) @ 595: uvm_test_top.env.master_agent.mast_drv [wb_env_DRIVER] Completed transaction...
+UVM_INFO wb_scoreboard.sv(47) @ 595: uvm_test_top.env.sb [SCOREBOARD] EXPECTED TRANSACTION
+------------------------------------------------
+Name               Type            Size  Value  
+------------------------------------------------
+tr                 wb_transaction  -     @1331  
+  address          integral        64    'h6    
+  data             integral        64    'h0    
+  sel              integral        8     'h1    
+  tga              integral        16    'h6730 
+  tgc              integral        16    'hd2e2 
+  lock             integral        1     'h0    
+  num_wait_states  integral        32    'h0    
+  kind             kinds_e         32    READ   
+  status           status_e        32    ACK    
+  next_cycle       pipelining_e    32    CLASSIC
+------------------------------------------------
+UVM_INFO wb_scoreboard.sv(49) @ 595: uvm_test_top.env.sb [SCOREBOARD] ACTUAL TRANSACTION
+------------------------------------------------
+Name               Type            Size  Value  
+------------------------------------------------
+tr                 wb_transaction  -     @1324  
+  address          integral        64    'h6    
+  data             integral        64    'h0    
+  sel              integral        8     'h1    
+  tga              integral        16    'h6730 
+  tgc              integral        16    'hd2e2 
+  lock             integral        1     'h0    
+  num_wait_states  integral        32    'h0    
+  kind             kinds_e         32    READ   
+  status           status_e        32    ACK    
+  next_cycle       pipelining_e    32    CLASSIC
+------------------------------------------------
+UVM_INFO wb_scoreboard.sv(58) @ 595: uvm_test_top.env.sb [WB SCOREBOARD] TRANSACTIONS MATCH
+UVM_INFO wb_master.sv(145) @ 595: uvm_test_top.env.master_agent.mast_drv [wb_env_DRIVER] Starting transaction...
+UVM_INFO wb_slave.sv(180) @ 605: uvm_test_top.env.slave_agent.slv_drv [SLAVE_DRIVER] Completed transaction...
+UVM_INFO wb_master.sv(183) @ 605: uvm_test_top.env.master_agent.mast_drv [Wb master] Got a read transaction
+UVM_INFO wb_master_mon.sv(164) @ 605: uvm_test_top.env.master_agent.mast_mon [Wb_master Monitor] got a read transaction  
+UVM_INFO wb_slave_mon.sv(153) @ 605: uvm_test_top.env.slave_agent.slv_mon [Wb_slave Monitor] got a read transaction  
+UVM_INFO wb_slave.sv(160) @ 605: uvm_test_top.env.slave_agent.slv_drv [Wb_slave] got a read transaction  
+UVM_INFO wb_slave_agent_sequence_library.sv(50) @ 605: uvm_test_top.env.slave_agent.slv_seqr@@ram_sequence [uvm_test_top.env.slave_agent.slv_seqr.ram_sequence] In SLAVE SEQUENCER, Transaction address = 0000000000000007   kind = READ
+UVM_INFO wb_slave_agent_sequence_library.sv(56) @ 605: uvm_test_top.env.slave_agent.slv_seqr@@ram_sequence [uvm_test_top.env.slave_agent.slv_seqr.ram_sequence] SLAVE SEQUENCER OUTPUT, Transaction address = 0000000000000007   kind = READ data = 0000000000000046
+UVM_INFO wb_master.sv(171) @ 715: uvm_test_top.env.master_agent.mast_drv [wb_env_DRIVER] ------------------------------------------------------------------------------------------------------
+Name                           Type            Size  Value                                            
+------------------------------------------------------------------------------------------------------
+req                            wb_transaction  -     @1359                                            
+  address                      integral        64    'h7                                              
+  data                         integral        64    'h46                                             
+  sel                          integral        8     'h1                                              
+  tga                          integral        16    'h6094                                           
+  tgc                          integral        16    'h139c                                           
+  lock                         integral        1     'h0                                              
+  num_wait_states              integral        32    'h0                                              
+  kind                         kinds_e         32    READ                                             
+  status                       status_e        32    ACK                                              
+  next_cycle                   pipelining_e    32    CLASSIC                                          
+  begin_time                   time            64    595                                              
+  depth                        int             32    'd2                                              
+  parent sequence (name)       string          10    sequence_1                                       
+  parent sequence (full name)  string          49    uvm_test_top.env.master_agent.mast_sqr.sequence_1
+  sequencer                    string          38    uvm_test_top.env.master_agent.mast_sqr           
+------------------------------------------------------------------------------------------------------
+
+UVM_INFO wb_master.sv(174) @ 715: uvm_test_top.env.master_agent.mast_drv [wb_env_DRIVER] Completed transaction...
+UVM_INFO wb_scoreboard.sv(47) @ 715: uvm_test_top.env.sb [SCOREBOARD] EXPECTED TRANSACTION
+------------------------------------------------
+Name               Type            Size  Value  
+------------------------------------------------
+tr                 wb_transaction  -     @1377  
+  address          integral        64    'h7    
+  data             integral        64    'h0    
+  sel              integral        8     'h1    
+  tga              integral        16    'h6094 
+  tgc              integral        16    'h139c 
+  lock             integral        1     'h0    
+  num_wait_states  integral        32    'h0    
+  kind             kinds_e         32    READ   
+  status           status_e        32    ACK    
+  next_cycle       pipelining_e    32    CLASSIC
+------------------------------------------------
+UVM_INFO wb_scoreboard.sv(49) @ 715: uvm_test_top.env.sb [SCOREBOARD] ACTUAL TRANSACTION
+------------------------------------------------
+Name               Type            Size  Value  
+------------------------------------------------
+tr                 wb_transaction  -     @1370  
+  address          integral        64    'h7    
+  data             integral        64    'h0    
+  sel              integral        8     'h1    
+  tga              integral        16    'h6094 
+  tgc              integral        16    'h139c 
+  lock             integral        1     'h0    
+  num_wait_states  integral        32    'h0    
+  kind             kinds_e         32    READ   
+  status           status_e        32    ACK    
+  next_cycle       pipelining_e    32    CLASSIC
+------------------------------------------------
+UVM_INFO wb_scoreboard.sv(58) @ 715: uvm_test_top.env.sb [WB SCOREBOARD] TRANSACTIONS MATCH
+UVM_INFO /apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_objection.svh(1276) @ 715: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+UVM_INFO /apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_report_server.svh(894) @ 715: reporter [UVM/REPORT/SERVER] 
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :   82
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[RNTST]     1
+[SCOREBOARD]    12
+[SLAVE_DRIVER]     5
+[TEST_DONE]     2
+[UVM/RELNOTES]     1
+[WB SCOREBOARD]     6
+[WB master Monitor]     3
+[WB slave Monitor]     3
+[WB_SLAVE_SEQR]     1
+[Wb master]     6
+[Wb_master Monitor]     3
+[Wb_slave]     6
+[Wb_slave Monitor]     3
+[uvm_test_top.env.slave_agent.slv_seqr.ram_sequence]    12
+[wb_env_DRIVER]    18
+
+$finish called from file "/apps/vcsmx/vcs/P-2019.06-1//etc/uvm-1.2/src/base/uvm_root.svh", line 613.
+$finish at simulation time                  715
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 715 ns
+CPU Time:      0.600 seconds;       Data structure size:   0.3Mb
+Thu Aug 13 02:14:41 2020
+Done

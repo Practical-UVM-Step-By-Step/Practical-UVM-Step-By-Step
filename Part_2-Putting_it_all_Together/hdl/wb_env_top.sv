@@ -1,5 +1,7 @@
+`include "wb_master_if.sv"
+`include "wb_slave_if.sv"
 `ifndef WB_ENV_TOP__SV
-`define WB_ENV_TOP__SV
+ `define WB_ENV_TOP__SV
 
 module wb_env_top_mod();
 
@@ -8,34 +10,33 @@ module wb_env_top_mod();
 
    // Clock Generation
    parameter sim_cycle = 10;
-   
    // Reset Delay Parameter
-   parameter rst_delay = 10;
- initial begin 
-	clk  = 0;
-	#10;
-  forever clk = #(sim_cycle/2) ~clk;
-	  #10000 $finish;
-end 
+   parameter rst_delay = 5;
+   initial begin 
+      clk  = 0;
+      forever clk = #(sim_cycle/2) ~clk;
+      #10000 $finish;
+   end 
 
    wb_master_if mast_if(clk,rst);
    wb_slave_if slave_if(clk,rst);
-   wb_env_tb_mod test(); 
-   
 
-dut dut(mast_if,slave_if);
+   wb_env_tb_mod test(); 
+
+   dut dut(mast_if,slave_if);
 
    //Driver reset depending on rst_delay
    initial
-      begin
-         clk = 0;
-         rst = 0;
-      #5 rst = 1;
-         repeat (rst_delay) @(clk);
-         rst = 1'b0;
-         @(clk);
-   end
+     begin
+        clk = 0;
+        rst = 0;
+	#1 rst = 1;
+        repeat (rst_delay) @(clk);
+        rst = 1'b0;
+        @(clk);
+     end
 
 endmodule: wb_env_top_mod
 
 `endif // WB_ENV_TOP__SV
+

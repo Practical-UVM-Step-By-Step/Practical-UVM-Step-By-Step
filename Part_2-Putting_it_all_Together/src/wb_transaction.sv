@@ -6,31 +6,25 @@
 
 
 `ifndef WB_TRANSACTION__SV
-`define WB_TRANSACTION__SV
+ `define WB_TRANSACTION__SV
 
 typedef class wb_config;
 class wb_transaction extends uvm_sequence_item;
-
 
    // Different types of read and Write cycles.
    typedef enum {READ, WRITE, BLK_RD, BLK_WR, RMW} kinds_e;
    rand kinds_e kind;
 
- // This is the status of the transaction
+   // This is the status of the transaction
    typedef enum {OK, ACK, RTY, ERR, TIMEOUT ,INFLIGHT , UNKNOWN } status_e;
-   status_e status;
-
- 	
    wb_config cfg;  // Must be non-NULL to randomize
-
 
    rand status_e status;
 
-     typedef enum {CLASSIC, CONSTANT,
+   typedef enum {CLASSIC, CONSTANT,
                  LINEAR, WRAP4, WRAP8, WRAP16,
                  EOB} pipelining_e;
    rand pipelining_e next_cycle;
-
 
    rand bit [63:0] address;
    rand bit [63:0] data;
@@ -41,13 +35,7 @@ class wb_transaction extends uvm_sequence_item;
    rand bit        lock;
    rand bit [15:0] tag;
 
-
-
-   int num_wait_states;
-
-	
-
-
+   int 		num_wait_states;
 
    constraint supported {
       next_cycle == CLASSIC;
@@ -67,43 +55,29 @@ class wb_transaction extends uvm_sequence_item;
       if (cfg.port_size - cfg.granularity == 2) sel[7:4] == 4'h0;
    }
 
-  // We dont use these three constraints in the Agent classes, these are primariuly
-   // Used to help the test writer
-
-   constraint test_constraints1;
-   constraint test_constraints2;
-   constraint test_constraints3;
-
-   // ToDo: Add constraint blocks to prevent error injection
-   // ToDo: Add relevant class properties to define all transactions
-   // ToDo: Modify/add symbolic transaction identifiers to match
 
    constraint wb_transaction_valid {
-      // ToDo: Define constraint to make descriptor valid
       status == OK;
-    if (cfg.cycles == wb_config::CLASSIC ) next_cycle == CLASSIC;
+      if (cfg.cycles == wb_config::CLASSIC ) next_cycle == CLASSIC;
 
    }
    `uvm_object_utils_begin(wb_transaction) 
-   `uvm_field_int(address,UVM_ALL_ON)
-   `uvm_field_int(data,UVM_ALL_ON|UVM_NOCOMPARE)
-   `uvm_field_int(sel,UVM_ALL_ON)
-   `uvm_field_int(tga,UVM_ALL_ON)
-   `uvm_field_int(tgc,UVM_ALL_ON)
-   `uvm_field_int(lock,UVM_ALL_ON)
-   `uvm_field_int(num_wait_states,UVM_ALL_ON)
-      `uvm_field_enum(kinds_e,kind,UVM_ALL_ON)
-      `uvm_field_enum(status_e,status, UVM_ALL_ON)
-      `uvm_field_enum(pipelining_e,next_cycle, UVM_ALL_ON)
+      `uvm_field_int(address,UVM_DEFAULT)
+      `uvm_field_int(data,UVM_DEFAULT)
+      `uvm_field_int(sel,UVM_DEFAULT)
+      `uvm_field_int(tga,UVM_DEFAULT)
+      `uvm_field_int(tgc,UVM_DEFAULT)
+      `uvm_field_int(lock,UVM_DEFAULT)
+      `uvm_field_int(num_wait_states,UVM_DEFAULT)
+      `uvm_field_enum(kinds_e,kind,UVM_DEFAULT)
+      `uvm_field_enum(status_e,status, UVM_DEFAULT)
+      `uvm_field_enum(pipelining_e,next_cycle, UVM_DEFAULT)
    `uvm_object_utils_end
- 
 
-
-function new(string name="" );
-    super.new(name);
-    // this.cfg = cfg;
-	cfg = new();
-endfunction: new
+   function new(string name="" );
+      super.new(name);
+      cfg = new();
+   endfunction: new
 
 endclass: wb_transaction
 

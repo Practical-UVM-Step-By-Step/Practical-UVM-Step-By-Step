@@ -1,0 +1,13 @@
+`ifndef WB_TESTS_PKG
+`define WB_TESTS_PKG
+
+package wb_tests;
+import uvm_pkg::*;
+ `include "wb_env.sv"
+ `include "wb_env_base_test.sv"
+ `include "wb_env_test_extended.sv"
+// Add additional tests here. This is the exercise in the Quickstart
+
+endpackage
+
+`endif

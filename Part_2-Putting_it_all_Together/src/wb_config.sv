@@ -1,3 +1,5 @@
+`ifndef WB_CONFIG
+ `define WB_CONFIG
 class wb_config extends uvm_object;
 
    bit enable_coverage;  // Enable coverage from monitor
@@ -25,7 +27,7 @@ class wb_config extends uvm_object;
    }
 
    constraint reasonable_max_n_wss {
-      max_n_wss <  10;
+      max_n_wss == 10;
    }
 
    constraint supported {
@@ -33,19 +35,19 @@ class wb_config extends uvm_object;
       granularity == BYTE; 
       cycles      == CLASSIC;
    }
-	`uvm_object_utils_begin(wb_config); // All we need is it registerd with factory
-	`uvm_field_enum(sizes_e,port_size,UVM_ALL_ON)
-	`uvm_field_enum(sizes_e,granularity,UVM_ALL_ON)
-	`uvm_field_enum(cycle_types_e,cycles,UVM_ALL_ON)
-	`uvm_field_int(max_n_wss,UVM_ALL_ON)
-	`uvm_field_int(min_addr,UVM_ALL_ON)
-	`uvm_field_int(max_addr,UVM_ALL_ON)
-	`uvm_object_utils_end
+   `uvm_object_utils_begin(wb_config); // All we need is it registerd with factory
+      `uvm_field_enum(sizes_e,port_size,UVM_DEFAULT)
+      `uvm_field_enum(sizes_e,granularity,UVM_DEFAULT)
+      `uvm_field_enum(cycle_types_e,cycles,UVM_DEFAULT)
+      `uvm_field_int(max_n_wss,UVM_DEFAULT)
+      `uvm_field_int(min_addr,UVM_DEFAULT)
+      `uvm_field_int(max_addr,UVM_DEFAULT)
+   `uvm_object_utils_end
 
 
-function new(string name = "");
-super.new(name);
-endfunction
+   function new(string name = "");
+      super.new(name);
+   endfunction
 
 endclass
-
+`endif
