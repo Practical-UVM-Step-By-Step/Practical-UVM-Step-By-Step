@@ -29,7 +29,7 @@ class wb_conmax_commandline_test_1 extends wb_conmax_base_test;
 
    virtual function void build_phase(uvm_phase phase);
       super.build_phase(phase);
-      uvm_config_db #(uvm_object_wrapper)::set(this, "env.wb_conmax_virt_seqr.main_phase", "default_sequence", wb_conmax_virtual_sequence::get_type());
+   // Other way than below..   uvm_config_db #(uvm_object_wrapper)::set(this, "env.wb_conmax_virt_seqr.main_phase", "default_sequence", wb_conmax_virtual_sequence::get_type());
    endfunction
 
    function void start_of_simulation_phase(uvm_phase phase);
